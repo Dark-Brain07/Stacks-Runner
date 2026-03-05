@@ -1,0 +1,13 @@
+﻿{
+  "name": "Stacks Runner",
+  "short_name": "StacksRunner",
+  "description": "Web3 Endless Runner Game on Stacks Blockchain",
+  "start_url": "/",
+  "display": "standalone",
+  "background_color": "#0a0a1a",
+  "theme_color": "#aa44ff",
+  "icons": [
+    { "src": "/logo.png", "sizes": "192x192", "type": "image/png" },
+    { "src": "/logo.png", "sizes": "512x512", "type": "image/png" }
+  ]
+}
