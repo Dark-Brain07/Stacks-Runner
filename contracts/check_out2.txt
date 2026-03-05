@@ -1,0 +1,113 @@
+warning: use of potentially unchecked data
+--> contracts\character-nft.clar:39:37
+        (ok (var-set nft-mint-admin new-admin))
+                                    ^~~~~~~~~
+note:: source of untrusted input here
+(define-public (set-mint-admin (new-admin principal))
+                                ^~~~~~~~~
+warning: use of potentially unchecked data
+--> contracts\character-nft.clar:46:31
+        (ok (var-set base-uri new-uri))
+                              ^~~~~~~
+note:: source of untrusted input here
+(define-public (set-base-uri (new-uri (string-ascii 256)))
+                              ^~~~~~~
+warning: use of potentially unchecked data
+--> contracts\character-nft.clar:54:43
+        (nft-transfer? stacks-runner-char token-id sender recipient)
+                                          ^~~~~~~~
+note:: source of untrusted input here
+(define-public (transfer (token-id uint) (sender principal) (recipient principal))
+                          ^~~~~~~~
+warning: use of potentially unchecked data
+--> contracts\character-nft.clar:54:59
+        (nft-transfer? stacks-runner-char token-id sender recipient)
+                                                          ^~~~~~~~~
+note:: source of untrusted input here
+(define-public (transfer (token-id uint) (sender principal) (recipient principal))
+                                                             ^~~~~~~~~
+warning: use of potentially unchecked data
+--> contracts\character-nft.clar:67:54
+        (try! (nft-mint? stacks-runner-char token-id recipient))
+                                                     ^~~~~~~~~
+note:: source of untrusted input here
+(define-public (mint (recipient principal))
+                      ^~~~~~~~~
+warning: use of potentially unchecked data
+--> contracts\governance.clar:43:33
+        (ok (var-set game-owner new-owner))
+                                ^~~~~~~~~
+note:: source of untrusted input here
+(define-public (set-game-owner (new-owner principal))
+                                ^~~~~~~~~
+warning: use of potentially unchecked data
+--> contracts\governance.clar:62:32
+        (ok (var-set score-fee new-fee))
+                               ^~~~~~~
+note:: source of untrusted input here
+(define-public (set-score-fee (new-fee uint))
+                               ^~~~~~~
+warning: use of potentially unchecked data
+--> contracts\vault.clar:31:34
+        (ok (var-set vault-owner new-owner))
+                                 ^~~~~~~~~
+note:: source of untrusted input here
+(define-public (set-vault-owner (new-owner principal))
+                                 ^~~~~~~~~
+warning: use of potentially unchecked data
+--> contracts\vault.clar:50:54
+        (as-contract (stx-transfer? amount tx-sender recipient))
+                                                     ^~~~~~~~~
+note:: source of untrusted input here
+(define-public (withdraw (amount uint) (recipient principal))
+                                        ^~~~~~~~~
+warning: use of potentially unchecked data
+--> contracts\vault.clar:63:38
+        (ok (var-set reward-contract contract))
+                                     ^~~~~~~~
+note:: source of untrusted input here
+(define-public (set-reward-contract (contract principal))
+                                     ^~~~~~~~
+warning: use of potentially unchecked data
+--> contracts\vault.clar:73:54
+        (as-contract (stx-transfer? amount tx-sender recipient))
+                                                     ^~~~~~~~~
+note:: source of untrusted input here
+(define-public (pay-reward (amount uint) (recipient principal))
+                                          ^~~~~~~~~
+warning: use of potentially unchecked data
+--> contracts\reward.clar:37:31
+        (var-set tier-1-score score)
+                              ^~~~~
+note:: source of untrusted input here
+(define-public (set-tier-1 (score uint) (reward uint))
+                            ^~~~~
+warning: use of potentially unchecked data
+--> contracts\reward.clar:38:36
+        (ok (var-set tier-1-reward reward))
+                                   ^~~~~~
+note:: source of untrusted input here
+(define-public (set-tier-1 (score uint) (reward uint))
+                                         ^~~~~~
+warning: use of potentially unchecked data
+--> contracts\score.clar:31:36
+        (ok (var-set vault-address new-vault))
+                                   ^~~~~~~~~
+note:: source of untrusted input here
+(define-public (set-vault-address (new-vault principal))
+                                   ^~~~~~~~~
+! 14 warnings detected
+??? 6 contracts checked
+
+----------------------------
+Hint: what's next?
+Once you are ready to write TypeScript unit tests for your contract, run the following command:
+
+  $ npm install
+  $ npm test
+    Run all run tests in the ./tests folder.
+
+Find more information on testing with Clarinet here: https://docs.hiro.so/stacks/clarinet-js-sdk
+These hints can be disabled in the ~/.clarinet/clarinetrc.toml file.
+  $ mkdir -p ~/.clarinet; echo "enable_hints = false" >> ~/.clarinet/clarinetrc.toml
+----------------------------

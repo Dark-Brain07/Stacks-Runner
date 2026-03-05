@@ -1,0 +1,23 @@
+
+{
+  "name": "contracts-tests",
+  "version": "1.0.0",
+  "description": "Run unit tests on this project.",
+  "type": "module",
+  "private": true,
+  "scripts": {
+    "test": "vitest run",
+    "test:report": "vitest run -- --coverage --costs",
+    "test:watch": "chokidar \"tests/**/*.ts\" \"contracts/**/*.clar\" -c \"npm run test:report\""
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@hirosystems/clarinet-sdk": "^3.6.0",
+    "@types/node": "^24.4.0",
+    "@stacks/transactions": "^7.2.0",
+    "chokidar-cli": "^3.0.0",
+    "vitest": "^3.2.4",
+    "vitest-environment-clarinet": "^2.3.0"
+  }
+}
