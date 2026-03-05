@@ -4,7 +4,7 @@ export const network = STACKS_MAINNET;
 
 export const appDetails = {
     name: 'Stacks Runner',
-    icon: window.location.origin + '/vite.svg',
+    icon: window.location.origin + '/logo.png',
 };
 
 export const CONTRACT_ADDRESS = 'SP1YH5MXTJT86BZXMFA2T51JF0QVZ8XNYV33QH6MF';

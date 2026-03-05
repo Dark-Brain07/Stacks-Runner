@@ -15,9 +15,13 @@ export const MainMenu: React.FC<MainMenuProps> = ({ onStartGame, onOpenContracts
             </div>
 
             <div className="flex flex-col items-center max-w-lg p-10 bg-gray-800 border border-gray-700 rounded-2xl shadow-[0_0_50px_rgba(147,51,234,0.3)]">
-                <h1 className="mb-2 text-5xl font-extrabold text-transparent bg-clip-text bg-gradient-to-r from-purple-400 to-pink-600">
-                    Stacks Runner
-                </h1>
+                {/* Game Logo */}
+                <img
+                    src="/assets/logo.png"
+                    alt="Stacks Runner"
+                    className="w-64 h-auto mb-6 drop-shadow-[0_0_20px_rgba(147,51,234,0.5)]"
+                />
+
                 <p className="mb-8 text-gray-400">Web3 Endless Runner on Stacks</p>
 
                 <button
