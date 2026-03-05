@@ -1,27 +1,41 @@
-# Dependencies
+﻿# Dependencies
 node_modules/
 
 # Build output
 dist/
 build/
+.next/
 
 # Environment
 .env
 .env.local
 .env.production
+.env.development
 
 # IDE
 .vscode/
 .idea/
+*.swp
+*.swo
 
 # OS
 .DS_Store
 Thumbs.db
+Desktop.ini
 
-# Clarinet cache
+# Clarinet
 .cache/
 contracts/.cache/
 
 # Logs
 *.log
 npm-debug.log*
+
+# Testing
+coverage/
+.nyc_output/
+
+# Misc
+*.tgz
+.eslintcache
+make_commits.ps1
