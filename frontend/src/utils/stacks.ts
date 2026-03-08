@@ -14,6 +14,7 @@ export const CONTRACTS = {
     score: `${CONTRACT_ADDRESS}.score`,
     nftTrait: `${CONTRACT_ADDRESS}.nft-trait`,
     characterNft: `${CONTRACT_ADDRESS}.character-nft`,
+    openMintNft: `${CONTRACT_ADDRESS}.open-mint-nft`,
     governance: `${CONTRACT_ADDRESS}.governance`,
     vault: `${CONTRACT_ADDRESS}.game-vault`,
     reward: `${CONTRACT_ADDRESS}.game-reward`,

@@ -35,6 +35,21 @@ export const ContractPanel: React.FC<ContractPanelProps> = ({ onClose }) => {
         }
     };
 
+    const mintOpenNFT = async () => {
+        try {
+            const addr = localStorage.getItem('stx-address');
+            if (!addr) return showResult('❌ Connect wallet first');
+            const response: any = await request('stx_callContract', {
+                contract: CONTRACTS.openMintNft,
+                functionName: 'mint',
+                functionArgs: [principalCV(addr)],
+            });
+            showResult('✅ Open NFT Mint submitted!', response?.txid || response?.txId);
+        } catch (e: any) {
+            showResult('❌ ' + (e.message || 'Open Mint failed'));
+        }
+    };
+
     // ─── Governance Functions ───
     const pauseGame = async () => {
         try {
@@ -160,7 +175,15 @@ export const ContractPanel: React.FC<ContractPanelProps> = ({ onClose }) => {
                                     🎨 Mint Character NFT
                                 </button>
                             </div>
-                            <p className="text-xs text-gray-600 text-center">Only the mint admin can call this function</p>
+                            <div className="p-4 bg-gray-800 rounded-xl border border-cyan-900/50">
+                                <h3 className="text-cyan-400 font-bold mb-1">Open Mint NFT</h3>
+                                <p className="text-xs text-gray-500 mb-3 font-mono break-all">{CONTRACTS.openMintNft}</p>
+                                <p className="text-sm text-gray-400 mb-4">Mint a Stacks Runner Open NFT — no admin required, anyone can mint!</p>
+                                <button onClick={mintOpenNFT} className="w-full py-3 font-bold text-white bg-cyan-600 rounded-lg hover:bg-cyan-500 transition shadow-[0_0_15px_rgba(6,182,212,0.4)]">
+                                    🌟 Mint Open NFT
+                                </button>
+                            </div>
+                            <p className="text-xs text-gray-600 text-center">Character NFT requires admin · Open Mint is available to everyone</p>
                         </div>
                     )}
 
