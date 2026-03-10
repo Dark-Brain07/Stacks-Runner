@@ -37,7 +37,20 @@ const GameArea: React.FC<GameAreaProps> = ({ onGameOver }) => {
 
                 // Load assets
                 this.load.image('background', '/assets/background.png');
-                this.load.image('ground', '/assets/ground.png');
+
+                // ── Generate Grass Ground Texture ──
+                const gg = this.make.graphics({ x: 0, y: 0, add: false });
+                gg.fillStyle(0x5c4033); // Brown dirt
+                gg.fillRect(0, 0, 128, 64);
+                // Grass block at top
+                gg.fillStyle(0x2d8a3e); // Base green
+                gg.fillRect(0, 0, 128, 16);
+                // Grass blades at top edge
+                gg.fillStyle(0x3ab84f); // Lighter green
+                for (let i = 0; i < 128; i += 8) {
+                    gg.fillTriangle(i, 4, i + 4, -4, i + 8, 4);
+                }
+                gg.generateTexture('grass_ground', 128, 64);
             }
 
             create() {
@@ -189,22 +202,13 @@ const GameArea: React.FC<GameAreaProps> = ({ onGameOver }) => {
                 }
 
                 // ── Ground tile sprite (seamless scrolling) ──
-                this.groundTiles = this.add.tileSprite(0, height - 50, width, 64, 'ground')
+                this.groundTiles = this.add.tileSprite(0, height - 64, width, 64, 'grass_ground')
                     .setOrigin(0, 0);
-                // Ground physics body (invisible)
-                const groundBody = this.physics.add.staticImage(width / 2, height - 20, '').setVisible(false);
-                groundBody.body.setSize(width, 10);
-                groundBody.refreshBody();
 
-                // ── Neon glow line above ground ──
-                const neonLine = this.add.rectangle(width / 2, height - 52, width, 3, 0xaa44ff, 0.8);
-                this.tweens.add({
-                    targets: neonLine,
-                    alpha: { from: 0.5, to: 1 },
-                    duration: 800,
-                    yoyo: true,
-                    repeat: -1,
-                });
+                // Ground physics body (invisible)
+                // Position at height - 32 (center of the 64px block), height is 64. Top edge is exactly height - 64.
+                const groundBody = this.add.rectangle(width / 2, height - 32, width, 64, 0x000000, 0);
+                this.physics.add.existing(groundBody, true);
 
                 // ── Player ──
                 this.player = this.physics.add.sprite(120, height - 100, 'runner');
@@ -238,8 +242,8 @@ const GameArea: React.FC<GameAreaProps> = ({ onGameOver }) => {
                 });
 
                 // ── Groups ──
-                this.obstacles = this.physics.add.group();
-                this.coins = this.physics.add.group();
+                this.obstacles = this.physics.add.group({ allowGravity: false });
+                this.coins = this.physics.add.group({ allowGravity: false });
 
                 // ── Colliders & Overlaps ──
                 this.physics.add.overlap(this.player, this.coins, this.collectCoin, undefined, this);
@@ -260,7 +264,8 @@ const GameArea: React.FC<GameAreaProps> = ({ onGameOver }) => {
                 this.input.keyboard?.on('keydown-UP', () => this.tryJump());
                 this.input.keyboard?.on('keydown-SPACE', () => this.tryJump());
                 this.input.keyboard?.on('keydown-DOWN', () => {
-                    if (!this.player.body?.touching.down) {
+                    const isGrounded = this.player.body?.touching.down || this.player.body?.blocked.down;
+                    if (!isGrounded) {
                         this.player.setVelocityY(900);
                     }
                 });
@@ -273,7 +278,8 @@ const GameArea: React.FC<GameAreaProps> = ({ onGameOver }) => {
                 this.input.on('pointerup', (pointer: Phaser.Input.Pointer) => {
                     if (pointer.y - this.touchStartY > 50) {
                         // Swipe down = fast fall
-                        if (!this.player.body?.touching.down) {
+                        const isGrounded = this.player.body?.touching.down || this.player.body?.blocked.down;
+                        if (!isGrounded) {
                             this.player.setVelocityY(900);
                         }
                     }
@@ -338,13 +344,15 @@ const GameArea: React.FC<GameAreaProps> = ({ onGameOver }) => {
                     this.tryJump();
                 }
 
+                const isGrounded = this.player.body?.touching.down || this.player.body?.blocked.down;
+
                 // Fast fall
-                if (this.cursors && this.cursors.down.isDown && !this.player.body?.touching.down) {
+                if (this.cursors && this.cursors.down.isDown && !isGrounded) {
                     this.player.setVelocityY(900);
                 }
 
                 // Track landing
-                if (this.player.body?.touching.down) {
+                if (isGrounded) {
                     if (this.isJumping) {
                         this.isJumping = false;
                         // Land effect
@@ -386,7 +394,8 @@ const GameArea: React.FC<GameAreaProps> = ({ onGameOver }) => {
             }
 
             tryJump() {
-                if (this.player.body?.touching.down && !this.isJumping) {
+                const isGrounded = this.player.body?.touching.down || this.player.body?.blocked.down;
+                if (isGrounded && !this.isJumping) {
                     this.player.setVelocityY(-700);
                     this.isJumping = true;
                     // Jump burst particle
@@ -409,13 +418,16 @@ const GameArea: React.FC<GameAreaProps> = ({ onGameOver }) => {
 
                 const obstacle = this.physics.add.sprite(
                     width + 40,
-                    height - 70,
+                    height - 86, // Resting perfectly flush on the grass
                     'obstacle'
                 );
-                obstacle.setScale(1.2);
-                obstacle.body.setAllowGravity(false);
-                obstacle.body.setImmovable(true);
                 this.obstacles.add(obstacle);
+
+                obstacle.setScale(1.2);
+                const body = obstacle.body as Phaser.Physics.Arcade.Body;
+                body.allowGravity = false;
+                body.setImmovable(true);
+                obstacle.setVelocityY(0);
 
                 // Glow tween
                 this.tweens.add({
@@ -431,12 +443,15 @@ const GameArea: React.FC<GameAreaProps> = ({ onGameOver }) => {
                 if (this.isGameOver) return;
                 const { width, height } = this.scale;
 
-                const yPos = Phaser.Math.Between(height - 200, height - 100);
+                const yPos = Phaser.Math.Between(height - 240, height - 120);
                 const coin = this.physics.add.sprite(width + 20, yPos, 'coin');
-                coin.setScale(1.2);
-                coin.body.setAllowGravity(false);
-                coin.setData('bob', Math.random() * Math.PI * 2);
                 this.coins.add(coin);
+
+                coin.setScale(1.2);
+                const body = coin.body as Phaser.Physics.Arcade.Body;
+                body.allowGravity = false;
+                coin.setVelocityY(0);
+                coin.setData('bob', Math.random() * Math.PI * 2);
 
                 // Spin tween
                 this.tweens.add({
