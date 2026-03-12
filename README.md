@@ -2,6 +2,13 @@
 
 A production-ready Web3 endless runner game built on Stacks Mainnet.
 
+## Table of Contents
+- [Live Demo](#live-demo)
+- [Features](#features)
+- [Tech Stack](#tech-stack)
+- [Smart Contracts](#smart-contracts-mainnet)
+- [Quick Start](#quick-start)
+
 ## Live Demo
 
 https://stacks-runner.vercel.app
