@@ -17,3 +17,8 @@ body {
   display: flex;
   flex-direction: column;
 }
+
+.btn-base {
+  transition: all 0.25s ease-in-out;
+  backdrop-filter: blur(4px);
+}
