@@ -2,6 +2,7 @@ import { STACKS_MAINNET } from '@stacks/network';
 
 export const network = STACKS_MAINNET;
 
+/** App Details Configuration used for Leather/Xverse wallets */
 export const appDetails = {
     name: 'Stacks Runner',
     icon: window.location.origin + '/logo.png',
