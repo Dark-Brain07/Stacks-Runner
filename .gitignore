@@ -39,3 +39,8 @@ coverage/
 *.tgz
 .eslintcache
 make_commits.ps1
+
+
+# Additional Env Files
+.env*.local
+.vercel/
