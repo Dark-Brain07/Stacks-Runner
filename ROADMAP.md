@@ -1,6 +1,8 @@
 ﻿# Stacks Runner Roadmap
 
 ## Phase 1 - Core Game (Completed)
+🏆 Status: Released to Mainnet
+
 - [x] Endless runner engine with Phaser 3
 - [x] Cyberpunk graphics and effects
 - [x] Wallet integration
