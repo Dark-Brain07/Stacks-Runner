@@ -1,0 +1,17 @@
+{
+  "name": "stacks-runner-game",
+  "version": "1.0.0",
+  "description": "Stacks Runner - A Web3 endless runner game on Stacks blockchain.",
+  "scripts": {
+    "dev:frontend": "npm run dev --prefix frontend",
+    "dev:backend": "npm run dev --prefix backend"
+  },
+  "keywords": [
+    "stacks",
+    "web3",
+    "game",
+    "endless-runner"
+  ],
+  "author": "",
+  "license": "MIT"
+}
