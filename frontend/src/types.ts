@@ -1,3 +1,4 @@
+/** Global game state enum reflecting React component lifecycles */
 ﻿export type GameState = 'MENU' | 'PLAYING' | 'GAME_OVER';
 
 export interface PlayerScore {
