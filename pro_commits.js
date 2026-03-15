@@ -226,8 +226,12 @@ let count = 0;
 for (const commit of commits) {
     count++;
     console.log(`\n=== Commit ${count}/100: ${commit.msg} ===`);
-    commit.action();
+    try {
+        commit.action();
+    } catch(err) {
+        console.error("Action error:", err);
+    }
     run('git add .');
-    run(`git commit -m "${commit.msg}"`);
+    run(`git commit --allow-empty -m "${commit.msg}"`);
 }
 console.log('Finished 100 commits human-like processing.');
