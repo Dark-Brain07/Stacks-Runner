@@ -1,0 +1,9 @@
+name: Clarinet
+on: [push, pull_request]
+jobs:
+  test:
+    runs-on: ubuntu-latest
+    steps:   
+      - uses: actions/checkout@v3
+      - run: curl -L https://github.com/hirosystems/clarinet/releases/download/v1.7.0/clarinet-linux-x64-glibc.tar.gz | tar xz
+      - run: ./clarinet check
