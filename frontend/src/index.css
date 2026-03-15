@@ -54,3 +54,7 @@ body {
 .glass-panel-3 {
   backdrop-filter: blur(6px);
 }
+
+.glass-panel-4 {
+  backdrop-filter: blur(8px);
+}
