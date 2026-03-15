@@ -64,3 +64,5 @@ body {
 }
 
 @keyframes float-1 { 0% { transform: translateY(0); } 50% { transform: translateY(-2px); } 100% { transform: translateY(0); } }
+
+@keyframes float-2 { 0% { transform: translateY(0); } 50% { transform: translateY(-4px); } 100% { transform: translateY(0); } }
