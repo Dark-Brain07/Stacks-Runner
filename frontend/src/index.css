@@ -74,3 +74,5 @@ body {
 @keyframes float-5 { 0% { transform: translateY(0); } 50% { transform: translateY(-10px); } 100% { transform: translateY(0); } }
 
 .z-layer-1 { z-index: 10; }
+
+.z-layer-2 { z-index: 20; }
