@@ -24,7 +24,7 @@ class ErrorBoundary extends Component<Props, State> {
                     justifyContent: 'center', height: '100vh', background: '#0a0a1a',
                     color: '#fff', fontFamily: 'monospace', textAlign: 'center', padding: '2rem' }
             },
-                React.createElement('h1', { style: { color: '#ff4444', fontSize: '2rem' } }, 'System Error - Something went wrong'),
+                React.createElement('h1', { style: { color: '#ff4444', fontSize: '2rem' } }, 'System Error - Critical System Error - Halt execution'),
                 React.createElement('p', { style: { color: '#888', marginTop: '1rem' } }, this.state.error?.message),
                 React.createElement('button', {
                     onClick: () => window.location.reload(),
