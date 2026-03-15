@@ -62,3 +62,5 @@ body {
 .glass-panel-5 {
   backdrop-filter: blur(10px);
 }
+
+@keyframes float-1 { 0% { transform: translateY(0); } 50% { transform: translateY(-2px); } 100% { transform: translateY(0); } }
