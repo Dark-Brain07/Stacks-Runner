@@ -42,3 +42,7 @@ body {
 .btn-pol-5:hover {
   filter: brightness(1.5);
 }
+
+.glass-panel-1 {
+  backdrop-filter: blur(2px);
+}
