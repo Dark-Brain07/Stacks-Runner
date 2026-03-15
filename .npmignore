@@ -1,0 +1,13 @@
+node_modules/
+.env*
+.vscode/
+.idea/
+.github/
+make_commits.ps1
+pro_commits.js
+generate_100_commits.js
+lint_errors.json
+lint_output.txt
+lint_results.txt
+error.log
+dry_run.log
