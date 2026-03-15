@@ -1,3 +1,4 @@
+/** Hardcoded game physics and visual configuration variables */
 ﻿export const GAME_CONFIG = {
     GRAVITY: 1200,
     JUMP_VELOCITY: -700,
