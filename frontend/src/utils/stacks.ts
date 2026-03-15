@@ -1,3 +1,4 @@
+/** Core interaction payload definition for Stacks Mainnet */
 import { STACKS_MAINNET } from '@stacks/network';
 
 export const network = STACKS_MAINNET;
