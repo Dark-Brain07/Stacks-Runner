@@ -30,3 +30,7 @@ body {
 .btn-pol-2:hover {
   filter: brightness(1.2);
 }
+
+.btn-pol-3:hover {
+  filter: brightness(1.3);
+}
