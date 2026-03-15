@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@stacks/connect": "^8.2.5",
+    "@stacks/connect": "^8.2.6",
     "@stacks/connect-react": "^23.1.5",
     "@stacks/network": "^7.3.1",
     "@stacks/transactions": "^7.3.1",
