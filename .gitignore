@@ -49,3 +49,6 @@ make_commits.ps1
 .vscode/
 .idea/
 *.swp
+
+# Vercel
+.vercel/
