@@ -13,5 +13,8 @@
     "endless-runner"
   ],
   "author": "",
-  "license": "MIT"
+  "license": "MIT",
+  "devDependencies": {
+    "npm-check-updates": "^19.6.3"
+  }
 }
