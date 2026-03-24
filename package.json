@@ -1,7 +1,7 @@
 {
   "name": "stacks-runner-game-darkbrain",
-  "version": "1.0.1",
-  "description": "Stacks Runner - A Web3 endless runner game on Stacks blockchain.",
+  "version": "1.0.2",
+  "description": "Stacks Runner - A Web3 endless runner game on Stacks blockchain. Earn STX and NFTs by playing!",
   "scripts": {
     "dev:frontend": "npm run dev --prefix frontend",
     "dev:backend": "npm run dev --prefix backend"
@@ -10,10 +10,22 @@
     "stacks",
     "web3",
     "game",
-    "endless-runner"
+    "endless-runner",
+    "blockchain",
+    "nft",
+    "bitcoin",
+    "stx"
   ],
-  "author": "",
+  "author": "Dark-Brain07",
   "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Dark-Brain07/Stacks-Runner.git"
+  },
+  "homepage": "https://github.com/Dark-Brain07/Stacks-Runner",
+  "bugs": {
+    "url": "https://github.com/Dark-Brain07/Stacks-Runner/issues"
+  },
   "devDependencies": {
     "npm-check-updates": "^19.6.3"
   }
