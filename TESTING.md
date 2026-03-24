@@ -1,21 +1,11 @@
-﻿# Testing Guide
-
-## Frontend
-- npm run dev (development)
-- npm run build (production build)
-- npm run preview (preview build)
-
-## Smart Contracts
-- clarinet check (syntax check)
-- clarinet console (interactive testing)
-
-## Browser Checklist
-- [ ] Game loads without errors
-- [ ] Wallet connects successfully
-- [ ] Character responds to input
-- [ ] Obstacles and coins spawn
-- [ ] Score increments properly
-- [ ] Game over triggers correctly
-- [ ] Score submission works on-chain
-- [ ] Contract panel functions work
-- [ ] Mobile touch controls work
+# Testing Guide
+## Running Tests
+cd frontend && npm run test
+## Test Structure
+frontend/src/__tests__/ for all tests
+## Writing Tests
+Use vitest with React Testing Library.
+## Coverage Goals
+- Utils: >= 90%
+- Hooks: >= 80%
+- Components: >= 70%
