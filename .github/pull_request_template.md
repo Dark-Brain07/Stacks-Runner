@@ -1,13 +1,11 @@
-﻿## Description
+## Description
 Brief description of changes.
-
 ## Type of Change
 - [ ] Bug fix
 - [ ] New feature
-- [ ] Documentation
-- [ ] Smart contract update
-
-## Testing
+- [ ] Breaking change
+- [ ] Documentation update
+## Checklist
 - [ ] Tested locally
-- [ ] Contracts pass clarinet check
-- [ ] Build passes npm run build
+- [ ] Self-reviewed the code
+- [ ] Updated documentation
