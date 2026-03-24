@@ -1,0 +1,4 @@
+export interface GameSettings { soundEnabled: boolean; musicVolume: number; sfxVolume: number; showFPS: boolean; touchSensitivity: number; }
+export const DEFAULT_GAME_SETTINGS: GameSettings = { soundEnabled: true, musicVolume: 0.5, sfxVolume: 0.7, showFPS: false, touchSensitivity: 1.0 };
+export interface PowerUp { type: 'shield' | 'magnet' | 'doubleScore' | 'slowmo'; duration: number; active: boolean; remainingTime: number; }
+export interface GameStats { totalGamesPlayed: number; highScore: number; totalCoinsCollected: number; totalDistanceTraveled: number; totalPlayTime: number; lastPlayed: number; }
