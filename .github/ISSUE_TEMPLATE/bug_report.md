@@ -1,22 +1,16 @@
-﻿---
+---
 name: Bug Report
-about: Report a bug in Stacks Runner
+about: Report a bug
 title: '[BUG] '
 labels: bug
 ---
-
-## Description
+## Bug Description
 A clear description of the bug.
-
 ## Steps to Reproduce
-1. Go to '...'
-2. Click on '...'
-3. See error
-
+1. Step one
+2. Step two
 ## Expected Behavior
-What you expected to happen.
-
+What you expected.
 ## Environment
 - Browser:
-- Wallet:
 - OS:
