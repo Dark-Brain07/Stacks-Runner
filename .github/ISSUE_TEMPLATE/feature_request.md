@@ -1,15 +1,12 @@
-﻿---
+---
 name: Feature Request
-about: Suggest a feature for Stacks Runner
+about: Suggest an idea
 title: '[FEATURE] '
 labels: enhancement
 ---
-
 ## Problem
-Describe the problem this feature would solve.
-
+What problem does this solve?
 ## Proposed Solution
-Describe the solution you would like.
-
-## Alternatives Considered
-Any alternative solutions you have considered.
+Describe the solution.
+## Alternatives
+Any alternatives considered.
