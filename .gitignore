@@ -1,54 +1,19 @@
-﻿# Dependencies
 node_modules/
-
-# Build output
 dist/
 build/
-.next/
-
-# Environment
 .env
 .env.local
-.env.production
-.env.development
-
-# IDE
+.env.*.local
 .vscode/
 .idea/
 *.swp
-*.swo
-
-# OS
 .DS_Store
 Thumbs.db
-Desktop.ini
-
-# Clarinet
-.cache/
-contracts/.cache/
-
-# Logs
-*.log
 npm-debug.log*
-
-# Testing
 coverage/
-.nyc_output/
-
-# Misc
-*.tgz
-.eslintcache
-make_commits.ps1
-
-
-# Additional Env Files
-.env*.local
-.vercel/
-
-# IDE / Editor
-.vscode/
-.idea/
-*.swp
-
-# Vercel
-.vercel/
+*.lcov
+wallets/
+*.key
+*.pem
+dry_run.log
+error.log
