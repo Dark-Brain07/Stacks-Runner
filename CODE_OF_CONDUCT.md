@@ -1,17 +1,10 @@
-﻿# Code of Conduct
-
+# Contributor Covenant Code of Conduct
 ## Our Pledge
-
-We are committed to making participation in this project a harassment-free experience for everyone.
-
+We pledge to make participation a harassment-free experience for everyone.
 ## Our Standards
-
-Examples of behavior that contributes to a positive environment:
-- Using welcoming and inclusive language
+- Using welcoming language
 - Being respectful of differing viewpoints
-- Gracefully accepting constructive criticism
-- Focusing on what is best for the community
-
+- Gracefully accepting criticism
+- Focusing on community benefit
 ## Enforcement
-
-Instances of abusive or unacceptable behavior may be reported to the project maintainers.
+Report instances to maintainers. All complaints will be reviewed promptly.
