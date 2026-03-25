@@ -1,0 +1,1 @@
+import { describe, it, expect } from "vitest"; import { isMobileDevice, supportsWebGL } from "../../utils/device"; describe("device detection", () => { it("detects desktop browser", () => { expect(isMobileDevice()).toBe(false); }); it("checks WebGL support", () => { expect(typeof supportsWebGL()).toBe("boolean"); }); });
