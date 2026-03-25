@@ -1,0 +1,1 @@
+export interface LeaderboardEntry { rank: number; address: string; score: number; timestamp: number; txId?: string; } export interface LeaderboardState { entries: LeaderboardEntry[]; loading: boolean; error: string | null; myRank?: number; }
