@@ -1,0 +1,1 @@
+export interface WalletInfo { address: string; balance: number; network: "mainnet" | "testnet"; nftsOwned: number; } export interface TransactionHistory { txId: string; type: "score-submit" | "nft-mint" | "stx-transfer"; status: "pending" | "confirmed" | "failed"; timestamp: number; amount?: number; }
