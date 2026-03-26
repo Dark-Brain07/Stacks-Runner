@@ -1,21 +1,28 @@
 # Changelog
-## [1.1.0] - 2026-03-24
+## [1.3.0] - 2026-03-26
 ### Added
-- Custom error classes for wallet and transaction handling
-- Structured logging utility
-- Format helpers for STX amounts and addresses
-- useLocalStorage, useGameState, useWallet hooks
-- Performance monitoring utility
-- Game color palette constants
-### Fixed
-- Character physics spinning bug
-- Obstacle and coin gravity drift
+- ThemeContext with dark/light mode switching
+- GameContext with reducer-based state management
+- AudioContext for global sound settings
+- i18n support with English and Spanish locales
+- Leaderboard service with ranking
+- Achievement system with 10 unlockables
+- Daily challenge system with streak tracking
+- ComboSystem for score multipliers
+- DifficultyScaler for progressive difficulty
+- ScreenShake and SlowMotion game effects
+- SettingsPanel, AchievementPopup, DailyChallengeCard, LeaderboardTable, StatsCard, ComboIndicator components
+- Error reporter with global rejection handler
+- RateLimiter for API call throttling
+- useClickOutside, useDebounce, useWindowSize, useCountdown, useScrollPosition, useFetch hooks
+- CSS custom properties for theming
+- Performance, accessibility, and ADR documentation
 ### Changed
-- Strict TypeScript configuration
-- Updated .gitignore
-## [1.0.0] - 2026-03-05
+- Updated component and hook barrel exports
+## [1.2.0] - 2026-03-25
 ### Added
-- Initial Phaser 3 endless runner
-- Stacks wallet integration
-- On-chain score submission
-- NFT minting rewards
+- Unit tests for all utility modules
+- CI/CD workflows
+- PWA support
+- Docker deployment
+- Feature flags and analytics
