@@ -1,0 +1,1 @@
+import { describe, it, expect } from "vitest"; import { renderHook } from "@testing-library/react"; import { useOnlineStatus } from "../../hooks/useOnlineStatus"; describe("useOnlineStatus", () => { it("returns online status", () => { const { result } = renderHook(() => useOnlineStatus()); expect(typeof result.current).toBe("boolean"); }); });
