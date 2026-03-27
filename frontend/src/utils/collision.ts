@@ -1,0 +1,2 @@
+export function rectIntersects(a: {x:number,y:number,w:number,h:number}, b: {x:number,y:number,w:number,h:number}): boolean { return a.x < b.x+b.w && a.x+a.w > b.x && a.y < b.y+b.h && a.y+a.h > b.y; }
+export function pointInRect(px:number,py:number,r:{x:number,y:number,w:number,h:number}): boolean { return px>=r.x && px<=r.x+r.w && py>=r.y && py<=r.y+r.h; }
