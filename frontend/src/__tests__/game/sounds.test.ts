@@ -1,0 +1,2 @@
+import { describe, it, expect } from 'vitest'; import { SOUND_EFFECTS } from '../../game/audio/sounds';
+describe('sound effects', () => { it('has required sounds', () => { expect(SOUND_EFFECTS.jump).toBeDefined(); expect(SOUND_EFFECTS.coin).toBeDefined(); expect(SOUND_EFFECTS.hit).toBeDefined(); }); it('valid properties', () => Object.values(SOUND_EFFECTS).forEach(s => { expect(s.frequency).toBeGreaterThan(0); expect(s.volume).toBeLessThanOrEqual(1); })); });
