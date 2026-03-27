@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{PriorityQueue}from'../../utils/structures/PriorityQueue';
+describe('PriorityQueue',()=>{it('starts empty',()=>expect(new PriorityQueue().isEmpty()).toBe(true));it('adds items',()=>{const s=new PriorityQueue();s.add(1);expect(s.size).toBe(1);});it('clears',()=>{const s=new PriorityQueue();s.add(1);s.clear();expect(s.isEmpty()).toBe(true);});});
