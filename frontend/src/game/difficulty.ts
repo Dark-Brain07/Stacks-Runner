@@ -1,0 +1,2 @@
+export interface DifficultyLevel{speed:number;spawnRate:number;coinChance:number;powerUpChance:number;maxObstacles:number;}
+export function getDifficulty(score:number):DifficultyLevel{const t=Math.min(score/5000,1);return{speed:3+t*5,spawnRate:2000-t*1200,coinChance:0.3-t*0.1,powerUpChance:0.05+t*0.05,maxObstacles:3+Math.floor(t*5)};}
