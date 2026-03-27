@@ -1,0 +1,2 @@
+import { describe, it, expect } from 'vitest'; import { recordGame, getStats, resetStats } from '../../services/statistics';
+describe('statistics', () => { beforeEach(() => { localStorage.clear(); resetStats(); }); it('starts empty', () => expect(getStats().totalGames).toBe(0)); it('records', () => { recordGame(100, 30000, 5, 1); expect(getStats().bestScore).toBe(100); }); it('averages', () => { recordGame(100, 20000, 3, 0); recordGame(200, 40000, 7, 1); expect(getStats().avgScore).toBe(150); }); });
