@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{TokenValidator}from'../../security/TokenValidator';
+describe('TokenValidator',()=>{it('validates',()=>expect(new TokenValidator().validate('test')).toBe(true));it('sanitizes',()=>expect(new TokenValidator().sanitize('<script>')).not.toContain('<'));});
