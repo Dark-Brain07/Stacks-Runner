@@ -1,0 +1,13 @@
+{
+  "app.title": "Stacks Runner",
+  "menu.play": "Jouer",
+  "menu.connect": "Connecter Portefeuille",
+  "menu.settings": "Parametres",
+  "game.score": "Score",
+  "game.highScore": "Meilleur",
+  "game.lives": "Vies",
+  "game.level": "Niveau",
+  "game.over": "Fin de Partie",
+  "game.restart": "Rejouer",
+  "game.submit": "Soumettre Score"
+}
