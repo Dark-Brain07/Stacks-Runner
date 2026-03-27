@@ -1,0 +1,2 @@
+import React from'react';
+export const Avatar:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-avatar','data-testid':'avatar'},React.createElement('span',{className:'label'},label||'Avatar'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
