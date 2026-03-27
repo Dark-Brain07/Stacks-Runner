@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{BottleneckDetector}from'../../utils/profiling/BottleneckDetector';
+describe('BottleneckDetector',()=>{it('records',()=>{const p=new BottleneckDetector();p.start();p.record(10);const r=p.stop();expect(r.count).toBe(1);});});
