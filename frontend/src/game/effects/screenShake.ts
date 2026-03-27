@@ -1,0 +1,1 @@
+export class ScreenShake{private intensity=0;private decay=0.9;trigger(force=5){this.intensity=force;}update():{dx:number,dy:number}{if(this.intensity<0.5){this.intensity=0;return{dx:0,dy:0};}const dx=(Math.random()-0.5)*this.intensity*2;const dy=(Math.random()-0.5)*this.intensity*2;this.intensity*=this.decay;return{dx,dy};}isActive():boolean{return this.intensity>0;}}
