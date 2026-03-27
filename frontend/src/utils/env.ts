@@ -1,0 +1,3 @@
+export function getEnvConfig() { return { apiUrl: import.meta.env.VITE_API_URL || 'https://api.hiro.so', network: (import.meta.env.VITE_NETWORK || 'mainnet') as 'mainnet' | 'testnet', logLevel: import.meta.env.VITE_LOG_LEVEL || 'info', enableAnalytics: import.meta.env.VITE_ANALYTICS === 'true', version: import.meta.env.VITE_APP_VERSION || '1.0.0' }; }
+export function isDev(): boolean { return import.meta.env.DEV; }
+export function isProd(): boolean { return import.meta.env.PROD; }
