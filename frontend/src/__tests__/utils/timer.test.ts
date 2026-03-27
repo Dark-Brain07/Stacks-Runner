@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{Timer}from'../../utils/timer';
+describe('Timer',()=>{it('starts not done',()=>{const t=new Timer(100);t.start();expect(t.isDone()).toBe(false);});it('finishes after duration',()=>{const t=new Timer(100);t.start();t.update(100);expect(t.isDone()).toBe(true);});it('tracks progress',()=>{const t=new Timer(100);t.start();t.update(50);expect(t.getProgress()).toBeCloseTo(0.5);});it('resets',()=>{const t=new Timer(100);t.start();t.update(100);t.reset();expect(t.isDone()).toBe(false);});});
