@@ -1,0 +1,2 @@
+export type Strategy='cache-first'|'network-first'|'stale-while-revalidate';
+export const CACHE_CONFIG:Record<string,{strategy:Strategy,maxAge:number}>={api:{strategy:'network-first',maxAge:30000},assets:{strategy:'cache-first',maxAge:86400000},pages:{strategy:'stale-while-revalidate',maxAge:3600000}};
