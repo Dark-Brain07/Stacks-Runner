@@ -1,0 +1,2 @@
+import React from'react';
+export const List:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-list','data-testid':'list'},React.createElement('span',{className:'label'},label||'List'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
