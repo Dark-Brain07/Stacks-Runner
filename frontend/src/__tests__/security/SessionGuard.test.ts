@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{SessionGuard}from'../../security/SessionGuard';
+describe('SessionGuard',()=>{it('validates',()=>expect(new SessionGuard().validate('test')).toBe(true));it('sanitizes',()=>expect(new SessionGuard().sanitize('<script>')).not.toContain('<'));});
