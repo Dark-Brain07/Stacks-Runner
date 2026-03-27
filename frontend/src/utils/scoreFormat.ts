@@ -1,0 +1,3 @@
+export function formatScore(n:number):string{if(n>=1000000)return(n/1000000).toFixed(1)+'M';if(n>=1000)return(n/1000).toFixed(1)+'K';return n.toLocaleString();}
+export function formatTime(ms:number):string{const s=Math.floor(ms/1000);const m=Math.floor(s/60);return m>0?m+'m '+(s%60)+'s':s+'s';}
+export function formatRank(n:number):string{const s=['th','st','nd','rd'];const v=n%100;return n+(s[(v-20)%10]||s[v]||s[0]);}
