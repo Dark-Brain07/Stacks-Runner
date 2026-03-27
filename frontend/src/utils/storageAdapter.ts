@@ -1,0 +1,3 @@
+export interface StorageAdapter{get(key:string):string|null;set(key:string,value:string):void;remove(key:string):void;clear():void;}
+export class LocalStorageAdapter implements StorageAdapter{get(k:string){return localStorage.getItem(k);}set(k:string,v:string){localStorage.setItem(k,v);}remove(k:string){localStorage.removeItem(k);}clear(){localStorage.clear();}}
+export class MemoryStorage implements StorageAdapter{private store=new Map<string,string>();get(k:string){return this.store.get(k)??null;}set(k:string,v:string){this.store.set(k,v);}remove(k:string){this.store.delete(k);}clear(){this.store.clear();}}
