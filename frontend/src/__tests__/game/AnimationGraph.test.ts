@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{AnimationGraph}from'../../game/animation/AnimationGraph';
+describe('AnimationGraph',()=>{it('starts stopped',()=>expect(new AnimationGraph().isPlaying()).toBe(false));it('plays',()=>{const x=new AnimationGraph();x.play();expect(x.isPlaying()).toBe(true);});it('stops and resets',()=>{const x=new AnimationGraph();x.play();x.update(100);x.stop();expect(x.getTime()).toBe(0);});});
