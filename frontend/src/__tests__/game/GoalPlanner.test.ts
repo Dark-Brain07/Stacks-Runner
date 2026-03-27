@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{GoalPlanner}from'../../game/ai/GoalPlanner';
+describe('GoalPlanner',()=>{it('creates instance',()=>expect(new GoalPlanner()).toBeDefined());it('enables/disables',()=>{const x=new GoalPlanner();x.disable();expect(x.isEnabled()).toBe(false);x.enable();expect(x.isEnabled()).toBe(true);});});
