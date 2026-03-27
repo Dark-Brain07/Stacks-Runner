@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{DifficultyAdapter}from'../../game/procgen/DifficultyAdapter';
+describe('DifficultyAdapter',()=>{it('generates with seed',()=>{const g=new DifficultyAdapter(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new DifficultyAdapter(1);g.reset();expect(g.getSeed()).not.toBe(1);});});
