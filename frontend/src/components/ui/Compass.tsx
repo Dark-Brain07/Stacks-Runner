@@ -1,0 +1,2 @@
+import React from'react';
+export const Compass:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-compass','data-testid':'compass'},React.createElement('span',{className:'label'},label||'Compass'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
