@@ -1,18 +1,17 @@
-# Contributing to Stacks Runner
-## Getting Started
-1. Fork the repository
-2. Clone your fork
-3. Install dependencies: cd frontend && npm install
-4. Start dev server: npm run dev
-## Commit Messages
-We follow Conventional Commits:
-- feat: add new feature
-- fix: resolve issue
-- docs: update docs
-- refactor: refactor code
-- test: add tests
-## Pull Request Process
-1. Update CHANGELOG.md
-2. Ensure tests pass
-3. Request review
-
+# Contributing
+## Setup
+1. Fork and clone
+2. npm install
+3. npm run dev
+## Branch Naming
+- feat/description - new features
+- fix/description - bug fixes
+- docs/description - documentation
+- refactor/description - code improvements
+## Commits
+Use conventional commits: feat:, fix:, docs:, refactor:, test:, chore:
+## Pull Requests
+- One feature per PR
+- Include tests
+- Update documentation
+- Ensure CI passes
