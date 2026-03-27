@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ContentPolicy}from'../../security/ContentPolicy';
+describe('ContentPolicy',()=>{it('validates',()=>expect(new ContentPolicy().validate('test')).toBe(true));it('sanitizes',()=>expect(new ContentPolicy().sanitize('<script>')).not.toContain('<'));});
