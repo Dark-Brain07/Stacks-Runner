@@ -1,0 +1,3 @@
+import{describe,it,expect,vi}from'vitest';import{EventEmitter}from'../../utils/eventEmitter';
+type Events={score:number;gameOver:void};
+describe('EventEmitter',()=>{it('emits events',()=>{const ee=new EventEmitter<Events>();const fn=vi.fn();ee.on('score',fn);ee.emit('score',100);expect(fn).toHaveBeenCalledWith(100);});it('removes listeners',()=>{const ee=new EventEmitter<Events>();const fn=vi.fn();ee.on('score',fn);ee.off('score',fn);ee.emit('score',50);expect(fn).not.toHaveBeenCalled();});});
