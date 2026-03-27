@@ -1,0 +1,2 @@
+import React from'react';
+export const Card:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-card','data-testid':'card'},React.createElement('span',{className:'label'},label||'Card'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
