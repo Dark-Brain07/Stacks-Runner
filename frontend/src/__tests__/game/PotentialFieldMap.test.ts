@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{PotentialFieldMap}from'../../game/ai/PotentialFieldMap';
+describe('PotentialFieldMap',()=>{it('creates instance',()=>expect(new PotentialFieldMap()).toBeDefined());it('enables/disables',()=>{const x=new PotentialFieldMap();x.disable();expect(x.isEnabled()).toBe(false);x.enable();expect(x.isEnabled()).toBe(true);});});
