@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{InputSanitizer}from'../../security/InputSanitizer';
+describe('InputSanitizer',()=>{it('validates',()=>expect(new InputSanitizer().validate('test')).toBe(true));it('sanitizes',()=>expect(new InputSanitizer().sanitize('<script>')).not.toContain('<'));});
