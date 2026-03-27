@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{CircularBuffer}from'../../utils/structures/CircularBuffer';
+describe('CircularBuffer',()=>{it('starts empty',()=>expect(new CircularBuffer().isEmpty()).toBe(true));it('adds items',()=>{const s=new CircularBuffer();s.add(1);expect(s.size).toBe(1);});it('clears',()=>{const s=new CircularBuffer();s.add(1);s.clear();expect(s.isEmpty()).toBe(true);});});
