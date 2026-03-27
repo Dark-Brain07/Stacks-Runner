@@ -1,0 +1,2 @@
+import React from'react';
+export const Radar:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-radar','data-testid':'radar'},React.createElement('span',{className:'label'},label||'Radar'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
