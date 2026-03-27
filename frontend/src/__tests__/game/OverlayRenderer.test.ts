@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{OverlayRenderer}from'../../game/renderer/OverlayRenderer';
+describe('OverlayRenderer',()=>{it('initializes',()=>{const r=new OverlayRenderer();expect(r).toBeDefined();});});
