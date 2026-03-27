@@ -1,0 +1,2 @@
+import React from'react';
+export const Alert:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-alert','data-testid':'alert'},React.createElement('span',{className:'label'},label||'Alert'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
