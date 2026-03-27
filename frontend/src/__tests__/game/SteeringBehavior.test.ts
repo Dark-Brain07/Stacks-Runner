@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{SteeringBehavior}from'../../game/ai/SteeringBehavior';
+describe('SteeringBehavior',()=>{it('creates instance',()=>expect(new SteeringBehavior()).toBeDefined());it('enables/disables',()=>{const x=new SteeringBehavior();x.disable();expect(x.isEnabled()).toBe(false);x.enable();expect(x.isEnabled()).toBe(true);});});
