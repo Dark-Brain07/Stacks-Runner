@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{AnimationMixer}from'../../game/animation/AnimationMixer';
+describe('AnimationMixer',()=>{it('starts stopped',()=>expect(new AnimationMixer().isPlaying()).toBe(false));it('plays',()=>{const x=new AnimationMixer();x.play();expect(x.isPlaying()).toBe(true);});it('stops and resets',()=>{const x=new AnimationMixer();x.play();x.update(100);x.stop();expect(x.getTime()).toBe(0);});});
