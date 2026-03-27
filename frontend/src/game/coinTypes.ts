@@ -1,0 +1,3 @@
+export interface CoinType{id:string;name:string;value:number;color:string;size:number;rarity:number;}
+export const COINS:CoinType[]=[{id:'bronze',name:'Bronze',value:1,color:'#CD7F32',size:12,rarity:0.6},{id:'silver',name:'Silver',value:5,color:'#C0C0C0',size:14,rarity:0.25},{id:'gold',name:'Gold',value:25,color:'#FFD700',size:16,rarity:0.1},{id:'diamond',name:'Diamond',value:100,color:'#B9F2FF',size:18,rarity:0.05}];
+export function rollCoin():CoinType{const r=Math.random();let acc=0;for(const c of COINS){acc+=c.rarity;if(r<=acc)return c;}return COINS[0];}
