@@ -1,0 +1,2 @@
+export interface ParticleConfig{count:number;speed:number;lifetime:number;color:string;size:number;gravity:number;spread:number;}
+export const PARTICLES:Record<string,ParticleConfig>={explosion:{count:20,speed:5,lifetime:800,color:'#ff4400',size:3,gravity:0.1,spread:360},coin:{count:8,speed:3,lifetime:500,color:'#ffcc00',size:2,gravity:0,spread:180},dust:{count:5,speed:1,lifetime:300,color:'#888888',size:2,gravity:0.05,spread:90},powerup:{count:15,speed:4,lifetime:600,color:'#44ffaa',size:3,gravity:-0.05,spread:360}};
