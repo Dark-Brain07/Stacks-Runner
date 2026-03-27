@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{easeInQuad,easeOutQuad,easeInOutQuad,linear}from'../../utils/easing';
+describe('easing',()=>{it('linear identity',()=>expect(linear(0.5)).toBe(0.5));it('easeInQuad starts slow',()=>expect(easeInQuad(0.5)).toBeLessThan(0.5));it('easeOutQuad starts fast',()=>expect(easeOutQuad(0.5)).toBeGreaterThan(0.5));it('easeInOutQuad at 0',()=>expect(easeInOutQuad(0)).toBe(0));it('easeInOutQuad at 1',()=>expect(easeInOutQuad(1)).toBe(1));});
