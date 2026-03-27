@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{TerrainBuilder}from'../../game/procgen/TerrainBuilder';
+describe('TerrainBuilder',()=>{it('generates with seed',()=>{const g=new TerrainBuilder(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new TerrainBuilder(1);g.reset();expect(g.getSeed()).not.toBe(1);});});
