@@ -1,0 +1,3 @@
+export function deepClone<T>(obj:T):T{if(typeof structuredClone==='function')return structuredClone(obj);return JSON.parse(JSON.stringify(obj));}
+export function deepEqual(a:any,b:any):boolean{return JSON.stringify(a)===JSON.stringify(b);}
+export function deepMerge<T extends Record<string,any>>(target:T,...sources:Partial<T>[]):T{const result={...target};for(const src of sources){for(const key of Object.keys(src)){if(typeof src[key]==='object'&&!Array.isArray(src[key])){result[key as keyof T]=deepMerge(result[key as keyof T]||{} as any,src[key] as any);}else{(result as any)[key]=src[key];}}}return result;}
