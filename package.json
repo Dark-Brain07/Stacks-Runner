@@ -1,6 +1,6 @@
 {
   "name": "@rajuice/stacks-runner",
-  "version": "1.4.0",
+  "version": "2.0.0",
   "description": "Stacks Runner - A Web3 endless runner game on Stacks blockchain. Earn STX and NFTs by playing!",
   "scripts": {
     "dev:frontend": "npm run dev --prefix frontend",
