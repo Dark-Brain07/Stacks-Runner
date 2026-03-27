@@ -1,7 +1,6 @@
-export function announceToScreenReader(message: string, priority: 'polite' | 'assertive' = 'polite'): void {
-  let el = document.getElementById('sr-announcer');
-  if (!el) { el = document.createElement('div'); el.id = 'sr-announcer'; el.setAttribute('aria-live', priority); el.setAttribute('aria-atomic', 'true'); el.style.cssText = 'position:absolute;width:1px;height:1px;overflow:hidden;clip:rect(0,0,0,0)'; document.body.appendChild(el); }
-  el.textContent = message;
-}
-export function prefersReducedMotion(): boolean { return window.matchMedia('(prefers-reduced-motion: reduce)').matches; }
-export function prefersDarkMode(): boolean { return window.matchMedia('(prefers-color-scheme: dark)').matches; }
+const KEY='runner-a11y';
+export interface A11yPrefs{reducedMotion:boolean;highContrast:boolean;screenReader:boolean;fontSize:number;}
+const DEFAULTS:A11yPrefs={reducedMotion:false,highContrast:false,screenReader:false,fontSize:16};
+export function getPrefs():A11yPrefs{try{return{...DEFAULTS,...JSON.parse(localStorage.getItem(KEY)||'{}')};}catch{return{...DEFAULTS};}}
+export function setPrefs(p:Partial<A11yPrefs>){localStorage.setItem(KEY,JSON.stringify({...getPrefs(),...p}));}
+export function prefersReducedMotion():boolean{return getPrefs().reducedMotion||window.matchMedia('(prefers-reduced-motion:reduce)').matches;}
