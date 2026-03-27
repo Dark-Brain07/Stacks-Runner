@@ -1,0 +1,12 @@
+{
+  "app.title": "Stacks Runner",
+  "menu.play": "Jogar",
+  "menu.connect": "Conectar Carteira",
+  "menu.settings": "Configuracoes",
+  "game.score": "Pontos",
+  "game.highScore": "Melhor",
+  "game.lives": "Vidas",
+  "game.level": "Nivel",
+  "game.over": "Fim de Jogo",
+  "game.restart": "Jogar Novamente"
+}
