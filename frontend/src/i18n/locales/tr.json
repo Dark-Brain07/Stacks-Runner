@@ -1,0 +1,12 @@
+{
+  "app.title": "Stacks Runner",
+  "menu.play": "Oyna",
+  "menu.connect": "Cuzdan Bagla",
+  "menu.settings": "Ayarlar",
+  "game.score": "Skor",
+  "game.highScore": "En Iyi",
+  "game.lives": "Can",
+  "game.level": "Seviye",
+  "game.over": "Oyun Bitti",
+  "game.restart": "Tekrar Oyna"
+}
