@@ -1,0 +1,2 @@
+import React from'react';
+export const Accordion:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-accordion','data-testid':'accordion'},React.createElement('span',{className:'label'},label||'Accordion'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
