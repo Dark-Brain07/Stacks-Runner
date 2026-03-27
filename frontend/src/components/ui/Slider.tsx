@@ -1,0 +1,2 @@
+import React from'react';
+export const Slider:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-slider','data-testid':'slider'},React.createElement('span',{className:'label'},label||'Slider'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
