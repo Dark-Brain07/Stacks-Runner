@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{QuadTree}from'../../utils/structures/QuadTree';
+describe('QuadTree',()=>{it('starts empty',()=>expect(new QuadTree().isEmpty()).toBe(true));it('adds items',()=>{const s=new QuadTree();s.add(1);expect(s.size).toBe(1);});it('clears',()=>{const s=new QuadTree();s.add(1);s.clear();expect(s.isEmpty()).toBe(true);});});
