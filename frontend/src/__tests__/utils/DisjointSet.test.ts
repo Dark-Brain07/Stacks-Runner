@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{DisjointSet}from'../../utils/structures/DisjointSet';
+describe('DisjointSet',()=>{it('starts empty',()=>expect(new DisjointSet().isEmpty()).toBe(true));it('adds items',()=>{const s=new DisjointSet();s.add(1);expect(s.size).toBe(1);});it('clears',()=>{const s=new DisjointSet();s.add(1);s.clear();expect(s.isEmpty()).toBe(true);});});
