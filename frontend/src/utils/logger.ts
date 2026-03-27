@@ -1,17 +1,7 @@
-type LogLevel = 'debug' | 'info' | 'warn' | 'error';
-const LOG_COLORS: Record<LogLevel, string> = {
-  debug: '#888', info: '#4FC3F7', warn: '#FFB74D', error: '#EF5350',
-};
-const LEVEL_PRIORITY: Record<LogLevel, number> = {
-  debug: 0, info: 1, warn: 2, error: 3,
-};
-const currentLevel: LogLevel = 'info';
-function shouldLog(level: LogLevel): boolean {
-  return LEVEL_PRIORITY[level] >= LEVEL_PRIORITY[currentLevel];
-}
-export const logger = {
-  debug: (msg: string, ...args: unknown[]) => { if (shouldLog('debug')) console.log('%c[DEBUG] ' + msg, 'color:' + LOG_COLORS.debug, ...args); },
-  info: (msg: string, ...args: unknown[]) => { if (shouldLog('info')) console.log('%c[INFO] ' + msg, 'color:' + LOG_COLORS.info, ...args); },
-  warn: (msg: string, ...args: unknown[]) => { if (shouldLog('warn')) console.warn('%c[WARN] ' + msg, 'color:' + LOG_COLORS.warn, ...args); },
-  error: (msg: string, ...args: unknown[]) => { if (shouldLog('error')) console.error('%c[ERROR] ' + msg, 'color:' + LOG_COLORS.error, ...args); },
-};
+type Level='debug'|'info'|'warn'|'error';const LEVELS:Record<Level,number>={debug:0,info:1,warn:2,error:3};let minLevel:Level='info';
+export function setLogLevel(l:Level){minLevel=l;}
+export function log(level:Level,msg:string,...data:any[]){if(LEVELS[level]<LEVELS[minLevel])return;const ts=new Date().toISOString();const prefix='['+ts+'] ['+level.toUpperCase()+']';if(level==='error')console.error(prefix,msg,...data);else if(level==='warn')console.warn(prefix,msg,...data);else console.log(prefix,msg,...data);}
+export const debug=(m:string,...d:any[])=>log('debug',m,...d);
+export const info=(m:string,...d:any[])=>log('info',m,...d);
+export const warn=(m:string,...d:any[])=>log('warn',m,...d);
+export const error=(m:string,...d:any[])=>log('error',m,...d);
