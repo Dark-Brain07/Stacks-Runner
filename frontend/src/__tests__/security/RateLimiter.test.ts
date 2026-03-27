@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{RateLimiter}from'../../security/RateLimiter';
+describe('RateLimiter',()=>{it('validates',()=>expect(new RateLimiter().validate('test')).toBe(true));it('sanitizes',()=>expect(new RateLimiter().sanitize('<script>')).not.toContain('<'));});
