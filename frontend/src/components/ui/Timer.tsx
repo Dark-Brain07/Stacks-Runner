@@ -1,0 +1,2 @@
+import React from'react';
+export const Timer:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-timer','data-testid':'timer'},React.createElement('span',{className:'label'},label||'Timer'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
