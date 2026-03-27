@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{LinkedList}from'../../utils/structures/LinkedList';
+describe('LinkedList',()=>{it('starts empty',()=>expect(new LinkedList().isEmpty()).toBe(true));it('adds items',()=>{const s=new LinkedList();s.add(1);expect(s.size).toBe(1);});it('clears',()=>{const s=new LinkedList();s.add(1);s.clear();expect(s.isEmpty()).toBe(true);});});
