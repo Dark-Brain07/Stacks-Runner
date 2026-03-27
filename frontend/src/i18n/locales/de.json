@@ -1,0 +1,13 @@
+{
+  "app.title": "Stacks Runner",
+  "menu.play": "Spielen",
+  "menu.connect": "Wallet Verbinden",
+  "menu.settings": "Einstellungen",
+  "game.score": "Punkte",
+  "game.highScore": "Bestzeit",
+  "game.lives": "Leben",
+  "game.level": "Level",
+  "game.over": "Spiel Vorbei",
+  "game.restart": "Nochmal",
+  "game.submit": "Punktzahl Senden"
+}
