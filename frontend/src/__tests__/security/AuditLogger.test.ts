@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{AuditLogger}from'../../security/AuditLogger';
+describe('AuditLogger',()=>{it('validates',()=>expect(new AuditLogger().validate('test')).toBe(true));it('sanitizes',()=>expect(new AuditLogger().sanitize('<script>')).not.toContain('<'));});
