@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{MatchmakingService}from'../../services/network/MatchmakingService';
+describe('MatchmakingService',()=>{it('starts disconnected',()=>expect(new MatchmakingService().isConnected()).toBe(false));it('connects',async()=>{const c=new MatchmakingService();await c.connect();expect(c.isConnected()).toBe(true);});});
