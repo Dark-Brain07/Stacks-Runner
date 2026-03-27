@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{MessageQueue}from'../../services/network/MessageQueue';
+describe('MessageQueue',()=>{it('starts disconnected',()=>expect(new MessageQueue().isConnected()).toBe(false));it('connects',async()=>{const c=new MessageQueue();await c.connect();expect(c.isConnected()).toBe(true);});});
