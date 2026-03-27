@@ -1,0 +1,2 @@
+import React from'react';
+export const TabPanel:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-tabpanel','data-testid':'tabpanel'},React.createElement('span',{className:'label'},label||'TabPanel'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
