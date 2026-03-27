@@ -1,0 +1,1 @@
+export const PRODUCTION_CONFIG={env:'production',apiUrl:'https://api-production.stacksrunner.io',debug:false,logLevel:'error',cacheMs:60000} as const;
