@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{HeartbeatMonitor}from'../../services/network/HeartbeatMonitor';
+describe('HeartbeatMonitor',()=>{it('starts disconnected',()=>expect(new HeartbeatMonitor().isConnected()).toBe(false));it('connects',async()=>{const c=new HeartbeatMonitor();await c.connect();expect(c.isConnected()).toBe(true);});});
