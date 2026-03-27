@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{PostFXRenderer}from'../../game/renderer/PostFXRenderer';
+describe('PostFXRenderer',()=>{it('initializes',()=>{const r=new PostFXRenderer();expect(r).toBeDefined();});});
