@@ -1,0 +1,3 @@
+export function processItems15<T>(items:T[],batchSize=10):T[][]{const batches:T[][]=[];for(let i=0;i<items.length;i+=batchSize)batches.push(items.slice(i,i+batchSize));return batches;}
+export function filterValid15<T>(items:(T|null|undefined)[]):T[]{return items.filter((x):x is T=>x!=null);}
+export function groupBy15<T>(items:T[],key:keyof T):Record<string,T[]>{return items.reduce((acc,item)=>{const k=String(item[key]);(acc[k]=acc[k]||[]).push(item);return acc;},{} as Record<string,T[]>);}
