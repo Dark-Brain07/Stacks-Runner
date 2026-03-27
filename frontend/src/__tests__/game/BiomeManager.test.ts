@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{BiomeManager}from'../../game/procgen/BiomeManager';
+describe('BiomeManager',()=>{it('generates with seed',()=>{const g=new BiomeManager(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new BiomeManager(1);g.reset();expect(g.getSeed()).not.toBe(1);});});
