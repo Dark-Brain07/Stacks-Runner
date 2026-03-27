@@ -1,0 +1,2 @@
+export async function registerSW():Promise<ServiceWorkerRegistration|null>{if(!('serviceWorker'in navigator))return null;try{return await navigator.serviceWorker.register('/sw.js');}catch{return null;}}
+export async function unregisterSW():Promise<boolean>{if(!('serviceWorker'in navigator))return false;const reg=await navigator.serviceWorker.getRegistration();return reg?await reg.unregister():false;}
