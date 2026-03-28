@@ -1,1 +1,2 @@
-import en from "./en.json"; import es from "./es.json"; const locales: Record<string, Record<string, string>> = { en, es }; let currentLocale = localStorage.getItem("app-locale") || "en"; export function t(key: string): string { return locales[currentLocale]?.[key] || locales.en[key] || key; } export function setLocale(locale: string): void { if (locales[locale]) { currentLocale = locale; localStorage.setItem("app-locale", locale); } } export function getLocale(): string { return currentLocale; } export function getAvailableLocales(): string[] { return Object.keys(locales); }
+export { I18nProvider, useI18n } from './provider';
+export { SUPPORTED_LOCALES, DEFAULT_LOCALE, detectLocale } from './config';
