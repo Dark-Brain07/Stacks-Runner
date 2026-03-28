@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Networkpolicy
+metadata:
+  name: stacks-runner-networkpolicy
+  namespace: production
+  labels:
+    app: stacks-runner
+spec:
+  # networkpolicy configuration
+  replicas: 3
