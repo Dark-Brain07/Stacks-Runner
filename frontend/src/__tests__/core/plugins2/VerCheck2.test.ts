@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{VerCheck2}from"../../core/plugins2/VerCheck2";
+describe("VerCheck2",()=>{it("ok",()=>expect(new VerCheck2()).toBeDefined());it("toggle",()=>{const x=new VerCheck2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new VerCheck2();x.set("a",1);expect(x.get("a")).toBe(1);});});
