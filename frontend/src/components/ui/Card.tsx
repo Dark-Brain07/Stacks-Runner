@@ -1,2 +1,23 @@
-import React from'react';
-export const Card:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-card','data-testid':'card'},React.createElement('span',{className:'label'},label||'Card'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
+import React, { memo, forwardRef } from 'react';
+
+export interface CardProps {
+  className?: string;
+  children?: React.ReactNode;
+  variant?: 'default' | 'primary' | 'secondary' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  disabled?: boolean;
+  onClick?: () => void;
+}
+
+export const Card = memo(forwardRef<HTMLDivElement, CardProps>(
+  ({ className = '', variant = 'default', size = 'md', disabled, onClick, children }, ref) => {
+    const cls = ['sr-card', `sr-card--${variant}`, `sr-card--${size}`, disabled ? 'sr-disabled' : '', className].filter(Boolean).join(' ');
+    return (
+      <div ref={ref} className={cls} onClick={disabled ? undefined : onClick} role="button" tabIndex={disabled ? -1 : 0} aria-disabled={disabled}>
+        {children}
+      </div>
+    );
+  }
+));
+
+Card.displayName = 'Card';
