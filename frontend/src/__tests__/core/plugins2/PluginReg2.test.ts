@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PluginReg2}from"../../core/plugins2/PluginReg2";
+describe("PluginReg2",()=>{it("ok",()=>expect(new PluginReg2()).toBeDefined());it("toggle",()=>{const x=new PluginReg2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PluginReg2();x.set("a",1);expect(x.get("a")).toBe(1);});});
