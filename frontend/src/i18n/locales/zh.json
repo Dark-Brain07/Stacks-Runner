@@ -1,8 +1,22 @@
 {
-  "app.title": "Stacks Runner",
-  "menu.play": "Play",
-  "menu.settings": "Settings",
-  "game.score": "Score",
-  "game.over": "Game Over",
-  "game.restart": "Restart"
+  "gameTitle": "[ZH] Stacks Runner",
+  "playButton": "[ZH] Play Now",
+  "connectWallet": "[ZH] Connect Wallet",
+  "leaderboard": "[ZH] Leaderboard",
+  "settings": "[ZH] Settings",
+  "inventory": "[ZH] Inventory",
+  "marketplace": "[ZH] Marketplace",
+  "profile": "[ZH] Profile",
+  "achievements": "[ZH] Achievements",
+  "tournaments": "[ZH] Tournaments",
+  "guilds": "[ZH] Guilds",
+  "friends": "[ZH] Friends",
+  "chat": "[ZH] Chat",
+  "help": "[ZH] Help",
+  "logout": "[ZH] Sign Out",
+  "loading": "[ZH] Loading...",
+  "error": "[ZH] Something went wrong",
+  "retry": "[ZH] Try Again",
+  "cancel": "[ZH] Cancel",
+  "confirm": "[ZH] Confirm"
 }
