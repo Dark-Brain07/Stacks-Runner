@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{GamePlayScene}from'../../scenes/GamePlayScene';
+describe('GamePlayScene',()=>{it('starts inactive',()=>expect(new GamePlayScene().isActive()).toBe(false));it('activates on enter',()=>{const s=new GamePlayScene();s.onEnter();expect(s.isActive()).toBe(true);});it('deactivates on exit',()=>{const s=new GamePlayScene();s.onEnter();s.onExit();expect(s.isActive()).toBe(false);});});
