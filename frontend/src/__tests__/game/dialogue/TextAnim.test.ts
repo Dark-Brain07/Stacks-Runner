@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TextAnim}from"../../game/dialogue/TextAnim";
+describe("TextAnim",()=>{it("ok",()=>expect(new TextAnim()).toBeDefined());it("toggle",()=>{const x=new TextAnim();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new TextAnim();x.set("a",1);expect(x.get("a")).toBe(1);});});
