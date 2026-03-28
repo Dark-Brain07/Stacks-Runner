@@ -1,0 +1,2 @@
+[data-theme="memphis2"]{--bg:#0D1117;--fg:#E6EDF3;--accent:#6C5CE7;}
+.memphis2-card{background:var(--bg);border-radius:12px;padding:1rem;}
