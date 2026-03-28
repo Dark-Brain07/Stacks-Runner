@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Portrait}from"../../game/dialogue/Portrait";
+describe("Portrait",()=>{it("ok",()=>expect(new Portrait()).toBeDefined());it("toggle",()=>{const x=new Portrait();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Portrait();x.set("a",1);expect(x.get("a")).toBe(1);});});
