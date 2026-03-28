@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CurrencyMgr}from"../../game/inventory/CurrencyMgr";
+describe("CurrencyMgr",()=>{it("ok",()=>expect(new CurrencyMgr()).toBeDefined());it("toggle",()=>{const x=new CurrencyMgr();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CurrencyMgr();x.set("a",1);expect(x.get("a")).toBe(1);});});
