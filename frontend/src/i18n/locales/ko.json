@@ -1,8 +1,22 @@
 {
-  "app.title": "Stacks Runner",
-  "menu.play": "Play",
-  "menu.settings": "Settings",
-  "game.score": "Score",
-  "game.over": "Game Over",
-  "game.restart": "Restart"
+  "gameTitle": "[KO] Stacks Runner",
+  "playButton": "[KO] Play Now",
+  "connectWallet": "[KO] Connect Wallet",
+  "leaderboard": "[KO] Leaderboard",
+  "settings": "[KO] Settings",
+  "inventory": "[KO] Inventory",
+  "marketplace": "[KO] Marketplace",
+  "profile": "[KO] Profile",
+  "achievements": "[KO] Achievements",
+  "tournaments": "[KO] Tournaments",
+  "guilds": "[KO] Guilds",
+  "friends": "[KO] Friends",
+  "chat": "[KO] Chat",
+  "help": "[KO] Help",
+  "logout": "[KO] Sign Out",
+  "loading": "[KO] Loading...",
+  "error": "[KO] Something went wrong",
+  "retry": "[KO] Try Again",
+  "cancel": "[KO] Cancel",
+  "confirm": "[KO] Confirm"
 }
