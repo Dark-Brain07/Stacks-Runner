@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PrestigeMgr}from"../../game/achievements/PrestigeMgr";
+describe("PrestigeMgr",()=>{it("ok",()=>expect(new PrestigeMgr()).toBeDefined());it("toggle",()=>{const x=new PrestigeMgr();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PrestigeMgr();x.set("a",1);expect(x.get("a")).toBe(1);});});
