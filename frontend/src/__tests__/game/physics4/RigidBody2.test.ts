@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{RigidBody2}from"../../game/physics4/RigidBody2";
+describe("RigidBody2",()=>{it("ok",()=>expect(new RigidBody2()).toBeDefined());it("toggle",()=>{const x=new RigidBody2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new RigidBody2();x.set("a",1);expect(x.get("a")).toBe(1);});});
