@@ -1,1 +1,23 @@
-import React from "react"; interface ButtonProps extends React.ButtonHTMLAttributes<HTMLButtonElement> { variant?: "primary" | "secondary" | "danger"; size?: "sm" | "md" | "lg"; loading?: boolean; } export const Button: React.FC<ButtonProps> = ({ variant = "primary", size = "md", loading, children, disabled, className = "", ...props }) => { const baseStyles = "font-bold rounded-lg transition-all transform hover:scale-105 disabled:opacity-50 disabled:cursor-not-allowed"; const variants = { primary: "bg-gradient-to-r from-green-400 to-emerald-600 text-white shadow-lg hover:shadow-green-500/30", secondary: "bg-transparent border border-purple-500 text-purple-300 hover:bg-purple-900/30", danger: "bg-red-600 text-white hover:bg-red-700" }; const sizes = { sm: "px-4 py-2 text-sm", md: "px-6 py-3 text-base", lg: "px-8 py-4 text-lg" }; return React.createElement("button", { className: `${baseStyles} ${variants[variant]} ${sizes[size]} ${className}`, disabled: disabled || loading, ...props }, loading ? "Loading..." : children); };
+import React, { memo, forwardRef } from 'react';
+
+export interface ButtonProps {
+  className?: string;
+  children?: React.ReactNode;
+  variant?: 'default' | 'primary' | 'secondary' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  disabled?: boolean;
+  onClick?: () => void;
+}
+
+export const Button = memo(forwardRef<HTMLDivElement, ButtonProps>(
+  ({ className = '', variant = 'default', size = 'md', disabled, onClick, children }, ref) => {
+    const cls = ['sr-button', `sr-button--${variant}`, `sr-button--${size}`, disabled ? 'sr-disabled' : '', className].filter(Boolean).join(' ');
+    return (
+      <div ref={ref} className={cls} onClick={disabled ? undefined : onClick} role="button" tabIndex={disabled ? -1 : 0} aria-disabled={disabled}>
+        {children}
+      </div>
+    );
+  }
+));
+
+Button.displayName = 'Button';
