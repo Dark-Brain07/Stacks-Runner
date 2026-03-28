@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PredictSys}from"../../services/multiplayer/PredictSys";
+describe("PredictSys",()=>{it("ok",()=>expect(new PredictSys()).toBeDefined());it("toggle",()=>{const x=new PredictSys();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PredictSys();x.set("a",1);expect(x.get("a")).toBe(1);});});
