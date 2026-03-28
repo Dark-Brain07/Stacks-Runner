@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{LinterStep}from'../../pipeline/LinterStep';
+describe('LinterStep',()=>{it('runs configured',async()=>{const x=new LinterStep();x.configure({a:1});const r=await x.run();expect(r.ok).toBe(true);});});
