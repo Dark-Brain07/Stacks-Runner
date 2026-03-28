@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ColorBlindFilter}from'../../a11y/ColorBlindFilter';
+describe('ColorBlindFilter',()=>{it('starts disabled',()=>expect(new ColorBlindFilter().isActive()).toBe(false));it('enables',()=>{const x=new ColorBlindFilter();x.enable();expect(x.isActive()).toBe(true);});it('toggles',()=>{const x=new ColorBlindFilter();x.toggle();expect(x.isActive()).toBe(true);x.toggle();expect(x.isActive()).toBe(false);});});
