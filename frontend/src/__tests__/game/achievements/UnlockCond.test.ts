@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{UnlockCond}from"../../game/achievements/UnlockCond";
+describe("UnlockCond",()=>{it("ok",()=>expect(new UnlockCond()).toBeDefined());it("toggle",()=>{const x=new UnlockCond();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new UnlockCond();x.set("a",1);expect(x.get("a")).toBe(1);});});
