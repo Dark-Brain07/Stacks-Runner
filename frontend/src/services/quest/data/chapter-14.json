@@ -1,0 +1,36 @@
+{
+  "chapter": 14,
+  "title": "Chapter 14: The Zenith",
+  "quests": [
+    {
+      "id": "ch14-q1",
+      "title": "Quest 1",
+      "xpReward": 1400,
+      "objectives": 3
+    },
+    {
+      "id": "ch14-q2",
+      "title": "Quest 2",
+      "xpReward": 1450,
+      "objectives": 3
+    },
+    {
+      "id": "ch14-q3",
+      "title": "Quest 3",
+      "xpReward": 1500,
+      "objectives": 3
+    },
+    {
+      "id": "ch14-q4",
+      "title": "Quest 4",
+      "xpReward": 1550,
+      "objectives": 3
+    },
+    {
+      "id": "ch14-q5",
+      "title": "Quest 5",
+      "xpReward": 1600,
+      "objectives": 3
+    }
+  ]
+}
