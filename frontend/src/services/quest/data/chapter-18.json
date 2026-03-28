@@ -1,0 +1,36 @@
+{
+  "chapter": 18,
+  "title": "Chapter 18: The Pinnacle",
+  "quests": [
+    {
+      "id": "ch18-q1",
+      "title": "Quest 1",
+      "xpReward": 1800,
+      "objectives": 3
+    },
+    {
+      "id": "ch18-q2",
+      "title": "Quest 2",
+      "xpReward": 1850,
+      "objectives": 3
+    },
+    {
+      "id": "ch18-q3",
+      "title": "Quest 3",
+      "xpReward": 1900,
+      "objectives": 3
+    },
+    {
+      "id": "ch18-q4",
+      "title": "Quest 4",
+      "xpReward": 1950,
+      "objectives": 3
+    },
+    {
+      "id": "ch18-q5",
+      "title": "Quest 5",
+      "xpReward": 2000,
+      "objectives": 3
+    }
+  ]
+}
