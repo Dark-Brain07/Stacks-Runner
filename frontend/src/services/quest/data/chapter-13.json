@@ -1,0 +1,36 @@
+{
+  "chapter": 13,
+  "title": "Chapter 13: The Tempest",
+  "quests": [
+    {
+      "id": "ch13-q1",
+      "title": "Quest 1",
+      "xpReward": 1300,
+      "objectives": 3
+    },
+    {
+      "id": "ch13-q2",
+      "title": "Quest 2",
+      "xpReward": 1350,
+      "objectives": 3
+    },
+    {
+      "id": "ch13-q3",
+      "title": "Quest 3",
+      "xpReward": 1400,
+      "objectives": 3
+    },
+    {
+      "id": "ch13-q4",
+      "title": "Quest 4",
+      "xpReward": 1450,
+      "objectives": 3
+    },
+    {
+      "id": "ch13-q5",
+      "title": "Quest 5",
+      "xpReward": 1500,
+      "objectives": 3
+    }
+  ]
+}
