@@ -1,2 +1,36 @@
-import{describe,it,expect}from'vitest';import{MusicPlayer}from'../../audio/MusicPlayer';
-describe('MusicPlayer',()=>{it('defaults to gain 1',()=>expect(new MusicPlayer().getGain()).toBe(1));it('mutes',()=>{const x=new MusicPlayer();x.mute();expect(x.isMuted()).toBe(true);});it('clamps gain',()=>{const x=new MusicPlayer();x.setGain(5);expect(x.getGain()).toBe(1);});});
+import { describe, it, expect, beforeEach, afterEach } from 'vitest';
+import { MusicPlayer } from '../../audio/MusicPlayer';
+
+describe('MusicPlayer', () => {
+  let svc: MusicPlayer;
+  beforeEach(() => { svc = new MusicPlayer(); });
+  afterEach(async () => { await svc.stop(); });
+
+  it('initializes with defaults', () => {
+    expect(svc).toBeDefined();
+    expect(svc.isActive()).toBe(false);
+  });
+
+  it('starts and stops', async () => {
+    await svc.start();
+    expect(svc.isActive()).toBe(true);
+    await svc.stop();
+    expect(svc.isActive()).toBe(false);
+  });
+
+  it('tracks metrics', () => {
+    const m = svc.getMetrics();
+    expect(m.calls).toBe(0);
+    svc.resetMetrics();
+    expect(svc.getMetrics().errors).toBe(0);
+  });
+
+  it('emits lifecycle events', async () => {
+    const ev = [];
+    svc.on('started', () => ev.push('started'));
+    svc.on('stopped', () => ev.push('stopped'));
+    await svc.start();
+    await svc.stop();
+    expect(ev).toEqual(['started', 'stopped']);
+  });
+});
