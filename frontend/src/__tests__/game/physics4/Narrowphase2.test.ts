@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Narrowphase2}from"../../game/physics4/Narrowphase2";
+describe("Narrowphase2",()=>{it("ok",()=>expect(new Narrowphase2()).toBeDefined());it("toggle",()=>{const x=new Narrowphase2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Narrowphase2();x.set("a",1);expect(x.get("a")).toBe(1);});});
