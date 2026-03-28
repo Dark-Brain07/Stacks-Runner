@@ -1,0 +1,2 @@
+.sr-nftbidding { display:flex; gap:0.5rem; padding:0.75rem 1rem; border-radius:8px; background:hsl(218,12%,14%); border:1px solid hsl(218,10%,22%); transition:all 200ms; }
+.sr-nftbidding:hover { background:hsl(218,14%,18%); box-shadow:0 4px 16px hsla(218,40%,20%,0.3); }
