@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{FilterChain}from'../../audio/FilterChain';
+describe('FilterChain',()=>{it('defaults to gain 1',()=>expect(new FilterChain().getGain()).toBe(1));it('mutes',()=>{const x=new FilterChain();x.mute();expect(x.isMuted()).toBe(true);});it('clamps gain',()=>{const x=new FilterChain();x.setGain(5);expect(x.getGain()).toBe(1);});});
