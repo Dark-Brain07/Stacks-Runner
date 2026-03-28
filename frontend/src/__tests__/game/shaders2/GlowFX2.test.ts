@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{GlowFX2}from"../../game/shaders2/GlowFX2";
+describe("GlowFX2",()=>{it("ok",()=>expect(new GlowFX2()).toBeDefined());it("toggle",()=>{const x=new GlowFX2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new GlowFX2();x.set("a",1);expect(x.get("a")).toBe(1);});});
