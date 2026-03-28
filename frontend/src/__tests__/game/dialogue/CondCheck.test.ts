@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CondCheck}from"../../game/dialogue/CondCheck";
+describe("CondCheck",()=>{it("ok",()=>expect(new CondCheck()).toBeDefined());it("toggle",()=>{const x=new CondCheck();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CondCheck();x.set("a",1);expect(x.get("a")).toBe(1);});});
