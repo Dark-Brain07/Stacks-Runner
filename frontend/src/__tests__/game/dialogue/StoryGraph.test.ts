@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StoryGraph}from"../../game/dialogue/StoryGraph";
+describe("StoryGraph",()=>{it("ok",()=>expect(new StoryGraph()).toBeDefined());it("toggle",()=>{const x=new StoryGraph();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new StoryGraph();x.set("a",1);expect(x.get("a")).toBe(1);});});
