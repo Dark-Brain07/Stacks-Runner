@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CloudRender}from"../../game/terrain/CloudRender";
+describe("CloudRender",()=>{it("ok",()=>expect(new CloudRender()).toBeDefined());it("toggle",()=>{const x=new CloudRender();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CloudRender();x.set("a",1);expect(x.get("a")).toBe(1);});});
