@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Decoration}from"../../game/terrain/Decoration";
+describe("Decoration",()=>{it("ok",()=>expect(new Decoration()).toBeDefined());it("toggle",()=>{const x=new Decoration();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Decoration();x.set("a",1);expect(x.get("a")).toBe(1);});});
