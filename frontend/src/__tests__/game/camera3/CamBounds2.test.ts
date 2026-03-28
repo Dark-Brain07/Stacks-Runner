@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CamBounds2}from"../../game/camera3/CamBounds2";
+describe("CamBounds2",()=>{it("ok",()=>expect(new CamBounds2()).toBeDefined());it("toggle",()=>{const x=new CamBounds2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CamBounds2();x.set("a",1);expect(x.get("a")).toBe(1);});});
