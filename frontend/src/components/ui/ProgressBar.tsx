@@ -1,2 +1,23 @@
-import React from'react';
-export const ProgressBar:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-progressbar','data-testid':'progressbar'},React.createElement('span',{className:'label'},label||'ProgressBar'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
+import React, { memo, forwardRef } from 'react';
+
+export interface ProgressBarProps {
+  className?: string;
+  children?: React.ReactNode;
+  variant?: 'default' | 'primary' | 'secondary' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  disabled?: boolean;
+  onClick?: () => void;
+}
+
+export const ProgressBar = memo(forwardRef<HTMLDivElement, ProgressBarProps>(
+  ({ className = '', variant = 'default', size = 'md', disabled, onClick, children }, ref) => {
+    const cls = ['sr-progressbar', `sr-progressbar--${variant}`, `sr-progressbar--${size}`, disabled ? 'sr-disabled' : '', className].filter(Boolean).join(' ');
+    return (
+      <div ref={ref} className={cls} onClick={disabled ? undefined : onClick} role="button" tabIndex={disabled ? -1 : 0} aria-disabled={disabled}>
+        {children}
+      </div>
+    );
+  }
+));
+
+ProgressBar.displayName = 'ProgressBar';
