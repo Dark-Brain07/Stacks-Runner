@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Emitter}from"../../game/particles/Emitter";
+describe("Emitter",()=>{it("ok",()=>expect(new Emitter()).toBeDefined());it("toggle",()=>{const x=new Emitter();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Emitter();x.set("a",1);expect(x.get("a")).toBe(1);});});
