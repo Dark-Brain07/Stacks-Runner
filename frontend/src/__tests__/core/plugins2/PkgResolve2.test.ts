@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PkgResolve2}from"../../core/plugins2/PkgResolve2";
+describe("PkgResolve2",()=>{it("ok",()=>expect(new PkgResolve2()).toBeDefined());it("toggle",()=>{const x=new PkgResolve2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PkgResolve2();x.set("a",1);expect(x.get("a")).toBe(1);});});
