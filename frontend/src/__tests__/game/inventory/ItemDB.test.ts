@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ItemDB}from"../../game/inventory/ItemDB";
+describe("ItemDB",()=>{it("ok",()=>expect(new ItemDB()).toBeDefined());it("toggle",()=>{const x=new ItemDB();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ItemDB();x.set("a",1);expect(x.get("a")).toBe(1);});});
