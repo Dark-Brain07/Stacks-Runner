@@ -1,0 +1,36 @@
+{
+  "chapter": 16,
+  "title": "Chapter 16: The Horizon",
+  "quests": [
+    {
+      "id": "ch16-q1",
+      "title": "Quest 1",
+      "xpReward": 1600,
+      "objectives": 3
+    },
+    {
+      "id": "ch16-q2",
+      "title": "Quest 2",
+      "xpReward": 1650,
+      "objectives": 3
+    },
+    {
+      "id": "ch16-q3",
+      "title": "Quest 3",
+      "xpReward": 1700,
+      "objectives": 3
+    },
+    {
+      "id": "ch16-q4",
+      "title": "Quest 4",
+      "xpReward": 1750,
+      "objectives": 3
+    },
+    {
+      "id": "ch16-q5",
+      "title": "Quest 5",
+      "xpReward": 1800,
+      "objectives": 3
+    }
+  ]
+}
