@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ExtPoint2}from"../../core/plugins2/ExtPoint2";
+describe("ExtPoint2",()=>{it("ok",()=>expect(new ExtPoint2()).toBeDefined());it("toggle",()=>{const x=new ExtPoint2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ExtPoint2();x.set("a",1);expect(x.get("a")).toBe(1);});});
