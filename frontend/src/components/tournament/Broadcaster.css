@@ -1,0 +1,2 @@
+.sr-broadcaster { display:flex; gap:0.5rem; padding:0.75rem 1rem; border-radius:8px; background:hsl(350,12%,14%); border:1px solid hsl(350,10%,22%); transition:all 200ms; }
+.sr-broadcaster:hover { background:hsl(350,14%,18%); box-shadow:0 4px 16px hsla(350,40%,20%,0.3); }
