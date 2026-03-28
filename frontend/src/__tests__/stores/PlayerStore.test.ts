@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{PlayerStore}from'../../stores/PlayerStore';
+describe('PlayerStore',()=>{it('gets and sets',()=>{const x=new PlayerStore();x.set('a',1);expect(x.get('a')).toBe(1);});it('clears',()=>{const x=new PlayerStore();x.set('b',2);x.clear();expect(x.has('b')).toBe(false);});});
