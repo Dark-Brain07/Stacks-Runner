@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{HighContrastMode}from'../../a11y/HighContrastMode';
+describe('HighContrastMode',()=>{it('starts disabled',()=>expect(new HighContrastMode().isActive()).toBe(false));it('enables',()=>{const x=new HighContrastMode();x.enable();expect(x.isActive()).toBe(true);});it('toggles',()=>{const x=new HighContrastMode();x.toggle();expect(x.isActive()).toBe(true);x.toggle();expect(x.isActive()).toBe(false);});});
