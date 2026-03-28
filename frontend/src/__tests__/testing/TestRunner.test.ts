@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{TestRunner}from'../../testing/TestRunner';
+describe('TestRunner',()=>{it('runs tests',()=>{const x=new TestRunner();const r=x.run('test1',()=>{});expect(r.pass).toBe(true);});it('tracks results',()=>{const x=new TestRunner();x.run('a',()=>{});x.run('b',()=>{throw new Error();});expect(x.getSummary().passed).toBe(1);expect(x.getSummary().failed).toBe(1);});});
