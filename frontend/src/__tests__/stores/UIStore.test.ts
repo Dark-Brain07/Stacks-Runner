@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{UIStore}from'../../stores/UIStore';
+describe('UIStore',()=>{it('gets and sets',()=>{const x=new UIStore();x.set('a',1);expect(x.get('a')).toBe(1);});it('clears',()=>{const x=new UIStore();x.set('b',2);x.clear();expect(x.has('b')).toBe(false);});});
