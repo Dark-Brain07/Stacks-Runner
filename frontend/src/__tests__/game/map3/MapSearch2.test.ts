@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MapSearch2}from"../../game/map3/MapSearch2";
+describe("MapSearch2",()=>{it("ok",()=>expect(new MapSearch2()).toBeDefined());it("toggle",()=>{const x=new MapSearch2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new MapSearch2();x.set("a",1);expect(x.get("a")).toBe(1);});});
