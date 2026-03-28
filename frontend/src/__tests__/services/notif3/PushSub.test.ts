@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PushSub}from"../../services/notif3/PushSub";
+describe("PushSub",()=>{it("ok",()=>expect(new PushSub()).toBeDefined());it("toggle",()=>{const x=new PushSub();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PushSub();x.set("a",1);expect(x.get("a")).toBe(1);});});
