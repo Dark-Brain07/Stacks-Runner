@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PropPlacer}from"../../game/terrain/PropPlacer";
+describe("PropPlacer",()=>{it("ok",()=>expect(new PropPlacer()).toBeDefined());it("toggle",()=>{const x=new PropPlacer();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PropPlacer();x.set("a",1);expect(x.get("a")).toBe(1);});});
