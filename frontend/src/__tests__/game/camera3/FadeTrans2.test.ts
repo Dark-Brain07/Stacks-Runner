@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FadeTrans2}from"../../game/camera3/FadeTrans2";
+describe("FadeTrans2",()=>{it("ok",()=>expect(new FadeTrans2()).toBeDefined());it("toggle",()=>{const x=new FadeTrans2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new FadeTrans2();x.set("a",1);expect(x.get("a")).toBe(1);});});
