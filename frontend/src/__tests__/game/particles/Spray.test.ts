@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Spray}from"../../game/particles/Spray";
+describe("Spray",()=>{it("ok",()=>expect(new Spray()).toBeDefined());it("toggle",()=>{const x=new Spray();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Spray();x.set("a",1);expect(x.get("a")).toBe(1);});});
