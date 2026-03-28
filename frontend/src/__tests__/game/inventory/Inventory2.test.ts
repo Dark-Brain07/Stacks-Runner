@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Inventory2}from"../../game/inventory/Inventory2";
+describe("Inventory2",()=>{it("ok",()=>expect(new Inventory2()).toBeDefined());it("toggle",()=>{const x=new Inventory2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Inventory2();x.set("a",1);expect(x.get("a")).toBe(1);});});
