@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{FeatureUsageTracker}from'../../analytics/FeatureUsageTracker';
+describe('FeatureUsageTracker',()=>{it('tracks events',()=>{const x=new FeatureUsageTracker();x.track('click');expect(x.getMetrics().total).toBe(1);});it('flushes',()=>{const x=new FeatureUsageTracker();x.track('a');const d=x.flush();expect(d).toHaveLength(1);expect(x.getData()).toHaveLength(0);});it('disables',()=>{const x=new FeatureUsageTracker();x.disable();x.track('x');expect(x.getMetrics().total).toBe(0);});});
