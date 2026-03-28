@@ -1,0 +1,1 @@
+export const EDGE2={channel:"edge",experimental:false} as const;
