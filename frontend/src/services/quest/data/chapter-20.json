@@ -1,0 +1,36 @@
+{
+  "chapter": 20,
+  "title": "Chapter 20: The Eternity",
+  "quests": [
+    {
+      "id": "ch20-q1",
+      "title": "Quest 1",
+      "xpReward": 2000,
+      "objectives": 3
+    },
+    {
+      "id": "ch20-q2",
+      "title": "Quest 2",
+      "xpReward": 2050,
+      "objectives": 3
+    },
+    {
+      "id": "ch20-q3",
+      "title": "Quest 3",
+      "xpReward": 2100,
+      "objectives": 3
+    },
+    {
+      "id": "ch20-q4",
+      "title": "Quest 4",
+      "xpReward": 2150,
+      "objectives": 3
+    },
+    {
+      "id": "ch20-q5",
+      "title": "Quest 5",
+      "xpReward": 2200,
+      "objectives": 3
+    }
+  ]
+}
