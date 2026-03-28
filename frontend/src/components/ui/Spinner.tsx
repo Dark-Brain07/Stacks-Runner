@@ -1,1 +1,23 @@
-import React from "react"; export const Spinner: React.FC<{ size?: number; color?: string }> = ({ size = 24, color = "#aa44ff" }) => { return React.createElement("div", { className: "inline-flex items-center justify-center", role: "status", "aria-label": "Loading" }, React.createElement("svg", { width: size, height: size, viewBox: "0 0 24 24", fill: "none", className: "animate-spin" }, React.createElement("circle", { cx: 12, cy: 12, r: 10, stroke: color, strokeWidth: 3, strokeLinecap: "round", strokeDasharray: "31.416", strokeDashoffset: "10", opacity: 0.3 }), React.createElement("circle", { cx: 12, cy: 12, r: 10, stroke: color, strokeWidth: 3, strokeLinecap: "round", strokeDasharray: "31.416", strokeDashoffset: "20" }))); };
+import React, { memo, forwardRef } from 'react';
+
+export interface SpinnerProps {
+  className?: string;
+  children?: React.ReactNode;
+  variant?: 'default' | 'primary' | 'secondary' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  disabled?: boolean;
+  onClick?: () => void;
+}
+
+export const Spinner = memo(forwardRef<HTMLDivElement, SpinnerProps>(
+  ({ className = '', variant = 'default', size = 'md', disabled, onClick, children }, ref) => {
+    const cls = ['sr-spinner', `sr-spinner--${variant}`, `sr-spinner--${size}`, disabled ? 'sr-disabled' : '', className].filter(Boolean).join(' ');
+    return (
+      <div ref={ref} className={cls} onClick={disabled ? undefined : onClick} role="button" tabIndex={disabled ? -1 : 0} aria-disabled={disabled}>
+        {children}
+      </div>
+    );
+  }
+));
+
+Spinner.displayName = 'Spinner';
