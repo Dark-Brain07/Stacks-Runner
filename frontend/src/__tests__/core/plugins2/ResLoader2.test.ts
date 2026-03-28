@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ResLoader2}from"../../core/plugins2/ResLoader2";
+describe("ResLoader2",()=>{it("ok",()=>expect(new ResLoader2()).toBeDefined());it("toggle",()=>{const x=new ResLoader2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ResLoader2();x.set("a",1);expect(x.get("a")).toBe(1);});});
