@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Vignette2}from"../../game/shaders2/Vignette2";
+describe("Vignette2",()=>{it("ok",()=>expect(new Vignette2()).toBeDefined());it("toggle",()=>{const x=new Vignette2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Vignette2();x.set("a",1);expect(x.get("a")).toBe(1);});});
