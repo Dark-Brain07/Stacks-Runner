@@ -1,0 +1,2 @@
+.sr-nftfavorite { display:flex; gap:0.5rem; padding:0.75rem 1rem; border-radius:8px; background:hsl(28,12%,14%); border:1px solid hsl(28,10%,22%); transition:all 200ms; }
+.sr-nftfavorite:hover { background:hsl(28,14%,18%); box-shadow:0 4px 16px hsla(28,40%,20%,0.3); }
