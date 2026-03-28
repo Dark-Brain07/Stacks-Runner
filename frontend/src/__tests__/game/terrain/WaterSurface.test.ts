@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{WaterSurface}from"../../game/terrain/WaterSurface";
+describe("WaterSurface",()=>{it("ok",()=>expect(new WaterSurface()).toBeDefined());it("toggle",()=>{const x=new WaterSurface();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new WaterSurface();x.set("a",1);expect(x.get("a")).toBe(1);});});
