@@ -1,0 +1,1 @@
+export const BETA2={channel:"beta",experimental:false} as const;
