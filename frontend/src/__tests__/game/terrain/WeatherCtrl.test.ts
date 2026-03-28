@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{WeatherCtrl}from"../../game/terrain/WeatherCtrl";
+describe("WeatherCtrl",()=>{it("ok",()=>expect(new WeatherCtrl()).toBeDefined());it("toggle",()=>{const x=new WeatherCtrl();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new WeatherCtrl();x.set("a",1);expect(x.get("a")).toBe(1);});});
