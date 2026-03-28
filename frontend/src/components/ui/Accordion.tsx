@@ -1,2 +1,23 @@
-import React from'react';
-export const Accordion:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-accordion','data-testid':'accordion'},React.createElement('span',{className:'label'},label||'Accordion'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));
+import React, { memo, forwardRef } from 'react';
+
+export interface AccordionProps {
+  className?: string;
+  children?: React.ReactNode;
+  variant?: 'default' | 'primary' | 'secondary' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  disabled?: boolean;
+  onClick?: () => void;
+}
+
+export const Accordion = memo(forwardRef<HTMLDivElement, AccordionProps>(
+  ({ className = '', variant = 'default', size = 'md', disabled, onClick, children }, ref) => {
+    const cls = ['sr-accordion', `sr-accordion--${variant}`, `sr-accordion--${size}`, disabled ? 'sr-disabled' : '', className].filter(Boolean).join(' ');
+    return (
+      <div ref={ref} className={cls} onClick={disabled ? undefined : onClick} role="button" tabIndex={disabled ? -1 : 0} aria-disabled={disabled}>
+        {children}
+      </div>
+    );
+  }
+));
+
+Accordion.displayName = 'Accordion';
