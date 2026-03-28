@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AssetBundle2}from"../../core/plugins2/AssetBundle2";
+describe("AssetBundle2",()=>{it("ok",()=>expect(new AssetBundle2()).toBeDefined());it("toggle",()=>{const x=new AssetBundle2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new AssetBundle2();x.set("a",1);expect(x.get("a")).toBe(1);});});
