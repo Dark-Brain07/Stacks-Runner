@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{CrossFader}from'../../audio/CrossFader';
+describe('CrossFader',()=>{it('defaults to gain 1',()=>expect(new CrossFader().getGain()).toBe(1));it('mutes',()=>{const x=new CrossFader();x.mute();expect(x.isMuted()).toBe(true);});it('clamps gain',()=>{const x=new CrossFader();x.setGain(5);expect(x.getGain()).toBe(1);});});
