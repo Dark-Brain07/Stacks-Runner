@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Configmap
+metadata:
+  name: stacks-runner-configmap
+  namespace: production
+  labels:
+    app: stacks-runner
+spec:
+  # configmap configuration
+  replicas: 3
