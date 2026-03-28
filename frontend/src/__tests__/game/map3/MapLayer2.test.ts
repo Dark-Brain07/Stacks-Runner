@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MapLayer2}from"../../game/map3/MapLayer2";
+describe("MapLayer2",()=>{it("ok",()=>expect(new MapLayer2()).toBeDefined());it("toggle",()=>{const x=new MapLayer2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new MapLayer2();x.set("a",1);expect(x.get("a")).toBe(1);});});
