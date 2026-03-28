@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{MinifierStep}from'../../pipeline/MinifierStep';
+describe('MinifierStep',()=>{it('runs configured',async()=>{const x=new MinifierStep();x.configure({a:1});const r=await x.run();expect(r.ok).toBe(true);});});
