@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{LevelCurve}from"../../game/achievements/LevelCurve";
+describe("LevelCurve",()=>{it("ok",()=>expect(new LevelCurve()).toBeDefined());it("toggle",()=>{const x=new LevelCurve();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new LevelCurve();x.set("a",1);expect(x.get("a")).toBe(1);});});
