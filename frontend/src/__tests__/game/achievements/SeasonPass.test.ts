@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SeasonPass}from"../../game/achievements/SeasonPass";
+describe("SeasonPass",()=>{it("ok",()=>expect(new SeasonPass()).toBeDefined());it("toggle",()=>{const x=new SeasonPass();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new SeasonPass();x.set("a",1);expect(x.get("a")).toBe(1);});});
