@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Stream}from"../../game/particles/Stream";
+describe("Stream",()=>{it("ok",()=>expect(new Stream()).toBeDefined());it("toggle",()=>{const x=new Stream();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Stream();x.set("a",1);expect(x.get("a")).toBe(1);});});
