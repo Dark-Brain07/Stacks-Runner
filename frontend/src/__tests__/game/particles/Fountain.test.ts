@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Fountain}from"../../game/particles/Fountain";
+describe("Fountain",()=>{it("ok",()=>expect(new Fountain()).toBeDefined());it("toggle",()=>{const x=new Fountain();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Fountain();x.set("a",1);expect(x.get("a")).toBe(1);});});
