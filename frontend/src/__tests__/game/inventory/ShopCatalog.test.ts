@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ShopCatalog}from"../../game/inventory/ShopCatalog";
+describe("ShopCatalog",()=>{it("ok",()=>expect(new ShopCatalog()).toBeDefined());it("toggle",()=>{const x=new ShopCatalog();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ShopCatalog();x.set("a",1);expect(x.get("a")).toBe(1);});});
