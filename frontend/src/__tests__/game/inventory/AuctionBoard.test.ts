@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AuctionBoard}from"../../game/inventory/AuctionBoard";
+describe("AuctionBoard",()=>{it("ok",()=>expect(new AuctionBoard()).toBeDefined());it("toggle",()=>{const x=new AuctionBoard();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new AuctionBoard();x.set("a",1);expect(x.get("a")).toBe(1);});});
