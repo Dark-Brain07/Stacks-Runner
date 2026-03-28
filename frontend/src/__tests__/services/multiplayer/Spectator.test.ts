@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Spectator}from"../../services/multiplayer/Spectator";
+describe("Spectator",()=>{it("ok",()=>expect(new Spectator()).toBeDefined());it("toggle",()=>{const x=new Spectator();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Spectator();x.set("a",1);expect(x.get("a")).toBe(1);});});
