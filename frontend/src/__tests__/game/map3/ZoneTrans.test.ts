@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ZoneTrans}from"../../game/map3/ZoneTrans";
+describe("ZoneTrans",()=>{it("ok",()=>expect(new ZoneTrans()).toBeDefined());it("toggle",()=>{const x=new ZoneTrans();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ZoneTrans();x.set("a",1);expect(x.get("a")).toBe(1);});});
