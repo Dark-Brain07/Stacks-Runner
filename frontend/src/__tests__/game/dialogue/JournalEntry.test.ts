@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{JournalEntry}from"../../game/dialogue/JournalEntry";
+describe("JournalEntry",()=>{it("ok",()=>expect(new JournalEntry()).toBeDefined());it("toggle",()=>{const x=new JournalEntry();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new JournalEntry();x.set("a",1);expect(x.get("a")).toBe(1);});});
