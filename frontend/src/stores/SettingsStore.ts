@@ -1,8 +1,25 @@
-export class SettingsStore{private data:Record<string,any>={};
-get<T>(k:string):T|undefined{return this.data[k];}
-set(k:string,v:any){this.data[k]=v;}
-has(k:string):boolean{return k in this.data;}
-remove(k:string){delete this.data[k];}
-keys():string[]{return Object.keys(this.data);}
-clear(){this.data={};
-getAll(){return{...this.data};}}}
+import { create } from 'zustand';
+import { devtools, persist } from 'zustand/middleware';
+
+interface SettingsStoreState {
+  loading: boolean;
+  error: string | null;
+  initialized: boolean;
+}
+
+interface SettingsStoreActions {
+  setLoading(v: boolean): void;
+  setError(e: string | null): void;
+  reset(): void;
+  initialize(): Promise<void>;
+}
+
+const initial: SettingsStoreState = { loading: false, error: null, initialized: false };
+
+export const useSettingsStore = create<SettingsStoreState & SettingsStoreActions>()(devtools(persist((set) => ({
+  ...initial,
+  setLoading: (loading) => set({ loading }),
+  setError: (error) => set({ error }),
+  reset: () => set(initial),
+  initialize: async () => { set({ loading: true }); await new Promise(r => setTimeout(r, 100)); set({ initialized: true, loading: false }); },
+}), { name: 'settingsstore' })));
