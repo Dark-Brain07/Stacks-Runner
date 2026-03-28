@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{QuestEditor2}from"../../tools2/QuestEditor2";
+describe("QuestEditor2",()=>{it("ok",()=>expect(new QuestEditor2()).toBeDefined());it("toggle",()=>{const x=new QuestEditor2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new QuestEditor2();x.set("a",1);expect(x.get("a")).toBe(1);});});
