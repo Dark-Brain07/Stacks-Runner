@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InterpEngine}from"../../services/multiplayer/InterpEngine";
+describe("InterpEngine",()=>{it("ok",()=>expect(new InterpEngine()).toBeDefined());it("toggle",()=>{const x=new InterpEngine();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new InterpEngine();x.set("a",1);expect(x.get("a")).toBe(1);});});
