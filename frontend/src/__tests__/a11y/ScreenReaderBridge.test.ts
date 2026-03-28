@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ScreenReaderBridge}from'../../a11y/ScreenReaderBridge';
+describe('ScreenReaderBridge',()=>{it('starts disabled',()=>expect(new ScreenReaderBridge().isActive()).toBe(false));it('enables',()=>{const x=new ScreenReaderBridge();x.enable();expect(x.isActive()).toBe(true);});it('toggles',()=>{const x=new ScreenReaderBridge();x.toggle();expect(x.isActive()).toBe(true);x.toggle();expect(x.isActive()).toBe(false);});});
