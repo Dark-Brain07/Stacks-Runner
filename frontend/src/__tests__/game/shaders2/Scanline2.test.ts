@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Scanline2}from"../../game/shaders2/Scanline2";
+describe("Scanline2",()=>{it("ok",()=>expect(new Scanline2()).toBeDefined());it("toggle",()=>{const x=new Scanline2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Scanline2();x.set("a",1);expect(x.get("a")).toBe(1);});});
