@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{CompressorNode}from'../../audio/CompressorNode';
+describe('CompressorNode',()=>{it('defaults to gain 1',()=>expect(new CompressorNode().getGain()).toBe(1));it('mutes',()=>{const x=new CompressorNode();x.mute();expect(x.isMuted()).toBe(true);});it('clamps gain',()=>{const x=new CompressorNode();x.setGain(5);expect(x.getGain()).toBe(1);});});
