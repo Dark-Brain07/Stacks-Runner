@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TierSys}from"../../game/achievements/TierSys";
+describe("TierSys",()=>{it("ok",()=>expect(new TierSys()).toBeDefined());it("toggle",()=>{const x=new TierSys();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new TierSys();x.set("a",1);expect(x.get("a")).toBe(1);});});
