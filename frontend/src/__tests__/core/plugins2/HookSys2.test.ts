@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{HookSys2}from"../../core/plugins2/HookSys2";
+describe("HookSys2",()=>{it("ok",()=>expect(new HookSys2()).toBeDefined());it("toggle",()=>{const x=new HookSys2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new HookSys2();x.set("a",1);expect(x.get("a")).toBe(1);});});
