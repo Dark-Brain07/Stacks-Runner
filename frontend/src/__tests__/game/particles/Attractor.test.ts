@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Attractor}from"../../game/particles/Attractor";
+describe("Attractor",()=>{it("ok",()=>expect(new Attractor()).toBeDefined());it("toggle",()=>{const x=new Attractor();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Attractor();x.set("a",1);expect(x.get("a")).toBe(1);});});
