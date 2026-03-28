@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Deployment
+metadata:
+  name: stacks-runner-deployment
+  namespace: production
+  labels:
+    app: stacks-runner
+spec:
+  # deployment configuration
+  replicas: 3
