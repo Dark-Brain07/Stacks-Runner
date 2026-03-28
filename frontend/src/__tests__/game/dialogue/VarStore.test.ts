@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{VarStore}from"../../game/dialogue/VarStore";
+describe("VarStore",()=>{it("ok",()=>expect(new VarStore()).toBeDefined());it("toggle",()=>{const x=new VarStore();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new VarStore();x.set("a",1);expect(x.get("a")).toBe(1);});});
