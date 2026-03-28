@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DayNight}from"../../game/terrain/DayNight";
+describe("DayNight",()=>{it("ok",()=>expect(new DayNight()).toBeDefined());it("toggle",()=>{const x=new DayNight();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new DayNight();x.set("a",1);expect(x.get("a")).toBe(1);});});
