@@ -1,0 +1,11 @@
+{
+  "name": "reggae",
+  "eq": {
+    "bass": 0,
+    "mid": 0,
+    "treble": 0
+  },
+  "reverb": 0.3,
+  "compression": 0.5,
+  "volume": 0.8
+}
