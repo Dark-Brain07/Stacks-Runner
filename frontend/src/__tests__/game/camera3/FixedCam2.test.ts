@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FixedCam2}from"../../game/camera3/FixedCam2";
+describe("FixedCam2",()=>{it("ok",()=>expect(new FixedCam2()).toBeDefined());it("toggle",()=>{const x=new FixedCam2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new FixedCam2();x.set("a",1);expect(x.get("a")).toBe(1);});});
