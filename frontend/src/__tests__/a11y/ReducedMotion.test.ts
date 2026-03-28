@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ReducedMotion}from'../../a11y/ReducedMotion';
+describe('ReducedMotion',()=>{it('starts disabled',()=>expect(new ReducedMotion().isActive()).toBe(false));it('enables',()=>{const x=new ReducedMotion();x.enable();expect(x.isActive()).toBe(true);});it('toggles',()=>{const x=new ReducedMotion();x.toggle();expect(x.isActive()).toBe(true);x.toggle();expect(x.isActive()).toBe(false);});});
