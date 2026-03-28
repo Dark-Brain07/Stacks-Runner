@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CamCtrl2}from"../../game/camera3/CamCtrl2";
+describe("CamCtrl2",()=>{it("ok",()=>expect(new CamCtrl2()).toBeDefined());it("toggle",()=>{const x=new CamCtrl2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CamCtrl2();x.set("a",1);expect(x.get("a")).toBe(1);});});
