@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StreakCount}from"../../game/achievements/StreakCount";
+describe("StreakCount",()=>{it("ok",()=>expect(new StreakCount()).toBeDefined());it("toggle",()=>{const x=new StreakCount();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new StreakCount();x.set("a",1);expect(x.get("a")).toBe(1);});});
