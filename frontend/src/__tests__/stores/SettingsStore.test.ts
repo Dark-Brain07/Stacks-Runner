@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{SettingsStore}from'../../stores/SettingsStore';
+describe('SettingsStore',()=>{it('gets and sets',()=>{const x=new SettingsStore();x.set('a',1);expect(x.get('a')).toBe(1);});it('clears',()=>{const x=new SettingsStore();x.set('b',2);x.clear();expect(x.has('b')).toBe(false);});});
