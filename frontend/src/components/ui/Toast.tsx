@@ -1,1 +1,23 @@
-import React, { useState, useEffect } from "react"; interface ToastProps { message: string; type?: "success" | "error" | "info"; duration?: number; onClose: () => void; } export const Toast: React.FC<ToastProps> = ({ message, type = "info", duration = 3000, onClose }) => { const [visible, setVisible] = useState(true); useEffect(() => { const timer = setTimeout(() => { setVisible(false); setTimeout(onClose, 300); }, duration); return () => clearTimeout(timer); }, [duration, onClose]); const colors = { success: "bg-green-800 border-green-600", error: "bg-red-800 border-red-600", info: "bg-blue-800 border-blue-600" }; const icons = { success: "✓", error: "✕", info: "ℹ" }; return React.createElement("div", { className: `fixed bottom-4 right-4 z-50 flex items-center gap-2 px-4 py-3 rounded-lg border text-white transition-all duration-300 ${colors[type]} ${visible ? "opacity-100 translate-y-0" : "opacity-0 translate-y-4"}` }, React.createElement("span", null, icons[type]), message); };
+import React, { memo, forwardRef } from 'react';
+
+export interface ToastProps {
+  className?: string;
+  children?: React.ReactNode;
+  variant?: 'default' | 'primary' | 'secondary' | 'ghost';
+  size?: 'sm' | 'md' | 'lg';
+  disabled?: boolean;
+  onClick?: () => void;
+}
+
+export const Toast = memo(forwardRef<HTMLDivElement, ToastProps>(
+  ({ className = '', variant = 'default', size = 'md', disabled, onClick, children }, ref) => {
+    const cls = ['sr-toast', `sr-toast--${variant}`, `sr-toast--${size}`, disabled ? 'sr-disabled' : '', className].filter(Boolean).join(' ');
+    return (
+      <div ref={ref} className={cls} onClick={disabled ? undefined : onClick} role="button" tabIndex={disabled ? -1 : 0} aria-disabled={disabled}>
+        {children}
+      </div>
+    );
+  }
+));
+
+Toast.displayName = 'Toast';
