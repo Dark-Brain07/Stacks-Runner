@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MuteSched}from"../../services/notif3/MuteSched";
+describe("MuteSched",()=>{it("ok",()=>expect(new MuteSched()).toBeDefined());it("toggle",()=>{const x=new MuteSched();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new MuteSched();x.set("a",1);expect(x.get("a")).toBe(1);});});
