@@ -1,0 +1,1 @@
+export const PREV2={channel:"prev",experimental:false} as const;
