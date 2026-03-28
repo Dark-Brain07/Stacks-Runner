@@ -1,0 +1,22 @@
+{
+  "gameTitle": "[VI] Stacks Runner",
+  "playButton": "[VI] Play Now",
+  "connectWallet": "[VI] Connect Wallet",
+  "leaderboard": "[VI] Leaderboard",
+  "settings": "[VI] Settings",
+  "inventory": "[VI] Inventory",
+  "marketplace": "[VI] Marketplace",
+  "profile": "[VI] Profile",
+  "achievements": "[VI] Achievements",
+  "tournaments": "[VI] Tournaments",
+  "guilds": "[VI] Guilds",
+  "friends": "[VI] Friends",
+  "chat": "[VI] Chat",
+  "help": "[VI] Help",
+  "logout": "[VI] Sign Out",
+  "loading": "[VI] Loading...",
+  "error": "[VI] Something went wrong",
+  "retry": "[VI] Try Again",
+  "cancel": "[VI] Cancel",
+  "confirm": "[VI] Confirm"
+}
