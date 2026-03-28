@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{FocusTrap}from'../../a11y/FocusTrap';
+describe('FocusTrap',()=>{it('starts disabled',()=>expect(new FocusTrap().isActive()).toBe(false));it('enables',()=>{const x=new FocusTrap();x.enable();expect(x.isActive()).toBe(true);});it('toggles',()=>{const x=new FocusTrap();x.toggle();expect(x.isActive()).toBe(true);x.toggle();expect(x.isActive()).toBe(false);});});
