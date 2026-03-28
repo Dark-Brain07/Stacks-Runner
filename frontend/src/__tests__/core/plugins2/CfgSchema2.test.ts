@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CfgSchema2}from"../../core/plugins2/CfgSchema2";
+describe("CfgSchema2",()=>{it("ok",()=>expect(new CfgSchema2()).toBeDefined());it("toggle",()=>{const x=new CfgSchema2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CfgSchema2();x.set("a",1);expect(x.get("a")).toBe(1);});});
