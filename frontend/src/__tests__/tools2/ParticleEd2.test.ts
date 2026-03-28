@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ParticleEd2}from"../../tools2/ParticleEd2";
+describe("ParticleEd2",()=>{it("ok",()=>expect(new ParticleEd2()).toBeDefined());it("toggle",()=>{const x=new ParticleEd2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ParticleEd2();x.set("a",1);expect(x.get("a")).toBe(1);});});
