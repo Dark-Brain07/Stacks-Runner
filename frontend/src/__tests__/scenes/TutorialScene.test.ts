@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{TutorialScene}from'../../scenes/TutorialScene';
+describe('TutorialScene',()=>{it('starts inactive',()=>expect(new TutorialScene().isActive()).toBe(false));it('activates on enter',()=>{const s=new TutorialScene();s.onEnter();expect(s.isActive()).toBe(true);});it('deactivates on exit',()=>{const s=new TutorialScene();s.onEnter();s.onExit();expect(s.isActive()).toBe(false);});});
