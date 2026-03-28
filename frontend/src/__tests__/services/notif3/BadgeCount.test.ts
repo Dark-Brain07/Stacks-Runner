@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BadgeCount}from"../../services/notif3/BadgeCount";
+describe("BadgeCount",()=>{it("ok",()=>expect(new BadgeCount()).toBeDefined());it("toggle",()=>{const x=new BadgeCount();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new BadgeCount();x.set("a",1);expect(x.get("a")).toBe(1);});});
