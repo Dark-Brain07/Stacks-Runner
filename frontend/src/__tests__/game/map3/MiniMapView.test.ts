@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MiniMapView}from"../../game/map3/MiniMapView";
+describe("MiniMapView",()=>{it("ok",()=>expect(new MiniMapView()).toBeDefined());it("toggle",()=>{const x=new MiniMapView();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new MiniMapView();x.set("a",1);expect(x.get("a")).toBe(1);});});
