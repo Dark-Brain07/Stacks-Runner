@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FilmGrain2}from"../../game/shaders2/FilmGrain2";
+describe("FilmGrain2",()=>{it("ok",()=>expect(new FilmGrain2()).toBeDefined());it("toggle",()=>{const x=new FilmGrain2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new FilmGrain2();x.set("a",1);expect(x.get("a")).toBe(1);});});
