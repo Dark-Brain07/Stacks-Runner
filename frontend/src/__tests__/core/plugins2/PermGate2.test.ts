@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PermGate2}from"../../core/plugins2/PermGate2";
+describe("PermGate2",()=>{it("ok",()=>expect(new PermGate2()).toBeDefined());it("toggle",()=>{const x=new PermGate2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PermGate2();x.set("a",1);expect(x.get("a")).toBe(1);});});
