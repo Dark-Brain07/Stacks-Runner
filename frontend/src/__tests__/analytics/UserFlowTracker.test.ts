@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{UserFlowTracker}from'../../analytics/UserFlowTracker';
+describe('UserFlowTracker',()=>{it('tracks events',()=>{const x=new UserFlowTracker();x.track('click');expect(x.getMetrics().total).toBe(1);});it('flushes',()=>{const x=new UserFlowTracker();x.track('a');const d=x.flush();expect(d).toHaveLength(1);expect(x.getData()).toHaveLength(0);});it('disables',()=>{const x=new UserFlowTracker();x.disable();x.track('x');expect(x.getMetrics().total).toBe(0);});});
