@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{DeployerStep}from'../../pipeline/DeployerStep';
+describe('DeployerStep',()=>{it('runs configured',async()=>{const x=new DeployerStep();x.configure({a:1});const r=await x.run();expect(r.ok).toBe(true);});});
