@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ClarityParser}from'../../chain/ClarityParser';
+describe('ClarityParser',()=>{it('defaults mainnet',()=>expect(new ClarityParser().getNet()).toBe('mainnet'));it('checks params',()=>expect(new ClarityParser().check({a:1})).toBe(true));});
