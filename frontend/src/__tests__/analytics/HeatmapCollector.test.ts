@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{HeatmapCollector}from'../../analytics/HeatmapCollector';
+describe('HeatmapCollector',()=>{it('tracks events',()=>{const x=new HeatmapCollector();x.track('click');expect(x.getMetrics().total).toBe(1);});it('flushes',()=>{const x=new HeatmapCollector();x.track('a');const d=x.flush();expect(d).toHaveLength(1);expect(x.getData()).toHaveLength(0);});it('disables',()=>{const x=new HeatmapCollector();x.disable();x.track('x');expect(x.getMetrics().total).toBe(0);});});
