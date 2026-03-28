@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CamPath2}from"../../game/camera3/CamPath2";
+describe("CamPath2",()=>{it("ok",()=>expect(new CamPath2()).toBeDefined());it("toggle",()=>{const x=new CamPath2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CamPath2();x.set("a",1);expect(x.get("a")).toBe(1);});});
