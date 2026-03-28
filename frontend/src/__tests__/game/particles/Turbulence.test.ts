@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Turbulence}from"../../game/particles/Turbulence";
+describe("Turbulence",()=>{it("ok",()=>expect(new Turbulence()).toBeDefined());it("toggle",()=>{const x=new Turbulence();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Turbulence();x.set("a",1);expect(x.get("a")).toBe(1);});});
