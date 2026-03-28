@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{AudioPool}from'../../audio/AudioPool';
+describe('AudioPool',()=>{it('defaults to gain 1',()=>expect(new AudioPool().getGain()).toBe(1));it('mutes',()=>{const x=new AudioPool();x.mute();expect(x.isMuted()).toBe(true);});it('clamps gain',()=>{const x=new AudioPool();x.setGain(5);expect(x.getGain()).toBe(1);});});
