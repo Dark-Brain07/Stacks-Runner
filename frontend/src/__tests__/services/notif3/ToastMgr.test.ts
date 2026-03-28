@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ToastMgr}from"../../services/notif3/ToastMgr";
+describe("ToastMgr",()=>{it("ok",()=>expect(new ToastMgr()).toBeDefined());it("toggle",()=>{const x=new ToastMgr();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ToastMgr();x.set("a",1);expect(x.get("a")).toBe(1);});});
