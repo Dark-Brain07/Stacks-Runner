@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ShadowCaster}from"../../game/terrain/ShadowCaster";
+describe("ShadowCaster",()=>{it("ok",()=>expect(new ShadowCaster()).toBeDefined());it("toggle",()=>{const x=new ShadowCaster();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ShadowCaster();x.set("a",1);expect(x.get("a")).toBe(1);});});
