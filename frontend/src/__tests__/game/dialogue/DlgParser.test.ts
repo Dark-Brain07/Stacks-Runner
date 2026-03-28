@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DlgParser}from"../../game/dialogue/DlgParser";
+describe("DlgParser",()=>{it("ok",()=>expect(new DlgParser()).toBeDefined());it("toggle",()=>{const x=new DlgParser();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new DlgParser();x.set("a",1);expect(x.get("a")).toBe(1);});});
