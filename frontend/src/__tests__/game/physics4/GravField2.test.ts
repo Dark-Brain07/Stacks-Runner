@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{GravField2}from"../../game/physics4/GravField2";
+describe("GravField2",()=>{it("ok",()=>expect(new GravField2()).toBeDefined());it("toggle",()=>{const x=new GravField2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new GravField2();x.set("a",1);expect(x.get("a")).toBe(1);});});
