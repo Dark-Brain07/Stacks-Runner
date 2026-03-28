@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CamZoom2}from"../../game/camera3/CamZoom2";
+describe("CamZoom2",()=>{it("ok",()=>expect(new CamZoom2()).toBeDefined());it("toggle",()=>{const x=new CamZoom2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CamZoom2();x.set("a",1);expect(x.get("a")).toBe(1);});});
