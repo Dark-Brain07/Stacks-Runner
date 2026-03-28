@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Compass4}from"../../game/map3/Compass4";
+describe("Compass4",()=>{it("ok",()=>expect(new Compass4()).toBeDefined());it("toggle",()=>{const x=new Compass4();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Compass4();x.set("a",1);expect(x.get("a")).toBe(1);});});
