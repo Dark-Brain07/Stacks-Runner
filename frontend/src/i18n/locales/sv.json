@@ -1,8 +1,22 @@
 {
-  "app.title": "Stacks Runner",
-  "menu.play": "Play",
-  "menu.settings": "Settings",
-  "game.score": "Score",
-  "game.over": "Game Over",
-  "game.restart": "Restart"
+  "gameTitle": "[SV] Stacks Runner",
+  "playButton": "[SV] Play Now",
+  "connectWallet": "[SV] Connect Wallet",
+  "leaderboard": "[SV] Leaderboard",
+  "settings": "[SV] Settings",
+  "inventory": "[SV] Inventory",
+  "marketplace": "[SV] Marketplace",
+  "profile": "[SV] Profile",
+  "achievements": "[SV] Achievements",
+  "tournaments": "[SV] Tournaments",
+  "guilds": "[SV] Guilds",
+  "friends": "[SV] Friends",
+  "chat": "[SV] Chat",
+  "help": "[SV] Help",
+  "logout": "[SV] Sign Out",
+  "loading": "[SV] Loading...",
+  "error": "[SV] Something went wrong",
+  "retry": "[SV] Try Again",
+  "cancel": "[SV] Cancel",
+  "confirm": "[SV] Confirm"
 }
