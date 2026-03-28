@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{EquipSlot}from"../../game/inventory/EquipSlot";
+describe("EquipSlot",()=>{it("ok",()=>expect(new EquipSlot()).toBeDefined());it("toggle",()=>{const x=new EquipSlot();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new EquipSlot();x.set("a",1);expect(x.get("a")).toBe(1);});});
