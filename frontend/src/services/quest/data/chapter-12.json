@@ -1,0 +1,36 @@
+{
+  "chapter": 12,
+  "title": "Chapter 12: The Odyssey",
+  "quests": [
+    {
+      "id": "ch12-q1",
+      "title": "Quest 1",
+      "xpReward": 1200,
+      "objectives": 3
+    },
+    {
+      "id": "ch12-q2",
+      "title": "Quest 2",
+      "xpReward": 1250,
+      "objectives": 3
+    },
+    {
+      "id": "ch12-q3",
+      "title": "Quest 3",
+      "xpReward": 1300,
+      "objectives": 3
+    },
+    {
+      "id": "ch12-q4",
+      "title": "Quest 4",
+      "xpReward": 1350,
+      "objectives": 3
+    },
+    {
+      "id": "ch12-q5",
+      "title": "Quest 5",
+      "xpReward": 1400,
+      "objectives": 3
+    }
+  ]
+}
