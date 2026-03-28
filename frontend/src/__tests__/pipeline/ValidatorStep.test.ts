@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ValidatorStep}from'../../pipeline/ValidatorStep';
+describe('ValidatorStep',()=>{it('runs configured',async()=>{const x=new ValidatorStep();x.configure({a:1});const r=await x.run();expect(r.ok).toBe(true);});});
