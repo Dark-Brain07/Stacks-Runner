@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ToneMap2}from"../../game/shaders2/ToneMap2";
+describe("ToneMap2",()=>{it("ok",()=>expect(new ToneMap2()).toBeDefined());it("toggle",()=>{const x=new ToneMap2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ToneMap2();x.set("a",1);expect(x.get("a")).toBe(1);});});
