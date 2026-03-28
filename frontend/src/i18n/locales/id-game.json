@@ -1,0 +1,7 @@
+{
+  "score": "[ID] Score",
+  "lives": "[ID] Lives",
+  "wave": "[ID] Wave",
+  "gameOver": "[ID] Game Over",
+  "highScore": "[ID] High Score"
+}
