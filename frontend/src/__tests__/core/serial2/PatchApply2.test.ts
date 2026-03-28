@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PatchApply2}from"../../core/serial2/PatchApply2";
+describe("PatchApply2",()=>{it("ok",()=>expect(new PatchApply2()).toBeDefined());it("toggle",()=>{const x=new PatchApply2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PatchApply2();x.set("a",1);expect(x.get("a")).toBe(1);});});
