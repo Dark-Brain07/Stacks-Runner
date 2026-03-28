@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{BundlerStep}from'../../pipeline/BundlerStep';
+describe('BundlerStep',()=>{it('runs configured',async()=>{const x=new BundlerStep();x.configure({a:1});const r=await x.run();expect(r.ok).toBe(true);});});
