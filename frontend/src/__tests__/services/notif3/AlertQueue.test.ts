@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AlertQueue}from"../../services/notif3/AlertQueue";
+describe("AlertQueue",()=>{it("ok",()=>expect(new AlertQueue()).toBeDefined());it("toggle",()=>{const x=new AlertQueue();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new AlertQueue();x.set("a",1);expect(x.get("a")).toBe(1);});});
