@@ -1,0 +1,4 @@
+[data-theme="pearl"]{--bg:#0D1117;--fg:#C9D1D9;--primary:#58A6FF;--accent:#F778BA;}
+.pearl-wrap{background:var(--bg);color:var(--fg);font-family:Inter,sans-serif;}
+.pearl-btn{background:var(--primary);color:#fff;border:none;border-radius:8px;padding:.5rem 1rem;cursor:pointer;transition:all .2s ease;}
+.pearl-btn:hover{opacity:.9;transform:translateY(-1px);}
