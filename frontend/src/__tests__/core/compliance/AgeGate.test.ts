@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AgeGate}from"../../core/compliance/AgeGate";
+describe("AgeGate",()=>{it("creates",()=>expect(new AgeGate()).toBeDefined());it("toggles",()=>{const x=new AgeGate();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new AgeGate();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new AgeGate();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new AgeGate();x.dispose();expect(x.isActive()).toBe(false);});});
