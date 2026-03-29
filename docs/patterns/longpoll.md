@@ -1,0 +1,12 @@
+# Longpoll
+
+## Overview
+Implementation pattern for longpoll.
+
+## When to Use
+- High throughput scenarios
+- Real-time requirements
+
+## Trade-offs
+- Complexity vs performance
+- Consistency vs availability
