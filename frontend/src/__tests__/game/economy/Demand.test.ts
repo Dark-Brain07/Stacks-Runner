@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Demand}from"../../game/economy/Demand";
+describe("Demand",()=>{it("creates",()=>expect(new Demand()).toBeDefined());it("toggles",()=>{const x=new Demand();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new Demand();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new Demand();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new Demand();x.dispose();expect(x.isActive()).toBe(false);});});
