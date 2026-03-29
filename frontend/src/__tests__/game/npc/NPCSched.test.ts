@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{NPCSched}from"../../game/npc/NPCSched";
+describe("NPCSched",()=>{it("creates",()=>expect(new NPCSched()).toBeDefined());it("toggles",()=>{const x=new NPCSched();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new NPCSched();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new NPCSched();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new NPCSched();x.dispose();expect(x.isActive()).toBe(false);});});
