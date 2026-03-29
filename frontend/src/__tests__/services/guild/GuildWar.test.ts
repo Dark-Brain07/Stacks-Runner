@@ -1,7 +1,2 @@
-import { describe, it, expect } from 'vitest';
-import { GuildWar } from '../../../services/guild/GuildWar';
-describe('GuildWar', () => {
-  it('initializes', () => { const s = new GuildWar(); expect(s).toBeDefined(); });
-  it('starts', async () => { const s = new GuildWar(); await s.start(); expect(s.isActive()).toBe(true); });
-  it('stops', async () => { const s = new GuildWar(); await s.start(); await s.stop(); expect(s.isActive()).toBe(false); });
-});
+import{describe,it,expect}from"vitest";import{GuildWar}from"../../services/guild/GuildWar";
+describe("GuildWar",()=>{it("creates",()=>expect(new GuildWar()).toBeDefined());it("toggles",()=>{const x=new GuildWar();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new GuildWar();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new GuildWar();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new GuildWar();x.dispose();expect(x.isActive()).toBe(false);});});
