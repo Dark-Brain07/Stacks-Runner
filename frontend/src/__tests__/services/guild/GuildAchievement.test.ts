@@ -1,7 +1,2 @@
-import { describe, it, expect } from 'vitest';
-import { GuildAchievement } from '../../../services/guild/GuildAchievement';
-describe('GuildAchievement', () => {
-  it('initializes', () => { const s = new GuildAchievement(); expect(s).toBeDefined(); });
-  it('starts', async () => { const s = new GuildAchievement(); await s.start(); expect(s.isActive()).toBe(true); });
-  it('stops', async () => { const s = new GuildAchievement(); await s.start(); await s.stop(); expect(s.isActive()).toBe(false); });
-});
+import{describe,it,expect}from"vitest";import{GuildAchievement}from"../../services/guild/GuildAchievement";
+describe("GuildAchievement",()=>{it("creates",()=>expect(new GuildAchievement()).toBeDefined());it("toggles",()=>{const x=new GuildAchievement();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new GuildAchievement();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new GuildAchievement();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new GuildAchievement();x.dispose();expect(x.isActive()).toBe(false);});});
