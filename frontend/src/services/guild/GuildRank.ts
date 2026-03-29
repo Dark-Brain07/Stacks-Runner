@@ -1,7 +1,9 @@
-import { EventEmitter } from 'events';
-export class GuildRank extends EventEmitter {
-  private active = false;
-  async start() { this.active = true; this.emit('started'); }
-  async stop() { this.active = false; this.emit('stopped'); }
-  isActive() { return this.active; }
-}
+export class GuildRank{private s:Record<string,any>={};private on=true;
+enable(){this.on=true;}
+disable(){this.on=false;}
+isActive(){return this.on;}
+get(k:string){return this.s[k];}
+set(k:string,v:any){this.s[k]=v;}
+reset(){this.s={};this.on=true;}
+dispose(){this.s={};this.on=false;}
+toJSON(){return{active:this.on,state:this.s};}}
