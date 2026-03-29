@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PetMood}from"../../game/pets/PetMood";
+describe("PetMood",()=>{it("creates",()=>expect(new PetMood()).toBeDefined());it("toggles",()=>{const x=new PetMood();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new PetMood();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new PetMood();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new PetMood();x.dispose();expect(x.isActive()).toBe(false);});});
