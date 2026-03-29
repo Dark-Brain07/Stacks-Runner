@@ -1,40 +1,9 @@
-import { EventEmitter } from 'events';
-
-/**
- * ActivityFeed - Social feature service
- * @module services/ActivityFeed
- */
-export interface ActivityFeedOptions {
-  enabled: boolean;
-  maxRetries: number;
-  timeoutMs: number;
-  batchSize: number;
-}
-
-export class ActivityFeed extends EventEmitter {
-  private opts: ActivityFeedOptions;
-  private active = false;
-  private metrics = { calls: 0, errors: 0, latencySum: 0 };
-
-  constructor(opts: Partial<ActivityFeedOptions> = {}) {
-    super();
-    this.opts = { enabled: true, maxRetries: 3, timeoutMs: 5000, batchSize: 50, ...opts };
-  }
-
-  async start(): Promise<void> {
-    if (this.active) return;
-    this.active = true;
-    this.emit('started');
-  }
-
-  async stop(): Promise<void> {
-    this.active = false;
-    this.emit('stopped');
-  }
-
-  isActive(): boolean { return this.active && this.opts.enabled; }
-
-  getMetrics() { return { ...this.metrics, avgLatency: this.metrics.calls ? this.metrics.latencySum / this.metrics.calls : 0 }; }
-
-  resetMetrics(): void { this.metrics = { calls: 0, errors: 0, latencySum: 0 }; }
-}
+export class ActivityFeed{private s:Record<string,any>={};private on=true;
+enable(){this.on=true;}
+disable(){this.on=false;}
+isActive(){return this.on;}
+get(k:string){return this.s[k];}
+set(k:string,v:any){this.s[k]=v;}
+reset(){this.s={};this.on=true;}
+dispose(){this.s={};this.on=false;}
+toJSON(){return{active:this.on,state:this.s};}}
