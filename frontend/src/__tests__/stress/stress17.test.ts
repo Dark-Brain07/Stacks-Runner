@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";
+describe("stress 17",()=>{it("handles load",()=>{const arr=Array.from({length:100000},(_,j)=>({id:j,val:j*17}));const filtered=arr.filter(x=>x.val%17===0);expect(filtered.length).toBeGreaterThan(0);});});
