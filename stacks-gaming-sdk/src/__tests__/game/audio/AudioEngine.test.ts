@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AudioEngine}from"../../game/audio/AudioEngine";
+describe("AudioEngine",()=>{it("ok",()=>expect(new AudioEngine()).toBeDefined());it("set/get",()=>{const x=new AudioEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AudioEngine();x.disable();expect(x.isActive()).toBe(false);});});

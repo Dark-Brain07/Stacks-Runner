@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ReputationScore}from"../../social/platform/ReputationScore";
+describe("ReputationScore",()=>{it("ok",()=>expect(new ReputationScore()).toBeDefined());it("state",()=>{const x=new ReputationScore();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ReputationScore();x.disable();expect(x.isActive()).toBe(false);});});

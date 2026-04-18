@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ActivityStream}from"../../social/platform/ActivityStream";
+describe("ActivityStream",()=>{it("ok",()=>expect(new ActivityStream()).toBeDefined());it("state",()=>{const x=new ActivityStream();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ActivityStream();x.disable();expect(x.isActive()).toBe(false);});});

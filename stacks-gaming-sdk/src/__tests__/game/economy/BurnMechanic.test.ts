@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BurnMechanic}from"../../game/economy/BurnMechanic";
+describe("BurnMechanic",()=>{it("ok",()=>expect(new BurnMechanic()).toBeDefined());it("state",()=>{const x=new BurnMechanic();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BurnMechanic();x.disable();expect(x.isActive()).toBe(false);});});

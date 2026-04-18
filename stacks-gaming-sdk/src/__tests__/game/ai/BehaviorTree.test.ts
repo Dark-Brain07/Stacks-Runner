@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BehaviorTree}from"../../game/ai/BehaviorTree";
+describe("BehaviorTree",()=>{it("ok",()=>expect(new BehaviorTree()).toBeDefined());it("set/get",()=>{const x=new BehaviorTree();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BehaviorTree();x.disable();expect(x.isActive()).toBe(false);});});

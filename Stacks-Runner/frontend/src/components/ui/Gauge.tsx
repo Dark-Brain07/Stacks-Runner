@@ -1,0 +1,2 @@
+import React from'react';
+export const Gauge:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-gauge','data-testid':'gauge'},React.createElement('span',{className:'label'},label||'Gauge'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));

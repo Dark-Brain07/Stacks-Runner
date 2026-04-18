@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FilterSystem}from"../../game/inventory/FilterSystem";
+describe("FilterSystem",()=>{it("ok",()=>expect(new FilterSystem()).toBeDefined());it("set/get",()=>{const x=new FilterSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new FilterSystem();x.disable();expect(x.isActive()).toBe(false);});});

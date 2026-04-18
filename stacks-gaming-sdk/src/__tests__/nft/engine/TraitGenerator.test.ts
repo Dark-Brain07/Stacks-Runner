@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TraitGenerator}from"../../nft/engine/TraitGenerator";
+describe("TraitGenerator",()=>{it("ok",()=>expect(new TraitGenerator()).toBeDefined());it("state",()=>{const x=new TraitGenerator();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TraitGenerator();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SlashingPenalty}from"../../game/economy/SlashingPenalty";
+describe("SlashingPenalty",()=>{it("ok",()=>expect(new SlashingPenalty()).toBeDefined());it("state",()=>{const x=new SlashingPenalty();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SlashingPenalty();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{BackgroundRenderer}from'../../game/renderer/BackgroundRenderer';
+describe('BackgroundRenderer',()=>{it('initializes',()=>{const r=new BackgroundRenderer();expect(r).toBeDefined();});});

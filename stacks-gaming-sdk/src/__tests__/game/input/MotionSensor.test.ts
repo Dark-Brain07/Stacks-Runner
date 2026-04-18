@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MotionSensor}from"../../game/input/MotionSensor";
+describe("MotionSensor",()=>{it("ok",()=>expect(new MotionSensor()).toBeDefined());it("set/get",()=>{const x=new MotionSensor();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MotionSensor();x.disable();expect(x.isActive()).toBe(false);});});

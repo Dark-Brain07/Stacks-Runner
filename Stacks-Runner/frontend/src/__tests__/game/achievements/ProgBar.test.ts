@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ProgBar}from"../../game/achievements/ProgBar";
+describe("ProgBar",()=>{it("ok",()=>expect(new ProgBar()).toBeDefined());it("toggle",()=>{const x=new ProgBar();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ProgBar();x.set("a",1);expect(x.get("a")).toBe(1);});});

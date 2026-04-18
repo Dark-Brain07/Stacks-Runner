@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{RewardPool}from"../../game/economy/RewardPool";
+describe("RewardPool",()=>{it("ok",()=>expect(new RewardPool()).toBeDefined());it("state",()=>{const x=new RewardPool();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new RewardPool();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StateManager}from"../../game/ai/StateManager";
+describe("StateManager",()=>{it("ok",()=>expect(new StateManager()).toBeDefined());it("set/get",()=>{const x=new StateManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new StateManager();x.disable();expect(x.isActive()).toBe(false);});});

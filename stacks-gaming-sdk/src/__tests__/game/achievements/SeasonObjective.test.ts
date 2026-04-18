@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SeasonObjective}from"../../game/achievements/SeasonObjective";
+describe("SeasonObjective",()=>{it("ok",()=>expect(new SeasonObjective()).toBeDefined());it("state",()=>{const x=new SeasonObjective();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SeasonObjective();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BannerView}from"../../services/notif3/BannerView";
+describe("BannerView",()=>{it("ok",()=>expect(new BannerView()).toBeDefined());it("toggle",()=>{const x=new BannerView();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new BannerView();x.set("a",1);expect(x.get("a")).toBe(1);});});

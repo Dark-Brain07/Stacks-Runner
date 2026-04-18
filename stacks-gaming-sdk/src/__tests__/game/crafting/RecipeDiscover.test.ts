@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{RecipeDiscover}from"../../game/crafting/RecipeDiscover";
+describe("RecipeDiscover",()=>{it("ok",()=>expect(new RecipeDiscover()).toBeDefined());it("set/get",()=>{const x=new RecipeDiscover();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new RecipeDiscover();x.disable();expect(x.isActive()).toBe(false);});});

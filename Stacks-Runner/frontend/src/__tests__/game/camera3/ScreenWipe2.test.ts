@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ScreenWipe2}from"../../game/camera3/ScreenWipe2";
+describe("ScreenWipe2",()=>{it("ok",()=>expect(new ScreenWipe2()).toBeDefined());it("toggle",()=>{const x=new ScreenWipe2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ScreenWipe2();x.set("a",1);expect(x.get("a")).toBe(1);});});

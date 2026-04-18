@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{WalletSigner}from'../../chain/WalletSigner';
+describe('WalletSigner',()=>{it('defaults mainnet',()=>expect(new WalletSigner().getNet()).toBe('mainnet'));it('checks params',()=>expect(new WalletSigner().check({a:1})).toBe(true));});

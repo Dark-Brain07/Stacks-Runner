@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{FixtureLoader}from'../../testing/FixtureLoader';
+describe('FixtureLoader',()=>{it('runs tests',()=>{const x=new FixtureLoader();const r=x.run('test1',()=>{});expect(r.pass).toBe(true);});it('tracks results',()=>{const x=new FixtureLoader();x.run('a',()=>{});x.run('b',()=>{throw new Error();});expect(x.getSummary().passed).toBe(1);expect(x.getSummary().failed).toBe(1);});});

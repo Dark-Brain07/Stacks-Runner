@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AuctionHouse}from"../../game/inventory/AuctionHouse";
+describe("AuctionHouse",()=>{it("ok",()=>expect(new AuctionHouse()).toBeDefined());it("set/get",()=>{const x=new AuctionHouse();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AuctionHouse();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TournamentBracket}from"../../multiplayer/matchmaking/TournamentBracket";
+describe("TournamentBracket",()=>{it("ok",()=>expect(new TournamentBracket()).toBeDefined());it("state",()=>{const x=new TournamentBracket();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TournamentBracket();x.disable();expect(x.isActive()).toBe(false);});});

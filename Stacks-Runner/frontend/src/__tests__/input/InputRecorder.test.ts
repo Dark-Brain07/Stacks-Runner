@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{InputRecorder}from'../../input/InputRecorder';
+describe('InputRecorder',()=>{it('starts inactive',()=>expect(new InputRecorder().isRecording()).toBe(false));it('records events',()=>{const x=new InputRecorder();x.start();x.record({type:'tap'});expect(x.getCount()).toBe(1);});it('clears',()=>{const x=new InputRecorder();x.start();x.record({type:'tap'});x.clear();expect(x.getCount()).toBe(0);});});

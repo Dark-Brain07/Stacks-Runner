@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StorageVault}from"../../game/inventory/StorageVault";
+describe("StorageVault",()=>{it("ok",()=>expect(new StorageVault()).toBeDefined());it("set/get",()=>{const x=new StorageVault();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new StorageVault();x.disable();expect(x.isActive()).toBe(false);});});

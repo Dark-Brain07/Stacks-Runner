@@ -1,0 +1,1 @@
+export const STG_PRESET={env:'stg',debug:false,logLevel:'debug',timeout:30000,retries:1} as const;

@@ -1,0 +1,12 @@
+node_modules/
+dist/
+build/
+.env
+.env.*.local
+coverage/
+*.log
+.npmrc
+*.ps1
+*.js
+!frontend/postcss.config.js
+!Stacks-Runner/frontend/vite.config.ts

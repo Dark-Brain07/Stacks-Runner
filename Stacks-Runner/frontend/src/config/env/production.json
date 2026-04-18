@@ -1,0 +1,7 @@
+{
+  "environment": "production",
+  "debug": false,
+  "analytics": true,
+  "logging": "error",
+  "apiTimeout": 5000
+}

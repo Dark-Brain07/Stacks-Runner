@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InputManager}from"../../game/input/InputManager";
+describe("InputManager",()=>{it("ok",()=>expect(new InputManager()).toBeDefined());it("set/get",()=>{const x=new InputManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new InputManager();x.disable();expect(x.isActive()).toBe(false);});});

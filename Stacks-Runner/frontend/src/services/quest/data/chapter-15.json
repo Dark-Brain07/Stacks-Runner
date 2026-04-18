@@ -1,0 +1,36 @@
+{
+  "chapter": 15,
+  "title": "Chapter 15: The Genesis",
+  "quests": [
+    {
+      "id": "ch15-q1",
+      "title": "Quest 1",
+      "xpReward": 1500,
+      "objectives": 3
+    },
+    {
+      "id": "ch15-q2",
+      "title": "Quest 2",
+      "xpReward": 1550,
+      "objectives": 3
+    },
+    {
+      "id": "ch15-q3",
+      "title": "Quest 3",
+      "xpReward": 1600,
+      "objectives": 3
+    },
+    {
+      "id": "ch15-q4",
+      "title": "Quest 4",
+      "xpReward": 1650,
+      "objectives": 3
+    },
+    {
+      "id": "ch15-q5",
+      "title": "Quest 5",
+      "xpReward": 1700,
+      "objectives": 3
+    }
+  ]
+}

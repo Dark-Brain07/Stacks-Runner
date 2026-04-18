@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ThemeRandomizer}from'../../game/procgen/ThemeRandomizer';
+describe('ThemeRandomizer',()=>{it('generates with seed',()=>{const g=new ThemeRandomizer(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new ThemeRandomizer(1);g.reset();expect(g.getSeed()).not.toBe(1);});});

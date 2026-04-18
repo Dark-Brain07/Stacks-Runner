@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BranchEval}from"../../game/dialogue/BranchEval";
+describe("BranchEval",()=>{it("ok",()=>expect(new BranchEval()).toBeDefined());it("toggle",()=>{const x=new BranchEval();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new BranchEval();x.set("a",1);expect(x.get("a")).toBe(1);});});

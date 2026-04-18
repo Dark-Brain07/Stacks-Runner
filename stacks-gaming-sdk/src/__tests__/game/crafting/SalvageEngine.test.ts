@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SalvageEngine}from"../../game/crafting/SalvageEngine";
+describe("SalvageEngine",()=>{it("ok",()=>expect(new SalvageEngine()).toBeDefined());it("set/get",()=>{const x=new SalvageEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SalvageEngine();x.disable();expect(x.isActive()).toBe(false);});});

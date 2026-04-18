@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SortingEngine}from"../../game/inventory/SortingEngine";
+describe("SortingEngine",()=>{it("ok",()=>expect(new SortingEngine()).toBeDefined());it("set/get",()=>{const x=new SortingEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SortingEngine();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{HistoryLog}from"../../game/achievements/HistoryLog";
+describe("HistoryLog",()=>{it("ok",()=>expect(new HistoryLog()).toBeDefined());it("state",()=>{const x=new HistoryLog();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new HistoryLog();x.disable();expect(x.isActive()).toBe(false);});});

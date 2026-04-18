@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ObstacleSpawner}from'../../game/procgen/ObstacleSpawner';
+describe('ObstacleSpawner',()=>{it('generates with seed',()=>{const g=new ObstacleSpawner(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new ObstacleSpawner(1);g.reset();expect(g.getSeed()).not.toBe(1);});});

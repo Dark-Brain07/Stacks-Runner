@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MapRenderer}from"../../game/world/MapRenderer";
+describe("MapRenderer",()=>{it("ok",()=>expect(new MapRenderer()).toBeDefined());it("set/get",()=>{const x=new MapRenderer();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MapRenderer();x.disable();expect(x.isActive()).toBe(false);});});

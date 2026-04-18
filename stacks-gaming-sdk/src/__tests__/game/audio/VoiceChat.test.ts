@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{VoiceChat}from"../../game/audio/VoiceChat";
+describe("VoiceChat",()=>{it("ok",()=>expect(new VoiceChat()).toBeDefined());it("set/get",()=>{const x=new VoiceChat();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new VoiceChat();x.disable();expect(x.isActive()).toBe(false);});});

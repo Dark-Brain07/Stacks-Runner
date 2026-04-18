@@ -1,0 +1,9 @@
+version: '3.8'
+services:
+  test:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dev
+    command: npm test
+    environment:
+      - CI=true

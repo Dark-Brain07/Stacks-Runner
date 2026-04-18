@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CombatEngine}from"../../game/combat/CombatEngine";
+describe("CombatEngine",()=>{it("ok",()=>expect(new CombatEngine()).toBeDefined());it("set/get",()=>{const x=new CombatEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new CombatEngine();x.disable();expect(x.isActive()).toBe(false);});});

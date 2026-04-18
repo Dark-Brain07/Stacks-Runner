@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FreeLook2}from"../../game/camera3/FreeLook2";
+describe("FreeLook2",()=>{it("ok",()=>expect(new FreeLook2()).toBeDefined());it("toggle",()=>{const x=new FreeLook2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new FreeLook2();x.set("a",1);expect(x.get("a")).toBe(1);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{NotifyService}from"../../game/achievements/NotifyService";
+describe("NotifyService",()=>{it("ok",()=>expect(new NotifyService()).toBeDefined());it("state",()=>{const x=new NotifyService();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new NotifyService();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{FunnelAnalyzer}from'../../analytics/FunnelAnalyzer';
+describe('FunnelAnalyzer',()=>{it('tracks events',()=>{const x=new FunnelAnalyzer();x.track('click');expect(x.getMetrics().total).toBe(1);});it('flushes',()=>{const x=new FunnelAnalyzer();x.track('a');const d=x.flush();expect(d).toHaveLength(1);expect(x.getData()).toHaveLength(0);});it('disables',()=>{const x=new FunnelAnalyzer();x.disable();x.track('x');expect(x.getMetrics().total).toBe(0);});});

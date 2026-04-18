@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{NPCQuest}from"../../game/npc/NPCQuest";
+describe("NPCQuest",()=>{it("creates",()=>expect(new NPCQuest()).toBeDefined());it("toggles",()=>{const x=new NPCQuest();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new NPCQuest();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new NPCQuest();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new NPCQuest();x.dispose();expect(x.isActive()).toBe(false);});});

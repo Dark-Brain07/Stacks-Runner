@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{VibrationEngine}from"../../game/input/VibrationEngine";
+describe("VibrationEngine",()=>{it("ok",()=>expect(new VibrationEngine()).toBeDefined());it("set/get",()=>{const x=new VibrationEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new VibrationEngine();x.disable();expect(x.isActive()).toBe(false);});});

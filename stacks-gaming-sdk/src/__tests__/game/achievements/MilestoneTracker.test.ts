@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MilestoneTracker}from"../../game/achievements/MilestoneTracker";
+describe("MilestoneTracker",()=>{it("ok",()=>expect(new MilestoneTracker()).toBeDefined());it("state",()=>{const x=new MilestoneTracker();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MilestoneTracker();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{GroupNotif}from"../../services/notif3/GroupNotif";
+describe("GroupNotif",()=>{it("ok",()=>expect(new GroupNotif()).toBeDefined());it("toggle",()=>{const x=new GroupNotif();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new GroupNotif();x.set("a",1);expect(x.get("a")).toBe(1);});});

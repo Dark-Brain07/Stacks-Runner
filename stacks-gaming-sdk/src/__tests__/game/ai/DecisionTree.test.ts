@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DecisionTree}from"../../game/ai/DecisionTree";
+describe("DecisionTree",()=>{it("ok",()=>expect(new DecisionTree()).toBeDefined());it("set/get",()=>{const x=new DecisionTree();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new DecisionTree();x.disable();expect(x.isActive()).toBe(false);});});

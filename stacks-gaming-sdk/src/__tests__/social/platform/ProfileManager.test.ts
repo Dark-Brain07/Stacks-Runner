@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ProfileManager}from"../../social/platform/ProfileManager";
+describe("ProfileManager",()=>{it("ok",()=>expect(new ProfileManager()).toBeDefined());it("state",()=>{const x=new ProfileManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ProfileManager();x.disable();expect(x.isActive()).toBe(false);});});

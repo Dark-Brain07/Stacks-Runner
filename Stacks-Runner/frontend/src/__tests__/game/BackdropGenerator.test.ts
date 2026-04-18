@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{BackdropGenerator}from'../../game/procgen/BackdropGenerator';
+describe('BackdropGenerator',()=>{it('generates with seed',()=>{const g=new BackdropGenerator(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new BackdropGenerator(1);g.reset();expect(g.getSeed()).not.toBe(1);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ELOSystem}from"../../multiplayer/matchmaking/ELOSystem";
+describe("ELOSystem",()=>{it("ok",()=>expect(new ELOSystem()).toBeDefined());it("state",()=>{const x=new ELOSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ELOSystem();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CraftingQueue}from"../../game/crafting/CraftingQueue";
+describe("CraftingQueue",()=>{it("ok",()=>expect(new CraftingQueue()).toBeDefined());it("set/get",()=>{const x=new CraftingQueue();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new CraftingQueue();x.disable();expect(x.isActive()).toBe(false);});});

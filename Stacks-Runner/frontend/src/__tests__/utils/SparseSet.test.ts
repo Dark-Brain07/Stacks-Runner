@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{SparseSet}from'../../utils/structures/SparseSet';
+describe('SparseSet',()=>{it('starts empty',()=>expect(new SparseSet().isEmpty()).toBe(true));it('adds items',()=>{const s=new SparseSet();s.add(1);expect(s.size).toBe(1);});it('clears',()=>{const s=new SparseSet();s.add(1);s.clear();expect(s.isEmpty()).toBe(true);});});

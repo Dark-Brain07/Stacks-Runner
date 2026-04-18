@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Burst}from"../../game/particles/Burst";
+describe("Burst",()=>{it("ok",()=>expect(new Burst()).toBeDefined());it("toggle",()=>{const x=new Burst();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Burst();x.set("a",1);expect(x.get("a")).toBe(1);});});

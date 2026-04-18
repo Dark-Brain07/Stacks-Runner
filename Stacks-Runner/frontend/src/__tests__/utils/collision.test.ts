@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{rectIntersects,pointInRect}from'../../utils/collision';
+describe('collision',()=>{it('detects overlap',()=>expect(rectIntersects({x:0,y:0,w:10,h:10},{x:5,y:5,w:10,h:10})).toBe(true));it('detects no overlap',()=>expect(rectIntersects({x:0,y:0,w:10,h:10},{x:20,y:20,w:10,h:10})).toBe(false));it('point inside',()=>expect(pointInRect(5,5,{x:0,y:0,w:10,h:10})).toBe(true));it('point outside',()=>expect(pointInRect(15,15,{x:0,y:0,w:10,h:10})).toBe(false));});

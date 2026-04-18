@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DamageCalculator}from"../../game/combat/DamageCalculator";
+describe("DamageCalculator",()=>{it("ok",()=>expect(new DamageCalculator()).toBeDefined());it("set/get",()=>{const x=new DamageCalculator();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new DamageCalculator();x.disable();expect(x.isActive()).toBe(false);});});

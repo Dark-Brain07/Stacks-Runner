@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MuteManager}from"../../social/platform/MuteManager";
+describe("MuteManager",()=>{it("ok",()=>expect(new MuteManager()).toBeDefined());it("state",()=>{const x=new MuteManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MuteManager();x.disable();expect(x.isActive()).toBe(false);});});

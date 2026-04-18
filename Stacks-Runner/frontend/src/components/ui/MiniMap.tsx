@@ -1,0 +1,2 @@
+import React from'react';
+export const MiniMap:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-minimap','data-testid':'minimap'},React.createElement('span',{className:'label'},label||'MiniMap'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));

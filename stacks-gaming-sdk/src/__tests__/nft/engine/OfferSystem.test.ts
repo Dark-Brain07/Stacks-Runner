@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{OfferSystem}from"../../nft/engine/OfferSystem";
+describe("OfferSystem",()=>{it("ok",()=>expect(new OfferSystem()).toBeDefined());it("state",()=>{const x=new OfferSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new OfferSystem();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FleeLogic}from"../../game/ai/FleeLogic";
+describe("FleeLogic",()=>{it("ok",()=>expect(new FleeLogic()).toBeDefined());it("set/get",()=>{const x=new FleeLogic();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new FleeLogic();x.disable();expect(x.isActive()).toBe(false);});});

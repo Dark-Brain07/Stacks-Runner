@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Rollback2}from"../../core/serial2/Rollback2";
+describe("Rollback2",()=>{it("ok",()=>expect(new Rollback2()).toBeDefined());it("toggle",()=>{const x=new Rollback2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Rollback2();x.set("a",1);expect(x.get("a")).toBe(1);});});

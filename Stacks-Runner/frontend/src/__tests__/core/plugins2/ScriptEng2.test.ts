@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ScriptEng2}from"../../core/plugins2/ScriptEng2";
+describe("ScriptEng2",()=>{it("ok",()=>expect(new ScriptEng2()).toBeDefined());it("toggle",()=>{const x=new ScriptEng2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ScriptEng2();x.set("a",1);expect(x.get("a")).toBe(1);});});

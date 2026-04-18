@@ -1,0 +1,22 @@
+{
+  "gameTitle": "[HI] Stacks Runner",
+  "playButton": "[HI] Play Now",
+  "connectWallet": "[HI] Connect Wallet",
+  "leaderboard": "[HI] Leaderboard",
+  "settings": "[HI] Settings",
+  "inventory": "[HI] Inventory",
+  "marketplace": "[HI] Marketplace",
+  "profile": "[HI] Profile",
+  "achievements": "[HI] Achievements",
+  "tournaments": "[HI] Tournaments",
+  "guilds": "[HI] Guilds",
+  "friends": "[HI] Friends",
+  "chat": "[HI] Chat",
+  "help": "[HI] Help",
+  "logout": "[HI] Sign Out",
+  "loading": "[HI] Loading...",
+  "error": "[HI] Something went wrong",
+  "retry": "[HI] Try Again",
+  "cancel": "[HI] Cancel",
+  "confirm": "[HI] Confirm"
+}

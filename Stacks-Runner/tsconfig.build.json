@@ -1,0 +1,10 @@
+{
+  "extends": "./tsconfig.json",
+  "compilerOptions": {
+    "composite": true,
+    "tsBuildInfoFile": "./.tsbuildinfo",
+    "outDir": "./dist"
+  },
+  "include": ["frontend/src"],
+  "exclude": ["frontend/src/__tests__"]
+}

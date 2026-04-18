@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{NetworkStore}from'../../stores/NetworkStore';
+describe('NetworkStore',()=>{it('gets and sets',()=>{const x=new NetworkStore();x.set('a',1);expect(x.get('a')).toBe(1);});it('clears',()=>{const x=new NetworkStore();x.set('b',2);x.clear();expect(x.has('b')).toBe(false);});});

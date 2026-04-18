@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InviteSystem}from"../../social/platform/InviteSystem";
+describe("InviteSystem",()=>{it("ok",()=>expect(new InviteSystem()).toBeDefined());it("state",()=>{const x=new InviteSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new InviteSystem();x.disable();expect(x.isActive()).toBe(false);});});

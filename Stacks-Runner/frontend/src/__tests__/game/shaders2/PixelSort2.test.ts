@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PixelSort2}from"../../game/shaders2/PixelSort2";
+describe("PixelSort2",()=>{it("ok",()=>expect(new PixelSort2()).toBeDefined());it("toggle",()=>{const x=new PixelSort2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PixelSort2();x.set("a",1);expect(x.get("a")).toBe(1);});});

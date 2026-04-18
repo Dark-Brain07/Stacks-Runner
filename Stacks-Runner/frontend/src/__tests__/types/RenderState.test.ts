@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{createRenderState,updateRenderState}from'../../types/RenderState';
+describe('RenderState',()=>{it('creates',()=>{const s=createRenderState('test');expect(s.id).toBe('test');expect(s.active).toBe(true);});});

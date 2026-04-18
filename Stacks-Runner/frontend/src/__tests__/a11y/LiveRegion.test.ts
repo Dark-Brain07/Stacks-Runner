@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{LiveRegion}from'../../a11y/LiveRegion';
+describe('LiveRegion',()=>{it('starts disabled',()=>expect(new LiveRegion().isActive()).toBe(false));it('enables',()=>{const x=new LiveRegion();x.enable();expect(x.isActive()).toBe(true);});it('toggles',()=>{const x=new LiveRegion();x.toggle();expect(x.isActive()).toBe(true);x.toggle();expect(x.isActive()).toBe(false);});});

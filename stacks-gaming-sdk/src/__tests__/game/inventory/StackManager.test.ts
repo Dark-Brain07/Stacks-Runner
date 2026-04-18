@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StackManager}from"../../game/inventory/StackManager";
+describe("StackManager",()=>{it("ok",()=>expect(new StackManager()).toBeDefined());it("set/get",()=>{const x=new StackManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new StackManager();x.disable();expect(x.isActive()).toBe(false);});});

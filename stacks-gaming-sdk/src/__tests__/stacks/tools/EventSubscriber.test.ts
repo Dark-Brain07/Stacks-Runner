@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{EventSubscriber}from"../../stacks/tools/EventSubscriber";
+describe("EventSubscriber",()=>{it("ok",()=>expect(new EventSubscriber()).toBeDefined());it("state",()=>{const x=new EventSubscriber();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new EventSubscriber();x.disable();expect(x.isActive()).toBe(false);});});

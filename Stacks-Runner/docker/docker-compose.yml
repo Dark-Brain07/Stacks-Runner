@@ -1,0 +1,17 @@
+version: '3.8'
+services:
+  frontend:
+    build:
+      context: ..
+      dockerfile: docker/Dockerfile.dev
+    ports:
+      - "5173:5173"
+    volumes:
+      - ../frontend:/app/frontend
+    environment:
+      - NODE_ENV=development
+
+  stacks-node:
+    image: blockstack/stacks-blockchain:latest
+    ports:
+      - "20443:20443"

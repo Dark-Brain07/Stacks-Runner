@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TierProgression}from"../../game/achievements/TierProgression";
+describe("TierProgression",()=>{it("ok",()=>expect(new TierProgression()).toBeDefined());it("state",()=>{const x=new TierProgression();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TierProgression();x.disable();expect(x.isActive()).toBe(false);});});

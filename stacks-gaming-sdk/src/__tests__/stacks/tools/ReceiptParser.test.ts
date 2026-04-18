@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ReceiptParser}from"../../stacks/tools/ReceiptParser";
+describe("ReceiptParser",()=>{it("ok",()=>expect(new ReceiptParser()).toBeDefined());it("state",()=>{const x=new ReceiptParser();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ReceiptParser();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{CoinPlacer}from'../../game/procgen/CoinPlacer';
+describe('CoinPlacer',()=>{it('generates with seed',()=>{const g=new CoinPlacer(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new CoinPlacer(1);g.reset();expect(g.getSeed()).not.toBe(1);});});

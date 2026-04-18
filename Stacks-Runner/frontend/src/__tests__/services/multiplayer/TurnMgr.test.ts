@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TurnMgr}from"../../services/multiplayer/TurnMgr";
+describe("TurnMgr",()=>{it("ok",()=>expect(new TurnMgr()).toBeDefined());it("toggle",()=>{const x=new TurnMgr();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new TurnMgr();x.set("a",1);expect(x.get("a")).toBe(1);});});

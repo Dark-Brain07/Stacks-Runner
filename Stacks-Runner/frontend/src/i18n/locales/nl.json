@@ -1,0 +1,22 @@
+{
+  "gameTitle": "[NL] Stacks Runner",
+  "playButton": "[NL] Play Now",
+  "connectWallet": "[NL] Connect Wallet",
+  "leaderboard": "[NL] Leaderboard",
+  "settings": "[NL] Settings",
+  "inventory": "[NL] Inventory",
+  "marketplace": "[NL] Marketplace",
+  "profile": "[NL] Profile",
+  "achievements": "[NL] Achievements",
+  "tournaments": "[NL] Tournaments",
+  "guilds": "[NL] Guilds",
+  "friends": "[NL] Friends",
+  "chat": "[NL] Chat",
+  "help": "[NL] Help",
+  "logout": "[NL] Sign Out",
+  "loading": "[NL] Loading...",
+  "error": "[NL] Something went wrong",
+  "retry": "[NL] Try Again",
+  "cancel": "[NL] Cancel",
+  "confirm": "[NL] Confirm"
+}

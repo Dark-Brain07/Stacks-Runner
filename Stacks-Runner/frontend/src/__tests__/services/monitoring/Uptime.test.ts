@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Uptime}from"../../services/monitoring/Uptime";
+describe("Uptime",()=>{it("creates",()=>expect(new Uptime()).toBeDefined());it("toggles",()=>{const x=new Uptime();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new Uptime();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new Uptime();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new Uptime();x.dispose();expect(x.isActive()).toBe(false);});});

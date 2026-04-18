@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CooldownTracker}from"../../game/combat/CooldownTracker";
+describe("CooldownTracker",()=>{it("ok",()=>expect(new CooldownTracker()).toBeDefined());it("set/get",()=>{const x=new CooldownTracker();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new CooldownTracker();x.disable();expect(x.isActive()).toBe(false);});});

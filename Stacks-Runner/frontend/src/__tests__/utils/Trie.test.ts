@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{Trie}from'../../utils/structures/Trie';
+describe('Trie',()=>{it('starts empty',()=>expect(new Trie().isEmpty()).toBe(true));it('adds items',()=>{const s=new Trie();s.add(1);expect(s.size).toBe(1);});it('clears',()=>{const s=new Trie();s.add(1);s.clear();expect(s.isEmpty()).toBe(true);});});

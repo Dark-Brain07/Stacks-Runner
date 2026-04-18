@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DifficultyScaler}from"../../game/ai/DifficultyScaler";
+describe("DifficultyScaler",()=>{it("ok",()=>expect(new DifficultyScaler()).toBeDefined());it("set/get",()=>{const x=new DifficultyScaler();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new DifficultyScaler();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{HistoryLog2}from"../../services/notif3/HistoryLog2";
+describe("HistoryLog2",()=>{it("ok",()=>expect(new HistoryLog2()).toBeDefined());it("toggle",()=>{const x=new HistoryLog2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new HistoryLog2();x.set("a",1);expect(x.get("a")).toBe(1);});});

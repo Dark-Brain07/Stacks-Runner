@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{GamepadSupport}from"../../game/input/GamepadSupport";
+describe("GamepadSupport",()=>{it("ok",()=>expect(new GamepadSupport()).toBeDefined());it("set/get",()=>{const x=new GamepadSupport();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new GamepadSupport();x.disable();expect(x.isActive()).toBe(false);});});

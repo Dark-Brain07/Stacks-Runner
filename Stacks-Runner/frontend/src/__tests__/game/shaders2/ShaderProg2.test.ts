@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ShaderProg2}from"../../game/shaders2/ShaderProg2";
+describe("ShaderProg2",()=>{it("ok",()=>expect(new ShaderProg2()).toBeDefined());it("toggle",()=>{const x=new ShaderProg2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ShaderProg2();x.set("a",1);expect(x.get("a")).toBe(1);});});

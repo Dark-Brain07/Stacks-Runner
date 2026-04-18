@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{QuestTrack}from"../../game/dialogue/QuestTrack";
+describe("QuestTrack",()=>{it("ok",()=>expect(new QuestTrack()).toBeDefined());it("toggle",()=>{const x=new QuestTrack();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new QuestTrack();x.set("a",1);expect(x.get("a")).toBe(1);});});

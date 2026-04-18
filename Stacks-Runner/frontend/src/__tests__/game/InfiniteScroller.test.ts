@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{InfiniteScroller}from'../../game/procgen/InfiniteScroller';
+describe('InfiniteScroller',()=>{it('generates with seed',()=>{const g=new InfiniteScroller(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new InfiniteScroller(1);g.reset();expect(g.getSeed()).not.toBe(1);});});

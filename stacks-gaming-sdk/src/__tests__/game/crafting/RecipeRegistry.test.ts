@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{RecipeRegistry}from"../../game/crafting/RecipeRegistry";
+describe("RecipeRegistry",()=>{it("ok",()=>expect(new RecipeRegistry()).toBeDefined());it("set/get",()=>{const x=new RecipeRegistry();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new RecipeRegistry();x.disable();expect(x.isActive()).toBe(false);});});

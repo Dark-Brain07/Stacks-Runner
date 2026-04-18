@@ -1,0 +1,14 @@
+{
+  "tool": "source-map-explorer",
+  "thresholds": {
+    "performance": 90,
+    "accessibility": 95,
+    "bestPractices": 90,
+    "seo": 90
+  },
+  "budget": {
+    "js": 200000,
+    "css": 50000,
+    "images": 500000
+  }
+}

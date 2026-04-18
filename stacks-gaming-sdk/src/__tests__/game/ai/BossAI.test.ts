@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BossAI}from"../../game/ai/BossAI";
+describe("BossAI",()=>{it("ok",()=>expect(new BossAI()).toBeDefined());it("set/get",()=>{const x=new BossAI();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BossAI();x.disable();expect(x.isActive()).toBe(false);});});

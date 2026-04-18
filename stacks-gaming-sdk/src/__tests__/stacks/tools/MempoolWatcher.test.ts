@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MempoolWatcher}from"../../stacks/tools/MempoolWatcher";
+describe("MempoolWatcher",()=>{it("ok",()=>expect(new MempoolWatcher()).toBeDefined());it("state",()=>{const x=new MempoolWatcher();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MempoolWatcher();x.disable();expect(x.isActive()).toBe(false);});});

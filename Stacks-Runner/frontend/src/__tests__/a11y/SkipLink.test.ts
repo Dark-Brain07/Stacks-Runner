@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{SkipLink}from'../../a11y/SkipLink';
+describe('SkipLink',()=>{it('starts disabled',()=>expect(new SkipLink().isActive()).toBe(false));it('enables',()=>{const x=new SkipLink();x.enable();expect(x.isActive()).toBe(true);});it('toggles',()=>{const x=new SkipLink();x.toggle();expect(x.isActive()).toBe(true);x.toggle();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{WaypointManager}from"../../game/world/WaypointManager";
+describe("WaypointManager",()=>{it("ok",()=>expect(new WaypointManager()).toBeDefined());it("set/get",()=>{const x=new WaypointManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new WaypointManager();x.disable();expect(x.isActive()).toBe(false);});});

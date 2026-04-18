@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{clamp,lerp,mapRange,randomInt}from'../../utils/math';
+describe('math',()=>{it('clamps min',()=>expect(clamp(-5,0,10)).toBe(0));it('clamps max',()=>expect(clamp(15,0,10)).toBe(10));it('lerp midpoint',()=>expect(lerp(0,10,0.5)).toBe(5));it('maps range',()=>expect(mapRange(5,0,10,0,100)).toBe(50));it('random in range',()=>{const r=randomInt(1,6);expect(r).toBeGreaterThanOrEqual(1);expect(r).toBeLessThanOrEqual(6);});});

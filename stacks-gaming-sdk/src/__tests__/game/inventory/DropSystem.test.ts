@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DropSystem}from"../../game/inventory/DropSystem";
+describe("DropSystem",()=>{it("ok",()=>expect(new DropSystem()).toBeDefined());it("set/get",()=>{const x=new DropSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new DropSystem();x.disable();expect(x.isActive()).toBe(false);});});

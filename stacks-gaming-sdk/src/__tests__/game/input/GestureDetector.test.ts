@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{GestureDetector}from"../../game/input/GestureDetector";
+describe("GestureDetector",()=>{it("ok",()=>expect(new GestureDetector()).toBeDefined());it("set/get",()=>{const x=new GestureDetector();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new GestureDetector();x.disable();expect(x.isActive()).toBe(false);});});

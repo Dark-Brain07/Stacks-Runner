@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PriceCalc}from"../../game/inventory/PriceCalc";
+describe("PriceCalc",()=>{it("ok",()=>expect(new PriceCalc()).toBeDefined());it("toggle",()=>{const x=new PriceCalc();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new PriceCalc();x.set("a",1);expect(x.get("a")).toBe(1);});});

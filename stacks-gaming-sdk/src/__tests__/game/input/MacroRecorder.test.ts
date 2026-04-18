@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MacroRecorder}from"../../game/input/MacroRecorder";
+describe("MacroRecorder",()=>{it("ok",()=>expect(new MacroRecorder()).toBeDefined());it("set/get",()=>{const x=new MacroRecorder();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MacroRecorder();x.disable();expect(x.isActive()).toBe(false);});});

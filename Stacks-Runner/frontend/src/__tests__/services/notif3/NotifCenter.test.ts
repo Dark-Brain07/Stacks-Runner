@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{NotifCenter}from"../../services/notif3/NotifCenter";
+describe("NotifCenter",()=>{it("ok",()=>expect(new NotifCenter()).toBeDefined());it("toggle",()=>{const x=new NotifCenter();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new NotifCenter();x.set("a",1);expect(x.get("a")).toBe(1);});});

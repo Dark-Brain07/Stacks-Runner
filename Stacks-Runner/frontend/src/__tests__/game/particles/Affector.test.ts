@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Affector}from"../../game/particles/Affector";
+describe("Affector",()=>{it("ok",()=>expect(new Affector()).toBeDefined());it("toggle",()=>{const x=new Affector();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Affector();x.set("a",1);expect(x.get("a")).toBe(1);});});

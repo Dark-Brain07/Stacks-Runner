@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SoundOcclusion}from"../../game/audio/SoundOcclusion";
+describe("SoundOcclusion",()=>{it("ok",()=>expect(new SoundOcclusion()).toBeDefined());it("set/get",()=>{const x=new SoundOcclusion();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SoundOcclusion();x.disable();expect(x.isActive()).toBe(false);});});

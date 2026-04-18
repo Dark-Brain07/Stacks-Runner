@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{GCMonitor}from'../../utils/profiling/GCMonitor';
+describe('GCMonitor',()=>{it('records',()=>{const p=new GCMonitor();p.start();p.record(10);const r=p.stop();expect(r.count).toBe(1);});});

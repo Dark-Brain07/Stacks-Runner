@@ -1,0 +1,1 @@
+export const LTS2={channel:"lts",experimental:false} as const;

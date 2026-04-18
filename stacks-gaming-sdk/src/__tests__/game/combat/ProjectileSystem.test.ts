@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ProjectileSystem}from"../../game/combat/ProjectileSystem";
+describe("ProjectileSystem",()=>{it("ok",()=>expect(new ProjectileSystem()).toBeDefined());it("set/get",()=>{const x=new ProjectileSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ProjectileSystem();x.disable();expect(x.isActive()).toBe(false);});});

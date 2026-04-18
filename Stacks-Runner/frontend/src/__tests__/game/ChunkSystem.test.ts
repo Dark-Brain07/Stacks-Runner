@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ChunkSystem}from'../../game/procgen/ChunkSystem';
+describe('ChunkSystem',()=>{it('generates with seed',()=>{const g=new ChunkSystem(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new ChunkSystem(1);g.reset();expect(g.getSeed()).not.toBe(1);});});

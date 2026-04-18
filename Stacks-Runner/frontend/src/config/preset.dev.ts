@@ -1,0 +1,1 @@
+export const DEV_PRESET={env:'dev',debug:true,logLevel:'debug',timeout:30000,retries:1} as const;

@@ -1,0 +1,3 @@
+export function pipe23<T>(...fns:Array<(v:T)=>T>):(v:T)=>T{return(v:T)=>fns.reduce((acc,fn)=>fn(acc),v);}
+export function memoize23<T extends(...args:any[])=>any>(fn:T):T{const cache=new Map();return((...args:any[])=>{const key=JSON.stringify(args);if(cache.has(key))return cache.get(key);const result=fn(...args);cache.set(key,result);return result;})as T;}
+export function debounce23(fn:Function,ms:number){let t:any;return(...a:any[])=>{clearTimeout(t);t=setTimeout(()=>fn(...a),ms);};}

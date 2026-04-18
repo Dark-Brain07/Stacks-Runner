@@ -1,0 +1,22 @@
+{
+  "gameTitle": "[PT] Stacks Runner",
+  "playButton": "[PT] Play Now",
+  "connectWallet": "[PT] Connect Wallet",
+  "leaderboard": "[PT] Leaderboard",
+  "settings": "[PT] Settings",
+  "inventory": "[PT] Inventory",
+  "marketplace": "[PT] Marketplace",
+  "profile": "[PT] Profile",
+  "achievements": "[PT] Achievements",
+  "tournaments": "[PT] Tournaments",
+  "guilds": "[PT] Guilds",
+  "friends": "[PT] Friends",
+  "chat": "[PT] Chat",
+  "help": "[PT] Help",
+  "logout": "[PT] Sign Out",
+  "loading": "[PT] Loading...",
+  "error": "[PT] Something went wrong",
+  "retry": "[PT] Try Again",
+  "cancel": "[PT] Cancel",
+  "confirm": "[PT] Confirm"
+}

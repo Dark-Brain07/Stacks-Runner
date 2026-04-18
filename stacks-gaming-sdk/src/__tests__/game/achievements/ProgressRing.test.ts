@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ProgressRing}from"../../game/achievements/ProgressRing";
+describe("ProgressRing",()=>{it("ok",()=>expect(new ProgressRing()).toBeDefined());it("state",()=>{const x=new ProgressRing();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ProgressRing();x.disable();expect(x.isActive()).toBe(false);});});

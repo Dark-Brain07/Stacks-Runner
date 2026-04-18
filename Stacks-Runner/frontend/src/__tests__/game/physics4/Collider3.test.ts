@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Collider3}from"../../game/physics4/Collider3";
+describe("Collider3",()=>{it("ok",()=>expect(new Collider3()).toBeDefined());it("toggle",()=>{const x=new Collider3();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Collider3();x.set("a",1);expect(x.get("a")).toBe(1);});});

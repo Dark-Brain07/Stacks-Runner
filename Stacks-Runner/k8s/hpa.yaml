@@ -1,0 +1,10 @@
+apiVersion: v1
+kind: Hpa
+metadata:
+  name: stacks-runner-hpa
+  namespace: production
+  labels:
+    app: stacks-runner
+spec:
+  # hpa configuration
+  replicas: 3

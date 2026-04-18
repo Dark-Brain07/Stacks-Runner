@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{SwipeDetector}from'../../input/SwipeDetector';
+describe('SwipeDetector',()=>{it('starts inactive',()=>expect(new SwipeDetector().isRecording()).toBe(false));it('records events',()=>{const x=new SwipeDetector();x.start();x.record({type:'tap'});expect(x.getCount()).toBe(1);});it('clears',()=>{const x=new SwipeDetector();x.start();x.record({type:'tap'});x.clear();expect(x.getCount()).toBe(0);});});

@@ -1,0 +1,36 @@
+{
+  "chapter": 2,
+  "title": "Chapter 2: The Journey",
+  "quests": [
+    {
+      "id": "ch2-q1",
+      "title": "Quest 1",
+      "xpReward": 200,
+      "objectives": 3
+    },
+    {
+      "id": "ch2-q2",
+      "title": "Quest 2",
+      "xpReward": 250,
+      "objectives": 3
+    },
+    {
+      "id": "ch2-q3",
+      "title": "Quest 3",
+      "xpReward": 300,
+      "objectives": 3
+    },
+    {
+      "id": "ch2-q4",
+      "title": "Quest 4",
+      "xpReward": 350,
+      "objectives": 3
+    },
+    {
+      "id": "ch2-q5",
+      "title": "Quest 5",
+      "xpReward": 400,
+      "objectives": 3
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+name: Build
+on: [push, pull_request]
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v3
+      - run: npm i
+        working-directory: frontend
+      - run: npm run build
+        working-directory: frontend

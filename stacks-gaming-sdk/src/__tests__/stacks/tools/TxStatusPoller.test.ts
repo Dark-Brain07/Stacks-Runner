@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TxStatusPoller}from"../../stacks/tools/TxStatusPoller";
+describe("TxStatusPoller",()=>{it("ok",()=>expect(new TxStatusPoller()).toBeDefined());it("state",()=>{const x=new TxStatusPoller();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TxStatusPoller();x.disable();expect(x.isActive()).toBe(false);});});

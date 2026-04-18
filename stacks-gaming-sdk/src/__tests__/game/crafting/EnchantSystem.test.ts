@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{EnchantSystem}from"../../game/crafting/EnchantSystem";
+describe("EnchantSystem",()=>{it("ok",()=>expect(new EnchantSystem()).toBeDefined());it("set/get",()=>{const x=new EnchantSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new EnchantSystem();x.disable();expect(x.isActive()).toBe(false);});});

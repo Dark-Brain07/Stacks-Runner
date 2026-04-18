@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{EmissionSchedule}from"../../game/economy/EmissionSchedule";
+describe("EmissionSchedule",()=>{it("ok",()=>expect(new EmissionSchedule()).toBeDefined());it("state",()=>{const x=new EmissionSchedule();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new EmissionSchedule();x.disable();expect(x.isActive()).toBe(false);});});

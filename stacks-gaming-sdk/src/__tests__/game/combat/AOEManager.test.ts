@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AOEManager}from"../../game/combat/AOEManager";
+describe("AOEManager",()=>{it("ok",()=>expect(new AOEManager()).toBeDefined());it("set/get",()=>{const x=new AOEManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AOEManager();x.disable();expect(x.isActive()).toBe(false);});});

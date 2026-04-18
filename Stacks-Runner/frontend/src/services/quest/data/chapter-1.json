@@ -1,0 +1,36 @@
+{
+  "chapter": 1,
+  "title": "Chapter 1: The Beginning",
+  "quests": [
+    {
+      "id": "ch1-q1",
+      "title": "Quest 1",
+      "xpReward": 100,
+      "objectives": 3
+    },
+    {
+      "id": "ch1-q2",
+      "title": "Quest 2",
+      "xpReward": 150,
+      "objectives": 3
+    },
+    {
+      "id": "ch1-q3",
+      "title": "Quest 3",
+      "xpReward": 200,
+      "objectives": 3
+    },
+    {
+      "id": "ch1-q4",
+      "title": "Quest 4",
+      "xpReward": 250,
+      "objectives": 3
+    },
+    {
+      "id": "ch1-q5",
+      "title": "Quest 5",
+      "xpReward": 300,
+      "objectives": 3
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StatusEffect}from"../../game/combat/StatusEffect";
+describe("StatusEffect",()=>{it("ok",()=>expect(new StatusEffect()).toBeDefined());it("set/get",()=>{const x=new StatusEffect();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new StatusEffect();x.disable();expect(x.isActive()).toBe(false);});});

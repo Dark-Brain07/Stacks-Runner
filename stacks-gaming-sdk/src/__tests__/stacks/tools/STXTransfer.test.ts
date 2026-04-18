@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{STXTransfer}from"../../stacks/tools/STXTransfer";
+describe("STXTransfer",()=>{it("ok",()=>expect(new STXTransfer()).toBeDefined());it("state",()=>{const x=new STXTransfer();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new STXTransfer();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Overlap2}from"../../game/physics4/Overlap2";
+describe("Overlap2",()=>{it("ok",()=>expect(new Overlap2()).toBeDefined());it("toggle",()=>{const x=new Overlap2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Overlap2();x.set("a",1);expect(x.get("a")).toBe(1);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TradeWindow}from"../../game/inventory/TradeWindow";
+describe("TradeWindow",()=>{it("ok",()=>expect(new TradeWindow()).toBeDefined());it("set/get",()=>{const x=new TradeWindow();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TradeWindow();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{PackagerStep}from'../../pipeline/PackagerStep';
+describe('PackagerStep',()=>{it('runs configured',async()=>{const x=new PackagerStep();x.configure({a:1});const r=await x.run();expect(r.ok).toBe(true);});});

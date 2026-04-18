@@ -1,0 +1,2 @@
+import { describe, it, expect } from 'vitest'; import { getCurrentVersion, runMigrations, getPendingMigrations } from '../../utils/migrations';
+describe('migrations', () => { beforeEach(() => localStorage.clear()); it('starts at 0', () => expect(getCurrentVersion()).toBe(0)); it('runs pending', () => { const a = runMigrations(); expect(a.length).toBeGreaterThan(0); }); it('skips applied', () => { runMigrations(); expect(runMigrations()).toHaveLength(0); }); it('reports pending', () => { expect(getPendingMigrations().length).toBeGreaterThan(0); }); });

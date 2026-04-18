@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PartyFinder}from"../../social/platform/PartyFinder";
+describe("PartyFinder",()=>{it("ok",()=>expect(new PartyFinder()).toBeDefined());it("state",()=>{const x=new PartyFinder();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PartyFinder();x.disable();expect(x.isActive()).toBe(false);});});

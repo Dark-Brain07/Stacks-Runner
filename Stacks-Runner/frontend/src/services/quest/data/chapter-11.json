@@ -1,0 +1,36 @@
+{
+  "chapter": 11,
+  "title": "Chapter 11: The Frontier",
+  "quests": [
+    {
+      "id": "ch11-q1",
+      "title": "Quest 1",
+      "xpReward": 1100,
+      "objectives": 3
+    },
+    {
+      "id": "ch11-q2",
+      "title": "Quest 2",
+      "xpReward": 1150,
+      "objectives": 3
+    },
+    {
+      "id": "ch11-q3",
+      "title": "Quest 3",
+      "xpReward": 1200,
+      "objectives": 3
+    },
+    {
+      "id": "ch11-q4",
+      "title": "Quest 4",
+      "xpReward": 1250,
+      "objectives": 3
+    },
+    {
+      "id": "ch11-q5",
+      "title": "Quest 5",
+      "xpReward": 1300,
+      "objectives": 3
+    }
+  ]
+}

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TileMap}from"../../game/terrain/TileMap";
+describe("TileMap",()=>{it("ok",()=>expect(new TileMap()).toBeDefined());it("toggle",()=>{const x=new TileMap();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new TileMap();x.set("a",1);expect(x.get("a")).toBe(1);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ChatEngine}from"../../social/platform/ChatEngine";
+describe("ChatEngine",()=>{it("ok",()=>expect(new ChatEngine()).toBeDefined());it("state",()=>{const x=new ChatEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ChatEngine();x.disable();expect(x.isActive()).toBe(false);});});

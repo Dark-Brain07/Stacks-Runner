@@ -1,0 +1,2 @@
+import { describe, it, expect } from 'vitest'; import { ApiCache } from '../../utils/apiCache';
+describe('ApiCache', () => { it('stores and retrieves', () => { const c = new ApiCache(); c.set('k', { v: 1 }); expect(c.get('k')).toEqual({ v: 1 }); }); it('returns null for missing', () => expect(new ApiCache().get('x')).toBeNull()); it('tracks size', () => { const c = new ApiCache(); c.set('a', 1); c.set('b', 2); expect(c.size()).toBe(2); }); it('invalidates', () => { const c = new ApiCache(); c.set('k', 'v'); c.invalidate('k'); expect(c.has('k')).toBe(false); }); });

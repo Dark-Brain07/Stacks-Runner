@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TeamBalancer}from"../../multiplayer/matchmaking/TeamBalancer";
+describe("TeamBalancer",()=>{it("ok",()=>expect(new TeamBalancer()).toBeDefined());it("state",()=>{const x=new TeamBalancer();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TeamBalancer();x.disable();expect(x.isActive()).toBe(false);});});

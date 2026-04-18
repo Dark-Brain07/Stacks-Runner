@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FrameBuf2}from"../../game/shaders2/FrameBuf2";
+describe("FrameBuf2",()=>{it("ok",()=>expect(new FrameBuf2()).toBeDefined());it("toggle",()=>{const x=new FrameBuf2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new FrameBuf2();x.set("a",1);expect(x.get("a")).toBe(1);});});

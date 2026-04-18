@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{LevelGenerator}from'../../game/procgen/LevelGenerator';
+describe('LevelGenerator',()=>{it('generates with seed',()=>{const g=new LevelGenerator(42);expect(g.getSeed()).toBe(42);});it('resets',()=>{const g=new LevelGenerator(1);g.reset();expect(g.getSeed()).not.toBe(1);});});

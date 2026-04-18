@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PrestigeSystem}from"../../game/achievements/PrestigeSystem";
+describe("PrestigeSystem",()=>{it("ok",()=>expect(new PrestigeSystem()).toBeDefined());it("state",()=>{const x=new PrestigeSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PrestigeSystem();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,7 @@
+{
+  "environment": "testing",
+  "debug": true,
+  "analytics": false,
+  "logging": "verbose",
+  "apiTimeout": 30000
+}

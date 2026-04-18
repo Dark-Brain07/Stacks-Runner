@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Vortex}from"../../game/particles/Vortex";
+describe("Vortex",()=>{it("ok",()=>expect(new Vortex()).toBeDefined());it("toggle",()=>{const x=new Vortex();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Vortex();x.set("a",1);expect(x.get("a")).toBe(1);});});

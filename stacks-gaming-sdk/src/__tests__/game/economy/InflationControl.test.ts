@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InflationControl}from"../../game/economy/InflationControl";
+describe("InflationControl",()=>{it("ok",()=>expect(new InflationControl()).toBeDefined());it("state",()=>{const x=new InflationControl();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new InflationControl();x.disable();expect(x.isActive()).toBe(false);});});

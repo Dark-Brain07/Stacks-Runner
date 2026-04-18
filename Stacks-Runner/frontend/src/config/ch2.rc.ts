@@ -1,0 +1,1 @@
+export const RC2={channel:"rc",experimental:false} as const;

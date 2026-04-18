@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SwissRound}from"../../multiplayer/matchmaking/SwissRound";
+describe("SwissRound",()=>{it("ok",()=>expect(new SwissRound()).toBeDefined());it("state",()=>{const x=new SwissRound();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SwissRound();x.disable();expect(x.isActive()).toBe(false);});});

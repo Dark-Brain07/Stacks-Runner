@@ -1,0 +1,22 @@
+{
+  "gameTitle": "[AR] Stacks Runner",
+  "playButton": "[AR] Play Now",
+  "connectWallet": "[AR] Connect Wallet",
+  "leaderboard": "[AR] Leaderboard",
+  "settings": "[AR] Settings",
+  "inventory": "[AR] Inventory",
+  "marketplace": "[AR] Marketplace",
+  "profile": "[AR] Profile",
+  "achievements": "[AR] Achievements",
+  "tournaments": "[AR] Tournaments",
+  "guilds": "[AR] Guilds",
+  "friends": "[AR] Friends",
+  "chat": "[AR] Chat",
+  "help": "[AR] Help",
+  "logout": "[AR] Sign Out",
+  "loading": "[AR] Loading...",
+  "error": "[AR] Something went wrong",
+  "retry": "[AR] Try Again",
+  "cancel": "[AR] Cancel",
+  "confirm": "[AR] Confirm"
+}

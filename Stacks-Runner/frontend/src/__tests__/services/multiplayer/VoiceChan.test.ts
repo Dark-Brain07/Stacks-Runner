@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{VoiceChan}from"../../services/multiplayer/VoiceChan";
+describe("VoiceChan",()=>{it("ok",()=>expect(new VoiceChan()).toBeDefined());it("toggle",()=>{const x=new VoiceChan();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new VoiceChan();x.set("a",1);expect(x.get("a")).toBe(1);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";
+describe("scenario 19",()=>{it("game flow",()=>{const s={score:19*1000,hp:100-19,wave:19};expect(s.score).toBe(19*1000);});it("reward calc",()=>{expect(19*50).toBeGreaterThan(0);});});

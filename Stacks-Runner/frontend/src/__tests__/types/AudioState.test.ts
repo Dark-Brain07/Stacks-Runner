@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{createAudioState,updateAudioState}from'../../types/AudioState';
+describe('AudioState',()=>{it('creates',()=>{const s=createAudioState('test');expect(s.id).toBe('test');expect(s.active).toBe(true);});});

@@ -1,0 +1,1 @@
+export const ALPHA2={channel:"alpha",experimental:false} as const;

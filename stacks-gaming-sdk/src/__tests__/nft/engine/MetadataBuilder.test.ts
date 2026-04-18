@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MetadataBuilder}from"../../nft/engine/MetadataBuilder";
+describe("MetadataBuilder",()=>{it("ok",()=>expect(new MetadataBuilder()).toBeDefined());it("state",()=>{const x=new MetadataBuilder();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MetadataBuilder();x.disable();expect(x.isActive()).toBe(false);});});

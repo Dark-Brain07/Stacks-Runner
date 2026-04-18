@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PrincipalResolver}from"../../stacks/tools/PrincipalResolver";
+describe("PrincipalResolver",()=>{it("ok",()=>expect(new PrincipalResolver()).toBeDefined());it("state",()=>{const x=new PrincipalResolver();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PrincipalResolver();x.disable();expect(x.isActive()).toBe(false);});});

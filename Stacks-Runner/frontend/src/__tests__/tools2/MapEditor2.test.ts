@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MapEditor2}from"../../tools2/MapEditor2";
+describe("MapEditor2",()=>{it("ok",()=>expect(new MapEditor2()).toBeDefined());it("toggle",()=>{const x=new MapEditor2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new MapEditor2();x.set("a",1);expect(x.get("a")).toBe(1);});});

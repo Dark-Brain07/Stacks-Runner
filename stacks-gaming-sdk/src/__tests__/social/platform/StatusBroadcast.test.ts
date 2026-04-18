@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StatusBroadcast}from"../../social/platform/StatusBroadcast";
+describe("StatusBroadcast",()=>{it("ok",()=>expect(new StatusBroadcast()).toBeDefined());it("state",()=>{const x=new StatusBroadcast();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new StatusBroadcast();x.disable();expect(x.isActive()).toBe(false);});});

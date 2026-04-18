@@ -1,0 +1,2 @@
+import React from'react';
+export const Toggle:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-toggle','data-testid':'toggle'},React.createElement('span',{className:'label'},label||'Toggle'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));

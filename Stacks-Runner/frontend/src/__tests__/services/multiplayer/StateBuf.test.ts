@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StateBuf}from"../../services/multiplayer/StateBuf";
+describe("StateBuf",()=>{it("ok",()=>expect(new StateBuf()).toBeDefined());it("toggle",()=>{const x=new StateBuf();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new StateBuf();x.set("a",1);expect(x.get("a")).toBe(1);});});

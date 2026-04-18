@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ConfigEditor2}from"../../tools2/ConfigEditor2";
+describe("ConfigEditor2",()=>{it("ok",()=>expect(new ConfigEditor2()).toBeDefined());it("toggle",()=>{const x=new ConfigEditor2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ConfigEditor2();x.set("a",1);expect(x.get("a")).toBe(1);});});

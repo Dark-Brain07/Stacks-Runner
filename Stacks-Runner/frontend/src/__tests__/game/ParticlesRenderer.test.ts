@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ParticlesRenderer}from'../../game/renderer/ParticlesRenderer';
+describe('ParticlesRenderer',()=>{it('initializes',()=>{const r=new ParticlesRenderer();expect(r).toBeDefined();});});

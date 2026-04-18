@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Consumable}from"../../game/inventory/Consumable";
+describe("Consumable",()=>{it("ok",()=>expect(new Consumable()).toBeDefined());it("toggle",()=>{const x=new Consumable();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Consumable();x.set("a",1);expect(x.get("a")).toBe(1);});});

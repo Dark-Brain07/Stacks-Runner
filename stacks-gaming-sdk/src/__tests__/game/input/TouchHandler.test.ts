@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TouchHandler}from"../../game/input/TouchHandler";
+describe("TouchHandler",()=>{it("ok",()=>expect(new TouchHandler()).toBeDefined());it("set/get",()=>{const x=new TouchHandler();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TouchHandler();x.disable();expect(x.isActive()).toBe(false);});});

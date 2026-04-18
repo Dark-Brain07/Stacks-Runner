@@ -1,0 +1,2 @@
+.sr-tournamenthistory { display:flex; gap:0.5rem; padding:0.75rem 1rem; border-radius:8px; background:hsl(234,12%,14%); border:1px solid hsl(234,10%,22%); transition:all 200ms; }
+.sr-tournamenthistory:hover { background:hsl(234,14%,18%); box-shadow:0 4px 16px hsla(234,40%,20%,0.3); }

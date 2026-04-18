@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ThreatTable}from"../../game/ai/ThreatTable";
+describe("ThreatTable",()=>{it("ok",()=>expect(new ThreatTable()).toBeDefined());it("set/get",()=>{const x=new ThreatTable();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ThreatTable();x.disable();expect(x.isActive()).toBe(false);});});

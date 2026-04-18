@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AudioPool}from"../../game/audio/AudioPool";
+describe("AudioPool",()=>{it("ok",()=>expect(new AudioPool()).toBeDefined());it("set/get",()=>{const x=new AudioPool();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AudioPool();x.disable();expect(x.isActive()).toBe(false);});});

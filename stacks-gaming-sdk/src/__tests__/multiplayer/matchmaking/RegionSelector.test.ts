@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{RegionSelector}from"../../multiplayer/matchmaking/RegionSelector";
+describe("RegionSelector",()=>{it("ok",()=>expect(new RegionSelector()).toBeDefined());it("state",()=>{const x=new RegionSelector();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new RegionSelector();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';
+describe('perf benchmark 2',()=>{it('array ops under 50ms',()=>{const t=Date.now();const a=Array.from({length:10000},(_,i)=>i);a.sort((a,b)=>b-a);a.filter(x=>x%2===0);expect(Date.now()-t).toBeLessThan(50);});});

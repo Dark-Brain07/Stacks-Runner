@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InputReplay}from"../../game/input/InputReplay";
+describe("InputReplay",()=>{it("ok",()=>expect(new InputReplay()).toBeDefined());it("set/get",()=>{const x=new InputReplay();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new InputReplay();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FreezeManager}from"../../nft/engine/FreezeManager";
+describe("FreezeManager",()=>{it("ok",()=>expect(new FreezeManager()).toBeDefined());it("state",()=>{const x=new FreezeManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new FreezeManager();x.disable();expect(x.isActive()).toBe(false);});});

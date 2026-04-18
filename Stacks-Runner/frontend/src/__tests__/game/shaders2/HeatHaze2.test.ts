@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{HeatHaze2}from"../../game/shaders2/HeatHaze2";
+describe("HeatHaze2",()=>{it("ok",()=>expect(new HeatHaze2()).toBeDefined());it("toggle",()=>{const x=new HeatHaze2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new HeatHaze2();x.set("a",1);expect(x.get("a")).toBe(1);});});

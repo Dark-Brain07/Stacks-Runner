@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ShopScene}from'../../scenes/ShopScene';
+describe('ShopScene',()=>{it('starts inactive',()=>expect(new ShopScene().isActive()).toBe(false));it('activates on enter',()=>{const s=new ShopScene();s.onEnter();expect(s.isActive()).toBe(true);});it('deactivates on exit',()=>{const s=new ShopScene();s.onEnter();s.onExit();expect(s.isActive()).toBe(false);});});

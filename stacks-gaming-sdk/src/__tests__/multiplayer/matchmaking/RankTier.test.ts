@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{RankTier}from"../../multiplayer/matchmaking/RankTier";
+describe("RankTier",()=>{it("ok",()=>expect(new RankTier()).toBeDefined());it("state",()=>{const x=new RankTier();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new RankTier();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AmbientSound}from"../../game/audio/AmbientSound";
+describe("AmbientSound",()=>{it("ok",()=>expect(new AmbientSound()).toBeDefined());it("set/get",()=>{const x=new AmbientSound();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AmbientSound();x.disable();expect(x.isActive()).toBe(false);});});

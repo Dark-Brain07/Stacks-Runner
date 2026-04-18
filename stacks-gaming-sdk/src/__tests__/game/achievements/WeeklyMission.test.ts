@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{WeeklyMission}from"../../game/achievements/WeeklyMission";
+describe("WeeklyMission",()=>{it("ok",()=>expect(new WeeklyMission()).toBeDefined());it("state",()=>{const x=new WeeklyMission();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new WeeklyMission();x.disable();expect(x.isActive()).toBe(false);});});

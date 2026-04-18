@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{DragHandler}from'../../input/DragHandler';
+describe('DragHandler',()=>{it('starts inactive',()=>expect(new DragHandler().isRecording()).toBe(false));it('records events',()=>{const x=new DragHandler();x.start();x.record({type:'tap'});expect(x.getCount()).toBe(1);});it('clears',()=>{const x=new DragHandler();x.start();x.record({type:'tap'});x.clear();expect(x.getCount()).toBe(0);});});

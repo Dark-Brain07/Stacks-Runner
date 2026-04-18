@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BlueprintUnlock}from"../../game/crafting/BlueprintUnlock";
+describe("BlueprintUnlock",()=>{it("ok",()=>expect(new BlueprintUnlock()).toBeDefined());it("set/get",()=>{const x=new BlueprintUnlock();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BlueprintUnlock();x.disable();expect(x.isActive()).toBe(false);});});

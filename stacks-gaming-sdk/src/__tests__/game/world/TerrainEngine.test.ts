@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TerrainEngine}from"../../game/world/TerrainEngine";
+describe("TerrainEngine",()=>{it("ok",()=>expect(new TerrainEngine()).toBeDefined());it("set/get",()=>{const x=new TerrainEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TerrainEngine();x.disable();expect(x.isActive()).toBe(false);});});

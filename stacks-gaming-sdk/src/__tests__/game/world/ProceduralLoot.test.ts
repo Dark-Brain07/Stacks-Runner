@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ProceduralLoot}from"../../game/world/ProceduralLoot";
+describe("ProceduralLoot",()=>{it("ok",()=>expect(new ProceduralLoot()).toBeDefined());it("set/get",()=>{const x=new ProceduralLoot();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ProceduralLoot();x.disable();expect(x.isActive()).toBe(false);});});

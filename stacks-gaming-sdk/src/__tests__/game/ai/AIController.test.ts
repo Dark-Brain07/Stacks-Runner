@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AIController}from"../../game/ai/AIController";
+describe("AIController",()=>{it("ok",()=>expect(new AIController()).toBeDefined());it("set/get",()=>{const x=new AIController();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AIController();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,3 @@
+import{describe,it,expect}from'vitest';import{ChainHookConfig}from'../../chainhooks/ChainHookConfig';
+describe('ChainHookConfig',()=>{it('creates ft config',()=>{const c=ChainHookConfig.ftTransfer('https://api.com/hook','key123','SP000.token::name');expect(c.chain).toBe('stacks');});
+it('creates nft config',()=>{const c=ChainHookConfig.nftEvent('https://api.com/hook','key123');expect(c.if_this.scope).toBe('nft_event');});});

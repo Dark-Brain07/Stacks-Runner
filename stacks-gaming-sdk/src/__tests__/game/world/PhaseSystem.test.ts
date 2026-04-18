@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PhaseSystem}from"../../game/world/PhaseSystem";
+describe("PhaseSystem",()=>{it("ok",()=>expect(new PhaseSystem()).toBeDefined());it("set/get",()=>{const x=new PhaseSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PhaseSystem();x.disable();expect(x.isActive()).toBe(false);});});

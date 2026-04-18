@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TradeSys}from"../../game/inventory/TradeSys";
+describe("TradeSys",()=>{it("ok",()=>expect(new TradeSys()).toBeDefined());it("toggle",()=>{const x=new TradeSys();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new TradeSys();x.set("a",1);expect(x.get("a")).toBe(1);});});

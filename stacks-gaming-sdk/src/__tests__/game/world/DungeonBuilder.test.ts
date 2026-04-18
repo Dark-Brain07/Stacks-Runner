@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DungeonBuilder}from"../../game/world/DungeonBuilder";
+describe("DungeonBuilder",()=>{it("ok",()=>expect(new DungeonBuilder()).toBeDefined());it("set/get",()=>{const x=new DungeonBuilder();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new DungeonBuilder();x.disable();expect(x.isActive()).toBe(false);});});

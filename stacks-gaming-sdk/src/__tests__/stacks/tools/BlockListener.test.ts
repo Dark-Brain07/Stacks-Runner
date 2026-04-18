@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BlockListener}from"../../stacks/tools/BlockListener";
+describe("BlockListener",()=>{it("ok",()=>expect(new BlockListener()).toBeDefined());it("state",()=>{const x=new BlockListener();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BlockListener();x.disable();expect(x.isActive()).toBe(false);});});

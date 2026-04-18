@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DepGraph2}from"../../core/plugins2/DepGraph2";
+describe("DepGraph2",()=>{it("ok",()=>expect(new DepGraph2()).toBeDefined());it("toggle",()=>{const x=new DepGraph2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new DepGraph2();x.set("a",1);expect(x.get("a")).toBe(1);});});

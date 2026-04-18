@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InputMapper}from"../../game/input/InputMapper";
+describe("InputMapper",()=>{it("ok",()=>expect(new InputMapper()).toBeDefined());it("set/get",()=>{const x=new InputMapper();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new InputMapper();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MarketplaceListing}from"../../nft/engine/MarketplaceListing";
+describe("MarketplaceListing",()=>{it("ok",()=>expect(new MarketplaceListing()).toBeDefined());it("state",()=>{const x=new MarketplaceListing();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MarketplaceListing();x.disable();expect(x.isActive()).toBe(false);});});

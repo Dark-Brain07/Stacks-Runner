@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CraftRecipe}from"../../game/inventory/CraftRecipe";
+describe("CraftRecipe",()=>{it("ok",()=>expect(new CraftRecipe()).toBeDefined());it("toggle",()=>{const x=new CraftRecipe();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CraftRecipe();x.set("a",1);expect(x.get("a")).toBe(1);});});

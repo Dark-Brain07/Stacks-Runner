@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AchievementEngine}from"../../game/achievements/AchievementEngine";
+describe("AchievementEngine",()=>{it("ok",()=>expect(new AchievementEngine()).toBeDefined());it("state",()=>{const x=new AchievementEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AchievementEngine();x.disable();expect(x.isActive()).toBe(false);});});

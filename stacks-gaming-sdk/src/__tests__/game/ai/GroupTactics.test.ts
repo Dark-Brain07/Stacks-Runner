@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{GroupTactics}from"../../game/ai/GroupTactics";
+describe("GroupTactics",()=>{it("ok",()=>expect(new GroupTactics()).toBeDefined());it("set/get",()=>{const x=new GroupTactics();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new GroupTactics();x.disable();expect(x.isActive()).toBe(false);});});

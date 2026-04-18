@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Damping2}from"../../game/physics4/Damping2";
+describe("Damping2",()=>{it("ok",()=>expect(new Damping2()).toBeDefined());it("toggle",()=>{const x=new Damping2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Damping2();x.set("a",1);expect(x.get("a")).toBe(1);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{RoomMgr}from"../../services/multiplayer/RoomMgr";
+describe("RoomMgr",()=>{it("ok",()=>expect(new RoomMgr()).toBeDefined());it("toggle",()=>{const x=new RoomMgr();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new RoomMgr();x.set("a",1);expect(x.get("a")).toBe(1);});});

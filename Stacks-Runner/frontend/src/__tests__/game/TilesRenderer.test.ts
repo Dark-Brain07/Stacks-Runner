@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{TilesRenderer}from'../../game/renderer/TilesRenderer';
+describe('TilesRenderer',()=>{it('initializes',()=>{const r=new TilesRenderer();expect(r).toBeDefined();});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SpriteSheet2}from"../../tools2/SpriteSheet2";
+describe("SpriteSheet2",()=>{it("ok",()=>expect(new SpriteSheet2()).toBeDefined());it("toggle",()=>{const x=new SpriteSheet2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new SpriteSheet2();x.set("a",1);expect(x.get("a")).toBe(1);});});

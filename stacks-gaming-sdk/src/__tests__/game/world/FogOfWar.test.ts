@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FogOfWar}from"../../game/world/FogOfWar";
+describe("FogOfWar",()=>{it("ok",()=>expect(new FogOfWar()).toBeDefined());it("set/get",()=>{const x=new FogOfWar();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new FogOfWar();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FriendGraph}from"../../social/platform/FriendGraph";
+describe("FriendGraph",()=>{it("ok",()=>expect(new FriendGraph()).toBeDefined());it("state",()=>{const x=new FriendGraph();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new FriendGraph();x.disable();expect(x.isActive()).toBe(false);});});

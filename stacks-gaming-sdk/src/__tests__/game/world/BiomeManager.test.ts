@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BiomeManager}from"../../game/world/BiomeManager";
+describe("BiomeManager",()=>{it("ok",()=>expect(new BiomeManager()).toBeDefined());it("set/get",()=>{const x=new BiomeManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BiomeManager();x.disable();expect(x.isActive()).toBe(false);});});

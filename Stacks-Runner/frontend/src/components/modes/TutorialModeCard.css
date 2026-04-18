@@ -1,0 +1,2 @@
+.sr-tutorialmodecard { display:flex; gap:0.5rem; padding:0.75rem 1rem; border-radius:8px; background:hsl(89,12%,14%); border:1px solid hsl(89,10%,22%); transition:all 200ms; }
+.sr-tutorialmodecard:hover { background:hsl(89,14%,18%); box-shadow:0 4px 16px hsla(89,40%,20%,0.3); }

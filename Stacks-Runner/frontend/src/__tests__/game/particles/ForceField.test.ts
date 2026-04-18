@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ForceField}from"../../game/particles/ForceField";
+describe("ForceField",()=>{it("ok",()=>expect(new ForceField()).toBeDefined());it("toggle",()=>{const x=new ForceField();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ForceField();x.set("a",1);expect(x.get("a")).toBe(1);});});

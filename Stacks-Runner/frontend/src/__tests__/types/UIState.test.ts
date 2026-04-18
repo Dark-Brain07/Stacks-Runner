@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{createUIState,updateUIState}from'../../types/UIState';
+describe('UIState',()=>{it('creates',()=>{const s=createUIState('test');expect(s.id).toBe('test');expect(s.active).toBe(true);});});

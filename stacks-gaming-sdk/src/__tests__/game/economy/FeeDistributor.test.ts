@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FeeDistributor}from"../../game/economy/FeeDistributor";
+describe("FeeDistributor",()=>{it("ok",()=>expect(new FeeDistributor()).toBeDefined());it("state",()=>{const x=new FeeDistributor();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new FeeDistributor();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{FrameAnalyzer}from'../../utils/profiling/FrameAnalyzer';
+describe('FrameAnalyzer',()=>{it('records',()=>{const p=new FrameAnalyzer();p.start();p.record(10);const r=p.stop();expect(r.count).toBe(1);});});

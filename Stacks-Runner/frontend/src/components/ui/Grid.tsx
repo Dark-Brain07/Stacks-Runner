@@ -1,0 +1,2 @@
+import React from'react';
+export const Grid:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-grid','data-testid':'grid'},React.createElement('span',{className:'label'},label||'Grid'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));

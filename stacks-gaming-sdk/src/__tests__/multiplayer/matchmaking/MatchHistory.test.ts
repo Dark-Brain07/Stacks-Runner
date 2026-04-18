@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MatchHistory}from"../../multiplayer/matchmaking/MatchHistory";
+describe("MatchHistory",()=>{it("ok",()=>expect(new MatchHistory()).toBeDefined());it("state",()=>{const x=new MatchHistory();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MatchHistory();x.disable();expect(x.isActive()).toBe(false);});});

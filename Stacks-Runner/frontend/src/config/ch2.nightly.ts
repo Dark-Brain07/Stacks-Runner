@@ -1,0 +1,1 @@
+export const NIGHTLY2={channel:"nightly",experimental:false} as const;

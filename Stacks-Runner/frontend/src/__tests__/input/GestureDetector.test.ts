@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{GestureDetector}from'../../input/GestureDetector';
+describe('GestureDetector',()=>{it('starts inactive',()=>expect(new GestureDetector().isRecording()).toBe(false));it('records events',()=>{const x=new GestureDetector();x.start();x.record({type:'tap'});expect(x.getCount()).toBe(1);});it('clears',()=>{const x=new GestureDetector();x.start();x.record({type:'tap'});x.clear();expect(x.getCount()).toBe(0);});});

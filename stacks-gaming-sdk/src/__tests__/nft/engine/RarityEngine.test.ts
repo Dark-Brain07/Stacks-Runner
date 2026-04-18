@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{RarityEngine}from"../../nft/engine/RarityEngine";
+describe("RarityEngine",()=>{it("ok",()=>expect(new RarityEngine()).toBeDefined());it("state",()=>{const x=new RarityEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new RarityEngine();x.disable();expect(x.isActive()).toBe(false);});});

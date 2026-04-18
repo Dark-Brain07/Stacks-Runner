@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InstanceManager}from"../../game/world/InstanceManager";
+describe("InstanceManager",()=>{it("ok",()=>expect(new InstanceManager()).toBeDefined());it("set/get",()=>{const x=new InstanceManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new InstanceManager();x.disable();expect(x.isActive()).toBe(false);});});

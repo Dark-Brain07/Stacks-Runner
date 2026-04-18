@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PlaylistManager}from"../../game/audio/PlaylistManager";
+describe("PlaylistManager",()=>{it("ok",()=>expect(new PlaylistManager()).toBeDefined());it("set/get",()=>{const x=new PlaylistManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PlaylistManager();x.disable();expect(x.isActive()).toBe(false);});});

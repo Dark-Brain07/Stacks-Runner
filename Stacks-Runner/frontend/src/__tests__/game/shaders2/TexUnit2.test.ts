@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TexUnit2}from"../../game/shaders2/TexUnit2";
+describe("TexUnit2",()=>{it("ok",()=>expect(new TexUnit2()).toBeDefined());it("toggle",()=>{const x=new TexUnit2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new TexUnit2();x.set("a",1);expect(x.get("a")).toBe(1);});});

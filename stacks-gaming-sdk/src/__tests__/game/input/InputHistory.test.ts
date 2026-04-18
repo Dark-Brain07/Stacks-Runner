@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InputHistory}from"../../game/input/InputHistory";
+describe("InputHistory",()=>{it("ok",()=>expect(new InputHistory()).toBeDefined());it("set/get",()=>{const x=new InputHistory();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new InputHistory();x.disable();expect(x.isActive()).toBe(false);});});

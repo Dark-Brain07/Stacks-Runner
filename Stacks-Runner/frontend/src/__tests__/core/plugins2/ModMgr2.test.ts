@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ModMgr2}from"../../core/plugins2/ModMgr2";
+describe("ModMgr2",()=>{it("ok",()=>expect(new ModMgr2()).toBeDefined());it("toggle",()=>{const x=new ModMgr2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ModMgr2();x.set("a",1);expect(x.get("a")).toBe(1);});});

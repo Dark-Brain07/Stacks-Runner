@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MinionSpawner}from"../../game/ai/MinionSpawner";
+describe("MinionSpawner",()=>{it("ok",()=>expect(new MinionSpawner()).toBeDefined());it("set/get",()=>{const x=new MinionSpawner();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MinionSpawner();x.disable();expect(x.isActive()).toBe(false);});});

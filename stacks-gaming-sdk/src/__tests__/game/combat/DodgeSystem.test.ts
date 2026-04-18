@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DodgeSystem}from"../../game/combat/DodgeSystem";
+describe("DodgeSystem",()=>{it("ok",()=>expect(new DodgeSystem()).toBeDefined());it("set/get",()=>{const x=new DodgeSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new DodgeSystem();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CompletionTracker}from"../../game/achievements/CompletionTracker";
+describe("CompletionTracker",()=>{it("ok",()=>expect(new CompletionTracker()).toBeDefined());it("state",()=>{const x=new CompletionTracker();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new CompletionTracker();x.disable();expect(x.isActive()).toBe(false);});});

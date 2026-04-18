@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{QueueTimer}from"../../multiplayer/matchmaking/QueueTimer";
+describe("QueueTimer",()=>{it("ok",()=>expect(new QueueTimer()).toBeDefined());it("state",()=>{const x=new QueueTimer();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new QueueTimer();x.disable();expect(x.isActive()).toBe(false);});});

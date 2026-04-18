@@ -1,0 +1,7 @@
+export interface GameStats { totalGames: number; totalScore: number; avgScore: number; bestScore: number; worstScore: number; totalTime: number; coinsCollected: number; powerUpsUsed: number; }
+const SK = 'runner-stats';
+interface Raw { scores: number[]; times: number[]; coins: number; powerups: number; }
+function loadRaw(): Raw { try { return JSON.parse(localStorage.getItem(SK) || '{}'); } catch { return { scores: [], times: [], coins: 0, powerups: 0 }; } }
+export function recordGame(score: number, dur: number, coins: number, pu: number): void { const r = loadRaw(); if (!r.scores) r.scores = []; if (!r.times) r.times = []; r.scores.push(score); r.times.push(dur); r.coins = (r.coins || 0) + coins; r.powerups = (r.powerups || 0) + pu; localStorage.setItem(SK, JSON.stringify(r)); }
+export function getStats(): GameStats { const r = loadRaw(); const sc = r.scores || []; return { totalGames: sc.length, totalScore: sc.reduce((a,b) => a+b, 0), avgScore: sc.length ? Math.round(sc.reduce((a,b) => a+b, 0) / sc.length) : 0, bestScore: sc.length ? Math.max(...sc) : 0, worstScore: sc.length ? Math.min(...sc) : 0, totalTime: (r.times || []).reduce((a,b) => a+b, 0), coinsCollected: r.coins || 0, powerUpsUsed: r.powerups || 0 }; }
+export function resetStats(): void { localStorage.removeItem(SK); }

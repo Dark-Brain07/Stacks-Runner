@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ABIGenerator}from"../../stacks/tools/ABIGenerator";
+describe("ABIGenerator",()=>{it("ok",()=>expect(new ABIGenerator()).toBeDefined());it("state",()=>{const x=new ABIGenerator();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ABIGenerator();x.disable();expect(x.isActive()).toBe(false);});});

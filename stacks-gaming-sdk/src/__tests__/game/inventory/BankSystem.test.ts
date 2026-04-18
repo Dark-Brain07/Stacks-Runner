@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BankSystem}from"../../game/inventory/BankSystem";
+describe("BankSystem",()=>{it("ok",()=>expect(new BankSystem()).toBeDefined());it("set/get",()=>{const x=new BankSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BankSystem();x.disable();expect(x.isActive()).toBe(false);});});

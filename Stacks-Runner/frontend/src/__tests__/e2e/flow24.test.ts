@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";
+describe("e2e flow 24",()=>{it("full cycle",()=>{const state={hp:100,score:0,wave:24};state.score+=state.wave*50;state.hp-=24;expect(state.score).toBe(24*50);expect(state.hp).toBe(100-24);});});

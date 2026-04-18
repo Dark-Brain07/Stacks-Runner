@@ -1,0 +1,1 @@
+export class FPSLimiter{private last=0;private interval:number;constructor(targetFPS=60){this.interval=1000/targetFPS;}shouldUpdate(now:number):boolean{const delta=now-this.last;if(delta>=this.interval){this.last=now-delta%this.interval;return true;}return false;}setTarget(fps:number){this.interval=1000/fps;}}

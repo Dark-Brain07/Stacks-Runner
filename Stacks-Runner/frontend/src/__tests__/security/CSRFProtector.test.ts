@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{CSRFProtector}from'../../security/CSRFProtector';
+describe('CSRFProtector',()=>{it('validates',()=>expect(new CSRFProtector().validate('test')).toBe(true));it('sanitizes',()=>expect(new CSRFProtector().sanitize('<script>')).not.toContain('<'));});

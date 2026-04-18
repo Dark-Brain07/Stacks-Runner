@@ -1,0 +1,23 @@
+error: invalid character, 'O', in principal literal
+--> contracts\character-nft.clar:4:24
+(impl-trait 'SP2PABVDGQO0R1D1Q8H2Q8H2Q8H2Q8H2Q8H2Q8H2.nft-trait.nft-trait)
+                       ^~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+error: expected whitespace before expression
+--> contracts\character-nft.clar:4:54
+(impl-trait 'SP2PABVDGQO0R1D1Q8H2Q8H2Q8H2Q8H2Q8H2Q8H2.nft-trait.nft-trait)
+                                                     ^~~~~~~~~~~~~~~~~~~~
+error: (impl-trait ...) expects a trait identifier
+x 3 errors detected
+
+----------------------------
+Hint: what's next?
+Once you are ready to write TypeScript unit tests for your contract, run the following command:
+
+  $ npm install
+  $ npm test
+    Run all run tests in the ./tests folder.
+
+Find more information on testing with Clarinet here: https://docs.hiro.so/stacks/clarinet-js-sdk
+These hints can be disabled in the ~/.clarinet/clarinetrc.toml file.
+  $ mkdir -p ~/.clarinet; echo "enable_hints = false" >> ~/.clarinet/clarinetrc.toml
+----------------------------

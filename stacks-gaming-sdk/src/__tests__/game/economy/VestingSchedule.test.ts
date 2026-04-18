@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{VestingSchedule}from"../../game/economy/VestingSchedule";
+describe("VestingSchedule",()=>{it("ok",()=>expect(new VestingSchedule()).toBeDefined());it("state",()=>{const x=new VestingSchedule();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new VestingSchedule();x.disable();expect(x.isActive()).toBe(false);});});

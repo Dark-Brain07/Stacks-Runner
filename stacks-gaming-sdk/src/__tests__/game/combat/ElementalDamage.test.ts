@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ElementalDamage}from"../../game/combat/ElementalDamage";
+describe("ElementalDamage",()=>{it("ok",()=>expect(new ElementalDamage()).toBeDefined());it("set/get",()=>{const x=new ElementalDamage();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ElementalDamage();x.disable();expect(x.isActive()).toBe(false);});});

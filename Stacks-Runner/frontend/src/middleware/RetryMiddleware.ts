@@ -1,0 +1,2 @@
+export type Next=(data:any)=>Promise<any>;
+export class RetryMiddleware{async execute(data:any,next:Next):Promise<any>{const start=Date.now();try{const result=await next(data);return result;}finally{const dur=Date.now()-start;}}}

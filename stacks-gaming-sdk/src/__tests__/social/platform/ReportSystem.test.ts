@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ReportSystem}from"../../social/platform/ReportSystem";
+describe("ReportSystem",()=>{it("ok",()=>expect(new ReportSystem()).toBeDefined());it("state",()=>{const x=new ReportSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ReportSystem();x.disable();expect(x.isActive()).toBe(false);});});

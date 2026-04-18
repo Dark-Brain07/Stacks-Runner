@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AntiSmurfing}from"../../multiplayer/matchmaking/AntiSmurfing";
+describe("AntiSmurfing",()=>{it("ok",()=>expect(new AntiSmurfing()).toBeDefined());it("state",()=>{const x=new AntiSmurfing();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AntiSmurfing();x.disable();expect(x.isActive()).toBe(false);});});

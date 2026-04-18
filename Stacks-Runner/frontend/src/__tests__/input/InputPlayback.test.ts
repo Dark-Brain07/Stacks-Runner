@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{InputPlayback}from'../../input/InputPlayback';
+describe('InputPlayback',()=>{it('starts inactive',()=>expect(new InputPlayback().isRecording()).toBe(false));it('records events',()=>{const x=new InputPlayback();x.start();x.record({type:'tap'});expect(x.getCount()).toBe(1);});it('clears',()=>{const x=new InputPlayback();x.start();x.record({type:'tap'});x.clear();expect(x.getCount()).toBe(0);});});

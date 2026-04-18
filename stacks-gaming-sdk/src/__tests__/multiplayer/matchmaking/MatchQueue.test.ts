@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MatchQueue}from"../../multiplayer/matchmaking/MatchQueue";
+describe("MatchQueue",()=>{it("ok",()=>expect(new MatchQueue()).toBeDefined());it("state",()=>{const x=new MatchQueue();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MatchQueue();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ZoneTransition}from"../../game/world/ZoneTransition";
+describe("ZoneTransition",()=>{it("ok",()=>expect(new ZoneTransition()).toBeDefined());it("set/get",()=>{const x=new ZoneTransition();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ZoneTransition();x.disable();expect(x.isActive()).toBe(false);});});

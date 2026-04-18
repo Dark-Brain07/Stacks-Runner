@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{HeightMap}from"../../game/terrain/HeightMap";
+describe("HeightMap",()=>{it("ok",()=>expect(new HeightMap()).toBeDefined());it("toggle",()=>{const x=new HeightMap();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new HeightMap();x.set("a",1);expect(x.get("a")).toBe(1);});});

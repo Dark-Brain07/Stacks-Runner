@@ -1,0 +1,160 @@
+[project]
+name = 'contracts'
+description = ''
+authors = []
+telemetry = false
+cache_dir = '.\.cache'
+requirements = []
+
+[contracts.nft-trait]
+path = 'contracts/nft-trait.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.character-nft]
+path = 'contracts/character-nft.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.governance]
+path = 'contracts/governance.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.score]
+path = 'contracts/score.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.game-vault]
+path = 'contracts/game-vault.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.game-reward]
+path = 'contracts/game-reward.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.reward]
+path = 'contracts/reward.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.vault]
+path = 'contracts/vault.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.achievement-registry]
+path = 'contracts/achievement-registry.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.badge-minter]
+path = 'contracts/badge-minter.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.daily-rewards]
+path = 'contracts/daily-rewards.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.guild-treasury]
+path = 'contracts/guild-treasury.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.insurance-fund]
+path = 'contracts/insurance-fund.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.leaderboard-oracle]
+path = 'contracts/leaderboard-oracle.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.loot-box]
+path = 'contracts/loot-box.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.marketplace-escrow]
+path = 'contracts/marketplace-escrow.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.nft-crafting]
+path = 'contracts/nft-crafting.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.player-profile]
+path = 'contracts/player-profile.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.quest-tracker]
+path = 'contracts/quest-tracker.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.referral-bonus]
+path = 'contracts/referral-bonus.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.royalty-splitter]
+path = 'contracts/royalty-splitter.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.seasonal-pass]
+path = 'contracts/seasonal-pass.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.staking-pool]
+path = 'contracts/staking-pool.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.token-vesting]
+path = 'contracts/token-vesting.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.tournament-bracket]
+path = 'contracts/tournament-bracket.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.voting-governance]
+path = 'contracts/voting-governance.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.wager-system]
+path = 'contracts/wager-system.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.xp-ledger]
+path = 'contracts/xp-ledger.clar'
+clarity_version = 2
+epoch = 2.5
+
+[repl.analysis]
+passes = ['check_checker']
+
+[repl.analysis.check_checker]
+strict = false
+trusted_sender = false
+trusted_caller = false
+callee_filter = false
+
+[repl.remote_data]
+enabled = false
+api_url = 'https://api.hiro.so'

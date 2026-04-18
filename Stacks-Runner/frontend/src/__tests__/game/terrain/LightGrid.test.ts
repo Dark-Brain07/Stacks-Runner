@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{LightGrid}from"../../game/terrain/LightGrid";
+describe("LightGrid",()=>{it("ok",()=>expect(new LightGrid()).toBeDefined());it("toggle",()=>{const x=new LightGrid();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new LightGrid();x.set("a",1);expect(x.get("a")).toBe(1);});});

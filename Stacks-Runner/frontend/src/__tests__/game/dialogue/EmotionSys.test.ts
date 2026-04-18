@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{EmotionSys}from"../../game/dialogue/EmotionSys";
+describe("EmotionSys",()=>{it("ok",()=>expect(new EmotionSys()).toBeDefined());it("toggle",()=>{const x=new EmotionSys();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new EmotionSys();x.set("a",1);expect(x.get("a")).toBe(1);});});

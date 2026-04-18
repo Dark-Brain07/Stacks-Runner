@@ -1,0 +1,2 @@
+[data-theme="cyberpunk"]{--bg:#0D1117;--fg:#E6EDF3;--accent:#6C5CE7;}
+.cyberpunk-card{background:var(--bg);border-radius:12px;padding:1rem;}

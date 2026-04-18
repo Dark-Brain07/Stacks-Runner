@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CompoundingEngine}from"../../game/economy/CompoundingEngine";
+describe("CompoundingEngine",()=>{it("ok",()=>expect(new CompoundingEngine()).toBeDefined());it("state",()=>{const x=new CompoundingEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new CompoundingEngine();x.disable();expect(x.isActive()).toBe(false);});});

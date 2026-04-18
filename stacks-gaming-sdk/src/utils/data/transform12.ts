@@ -1,0 +1,3 @@
+export function pipe12<T>(...fns:((v:T)=>T)[]):(v:T)=>T{return(v)=>fns.reduce((acc,fn)=>fn(acc),v);}
+export function memoize12<T>(fn:(...args:any[])=>T):(...args:any[])=>T{const cache=new Map();return(...args)=>{const k=JSON.stringify(args);if(!cache.has(k))cache.set(k,fn(...args));return cache.get(k)!;};}
+export function debounce12(fn:Function,ms:number){let t:any;return(...a:any[])=>{clearTimeout(t);t=setTimeout(()=>fn(...a),ms);}}

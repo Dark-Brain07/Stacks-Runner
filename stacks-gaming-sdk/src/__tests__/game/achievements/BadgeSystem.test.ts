@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BadgeSystem}from"../../game/achievements/BadgeSystem";
+describe("BadgeSystem",()=>{it("ok",()=>expect(new BadgeSystem()).toBeDefined());it("state",()=>{const x=new BadgeSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BadgeSystem();x.disable();expect(x.isActive()).toBe(false);});});

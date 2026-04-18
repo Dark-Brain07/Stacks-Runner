@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{LinkerStep}from'../../pipeline/LinkerStep';
+describe('LinkerStep',()=>{it('runs configured',async()=>{const x=new LinkerStep();x.configure({a:1});const r=await x.run();expect(r.ok).toBe(true);});});

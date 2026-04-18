@@ -1,0 +1,2 @@
+import React from'react';
+export const Dial:React.FC<{value?:any;label?:string}>=({value,label})=>React.createElement('div',{className:'ui-dial','data-testid':'dial'},React.createElement('span',{className:'label'},label||'Dial'),value!==undefined&&React.createElement('span',{className:'value'},String(value)));

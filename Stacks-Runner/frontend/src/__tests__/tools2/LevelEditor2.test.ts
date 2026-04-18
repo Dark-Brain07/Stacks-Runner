@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{LevelEditor2}from"../../tools2/LevelEditor2";
+describe("LevelEditor2",()=>{it("ok",()=>expect(new LevelEditor2()).toBeDefined());it("toggle",()=>{const x=new LevelEditor2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new LevelEditor2();x.set("a",1);expect(x.get("a")).toBe(1);});});

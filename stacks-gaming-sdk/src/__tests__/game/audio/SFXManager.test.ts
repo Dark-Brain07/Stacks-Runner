@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SFXManager}from"../../game/audio/SFXManager";
+describe("SFXManager",()=>{it("ok",()=>expect(new SFXManager()).toBeDefined());it("set/get",()=>{const x=new SFXManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SFXManager();x.disable();expect(x.isActive()).toBe(false);});});

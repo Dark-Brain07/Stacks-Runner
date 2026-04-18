@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{VoiceCommand}from"../../game/input/VoiceCommand";
+describe("VoiceCommand",()=>{it("ok",()=>expect(new VoiceCommand()).toBeDefined());it("set/get",()=>{const x=new VoiceCommand();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new VoiceCommand();x.disable();expect(x.isActive()).toBe(false);});});

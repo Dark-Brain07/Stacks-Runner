@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AudioFilter}from"../../game/audio/AudioFilter";
+describe("AudioFilter",()=>{it("ok",()=>expect(new AudioFilter()).toBeDefined());it("set/get",()=>{const x=new AudioFilter();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AudioFilter();x.disable();expect(x.isActive()).toBe(false);});});

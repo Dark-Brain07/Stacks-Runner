@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CraftingXP}from"../../game/crafting/CraftingXP";
+describe("CraftingXP",()=>{it("ok",()=>expect(new CraftingXP()).toBeDefined());it("set/get",()=>{const x=new CraftingXP();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new CraftingXP();x.disable();expect(x.isActive()).toBe(false);});});

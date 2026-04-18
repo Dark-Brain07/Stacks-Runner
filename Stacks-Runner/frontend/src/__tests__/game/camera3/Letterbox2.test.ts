@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Letterbox2}from"../../game/camera3/Letterbox2";
+describe("Letterbox2",()=>{it("ok",()=>expect(new Letterbox2()).toBeDefined());it("toggle",()=>{const x=new Letterbox2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Letterbox2();x.set("a",1);expect(x.get("a")).toBe(1);});});

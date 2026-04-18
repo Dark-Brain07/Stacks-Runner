@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{LootGen}from"../../game/inventory/LootGen";
+describe("LootGen",()=>{it("ok",()=>expect(new LootGen()).toBeDefined());it("toggle",()=>{const x=new LootGen();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new LootGen();x.set("a",1);expect(x.get("a")).toBe(1);});});

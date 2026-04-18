@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PickupManager}from"../../game/inventory/PickupManager";
+describe("PickupManager",()=>{it("ok",()=>expect(new PickupManager()).toBeDefined());it("set/get",()=>{const x=new PickupManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PickupManager();x.disable();expect(x.isActive()).toBe(false);});});

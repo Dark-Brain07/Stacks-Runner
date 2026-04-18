@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AuctionEngine}from"../../nft/engine/AuctionEngine";
+describe("AuctionEngine",()=>{it("ok",()=>expect(new AuctionEngine()).toBeDefined());it("state",()=>{const x=new AuctionEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AuctionEngine();x.disable();expect(x.isActive()).toBe(false);});});

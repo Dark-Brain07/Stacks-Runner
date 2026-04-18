@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InventoryManager}from"../../game/inventory/InventoryManager";
+describe("InventoryManager",()=>{it("ok",()=>expect(new InventoryManager()).toBeDefined());it("set/get",()=>{const x=new InventoryManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new InventoryManager();x.disable();expect(x.isActive()).toBe(false);});});

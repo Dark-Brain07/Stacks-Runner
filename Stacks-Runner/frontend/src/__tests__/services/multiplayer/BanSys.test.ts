@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BanSys}from"../../services/multiplayer/BanSys";
+describe("BanSys",()=>{it("ok",()=>expect(new BanSys()).toBeDefined());it("toggle",()=>{const x=new BanSys();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new BanSys();x.set("a",1);expect(x.get("a")).toBe(1);});});

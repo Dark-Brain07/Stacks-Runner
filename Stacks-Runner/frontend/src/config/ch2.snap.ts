@@ -1,0 +1,1 @@
+export const SNAP2={channel:"snap",experimental:false} as const;

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CollectionManager}from"../../nft/engine/CollectionManager";
+describe("CollectionManager",()=>{it("ok",()=>expect(new CollectionManager()).toBeDefined());it("state",()=>{const x=new CollectionManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new CollectionManager();x.disable();expect(x.isActive()).toBe(false);});});

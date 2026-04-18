@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Broadphase2}from"../../game/physics4/Broadphase2";
+describe("Broadphase2",()=>{it("ok",()=>expect(new Broadphase2()).toBeDefined());it("toggle",()=>{const x=new Broadphase2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Broadphase2();x.set("a",1);expect(x.get("a")).toBe(1);});});

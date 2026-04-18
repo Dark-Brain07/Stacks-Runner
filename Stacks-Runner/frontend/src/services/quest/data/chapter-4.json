@@ -1,0 +1,36 @@
+{
+  "chapter": 4,
+  "title": "Chapter 4: The Awakening",
+  "quests": [
+    {
+      "id": "ch4-q1",
+      "title": "Quest 1",
+      "xpReward": 400,
+      "objectives": 3
+    },
+    {
+      "id": "ch4-q2",
+      "title": "Quest 2",
+      "xpReward": 450,
+      "objectives": 3
+    },
+    {
+      "id": "ch4-q3",
+      "title": "Quest 3",
+      "xpReward": 500,
+      "objectives": 3
+    },
+    {
+      "id": "ch4-q4",
+      "title": "Quest 4",
+      "xpReward": 550,
+      "objectives": 3
+    },
+    {
+      "id": "ch4-q5",
+      "title": "Quest 5",
+      "xpReward": 600,
+      "objectives": 3
+    }
+  ]
+}

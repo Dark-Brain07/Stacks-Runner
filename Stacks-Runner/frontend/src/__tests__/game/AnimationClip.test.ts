@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{AnimationClip}from'../../game/animation/AnimationClip';
+describe('AnimationClip',()=>{it('starts stopped',()=>expect(new AnimationClip().isPlaying()).toBe(false));it('plays',()=>{const x=new AnimationClip();x.play();expect(x.isPlaying()).toBe(true);});it('stops and resets',()=>{const x=new AnimationClip();x.play();x.update(100);x.stop();expect(x.getTime()).toBe(0);});});

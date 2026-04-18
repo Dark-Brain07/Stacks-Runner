@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MasteryLevel}from"../../game/crafting/MasteryLevel";
+describe("MasteryLevel",()=>{it("ok",()=>expect(new MasteryLevel()).toBeDefined());it("set/get",()=>{const x=new MasteryLevel();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MasteryLevel();x.disable();expect(x.isActive()).toBe(false);});});

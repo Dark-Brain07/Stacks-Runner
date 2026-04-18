@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{isEnabled,setFlag,resetFlags,getAllFlags}from'../../config/featureFlags';
+describe('featureFlags',()=>{beforeEach(()=>{localStorage.clear();resetFlags();});it('returns defaults',()=>expect(isEnabled('enablePowerUps')).toBe(true));it('overrides with setFlag',()=>{setFlag('enablePowerUps',false);expect(isEnabled('enablePowerUps')).toBe(false);});it('returns false for unknown',()=>expect(isEnabled('nonexistent')).toBe(false));it('lists all flags',()=>expect(Object.keys(getAllFlags()).length).toBeGreaterThan(0));});

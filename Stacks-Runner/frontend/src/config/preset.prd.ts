@@ -1,0 +1,1 @@
+export const PRD_PRESET={env:'prd',debug:false,logLevel:'error',timeout:5000,retries:3} as const;

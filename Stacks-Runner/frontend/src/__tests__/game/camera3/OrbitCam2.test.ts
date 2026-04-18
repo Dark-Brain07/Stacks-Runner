@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{OrbitCam2}from"../../game/camera3/OrbitCam2";
+describe("OrbitCam2",()=>{it("ok",()=>expect(new OrbitCam2()).toBeDefined());it("toggle",()=>{const x=new OrbitCam2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new OrbitCam2();x.set("a",1);expect(x.get("a")).toBe(1);});});

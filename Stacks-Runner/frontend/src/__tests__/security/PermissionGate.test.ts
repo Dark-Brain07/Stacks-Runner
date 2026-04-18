@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{PermissionGate}from'../../security/PermissionGate';
+describe('PermissionGate',()=>{it('validates',()=>expect(new PermissionGate().validate('test')).toBe(true));it('sanitizes',()=>expect(new PermissionGate().sanitize('<script>')).not.toContain('<'));});

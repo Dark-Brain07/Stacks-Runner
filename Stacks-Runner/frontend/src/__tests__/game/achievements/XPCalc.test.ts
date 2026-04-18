@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{XPCalc}from"../../game/achievements/XPCalc";
+describe("XPCalc",()=>{it("ok",()=>expect(new XPCalc()).toBeDefined());it("toggle",()=>{const x=new XPCalc();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new XPCalc();x.set("a",1);expect(x.get("a")).toBe(1);});});

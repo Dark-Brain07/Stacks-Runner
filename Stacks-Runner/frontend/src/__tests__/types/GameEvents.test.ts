@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{createGameEvents,updateGameEvents}from'../../types/GameEvents';
+describe('GameEvents',()=>{it('creates',()=>{const s=createGameEvents('test');expect(s.id).toBe('test');expect(s.active).toBe(true);});});

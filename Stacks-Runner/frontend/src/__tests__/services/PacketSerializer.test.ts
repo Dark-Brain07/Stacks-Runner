@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{PacketSerializer}from'../../services/network/PacketSerializer';
+describe('PacketSerializer',()=>{it('starts disconnected',()=>expect(new PacketSerializer().isConnected()).toBe(false));it('connects',async()=>{const c=new PacketSerializer();await c.connect();expect(c.isConnected()).toBe(true);});});

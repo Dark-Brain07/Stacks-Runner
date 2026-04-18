@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BloomFX2}from"../../game/shaders2/BloomFX2";
+describe("BloomFX2",()=>{it("ok",()=>expect(new BloomFX2()).toBeDefined());it("toggle",()=>{const x=new BloomFX2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new BloomFX2();x.set("a",1);expect(x.get("a")).toBe(1);});});

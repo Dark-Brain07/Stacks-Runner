@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ReverbZone}from"../../game/audio/ReverbZone";
+describe("ReverbZone",()=>{it("ok",()=>expect(new ReverbZone()).toBeDefined());it("set/get",()=>{const x=new ReverbZone();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ReverbZone();x.disable();expect(x.isActive()).toBe(false);});});

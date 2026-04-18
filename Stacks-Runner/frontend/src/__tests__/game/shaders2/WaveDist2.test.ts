@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{WaveDist2}from"../../game/shaders2/WaveDist2";
+describe("WaveDist2",()=>{it("ok",()=>expect(new WaveDist2()).toBeDefined());it("toggle",()=>{const x=new WaveDist2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new WaveDist2();x.set("a",1);expect(x.get("a")).toBe(1);});});

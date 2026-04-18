@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{PostCondBuilder}from'../../chain/PostCondBuilder';
+describe('PostCondBuilder',()=>{it('defaults mainnet',()=>expect(new PostCondBuilder().getNet()).toBe('mainnet'));it('checks params',()=>expect(new PostCondBuilder().check({a:1})).toBe(true));});

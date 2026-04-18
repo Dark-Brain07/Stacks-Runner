@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AchvTracker}from"../../game/achievements/AchvTracker";
+describe("AchvTracker",()=>{it("ok",()=>expect(new AchvTracker()).toBeDefined());it("toggle",()=>{const x=new AchvTracker();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new AchvTracker();x.set("a",1);expect(x.get("a")).toBe(1);});});

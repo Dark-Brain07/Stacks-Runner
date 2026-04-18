@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{NarrativeState}from"../../game/dialogue/NarrativeState";
+describe("NarrativeState",()=>{it("ok",()=>expect(new NarrativeState()).toBeDefined());it("toggle",()=>{const x=new NarrativeState();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new NarrativeState();x.set("a",1);expect(x.get("a")).toBe(1);});});

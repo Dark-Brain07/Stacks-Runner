@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SeasonReset}from"../../multiplayer/matchmaking/SeasonReset";
+describe("SeasonReset",()=>{it("ok",()=>expect(new SeasonReset()).toBeDefined());it("state",()=>{const x=new SeasonReset();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SeasonReset();x.disable();expect(x.isActive()).toBe(false);});});

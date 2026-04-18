@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Teleport2}from"../../game/map3/Teleport2";
+describe("Teleport2",()=>{it("ok",()=>expect(new Teleport2()).toBeDefined());it("toggle",()=>{const x=new Teleport2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Teleport2();x.set("a",1);expect(x.get("a")).toBe(1);});});

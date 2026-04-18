@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Subtitle}from"../../game/dialogue/Subtitle";
+describe("Subtitle",()=>{it("ok",()=>expect(new Subtitle()).toBeDefined());it("toggle",()=>{const x=new Subtitle();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Subtitle();x.set("a",1);expect(x.get("a")).toBe(1);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{IngredientManager}from"../../game/crafting/IngredientManager";
+describe("IngredientManager",()=>{it("ok",()=>expect(new IngredientManager()).toBeDefined());it("set/get",()=>{const x=new IngredientManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new IngredientManager();x.disable();expect(x.isActive()).toBe(false);});});

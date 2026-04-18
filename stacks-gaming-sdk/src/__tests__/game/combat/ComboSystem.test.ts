@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ComboSystem}from"../../game/combat/ComboSystem";
+describe("ComboSystem",()=>{it("ok",()=>expect(new ComboSystem()).toBeDefined());it("set/get",()=>{const x=new ComboSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ComboSystem();x.disable();expect(x.isActive()).toBe(false);});});

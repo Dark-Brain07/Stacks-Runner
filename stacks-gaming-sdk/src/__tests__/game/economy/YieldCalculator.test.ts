@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{YieldCalculator}from"../../game/economy/YieldCalculator";
+describe("YieldCalculator",()=>{it("ok",()=>expect(new YieldCalculator()).toBeDefined());it("state",()=>{const x=new YieldCalculator();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new YieldCalculator();x.disable();expect(x.isActive()).toBe(false);});});

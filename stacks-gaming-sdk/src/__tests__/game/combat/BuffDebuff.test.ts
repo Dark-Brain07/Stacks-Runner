@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BuffDebuff}from"../../game/combat/BuffDebuff";
+describe("BuffDebuff",()=>{it("ok",()=>expect(new BuffDebuff()).toBeDefined());it("set/get",()=>{const x=new BuffDebuff();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BuffDebuff();x.disable();expect(x.isActive()).toBe(false);});});

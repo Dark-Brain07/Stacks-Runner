@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{UnlockManager}from"../../game/achievements/UnlockManager";
+describe("UnlockManager",()=>{it("ok",()=>expect(new UnlockManager()).toBeDefined());it("state",()=>{const x=new UnlockManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new UnlockManager();x.disable();expect(x.isActive()).toBe(false);});});

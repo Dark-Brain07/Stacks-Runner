@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Breadcrumb2}from"../../game/map3/Breadcrumb2";
+describe("Breadcrumb2",()=>{it("ok",()=>expect(new Breadcrumb2()).toBeDefined());it("toggle",()=>{const x=new Breadcrumb2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Breadcrumb2();x.set("a",1);expect(x.get("a")).toBe(1);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{LobbyManager}from'../../services/network/LobbyManager';
+describe('LobbyManager',()=>{it('starts disconnected',()=>expect(new LobbyManager().isConnected()).toBe(false));it('connects',async()=>{const c=new LobbyManager();await c.connect();expect(c.isConnected()).toBe(true);});});

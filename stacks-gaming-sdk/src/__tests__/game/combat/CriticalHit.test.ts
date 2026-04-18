@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CriticalHit}from"../../game/combat/CriticalHit";
+describe("CriticalHit",()=>{it("ok",()=>expect(new CriticalHit()).toBeDefined());it("set/get",()=>{const x=new CriticalHit();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new CriticalHit();x.disable();expect(x.isActive()).toBe(false);});});

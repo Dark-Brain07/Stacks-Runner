@@ -1,0 +1,2 @@
+.sr-nfthistory { display:flex; gap:0.5rem; padding:0.75rem 1rem; border-radius:8px; background:hsl(183,12%,14%); border:1px solid hsl(183,10%,22%); transition:all 200ms; }
+.sr-nfthistory:hover { background:hsl(183,14%,18%); box-shadow:0 4px 16px hsla(183,40%,20%,0.3); }

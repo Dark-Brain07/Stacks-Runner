@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{LeaderboardRealtime}from"../../social/platform/LeaderboardRealtime";
+describe("LeaderboardRealtime",()=>{it("ok",()=>expect(new LeaderboardRealtime()).toBeDefined());it("state",()=>{const x=new LeaderboardRealtime();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new LeaderboardRealtime();x.disable();expect(x.isActive()).toBe(false);});});

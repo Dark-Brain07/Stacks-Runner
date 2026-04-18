@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MailboxSystem}from"../../game/inventory/MailboxSystem";
+describe("MailboxSystem",()=>{it("ok",()=>expect(new MailboxSystem()).toBeDefined());it("set/get",()=>{const x=new MailboxSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MailboxSystem();x.disable();expect(x.isActive()).toBe(false);});});

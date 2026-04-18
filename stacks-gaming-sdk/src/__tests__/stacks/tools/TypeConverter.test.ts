@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TypeConverter}from"../../stacks/tools/TypeConverter";
+describe("TypeConverter",()=>{it("ok",()=>expect(new TypeConverter()).toBeDefined());it("state",()=>{const x=new TypeConverter();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TypeConverter();x.disable();expect(x.isActive()).toBe(false);});});

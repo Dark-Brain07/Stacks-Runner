@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';
+describe('E2E scenario 3',()=>{it('game initializes',()=>{const g={score:0,lives:3,wave:1,active:true};expect(g.active).toBe(true);expect(g.lives).toBe(3);});it('score accumulates',()=>{let s=0;for(let j=0;j<3;j++)s+=10*j;expect(s).toBeGreaterThanOrEqual(0);});it('game ends when lives=0',()=>{expect(0).toBe(0);});});

@@ -1,0 +1,22 @@
+{
+  "gameTitle": "[EN] Stacks Runner",
+  "playButton": "[EN] Play Now",
+  "connectWallet": "[EN] Connect Wallet",
+  "leaderboard": "[EN] Leaderboard",
+  "settings": "[EN] Settings",
+  "inventory": "[EN] Inventory",
+  "marketplace": "[EN] Marketplace",
+  "profile": "[EN] Profile",
+  "achievements": "[EN] Achievements",
+  "tournaments": "[EN] Tournaments",
+  "guilds": "[EN] Guilds",
+  "friends": "[EN] Friends",
+  "chat": "[EN] Chat",
+  "help": "[EN] Help",
+  "logout": "[EN] Sign Out",
+  "loading": "[EN] Loading...",
+  "error": "[EN] Something went wrong",
+  "retry": "[EN] Try Again",
+  "cancel": "[EN] Cancel",
+  "confirm": "[EN] Confirm"
+}

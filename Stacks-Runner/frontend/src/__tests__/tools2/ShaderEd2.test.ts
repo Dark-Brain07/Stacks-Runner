@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ShaderEd2}from"../../tools2/ShaderEd2";
+describe("ShaderEd2",()=>{it("ok",()=>expect(new ShaderEd2()).toBeDefined());it("toggle",()=>{const x=new ShaderEd2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ShaderEd2();x.set("a",1);expect(x.get("a")).toBe(1);});});

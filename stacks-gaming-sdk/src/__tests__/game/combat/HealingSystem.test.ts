@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{HealingSystem}from"../../game/combat/HealingSystem";
+describe("HealingSystem",()=>{it("ok",()=>expect(new HealingSystem()).toBeDefined());it("set/get",()=>{const x=new HealingSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new HealingSystem();x.disable();expect(x.isActive()).toBe(false);});});

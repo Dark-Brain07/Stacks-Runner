@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{createAnimationState,updateAnimationState}from'../../types/AnimationState';
+describe('AnimationState',()=>{it('creates',()=>{const s=createAnimationState('test');expect(s.id).toBe('test');expect(s.active).toBe(true);});});

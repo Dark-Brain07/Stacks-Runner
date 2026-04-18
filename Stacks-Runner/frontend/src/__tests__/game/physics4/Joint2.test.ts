@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Joint2}from"../../game/physics4/Joint2";
+describe("Joint2",()=>{it("ok",()=>expect(new Joint2()).toBeDefined());it("toggle",()=>{const x=new Joint2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Joint2();x.set("a",1);expect(x.get("a")).toBe(1);});});

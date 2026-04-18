@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BlockMechanic}from"../../game/combat/BlockMechanic";
+describe("BlockMechanic",()=>{it("ok",()=>expect(new BlockMechanic()).toBeDefined());it("set/get",()=>{const x=new BlockMechanic();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BlockMechanic();x.disable();expect(x.isActive()).toBe(false);});});

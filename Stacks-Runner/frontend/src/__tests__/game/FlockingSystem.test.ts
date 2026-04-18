@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{FlockingSystem}from'../../game/ai/FlockingSystem';
+describe('FlockingSystem',()=>{it('creates instance',()=>expect(new FlockingSystem()).toBeDefined());it('enables/disables',()=>{const x=new FlockingSystem();x.disable();expect(x.isEnabled()).toBe(false);x.enable();expect(x.isEnabled()).toBe(true);});});

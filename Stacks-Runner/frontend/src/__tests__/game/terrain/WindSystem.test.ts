@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{WindSystem}from"../../game/terrain/WindSystem";
+describe("WindSystem",()=>{it("ok",()=>expect(new WindSystem()).toBeDefined());it("toggle",()=>{const x=new WindSystem();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new WindSystem();x.set("a",1);expect(x.get("a")).toBe(1);});});

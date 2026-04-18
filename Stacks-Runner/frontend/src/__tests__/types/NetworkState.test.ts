@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{createNetworkState,updateNetworkState}from'../../types/NetworkState';
+describe('NetworkState',()=>{it('creates',()=>{const s=createNetworkState('test');expect(s.id).toBe('test');expect(s.active).toBe(true);});});

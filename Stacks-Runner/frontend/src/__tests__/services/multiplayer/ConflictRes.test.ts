@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ConflictRes}from"../../services/multiplayer/ConflictRes";
+describe("ConflictRes",()=>{it("ok",()=>expect(new ConflictRes()).toBeDefined());it("toggle",()=>{const x=new ConflictRes();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ConflictRes();x.set("a",1);expect(x.get("a")).toBe(1);});});

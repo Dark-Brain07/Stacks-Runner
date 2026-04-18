@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{GovernanceToken}from"../../game/economy/GovernanceToken";
+describe("GovernanceToken",()=>{it("ok",()=>expect(new GovernanceToken()).toBeDefined());it("state",()=>{const x=new GovernanceToken();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new GovernanceToken();x.disable();expect(x.isActive()).toBe(false);});});

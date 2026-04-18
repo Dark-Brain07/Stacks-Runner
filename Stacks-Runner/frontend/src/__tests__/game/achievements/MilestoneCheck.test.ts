@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MilestoneCheck}from"../../game/achievements/MilestoneCheck";
+describe("MilestoneCheck",()=>{it("ok",()=>expect(new MilestoneCheck()).toBeDefined());it("toggle",()=>{const x=new MilestoneCheck();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new MilestoneCheck();x.set("a",1);expect(x.get("a")).toBe(1);});});

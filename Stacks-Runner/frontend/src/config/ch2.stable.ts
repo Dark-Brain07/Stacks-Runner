@@ -1,0 +1,1 @@
+export const STABLE2={channel:"stable",experimental:false} as const;

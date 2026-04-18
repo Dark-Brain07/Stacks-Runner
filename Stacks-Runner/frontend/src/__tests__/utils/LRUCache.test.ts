@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{LRUCache}from'../../utils/structures/LRUCache';
+describe('LRUCache',()=>{it('starts empty',()=>expect(new LRUCache().isEmpty()).toBe(true));it('adds items',()=>{const s=new LRUCache();s.add(1);expect(s.size).toBe(1);});it('clears',()=>{const s=new LRUCache();s.add(1);s.clear();expect(s.isEmpty()).toBe(true);});});

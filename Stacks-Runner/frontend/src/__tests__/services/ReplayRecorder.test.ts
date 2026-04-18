@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{ReplayRecorder}from'../../services/network/ReplayRecorder';
+describe('ReplayRecorder',()=>{it('starts disconnected',()=>expect(new ReplayRecorder().isConnected()).toBe(false));it('connects',async()=>{const c=new ReplayRecorder();await c.connect();expect(c.isConnected()).toBe(true);});});

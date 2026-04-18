@@ -1,0 +1,36 @@
+{
+  "chapter": 10,
+  "title": "Chapter 10: The Legacy",
+  "quests": [
+    {
+      "id": "ch10-q1",
+      "title": "Quest 1",
+      "xpReward": 1000,
+      "objectives": 3
+    },
+    {
+      "id": "ch10-q2",
+      "title": "Quest 2",
+      "xpReward": 1050,
+      "objectives": 3
+    },
+    {
+      "id": "ch10-q3",
+      "title": "Quest 3",
+      "xpReward": 1100,
+      "objectives": 3
+    },
+    {
+      "id": "ch10-q4",
+      "title": "Quest 4",
+      "xpReward": 1150,
+      "objectives": 3
+    },
+    {
+      "id": "ch10-q5",
+      "title": "Quest 5",
+      "xpReward": 1200,
+      "objectives": 3
+    }
+  ]
+}

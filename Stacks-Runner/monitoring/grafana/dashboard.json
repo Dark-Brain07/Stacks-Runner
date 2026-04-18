@@ -1,0 +1,19 @@
+{
+  "dashboard": {
+    "title": "Stacks Runner",
+    "panels": [
+      {
+        "title": "Request Rate",
+        "type": "graph"
+      },
+      {
+        "title": "Error Rate",
+        "type": "graph"
+      },
+      {
+        "title": "Latency P99",
+        "type": "stat"
+      }
+    ]
+  }
+}

@@ -1,0 +1,2 @@
+.sr-endlessmodecard { display:flex; gap:0.5rem; padding:0.75rem 1rem; border-radius:8px; background:hsl(141,12%,14%); border:1px solid hsl(141,10%,22%); transition:all 200ms; }
+.sr-endlessmodecard:hover { background:hsl(141,14%,18%); box-shadow:0 4px 16px hsla(141,40%,20%,0.3); }

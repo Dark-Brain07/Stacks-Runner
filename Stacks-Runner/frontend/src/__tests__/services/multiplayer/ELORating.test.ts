@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ELORating}from"../../services/multiplayer/ELORating";
+describe("ELORating",()=>{it("ok",()=>expect(new ELORating()).toBeDefined());it("toggle",()=>{const x=new ELORating();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ELORating();x.set("a",1);expect(x.get("a")).toBe(1);});});

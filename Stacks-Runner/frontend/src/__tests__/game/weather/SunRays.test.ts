@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SunRays}from"../../game/weather/SunRays";
+describe("SunRays",()=>{it("creates",()=>expect(new SunRays()).toBeDefined());it("toggles",()=>{const x=new SunRays();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new SunRays();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new SunRays();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new SunRays();x.dispose();expect(x.isActive()).toBe(false);});});

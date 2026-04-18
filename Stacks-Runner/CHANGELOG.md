@@ -1,0 +1,28 @@
+# Changelog
+## [4.0.8] - 2026-04-18
+### Fixed
+- Fixed package-lock.json name mismatch (was `stacks-runner-game-darkbrain`, now `@rajuice/stacks-runner`)
+- Synced lockfile version with package.json
+- Frontend version sync to 4.0.8
+
+### Improved
+- Enhanced Clarity contract security patterns
+- Optimized gas usage across vault and reward contracts
+- Updated CI/CD pipeline configuration
+
+## [1.4.0] - 2026-03-27
+### Added
+- Power-up system with 6 abilities
+- Save/load with export/import
+- Web Audio synthesizer with 8 sounds
+- Tutorial system with 8-step onboarding
+- French, German, Portuguese, Turkish locales
+- Notification system
+- API response cache with TTL
+- Keyboard shortcut manager
+- Statistics aggregation
+- Data migration system
+- Responsive canvas sizing helpers
+- Health check diagnostics
+- Configuration validator
+- UI components: PowerUpBar, LivesDisplay, LevelBadge, DetailedStats, AchievementList

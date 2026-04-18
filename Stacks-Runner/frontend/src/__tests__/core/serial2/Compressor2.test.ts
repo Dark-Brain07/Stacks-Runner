@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Compressor2}from"../../core/serial2/Compressor2";
+describe("Compressor2",()=>{it("ok",()=>expect(new Compressor2()).toBeDefined());it("toggle",()=>{const x=new Compressor2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Compressor2();x.set("a",1);expect(x.get("a")).toBe(1);});});

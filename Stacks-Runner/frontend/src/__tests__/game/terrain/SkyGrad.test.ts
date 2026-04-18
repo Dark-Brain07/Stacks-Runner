@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SkyGrad}from"../../game/terrain/SkyGrad";
+describe("SkyGrad",()=>{it("ok",()=>expect(new SkyGrad()).toBeDefined());it("toggle",()=>{const x=new SkyGrad();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new SkyGrad();x.set("a",1);expect(x.get("a")).toBe(1);});});

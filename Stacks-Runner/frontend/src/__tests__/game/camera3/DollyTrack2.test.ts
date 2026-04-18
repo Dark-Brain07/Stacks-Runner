@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DollyTrack2}from"../../game/camera3/DollyTrack2";
+describe("DollyTrack2",()=>{it("ok",()=>expect(new DollyTrack2()).toBeDefined());it("toggle",()=>{const x=new DollyTrack2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new DollyTrack2();x.set("a",1);expect(x.get("a")).toBe(1);});});

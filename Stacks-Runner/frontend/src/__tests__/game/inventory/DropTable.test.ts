@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DropTable}from"../../game/inventory/DropTable";
+describe("DropTable",()=>{it("ok",()=>expect(new DropTable()).toBeDefined());it("toggle",()=>{const x=new DropTable();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new DropTable();x.set("a",1);expect(x.get("a")).toBe(1);});});

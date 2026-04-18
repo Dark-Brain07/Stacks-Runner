@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CrossfadeEngine}from"../../game/audio/CrossfadeEngine";
+describe("CrossfadeEngine",()=>{it("ok",()=>expect(new CrossfadeEngine()).toBeDefined());it("set/get",()=>{const x=new CrossfadeEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new CrossfadeEngine();x.disable();expect(x.isActive()).toBe(false);});});

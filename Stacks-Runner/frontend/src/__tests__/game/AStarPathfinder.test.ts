@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{AStarPathfinder}from'../../game/ai/AStarPathfinder';
+describe('AStarPathfinder',()=>{it('creates instance',()=>expect(new AStarPathfinder()).toBeDefined());it('enables/disables',()=>{const x=new AStarPathfinder();x.disable();expect(x.isEnabled()).toBe(false);x.enable();expect(x.isEnabled()).toBe(true);});});

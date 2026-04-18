@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AutoTiler}from"../../game/terrain/AutoTiler";
+describe("AutoTiler",()=>{it("ok",()=>expect(new AutoTiler()).toBeDefined());it("toggle",()=>{const x=new AutoTiler();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new AutoTiler();x.set("a",1);expect(x.get("a")).toBe(1);});});

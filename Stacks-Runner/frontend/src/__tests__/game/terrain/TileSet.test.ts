@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TileSet}from"../../game/terrain/TileSet";
+describe("TileSet",()=>{it("ok",()=>expect(new TileSet()).toBeDefined());it("toggle",()=>{const x=new TileSet();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new TileSet();x.set("a",1);expect(x.get("a")).toBe(1);});});

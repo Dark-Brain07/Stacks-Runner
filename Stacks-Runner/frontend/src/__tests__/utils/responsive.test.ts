@@ -1,0 +1,2 @@
+import { describe, it, expect } from 'vitest'; import { BREAKPOINTS, getCanvasScale, getOptimalCanvasSize } from '../../utils/responsive';
+describe('responsive', () => { it('valid breakpoints', () => expect(BREAKPOINTS.mobile).toBeLessThan(BREAKPOINTS.tablet)); it('valid scale', () => { const s = getCanvasScale(); expect(s).toBeGreaterThan(0); expect(s).toBeLessThanOrEqual(1); }); it('valid canvas size', () => { const s = getOptimalCanvasSize(); expect(s.width).toBeGreaterThan(0); }); });

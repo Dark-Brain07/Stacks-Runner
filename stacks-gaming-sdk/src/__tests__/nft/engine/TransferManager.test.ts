@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TransferManager}from"../../nft/engine/TransferManager";
+describe("TransferManager",()=>{it("ok",()=>expect(new TransferManager()).toBeDefined());it("state",()=>{const x=new TransferManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TransferManager();x.disable();expect(x.isActive()).toBe(false);});});

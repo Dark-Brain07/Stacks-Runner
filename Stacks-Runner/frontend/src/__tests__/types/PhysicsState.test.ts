@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{createPhysicsState,updatePhysicsState}from'../../types/PhysicsState';
+describe('PhysicsState',()=>{it('creates',()=>{const s=createPhysicsState('test');expect(s.id).toBe('test');expect(s.active).toBe(true);});});

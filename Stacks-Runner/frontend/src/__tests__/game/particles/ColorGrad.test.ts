@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ColorGrad}from"../../game/particles/ColorGrad";
+describe("ColorGrad",()=>{it("ok",()=>expect(new ColorGrad()).toBeDefined());it("toggle",()=>{const x=new ColorGrad();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ColorGrad();x.set("a",1);expect(x.get("a")).toBe(1);});});

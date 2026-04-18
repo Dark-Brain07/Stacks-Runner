@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ChatSys}from"../../services/multiplayer/ChatSys";
+describe("ChatSys",()=>{it("ok",()=>expect(new ChatSys()).toBeDefined());it("toggle",()=>{const x=new ChatSys();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ChatSys();x.set("a",1);expect(x.get("a")).toBe(1);});});

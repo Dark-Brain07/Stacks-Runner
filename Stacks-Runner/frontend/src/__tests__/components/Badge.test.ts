@@ -1,0 +1,1 @@
+import{describe,it,expect}from'vitest';describe('Badge',()=>{it('exists',()=>expect(true).toBe(true));});

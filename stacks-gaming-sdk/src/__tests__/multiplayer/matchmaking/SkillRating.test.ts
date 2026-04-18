@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SkillRating}from"../../multiplayer/matchmaking/SkillRating";
+describe("SkillRating",()=>{it("ok",()=>expect(new SkillRating()).toBeDefined());it("state",()=>{const x=new SkillRating();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SkillRating();x.disable();expect(x.isActive()).toBe(false);});});

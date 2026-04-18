@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{KeybindSystem}from"../../game/input/KeybindSystem";
+describe("KeybindSystem",()=>{it("ok",()=>expect(new KeybindSystem()).toBeDefined());it("set/get",()=>{const x=new KeybindSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new KeybindSystem();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ChunkLoader}from"../../game/world/ChunkLoader";
+describe("ChunkLoader",()=>{it("ok",()=>expect(new ChunkLoader()).toBeDefined());it("set/get",()=>{const x=new ChunkLoader();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ChunkLoader();x.disable();expect(x.isActive()).toBe(false);});});

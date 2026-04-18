@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{WorldMap2}from"../../game/map3/WorldMap2";
+describe("WorldMap2",()=>{it("ok",()=>expect(new WorldMap2()).toBeDefined());it("toggle",()=>{const x=new WorldMap2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new WorldMap2();x.set("a",1);expect(x.get("a")).toBe(1);});});

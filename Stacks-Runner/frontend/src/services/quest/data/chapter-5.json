@@ -1,0 +1,36 @@
+{
+  "chapter": 5,
+  "title": "Chapter 5: The Ascension",
+  "quests": [
+    {
+      "id": "ch5-q1",
+      "title": "Quest 1",
+      "xpReward": 500,
+      "objectives": 3
+    },
+    {
+      "id": "ch5-q2",
+      "title": "Quest 2",
+      "xpReward": 550,
+      "objectives": 3
+    },
+    {
+      "id": "ch5-q3",
+      "title": "Quest 3",
+      "xpReward": 600,
+      "objectives": 3
+    },
+    {
+      "id": "ch5-q4",
+      "title": "Quest 4",
+      "xpReward": 650,
+      "objectives": 3
+    },
+    {
+      "id": "ch5-q5",
+      "title": "Quest 5",
+      "xpReward": 700,
+      "objectives": 3
+    }
+  ]
+}

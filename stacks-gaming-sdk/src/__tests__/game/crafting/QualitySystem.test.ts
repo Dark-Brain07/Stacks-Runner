@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{QualitySystem}from"../../game/crafting/QualitySystem";
+describe("QualitySystem",()=>{it("ok",()=>expect(new QualitySystem()).toBeDefined());it("set/get",()=>{const x=new QualitySystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new QualitySystem();x.disable();expect(x.isActive()).toBe(false);});});

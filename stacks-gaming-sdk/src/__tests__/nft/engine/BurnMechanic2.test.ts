@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BurnMechanic2}from"../../nft/engine/BurnMechanic2";
+describe("BurnMechanic2",()=>{it("ok",()=>expect(new BurnMechanic2()).toBeDefined());it("state",()=>{const x=new BurnMechanic2();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new BurnMechanic2();x.disable();expect(x.isActive()).toBe(false);});});

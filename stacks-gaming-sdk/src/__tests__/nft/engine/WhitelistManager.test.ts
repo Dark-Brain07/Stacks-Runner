@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{WhitelistManager}from"../../nft/engine/WhitelistManager";
+describe("WhitelistManager",()=>{it("ok",()=>expect(new WhitelistManager()).toBeDefined());it("state",()=>{const x=new WhitelistManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new WhitelistManager();x.disable();expect(x.isActive()).toBe(false);});});

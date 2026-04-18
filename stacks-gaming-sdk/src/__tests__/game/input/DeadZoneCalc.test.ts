@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DeadZoneCalc}from"../../game/input/DeadZoneCalc";
+describe("DeadZoneCalc",()=>{it("ok",()=>expect(new DeadZoneCalc()).toBeDefined());it("set/get",()=>{const x=new DeadZoneCalc();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new DeadZoneCalc();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,4 @@
+export class DebugOverlay{private fps=0;private frames=0;private lastCheck=0;private visible=false;
+toggle(){this.visible=!this.visible;}
+update(now:number){this.frames++;if(now-this.lastCheck>=1000){this.fps=this.frames;this.frames=0;this.lastCheck=now;}}
+render(ctx:CanvasRenderingContext2D,entities:number){if(!this.visible)return;ctx.save();ctx.fillStyle='rgba(0,0,0,0.7)';ctx.fillRect(4,4,140,60);ctx.fillStyle='#0f0';ctx.font='11px monospace';ctx.fillText('FPS: '+this.fps,10,20);ctx.fillText('Entities: '+entities,10,35);ctx.fillText('Mem: '+(performance as any).memory?.usedJSHeapSize?Math.round((performance as any).memory.usedJSHeapSize/1048576)+'MB':'N/A',10,50);ctx.restore;}}

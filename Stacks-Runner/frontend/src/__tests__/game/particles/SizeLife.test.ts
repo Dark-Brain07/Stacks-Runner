@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SizeLife}from"../../game/particles/SizeLife";
+describe("SizeLife",()=>{it("ok",()=>expect(new SizeLife()).toBeDefined());it("toggle",()=>{const x=new SizeLife();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new SizeLife();x.set("a",1);expect(x.get("a")).toBe(1);});});

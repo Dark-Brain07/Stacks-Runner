@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FeeSuggester}from"../../stacks/tools/FeeSuggester";
+describe("FeeSuggester",()=>{it("ok",()=>expect(new FeeSuggester()).toBeDefined());it("state",()=>{const x=new FeeSuggester();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new FeeSuggester();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ArmorPenetration}from"../../game/combat/ArmorPenetration";
+describe("ArmorPenetration",()=>{it("ok",()=>expect(new ArmorPenetration()).toBeDefined());it("set/get",()=>{const x=new ArmorPenetration();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ArmorPenetration();x.disable();expect(x.isActive()).toBe(false);});});

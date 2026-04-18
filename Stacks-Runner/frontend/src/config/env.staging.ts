@@ -1,0 +1,1 @@
+export const STAGING_CONFIG={env:'staging',apiUrl:'https://api-staging.stacksrunner.io',debug:false,logLevel:'debug',cacheMs:5000} as const;

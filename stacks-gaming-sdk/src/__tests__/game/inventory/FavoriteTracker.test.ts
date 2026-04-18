@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FavoriteTracker}from"../../game/inventory/FavoriteTracker";
+describe("FavoriteTracker",()=>{it("ok",()=>expect(new FavoriteTracker()).toBeDefined());it("set/get",()=>{const x=new FavoriteTracker();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new FavoriteTracker();x.disable();expect(x.isActive()).toBe(false);});});

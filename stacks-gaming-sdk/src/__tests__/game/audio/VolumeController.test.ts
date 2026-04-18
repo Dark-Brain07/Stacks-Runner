@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{VolumeController}from"../../game/audio/VolumeController";
+describe("VolumeController",()=>{it("ok",()=>expect(new VolumeController()).toBeDefined());it("set/get",()=>{const x=new VolumeController();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new VolumeController();x.disable();expect(x.isActive()).toBe(false);});});

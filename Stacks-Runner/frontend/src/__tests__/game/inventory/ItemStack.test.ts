@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ItemStack}from"../../game/inventory/ItemStack";
+describe("ItemStack",()=>{it("ok",()=>expect(new ItemStack()).toBeDefined());it("toggle",()=>{const x=new ItemStack();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new ItemStack();x.set("a",1);expect(x.get("a")).toBe(1);});});

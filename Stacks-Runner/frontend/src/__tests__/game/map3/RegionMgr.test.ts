@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{RegionMgr}from"../../game/map3/RegionMgr";
+describe("RegionMgr",()=>{it("ok",()=>expect(new RegionMgr()).toBeDefined());it("toggle",()=>{const x=new RegionMgr();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new RegionMgr();x.set("a",1);expect(x.get("a")).toBe(1);});});

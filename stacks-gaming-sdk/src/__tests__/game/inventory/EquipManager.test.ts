@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{EquipManager}from"../../game/inventory/EquipManager";
+describe("EquipManager",()=>{it("ok",()=>expect(new EquipManager()).toBeDefined());it("set/get",()=>{const x=new EquipManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new EquipManager();x.disable();expect(x.isActive()).toBe(false);});});

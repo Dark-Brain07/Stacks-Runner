@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DisenchantManager}from"../../game/crafting/DisenchantManager";
+describe("DisenchantManager",()=>{it("ok",()=>expect(new DisenchantManager()).toBeDefined());it("set/get",()=>{const x=new DisenchantManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new DisenchantManager();x.disable();expect(x.isActive()).toBe(false);});});

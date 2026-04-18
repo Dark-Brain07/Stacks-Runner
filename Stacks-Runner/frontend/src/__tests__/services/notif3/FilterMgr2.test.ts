@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{FilterMgr2}from"../../services/notif3/FilterMgr2";
+describe("FilterMgr2",()=>{it("ok",()=>expect(new FilterMgr2()).toBeDefined());it("toggle",()=>{const x=new FilterMgr2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new FilterMgr2();x.set("a",1);expect(x.get("a")).toBe(1);});});

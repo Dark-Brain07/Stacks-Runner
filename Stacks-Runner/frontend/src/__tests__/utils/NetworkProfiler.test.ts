@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{NetworkProfiler}from'../../utils/profiling/NetworkProfiler';
+describe('NetworkProfiler',()=>{it('records',()=>{const p=new NetworkProfiler();p.start();p.record(10);const r=p.stop();expect(r.count).toBe(1);});});

@@ -1,0 +1,1 @@
+export const CANARY2={channel:"canary",experimental:true} as const;

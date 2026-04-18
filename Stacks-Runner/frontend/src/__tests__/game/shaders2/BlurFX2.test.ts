@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{BlurFX2}from"../../game/shaders2/BlurFX2";
+describe("BlurFX2",()=>{it("ok",()=>expect(new BlurFX2()).toBeDefined());it("toggle",()=>{const x=new BlurFX2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new BlurFX2();x.set("a",1);expect(x.get("a")).toBe(1);});});

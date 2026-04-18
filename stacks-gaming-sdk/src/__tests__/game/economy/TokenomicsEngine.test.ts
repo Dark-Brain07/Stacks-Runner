@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TokenomicsEngine}from"../../game/economy/TokenomicsEngine";
+describe("TokenomicsEngine",()=>{it("ok",()=>expect(new TokenomicsEngine()).toBeDefined());it("state",()=>{const x=new TokenomicsEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TokenomicsEngine();x.disable();expect(x.isActive()).toBe(false);});});

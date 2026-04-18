@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{InputBuffer}from"../../game/input/InputBuffer";
+describe("InputBuffer",()=>{it("ok",()=>expect(new InputBuffer()).toBeDefined());it("set/get",()=>{const x=new InputBuffer();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new InputBuffer();x.disable();expect(x.isActive()).toBe(false);});});

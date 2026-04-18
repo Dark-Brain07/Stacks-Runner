@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{HitDetection}from"../../game/combat/HitDetection";
+describe("HitDetection",()=>{it("ok",()=>expect(new HitDetection()).toBeDefined());it("set/get",()=>{const x=new HitDetection();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new HitDetection();x.disable();expect(x.isActive()).toBe(false);});});

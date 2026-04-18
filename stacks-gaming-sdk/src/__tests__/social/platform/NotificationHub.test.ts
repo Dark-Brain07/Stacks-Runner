@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{NotificationHub}from"../../social/platform/NotificationHub";
+describe("NotificationHub",()=>{it("ok",()=>expect(new NotificationHub()).toBeDefined());it("state",()=>{const x=new NotificationHub();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new NotificationHub();x.disable();expect(x.isActive()).toBe(false);});});

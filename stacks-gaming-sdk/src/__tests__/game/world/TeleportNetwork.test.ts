@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{TeleportNetwork}from"../../game/world/TeleportNetwork";
+describe("TeleportNetwork",()=>{it("ok",()=>expect(new TeleportNetwork()).toBeDefined());it("set/get",()=>{const x=new TeleportNetwork();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new TeleportNetwork();x.disable();expect(x.isActive()).toBe(false);});});

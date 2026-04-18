@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ErrorDecoder}from"../../stacks/tools/ErrorDecoder";
+describe("ErrorDecoder",()=>{it("ok",()=>expect(new ErrorDecoder()).toBeDefined());it("state",()=>{const x=new ErrorDecoder();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ErrorDecoder();x.disable();expect(x.isActive()).toBe(false);});});

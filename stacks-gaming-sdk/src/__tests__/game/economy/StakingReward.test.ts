@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StakingReward}from"../../game/economy/StakingReward";
+describe("StakingReward",()=>{it("ok",()=>expect(new StakingReward()).toBeDefined());it("state",()=>{const x=new StakingReward();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new StakingReward();x.disable();expect(x.isActive()).toBe(false);});});

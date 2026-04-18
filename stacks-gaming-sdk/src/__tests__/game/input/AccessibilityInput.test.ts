@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AccessibilityInput}from"../../game/input/AccessibilityInput";
+describe("AccessibilityInput",()=>{it("ok",()=>expect(new AccessibilityInput()).toBeDefined());it("set/get",()=>{const x=new AccessibilityInput();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AccessibilityInput();x.disable();expect(x.isActive()).toBe(false);});});

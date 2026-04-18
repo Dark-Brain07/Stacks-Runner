@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SearchModule}from"../../game/inventory/SearchModule";
+describe("SearchModule",()=>{it("ok",()=>expect(new SearchModule()).toBeDefined());it("set/get",()=>{const x=new SearchModule();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new SearchModule();x.disable();expect(x.isActive()).toBe(false);});});

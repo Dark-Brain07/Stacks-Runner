@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PlacementMatch}from"../../multiplayer/matchmaking/PlacementMatch";
+describe("PlacementMatch",()=>{it("ok",()=>expect(new PlacementMatch()).toBeDefined());it("state",()=>{const x=new PlacementMatch();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PlacementMatch();x.disable();expect(x.isActive()).toBe(false);});});

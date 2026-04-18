@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{LayerManager}from"../../game/world/LayerManager";
+describe("LayerManager",()=>{it("ok",()=>expect(new LayerManager()).toBeDefined());it("set/get",()=>{const x=new LayerManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new LayerManager();x.disable();expect(x.isActive()).toBe(false);});});

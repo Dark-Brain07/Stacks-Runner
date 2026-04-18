@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ClarityValue}from"../../stacks/tools/ClarityValue";
+describe("ClarityValue",()=>{it("ok",()=>expect(new ClarityValue()).toBeDefined());it("state",()=>{const x=new ClarityValue();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ClarityValue();x.disable();expect(x.isActive()).toBe(false);});});

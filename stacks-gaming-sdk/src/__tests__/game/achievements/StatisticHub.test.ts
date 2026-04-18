@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{StatisticHub}from"../../game/achievements/StatisticHub";
+describe("StatisticHub",()=>{it("ok",()=>expect(new StatisticHub()).toBeDefined());it("state",()=>{const x=new StatisticHub();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new StatisticHub();x.disable();expect(x.isActive()).toBe(false);});});

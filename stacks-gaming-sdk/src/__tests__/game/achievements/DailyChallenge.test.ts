@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{DailyChallenge}from"../../game/achievements/DailyChallenge";
+describe("DailyChallenge",()=>{it("ok",()=>expect(new DailyChallenge()).toBeDefined());it("state",()=>{const x=new DailyChallenge();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new DailyChallenge();x.disable();expect(x.isActive()).toBe(false);});});

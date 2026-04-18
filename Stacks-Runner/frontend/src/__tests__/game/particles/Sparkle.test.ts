@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Sparkle}from"../../game/particles/Sparkle";
+describe("Sparkle",()=>{it("ok",()=>expect(new Sparkle()).toBeDefined());it("toggle",()=>{const x=new Sparkle();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new Sparkle();x.set("a",1);expect(x.get("a")).toBe(1);});});

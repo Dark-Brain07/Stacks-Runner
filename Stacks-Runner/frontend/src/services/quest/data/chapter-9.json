@@ -1,0 +1,36 @@
+{
+  "chapter": 9,
+  "title": "Chapter 9: The Rebirth",
+  "quests": [
+    {
+      "id": "ch9-q1",
+      "title": "Quest 1",
+      "xpReward": 900,
+      "objectives": 3
+    },
+    {
+      "id": "ch9-q2",
+      "title": "Quest 2",
+      "xpReward": 950,
+      "objectives": 3
+    },
+    {
+      "id": "ch9-q3",
+      "title": "Quest 3",
+      "xpReward": 1000,
+      "objectives": 3
+    },
+    {
+      "id": "ch9-q4",
+      "title": "Quest 4",
+      "xpReward": 1050,
+      "objectives": 3
+    },
+    {
+      "id": "ch9-q5",
+      "title": "Quest 5",
+      "xpReward": 1100,
+      "objectives": 3
+    }
+  ]
+}

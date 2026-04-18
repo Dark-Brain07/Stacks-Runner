@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AudioAnalyzer}from"../../game/audio/AudioAnalyzer";
+describe("AudioAnalyzer",()=>{it("ok",()=>expect(new AudioAnalyzer()).toBeDefined());it("set/get",()=>{const x=new AudioAnalyzer();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AudioAnalyzer();x.disable();expect(x.isActive()).toBe(false);});});

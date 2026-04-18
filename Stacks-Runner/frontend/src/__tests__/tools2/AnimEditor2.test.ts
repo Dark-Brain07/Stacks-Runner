@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AnimEditor2}from"../../tools2/AnimEditor2";
+describe("AnimEditor2",()=>{it("ok",()=>expect(new AnimEditor2()).toBeDefined());it("toggle",()=>{const x=new AnimEditor2();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new AnimEditor2();x.set("a",1);expect(x.get("a")).toBe(1);});});

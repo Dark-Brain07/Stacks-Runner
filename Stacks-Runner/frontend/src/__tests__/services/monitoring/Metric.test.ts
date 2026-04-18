@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{Metric}from"../../services/monitoring/Metric";
+describe("Metric",()=>{it("creates",()=>expect(new Metric()).toBeDefined());it("toggles",()=>{const x=new Metric();x.disable();expect(x.isActive()).toBe(false);x.enable();expect(x.isActive()).toBe(true);});it("stores",()=>{const x=new Metric();x.set("k",42);expect(x.get("k")).toBe(42);});it("resets",()=>{const x=new Metric();x.set("k",1);x.reset();expect(x.get("k")).toBeUndefined();});it("disposes",()=>{const x=new Metric();x.dispose();expect(x.isActive()).toBe(false);});});

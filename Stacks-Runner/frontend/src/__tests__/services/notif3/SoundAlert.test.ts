@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SoundAlert}from"../../services/notif3/SoundAlert";
+describe("SoundAlert",()=>{it("ok",()=>expect(new SoundAlert()).toBeDefined());it("toggle",()=>{const x=new SoundAlert();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new SoundAlert();x.set("a",1);expect(x.get("a")).toBe(1);});});

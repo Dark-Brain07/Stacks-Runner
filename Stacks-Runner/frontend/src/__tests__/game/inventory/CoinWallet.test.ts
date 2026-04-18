@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{CoinWallet}from"../../game/inventory/CoinWallet";
+describe("CoinWallet",()=>{it("ok",()=>expect(new CoinWallet()).toBeDefined());it("toggle",()=>{const x=new CoinWallet();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new CoinWallet();x.set("a",1);expect(x.get("a")).toBe(1);});});

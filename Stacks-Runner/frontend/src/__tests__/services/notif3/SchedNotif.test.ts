@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{SchedNotif}from"../../services/notif3/SchedNotif";
+describe("SchedNotif",()=>{it("ok",()=>expect(new SchedNotif()).toBeDefined());it("toggle",()=>{const x=new SchedNotif();x.disable();expect(x.isActive()).toBe(false);});it("data",()=>{const x=new SchedNotif();x.set("a",1);expect(x.get("a")).toBe(1);});});

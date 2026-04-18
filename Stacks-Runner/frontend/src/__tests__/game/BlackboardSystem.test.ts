@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{BlackboardSystem}from'../../game/ai/BlackboardSystem';
+describe('BlackboardSystem',()=>{it('creates instance',()=>expect(new BlackboardSystem()).toBeDefined());it('enables/disables',()=>{const x=new BlackboardSystem();x.disable();expect(x.isEnabled()).toBe(false);x.enable();expect(x.isEnabled()).toBe(true);});});

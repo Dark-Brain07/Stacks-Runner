@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PatrolRoute}from"../../game/ai/PatrolRoute";
+describe("PatrolRoute",()=>{it("ok",()=>expect(new PatrolRoute()).toBeDefined());it("set/get",()=>{const x=new PatrolRoute();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PatrolRoute();x.disable();expect(x.isActive()).toBe(false);});});

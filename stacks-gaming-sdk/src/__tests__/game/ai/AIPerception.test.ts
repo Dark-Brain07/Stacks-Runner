@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AIPerception}from"../../game/ai/AIPerception";
+describe("AIPerception",()=>{it("ok",()=>expect(new AIPerception()).toBeDefined());it("set/get",()=>{const x=new AIPerception();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AIPerception();x.disable();expect(x.isActive()).toBe(false);});});

@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{MainMenuScene}from'../../scenes/MainMenuScene';
+describe('MainMenuScene',()=>{it('starts inactive',()=>expect(new MainMenuScene().isActive()).toBe(false));it('activates on enter',()=>{const s=new MainMenuScene();s.onEnter();expect(s.isActive()).toBe(true);});it('deactivates on exit',()=>{const s=new MainMenuScene();s.onEnter();s.onExit();expect(s.isActive()).toBe(false);});});

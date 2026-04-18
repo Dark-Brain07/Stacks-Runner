@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{ContentModeration}from"../../social/platform/ContentModeration";
+describe("ContentModeration",()=>{it("ok",()=>expect(new ContentModeration()).toBeDefined());it("state",()=>{const x=new ContentModeration();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new ContentModeration();x.disable();expect(x.isActive()).toBe(false);});});

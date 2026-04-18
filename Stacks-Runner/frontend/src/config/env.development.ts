@@ -1,0 +1,1 @@
+export const DEVELOPMENT_CONFIG={env:'development',apiUrl:'https://api-development.stacksrunner.io',debug:true,logLevel:'debug',cacheMs:5000} as const;

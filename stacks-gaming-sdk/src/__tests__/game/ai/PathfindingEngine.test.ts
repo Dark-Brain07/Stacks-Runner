@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PathfindingEngine}from"../../game/ai/PathfindingEngine";
+describe("PathfindingEngine",()=>{it("ok",()=>expect(new PathfindingEngine()).toBeDefined());it("set/get",()=>{const x=new PathfindingEngine();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PathfindingEngine();x.disable();expect(x.isActive()).toBe(false);});});

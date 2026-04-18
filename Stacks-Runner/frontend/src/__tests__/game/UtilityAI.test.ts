@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{UtilityAI}from'../../game/ai/UtilityAI';
+describe('UtilityAI',()=>{it('creates instance',()=>expect(new UtilityAI()).toBeDefined());it('enables/disables',()=>{const x=new UtilityAI();x.disable();expect(x.isEnabled()).toBe(false);x.enable();expect(x.isEnabled()).toBe(true);});});

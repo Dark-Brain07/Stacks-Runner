@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{MiniMapSystem}from"../../game/world/MiniMapSystem";
+describe("MiniMapSystem",()=>{it("ok",()=>expect(new MiniMapSystem()).toBeDefined());it("set/get",()=>{const x=new MiniMapSystem();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new MiniMapSystem();x.disable();expect(x.isActive()).toBe(false);});});

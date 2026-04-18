@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{StateBlender}from'../../game/animation/StateBlender';
+describe('StateBlender',()=>{it('starts stopped',()=>expect(new StateBlender().isPlaying()).toBe(false));it('plays',()=>{const x=new StateBlender();x.play();expect(x.isPlaying()).toBe(true);});it('stops and resets',()=>{const x=new StateBlender();x.play();x.update(100);x.stop();expect(x.getTime()).toBe(0);});});

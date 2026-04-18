@@ -1,0 +1,2 @@
+import React from 'react';
+export const LevelBadge: React.FC<{ level: number }> = ({ level }) => { const colors = ['bg-green-600', 'bg-blue-600', 'bg-purple-600', 'bg-red-600', 'bg-orange-600']; return React.createElement('div', { className: 'px-2 py-0.5 rounded text-xs font-bold text-white ' + colors[Math.min(level - 1, colors.length - 1)] }, 'LV.' + level); };

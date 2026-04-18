@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{AirdropManager}from"../../game/economy/AirdropManager";
+describe("AirdropManager",()=>{it("ok",()=>expect(new AirdropManager()).toBeDefined());it("state",()=>{const x=new AirdropManager();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new AirdropManager();x.disable();expect(x.isActive()).toBe(false);});});

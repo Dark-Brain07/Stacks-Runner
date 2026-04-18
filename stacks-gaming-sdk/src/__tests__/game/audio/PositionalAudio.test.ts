@@ -1,0 +1,2 @@
+import{describe,it,expect}from"vitest";import{PositionalAudio}from"../../game/audio/PositionalAudio";
+describe("PositionalAudio",()=>{it("ok",()=>expect(new PositionalAudio()).toBeDefined());it("set/get",()=>{const x=new PositionalAudio();x.set("k",1);expect(x.get("k")).toBe(1);});it("toggle",()=>{const x=new PositionalAudio();x.disable();expect(x.isActive()).toBe(false);});});

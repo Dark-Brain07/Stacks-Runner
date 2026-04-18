@@ -1,0 +1,2 @@
+import{describe,it,expect}from'vitest';import{VolumeEnvelope}from'../../audio/VolumeEnvelope';
+describe('VolumeEnvelope',()=>{it('defaults to gain 1',()=>expect(new VolumeEnvelope().getGain()).toBe(1));it('mutes',()=>{const x=new VolumeEnvelope();x.mute();expect(x.isMuted()).toBe(true);});it('clamps gain',()=>{const x=new VolumeEnvelope();x.setGain(5);expect(x.getGain()).toBe(1);});});
