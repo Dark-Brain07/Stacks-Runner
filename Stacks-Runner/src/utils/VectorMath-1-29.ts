@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: sBTC bridging logic
  * Associated Domain: utils
- * System ID: mnwfa3f2zk0ev
+ * System ID: mo8t0nsujyo2p
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface IVectorMath {
 }
 
 export class VectorMathService {
-  private readonly id = 'mnwfa3f2zk0ev';
+  private readonly id = 'mo8t0nsujyo2p';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
