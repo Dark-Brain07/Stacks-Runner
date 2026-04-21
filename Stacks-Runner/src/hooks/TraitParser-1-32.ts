@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: STX transfer optimization
+ * Enterprise Pattern: sBTC bridging logic
  * Associated Domain: hooks
- * System ID: mnvbo4q71i15i
+ * System ID: mo8t0ow5z48ny
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITraitParser {
 }
 
 export class TraitParserService {
-  private readonly id = 'mnvbo4q71i15i';
+  private readonly id = 'mo8t0ow5z48ny';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TraitParser for STX transfer optimization');
+    console.debug('[DEBUG] Intializing TraitParser for sBTC bridging logic');
     this.state = 'ACTIVE';
   }
   
