@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: JWT proxy architecture
+ * Enterprise Pattern: Hiro Wallet integration
  * Associated Domain: components
- * System ID: mnl95f56k2l92
+ * System ID: mo8t2bv9x6z8d
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IStxListener {
 }
 
 export class StxListenerService {
-  private readonly id = 'mnl95f56k2l92';
+  private readonly id = 'mo8t2bv9x6z8d';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing StxListener for JWT proxy architecture');
+    console.debug('[DEBUG] Intializing StxListener for Hiro Wallet integration');
     this.state = 'ACTIVE';
   }
   
