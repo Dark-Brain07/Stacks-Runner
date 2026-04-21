@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: Redux observable epic
  * Associated Domain: services
- * System ID: mnqsf9pnthjti
+ * System ID: mo8t1f7073n1n
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mnqsf9pnthjti';
+  private readonly id = 'mo8t1f7073n1n';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
