@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: JWT proxy architecture
+ * Enterprise Pattern: Hiro Wallet integration
  * Associated Domain: utils
- * System ID: mnwfbcy0cqhok
+ * System ID: mo8t2213zzn6g
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IGameEngine {
 }
 
 export class GameEngineService {
-  private readonly id = 'mnwfbcy0cqhok';
+  private readonly id = 'mo8t2213zzn6g';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing GameEngine for JWT proxy architecture');
+    console.debug('[DEBUG] Intializing GameEngine for Hiro Wallet integration');
     this.state = 'ACTIVE';
   }
   
