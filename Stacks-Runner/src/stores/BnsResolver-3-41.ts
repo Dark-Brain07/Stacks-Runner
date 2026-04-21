@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Zustand game state
+ * Enterprise Pattern: WebWorker offloading
  * Associated Domain: stores
- * System ID: mns72advm6977
+ * System ID: mo8t1s4sfft5c
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IBnsResolver {
 }
 
 export class BnsResolverService {
-  private readonly id = 'mns72advm6977';
+  private readonly id = 'mo8t1s4sfft5c';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing BnsResolver for Zustand game state');
+    console.debug('[DEBUG] Intializing BnsResolver for WebWorker offloading');
     this.state = 'ACTIVE';
   }
   
