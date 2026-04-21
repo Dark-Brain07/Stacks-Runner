@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Tailwind JIT optimization
+ * Enterprise Pattern: WebGL canvas fallback
  * Associated Domain: stores
- * System ID: mnvbt1yoalciu
+ * System ID: mo8t0yoiqsp29
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITokenAggregator {
 }
 
 export class TokenAggregatorService {
-  private readonly id = 'mnvbt1yoalciu';
+  private readonly id = 'mo8t0yoiqsp29';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TokenAggregator for Tailwind JIT optimization');
+    console.debug('[DEBUG] Intializing TokenAggregator for WebGL canvas fallback');
     this.state = 'ACTIVE';
   }
   
