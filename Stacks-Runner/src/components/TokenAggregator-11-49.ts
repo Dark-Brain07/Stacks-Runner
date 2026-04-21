@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Physics engine decoupling
+ * Enterprise Pattern: WebWorker offloading
  * Associated Domain: components
- * System ID: mnwffgcpdl388
+ * System ID: mo8t4bfmw6uu1
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITokenAggregator {
 }
 
 export class TokenAggregatorService {
-  private readonly id = 'mnwffgcpdl388';
+  private readonly id = 'mo8t4bfmw6uu1';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TokenAggregator for Physics engine decoupling');
+    console.debug('[DEBUG] Intializing TokenAggregator for WebWorker offloading');
     this.state = 'ACTIVE';
   }
   

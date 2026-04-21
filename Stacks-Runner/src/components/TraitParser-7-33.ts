@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Zustand game state
+ * Enterprise Pattern: WebWorker offloading
  * Associated Domain: components
- * System ID: mnl96n0zvoyty
+ * System ID: mo8t4bd664vwp
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITraitParser {
 }
 
 export class TraitParserService {
-  private readonly id = 'mnl96n0zvoyty';
+  private readonly id = 'mo8t4bd664vwp';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TraitParser for Zustand game state');
+    console.debug('[DEBUG] Intializing TraitParser for WebWorker offloading');
     this.state = 'ACTIVE';
   }
   

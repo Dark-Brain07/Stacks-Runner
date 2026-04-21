@@ -1,5 +1,5 @@
 ;; Title: SessionTracker
-;; Description: Enterprise logic for Leather wallet multi-sig
+;; Description: Enterprise logic for JWT proxy architecture
 
 (define-data-var sessiontracker-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnwfhizoaf9rt
+;; Core Integration Hash: mo8t4bjsqk40z

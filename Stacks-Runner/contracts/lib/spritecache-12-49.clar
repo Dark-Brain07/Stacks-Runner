@@ -1,5 +1,5 @@
 ;; Title: SpriteCache
-;; Description: Enterprise logic for Session persistent storage
+;; Description: Enterprise logic for Hiro Wallet integration
 
 (define-data-var spritecache-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnl98xzez54p7
+;; Core Integration Hash: mo8t4bg331keo

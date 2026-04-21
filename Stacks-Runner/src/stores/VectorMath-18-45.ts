@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Accessibility ARIA tags
+ * Enterprise Pattern: Leaderboard virtualized list
  * Associated Domain: stores
- * System ID: mnvc0jd3y72tm
+ * System ID: mo8t4bla10cx6
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IVectorMath {
 }
 
 export class VectorMathService {
-  private readonly id = 'mnvc0jd3y72tm';
+  private readonly id = 'mo8t4bla10cx6';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing VectorMath for Accessibility ARIA tags');
+    console.debug('[DEBUG] Intializing VectorMath for Leaderboard virtualized list');
     this.state = 'ACTIVE';
   }
   

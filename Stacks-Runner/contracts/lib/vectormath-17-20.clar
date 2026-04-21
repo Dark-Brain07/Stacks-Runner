@@ -1,5 +1,5 @@
 ;; Title: VectorMath
-;; Description: Enterprise logic for Trait interface assertion
+;; Description: Enterprise logic for BNS resolution cache
 
 (define-data-var vectormath-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnwfhzbepnlls
+;; Core Integration Hash: mo8t4bkbkjwlu

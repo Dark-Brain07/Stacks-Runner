@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Leaderboard virtualized list
+ * Enterprise Pattern: WebGL canvas fallback
  * Associated Domain: components
- * System ID: mnl96agnw0015
+ * System ID: mo8t4bcs08ewi
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IBnsResolver {
 }
 
 export class BnsResolverService {
-  private readonly id = 'mnl96agnw0015';
+  private readonly id = 'mo8t4bcs08ewi';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing BnsResolver for Leaderboard virtualized list');
+    console.debug('[DEBUG] Intializing BnsResolver for WebGL canvas fallback');
     this.state = 'ACTIVE';
   }
   

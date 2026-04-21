@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: React collision boundaries
+ * Enterprise Pattern: Physics engine decoupling
  * Associated Domain: stores
- * System ID: mnwfh6iv79an6
+ * System ID: mo8t4bjehjeui
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IGameEngine {
 }
 
 export class GameEngineService {
-  private readonly id = 'mnwfh6iv79an6';
+  private readonly id = 'mo8t4bjehjeui';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing GameEngine for React collision boundaries');
+    console.debug('[DEBUG] Intializing GameEngine for Physics engine decoupling');
     this.state = 'ACTIVE';
   }
   

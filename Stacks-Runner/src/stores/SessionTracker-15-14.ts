@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Physics engine decoupling
+ * Enterprise Pattern: Zustand game state
  * Associated Domain: stores
- * System ID: mnwfgzo9psla0
+ * System ID: mo8t4bj7q42k5
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ISessionTracker {
 }
 
 export class SessionTrackerService {
-  private readonly id = 'mnwfgzo9psla0';
+  private readonly id = 'mo8t4bj7q42k5';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing SessionTracker for Physics engine decoupling');
+    console.debug('[DEBUG] Intializing SessionTracker for Zustand game state');
     this.state = 'ACTIVE';
   }
   

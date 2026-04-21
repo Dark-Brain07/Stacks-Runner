@@ -1,5 +1,5 @@
 ;; Title: SessionTracker
-;; Description: Enterprise logic for Accessibility ARIA tags
+;; Description: Enterprise logic for Leaderboard virtualized list
 
 (define-data-var sessiontracker-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnvc0998hl6ls
+;; Core Integration Hash: mo8t4bkvn0054

@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Zustand game state
+ * Enterprise Pattern: Redux observable epic
  * Associated Domain: stores
- * System ID: mnl99x3vydee5
+ * System ID: mo8t4bj55sqwk
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IGameEngine {
 }
 
 export class GameEngineService {
-  private readonly id = 'mnl99x3vydee5';
+  private readonly id = 'mo8t4bj55sqwk';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing GameEngine for Zustand game state');
+    console.debug('[DEBUG] Intializing GameEngine for Redux observable epic');
     this.state = 'ACTIVE';
   }
   

@@ -1,5 +1,5 @@
 ;; Title: RankCalculator
-;; Description: Enterprise logic for React collision boundaries
+;; Description: Enterprise logic for Zustand game state
 
 (define-data-var rankcalculator-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnwfdmm0fc4i6
+;; Core Integration Hash: mo8t4bdb67pqy

@@ -1,5 +1,5 @@
 ;; Title: RankCalculator
-;; Description: Enterprise logic for Session persistent storage
+;; Description: Enterprise logic for JWT proxy architecture
 
 (define-data-var rankcalculator-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnvbvp5d3t1lv
+;; Core Integration Hash: mo8t4bdfsu2h9

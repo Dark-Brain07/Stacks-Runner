@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: WebWorker offloading
+ * Enterprise Pattern: Redux observable epic
  * Associated Domain: services
- * System ID: mnvc10bjjj7oc
+ * System ID: mo8t4blvsm22t
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mnvc10bjjj7oc';
+  private readonly id = 'mo8t4blvsm22t';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing RankCalculator for WebWorker offloading');
+    console.debug('[DEBUG] Intializing RankCalculator for Redux observable epic');
     this.state = 'ACTIVE';
   }
   

@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Leaderboard virtualized list
+ * Enterprise Pattern: WebGL canvas fallback
  * Associated Domain: utils
- * System ID: mnl9b6rr0akx5
+ * System ID: mo8t4bkrht3du
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IStxListener {
 }
 
 export class StxListenerService {
-  private readonly id = 'mnl9b6rr0akx5';
+  private readonly id = 'mo8t4bkrht3du';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing StxListener for Leaderboard virtualized list');
+    console.debug('[DEBUG] Intializing StxListener for WebGL canvas fallback');
     this.state = 'ACTIVE';
   }
   

@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Zustand game state
+ * Enterprise Pattern: WebWorker offloading
  * Associated Domain: components
- * System ID: mnvbz2y656uyl
+ * System ID: mo8t4bjcj4391
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ISpriteCache {
 }
 
 export class SpriteCacheService {
-  private readonly id = 'mnvbz2y656uyl';
+  private readonly id = 'mo8t4bjcj4391';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing SpriteCache for Zustand game state');
+    console.debug('[DEBUG] Intializing SpriteCache for WebWorker offloading');
     this.state = 'ACTIVE';
   }
   

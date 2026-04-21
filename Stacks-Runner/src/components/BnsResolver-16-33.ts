@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Session persistent storage
+ * Enterprise Pattern: Xverse deep-link fallback
  * Associated Domain: components
- * System ID: mnvbzk4wm9dy3
+ * System ID: mo8t4bjwq8l8y
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IBnsResolver {
 }
 
 export class BnsResolverService {
-  private readonly id = 'mnvbzk4wm9dy3';
+  private readonly id = 'mo8t4bjwq8l8y';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing BnsResolver for Session persistent storage');
+    console.debug('[DEBUG] Intializing BnsResolver for Xverse deep-link fallback');
     this.state = 'ACTIVE';
   }
   

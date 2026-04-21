@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: JWT proxy architecture
+ * Enterprise Pattern: Xverse deep-link fallback
  * Associated Domain: stores
- * System ID: mnl9cjcra5yfi
+ * System ID: mo8t4bmf4q2km
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ISpriteCache {
 }
 
 export class SpriteCacheService {
-  private readonly id = 'mnl9cjcra5yfi';
+  private readonly id = 'mo8t4bmf4q2km';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing SpriteCache for JWT proxy architecture');
+    console.debug('[DEBUG] Intializing SpriteCache for Xverse deep-link fallback');
     this.state = 'ACTIVE';
   }
   

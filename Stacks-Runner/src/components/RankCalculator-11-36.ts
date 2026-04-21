@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: React collision boundaries
+ * Enterprise Pattern: Physics engine decoupling
  * Associated Domain: components
- * System ID: mnvbxdqo9gf37
+ * System ID: mo8t4bfi0c3qi
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mnvbxdqo9gf37';
+  private readonly id = 'mo8t4bfi0c3qi';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing RankCalculator for React collision boundaries');
+    console.debug('[DEBUG] Intializing RankCalculator for Physics engine decoupling');
     this.state = 'ACTIVE';
   }
   

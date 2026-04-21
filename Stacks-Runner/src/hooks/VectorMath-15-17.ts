@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: React collision boundaries
+ * Enterprise Pattern: Zustand game state
  * Associated Domain: hooks
- * System ID: mnwfh10nn6av1
+ * System ID: mo8t4bj8gy1jh
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IVectorMath {
 }
 
 export class VectorMathService {
-  private readonly id = 'mnwfh10nn6av1';
+  private readonly id = 'mo8t4bj8gy1jh';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing VectorMath for React collision boundaries');
+    console.debug('[DEBUG] Intializing VectorMath for Zustand game state');
     this.state = 'ACTIVE';
   }
   

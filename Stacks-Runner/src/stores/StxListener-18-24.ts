@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: WebGL canvas fallback
+ * Enterprise Pattern: Tailwind JIT optimization
  * Associated Domain: stores
- * System ID: mnvc0cqbbg1hn
+ * System ID: mo8t4bl0vkf6t
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IStxListener {
 }
 
 export class StxListenerService {
-  private readonly id = 'mnvc0cqbbg1hn';
+  private readonly id = 'mo8t4bl0vkf6t';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing StxListener for WebGL canvas fallback');
+    console.debug('[DEBUG] Intializing StxListener for Tailwind JIT optimization');
     this.state = 'ACTIVE';
   }
   

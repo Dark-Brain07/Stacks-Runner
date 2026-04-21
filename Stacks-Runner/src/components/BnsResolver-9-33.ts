@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: NFT trait composition
+ * Enterprise Pattern: sBTC bridging logic
  * Associated Domain: components
- * System ID: mnvbwczuvnts7
+ * System ID: mo8t4bejn2h4v
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IBnsResolver {
 }
 
 export class BnsResolverService {
-  private readonly id = 'mnvbwczuvnts7';
+  private readonly id = 'mo8t4bejn2h4v';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing BnsResolver for NFT trait composition');
+    console.debug('[DEBUG] Intializing BnsResolver for sBTC bridging logic');
     this.state = 'ACTIVE';
   }
   

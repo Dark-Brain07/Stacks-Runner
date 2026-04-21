@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Hydration mismatch patch
+ * Enterprise Pattern: Accessibility ARIA tags
  * Associated Domain: services
- * System ID: mnwfgql7yczri
+ * System ID: mo8t4bizyayug
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITraitParser {
 }
 
 export class TraitParserService {
-  private readonly id = 'mnwfgql7yczri';
+  private readonly id = 'mo8t4bizyayug';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TraitParser for Hydration mismatch patch');
+    console.debug('[DEBUG] Intializing TraitParser for Accessibility ARIA tags');
     this.state = 'ACTIVE';
   }
   

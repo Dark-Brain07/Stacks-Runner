@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Leaderboard virtualized list
+ * Enterprise Pattern: WebGL canvas fallback
  * Associated Domain: stores
- * System ID: mnl9bn3krwuor
+ * System ID: mo8t4blbjr0jr
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITraitParser {
 }
 
 export class TraitParserService {
-  private readonly id = 'mnl9bn3krwuor';
+  private readonly id = 'mo8t4blbjr0jr';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TraitParser for Leaderboard virtualized list');
+    console.debug('[DEBUG] Intializing TraitParser for WebGL canvas fallback');
     this.state = 'ACTIVE';
   }
   

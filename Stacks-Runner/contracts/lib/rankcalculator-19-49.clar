@@ -1,5 +1,5 @@
 ;; Title: RankCalculator
-;; Description: Enterprise logic for Physics engine decoupling
+;; Description: Enterprise logic for Redux observable epic
 
 (define-data-var rankcalculator-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnvc10wnu9ss5
+;; Core Integration Hash: mo8t4blvh83j9

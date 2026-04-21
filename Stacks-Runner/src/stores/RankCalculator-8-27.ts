@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: Session persistent storage
  * Associated Domain: stores
- * System ID: mnvbvuxcgp34g
+ * System ID: mo8t4bdmxnz5k
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mnvbvuxcgp34g';
+  private readonly id = 'mo8t4bdmxnz5k';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}

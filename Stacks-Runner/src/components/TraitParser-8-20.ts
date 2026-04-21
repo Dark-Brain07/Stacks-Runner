@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: JWT proxy architecture
  * Associated Domain: components
- * System ID: mnvbvsiz5hp24
+ * System ID: mo8t4bdj4fkkt
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface ITraitParser {
 }
 
 export class TraitParserService {
-  private readonly id = 'mnvbvsiz5hp24';
+  private readonly id = 'mo8t4bdj4fkkt';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}

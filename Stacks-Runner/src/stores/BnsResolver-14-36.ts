@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: Hydration mismatch patch
  * Associated Domain: stores
- * System ID: mnvbyoxps0pi1
+ * System ID: mo8t4bixp90ad
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface IBnsResolver {
 }
 
 export class BnsResolverService {
-  private readonly id = 'mnvbyoxps0pi1';
+  private readonly id = 'mo8t4bixp90ad';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}

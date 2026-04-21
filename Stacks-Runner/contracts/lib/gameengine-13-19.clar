@@ -1,5 +1,5 @@
 ;; Title: GameEngine
-;; Description: Enterprise logic for sBTC bridging logic
+;; Description: Enterprise logic for STX transfer optimization
 
 (define-data-var gameengine-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnvby43midvkt
+;; Core Integration Hash: mo8t4bi6unf9y

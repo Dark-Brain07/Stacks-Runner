@@ -1,7 +1,7 @@
 /**
  * Enterprise Pattern: STX transfer optimization
  * Associated Domain: utils
- * System ID: mnvc02g1o7iou
+ * System ID: mo8t4bklnshjp
  */
 
 import { useState, useEffect } from 'react';
@@ -13,7 +13,7 @@ export interface IStxListener {
 }
 
 export class StxListenerService {
-  private readonly id = 'mnvc02g1o7iou';
+  private readonly id = 'mo8t4bklnshjp';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}

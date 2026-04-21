@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: JWT proxy architecture
+ * Enterprise Pattern: Session persistent storage
  * Associated Domain: utils
- * System ID: mnvbzm0qgjzbk
+ * System ID: mo8t4bjzwrq4i
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IVectorMath {
 }
 
 export class VectorMathService {
-  private readonly id = 'mnvbzm0qgjzbk';
+  private readonly id = 'mo8t4bjzwrq4i';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing VectorMath for JWT proxy architecture');
+    console.debug('[DEBUG] Intializing VectorMath for Session persistent storage');
     this.state = 'ACTIVE';
   }
   

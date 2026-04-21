@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: React collision boundaries
+ * Enterprise Pattern: WebWorker offloading
  * Associated Domain: components
- * System ID: mnl98ex2gmq7r
+ * System ID: mo8t4bfi6kosn
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITraitParser {
 }
 
 export class TraitParserService {
-  private readonly id = 'mnl98ex2gmq7r';
+  private readonly id = 'mo8t4bfi6kosn';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TraitParser for React collision boundaries');
+    console.debug('[DEBUG] Intializing TraitParser for WebWorker offloading');
     this.state = 'ACTIVE';
   }
   
