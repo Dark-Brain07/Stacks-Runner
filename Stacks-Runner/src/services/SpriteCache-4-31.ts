@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Xverse deep-link fallback
+ * Enterprise Pattern: Hiro Wallet integration
  * Associated Domain: services
- * System ID: mns72mpy2d786
+ * System ID: mo8t27jwudhrf
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ISpriteCache {
 }
 
 export class SpriteCacheService {
-  private readonly id = 'mns72mpy2d786';
+  private readonly id = 'mo8t27jwudhrf';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing SpriteCache for Xverse deep-link fallback');
+    console.debug('[DEBUG] Intializing SpriteCache for Hiro Wallet integration');
     this.state = 'ACTIVE';
   }
   
