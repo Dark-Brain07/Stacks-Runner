@@ -1,5 +1,5 @@
 ;; Title: WalletManager
-;; Description: Enterprise logic for Trait interface assertion
+;; Description: Enterprise logic for BNS resolution cache
 
 (define-data-var walletmanager-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mns70d5j7s1kz
+;; Core Integration Hash: mo8t0h4qb77f4
