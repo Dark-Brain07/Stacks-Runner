@@ -1,5 +1,5 @@
 ;; Title: SpriteCache
-;; Description: Enterprise logic for Hydration mismatch patch
+;; Description: Enterprise logic for Accessibility ARIA tags
 
 (define-data-var spritecache-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mnwfac45lce5c
+;; Core Integration Hash: mo8t0xi1ohvyf
