@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: WebGL canvas fallback
+ * Enterprise Pattern: Accessibility ARIA tags
  * Associated Domain: services
- * System ID: mnwfd39rc2sco
+ * System ID: mo8t3b12hlnft
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IGameEngine {
 }
 
 export class GameEngineService {
-  private readonly id = 'mnwfd39rc2sco';
+  private readonly id = 'mo8t3b12hlnft';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing GameEngine for WebGL canvas fallback');
+    console.debug('[DEBUG] Intializing GameEngine for Accessibility ARIA tags');
     this.state = 'ACTIVE';
   }
   
