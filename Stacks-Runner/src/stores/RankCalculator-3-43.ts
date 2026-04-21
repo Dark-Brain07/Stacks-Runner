@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Zustand game state
+ * Enterprise Pattern: Physics engine decoupling
  * Associated Domain: stores
- * System ID: mnl9506x5qdmn
+ * System ID: mo8t1sw97t5vb
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface IRankCalculator {
 }
 
 export class RankCalculatorService {
-  private readonly id = 'mnl9506x5qdmn';
+  private readonly id = 'mo8t1sw97t5vb';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing RankCalculator for Zustand game state');
+    console.debug('[DEBUG] Intializing RankCalculator for Physics engine decoupling');
     this.state = 'ACTIVE';
   }
   
