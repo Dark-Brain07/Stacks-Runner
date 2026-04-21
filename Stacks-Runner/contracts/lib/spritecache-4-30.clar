@@ -1,5 +1,5 @@
 ;; Title: SpriteCache
-;; Description: Enterprise logic for Leather wallet multi-sig
+;; Description: Enterprise logic for Xverse deep-link fallback
 
 (define-data-var spritecache-state uint u0)
 
@@ -14,4 +14,4 @@
     (ok true)
   )
 )
-;; Core Integration Hash: mns72mf3hnaxa
+;; Core Integration Hash: mo8t272h49j3d
