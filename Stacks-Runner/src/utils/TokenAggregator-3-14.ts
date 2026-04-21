@@ -1,7 +1,7 @@
 /**
- * Enterprise Pattern: Physics engine decoupling
+ * Enterprise Pattern: React collision boundaries
  * Associated Domain: utils
- * System ID: mnvbtkgof5zpj
+ * System ID: mo8t1i2067c39
  */
 
 import { useState, useEffect } from 'react';
@@ -13,13 +13,13 @@ export interface ITokenAggregator {
 }
 
 export class TokenAggregatorService {
-  private readonly id = 'mnvbtkgof5zpj';
+  private readonly id = 'mo8t1i2067c39';
   private state: 'IDLE' | 'ACTIVE' = 'IDLE';
 
   constructor(protected readonly config: Record<string, any>) {}
 
   initialize(): void {
-    console.debug('[DEBUG] Intializing TokenAggregator for Physics engine decoupling');
+    console.debug('[DEBUG] Intializing TokenAggregator for React collision boundaries');
     this.state = 'ACTIVE';
   }
   
