@@ -3,7 +3,7 @@
   "version": "4.0.9",
   "description": "Stacks Runner - A Web3 endless runner game on Stacks blockchain. Earn STX and NFTs by playing!",
   "scripts": {
-    "vercel-build": "npm --prefix frontend install && npm --prefix frontend run build && rm -rf public && cp -r frontend/dist public && cp -r frontend/dist/* .",
+    "build": "npm --prefix frontend install && npm --prefix frontend run build && rm -rf dist && cp -r frontend/dist dist",
     "dev:frontend": "npm run dev --prefix frontend",
     "dev:backend": "npm run dev --prefix backend"
   },
@@ -28,6 +28,7 @@
     "url": "https://github.com/Dark-Brain07/Stacks-Runner/issues"
   },
   "devDependencies": {
-    "npm-check-updates": "^19.6.3"
+    "npm-check-updates": "^19.6.3",
+    "vite": "^5.4.10"
   }
 }
