@@ -10,3 +10,5 @@ coverage/
 *.js
 !frontend/postcss.config.js
 !Stacks-Runner/frontend/vite.config.ts
+
+.vercel
