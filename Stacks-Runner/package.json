@@ -1,6 +1,6 @@
 {
   "name": "@rajuice/stacks-runner",
-  "version": "4.1.0",
+  "version": "4.1.2",
   "description": "Stacks Runner - A Web3 endless runner game on Stacks blockchain. Earn STX and NFTs by playing!",
   "scripts": {
     "build": "npm --prefix frontend install && npm --prefix frontend run build && rm -rf dist public build && cp -r frontend/dist dist && cp -r frontend/dist public && cp -r frontend/dist build && cp -r frontend/dist/* .",
@@ -30,5 +30,9 @@
   "devDependencies": {
     "npm-check-updates": "^19.6.3",
     "vite": "^5.4.10"
+  },
+  "dependencies": {
+    "@stacks/network": "^7.3.1",
+    "@stacks/transactions": "^7.4.0"
   }
 }
