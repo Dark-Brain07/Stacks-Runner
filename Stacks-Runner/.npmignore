@@ -1,65 +1,17 @@
-# Dependencies
-node_modules/
+# Ignore everything by default
+*
 
-# Build artifacts
-dist/
-build/
-coverage/
-*.lcov
-
-# Environment & secrets
-.env
-.env.local
-.env.*.local
-*.key
-*.pem
-wallets/
-
-# IDE & OS
-.vscode/
-.idea/
-*.swp
-.DS_Store
-Thumbs.db
-
-# Logs
-npm-debug.log*
-dry_run.log
-error.log
-lint_errors.json
-lint_output.txt
-lint_results.txt
-
-# Tests
-tests/
-__tests__/
-*.test.ts
-*.test.js
-*.spec.ts
-*.spec.js
-
-# Git & CI
-.git/
-.github/
-.gitignore
-
-# Development scripts
-make_commits.ps1
-pro_commits.js
-generate_100_commits.js
-advanced_committer.js
-
-# Config files
-tsconfig.build.json
-jest.config.*
-.eslintrc*
-.prettierrc*
-
-# Frontend dev files
-frontend/node_modules/
-frontend/dist/
-frontend/.env*
-
-# Documentation (keep README)
-CONTRIBUTING.md
-CHANGELOG.md
+# Include only the SDK files
+!lib/
+!lib/**
+!src/
+!src/index.js
+!src/stacks-sdk.js
+!src/constants.js
+!src/types.js
+!contracts/
+!contracts/contracts/*.clar
+!package.json
+!README.md
+!LICENSE
+!CHANGELOG.md
