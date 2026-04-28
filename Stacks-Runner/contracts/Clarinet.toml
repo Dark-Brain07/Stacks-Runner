@@ -146,6 +146,21 @@ path = 'contracts/xp-ledger.clar'
 clarity_version = 2
 epoch = 2.5
 
+[contracts.payment-nft]
+path = 'contracts/payment-nft.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.runner-nft]
+path = 'contracts/runner-nft.clar'
+clarity_version = 2
+epoch = 2.5
+
+[contracts.shooter]
+path = 'contracts/shooter.clar'
+clarity_version = 2
+epoch = 2.5
+
 [repl.analysis]
 passes = ['check_checker']
 
