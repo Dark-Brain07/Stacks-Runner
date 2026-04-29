@@ -10,3 +10,5 @@
 - 2026-04-29 22:11:34: Applied revision constraint for type-safe bindings.
 
 - 2026-04-29 22:11:51: Applied revision constraint for type-safe data structures.
+
+- 2026-04-29 22:12:09: Applied revision constraint for cross-platform error boundaries.
