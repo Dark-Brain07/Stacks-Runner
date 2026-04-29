@@ -34,3 +34,5 @@
 - 2026-04-29 22:15:00: Applied revision constraint for modular dependencies.
 
 - 2026-04-29 22:15:16: Applied revision constraint for structural bindings.
+
+- 2026-04-29 22:15:32: Applied revision constraint for core telemetry.
