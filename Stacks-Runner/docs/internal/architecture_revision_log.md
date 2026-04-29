@@ -72,3 +72,5 @@
 - 2026-04-29 22:20:13: Applied revision constraint for cross-platform handlers.
 
 - 2026-04-29 22:20:31: Applied revision constraint for async handlers.
+
+- 2026-04-29 22:20:48: Applied revision constraint for type-safe configurations.
