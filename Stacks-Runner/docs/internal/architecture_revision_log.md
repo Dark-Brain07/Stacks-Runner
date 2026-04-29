@@ -22,3 +22,5 @@
 - 2026-04-29 22:13:21: Applied revision constraint for structural callbacks.
 
 - 2026-04-29 22:13:39: Applied revision constraint for cross-platform abstractions.
+
+- 2026-04-29 22:13:55: Applied revision constraint for rendering error boundaries.
