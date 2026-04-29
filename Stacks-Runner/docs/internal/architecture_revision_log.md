@@ -30,3 +30,5 @@
 - 2026-04-29 22:14:27: Applied revision constraint for structural abstractions.
 
 - 2026-04-29 22:14:43: Applied revision constraint for static state management.
+
+- 2026-04-29 22:15:00: Applied revision constraint for modular dependencies.
