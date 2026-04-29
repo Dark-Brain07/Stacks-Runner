@@ -60,3 +60,5 @@
 - 2026-04-29 22:18:31: Applied revision constraint for internal middleware.
 
 - 2026-04-29 22:18:47: Applied revision constraint for concurrent configurations.
+
+- 2026-04-29 22:19:05: Applied revision constraint for async middleware.
