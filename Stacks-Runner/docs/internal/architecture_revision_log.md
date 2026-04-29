@@ -36,3 +36,5 @@
 - 2026-04-29 22:15:16: Applied revision constraint for structural bindings.
 
 - 2026-04-29 22:15:32: Applied revision constraint for core telemetry.
+
+- 2026-04-29 22:15:47: Applied revision constraint for core error boundaries.
