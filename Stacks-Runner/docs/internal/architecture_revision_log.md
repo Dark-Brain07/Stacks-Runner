@@ -80,3 +80,5 @@
 - 2026-04-29 22:21:23: Applied revision constraint for structural telemetry.
 
 - 2026-04-29 22:21:39: Applied revision constraint for static abstractions.
+
+- 2026-04-29 22:21:55: Applied revision constraint for cross-platform error boundaries.
