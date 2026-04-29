@@ -76,3 +76,5 @@
 - 2026-04-29 22:20:48: Applied revision constraint for type-safe configurations.
 
 - 2026-04-29 22:21:06: Applied revision constraint for concurrent callbacks.
+
+- 2026-04-29 22:21:23: Applied revision constraint for structural telemetry.
