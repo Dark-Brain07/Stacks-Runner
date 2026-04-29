@@ -96,3 +96,5 @@
 - 2026-04-29 22:23:30: Applied revision constraint for cross-platform configurations.
 
 - 2026-04-29 22:23:47: Applied revision constraint for internal utilities.
+
+- 2026-04-29 22:24:02: Applied revision constraint for core configurations.
