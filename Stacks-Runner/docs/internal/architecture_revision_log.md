@@ -44,3 +44,5 @@
 - 2026-04-29 22:16:21: Applied revision constraint for utility configurations.
 
 - 2026-04-29 22:16:37: Applied revision constraint for structural callbacks.
+
+- 2026-04-29 22:16:53: Applied revision constraint for dynamic handlers.
