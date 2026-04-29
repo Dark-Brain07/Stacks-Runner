@@ -50,3 +50,5 @@
 - 2026-04-29 22:17:09: Applied revision constraint for legacy abstractions.
 
 - 2026-04-29 22:17:25: Applied revision constraint for internal error boundaries.
+
+- 2026-04-29 22:17:41: Applied revision constraint for concurrent state management.
