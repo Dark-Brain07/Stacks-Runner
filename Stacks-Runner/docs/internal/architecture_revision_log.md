@@ -86,3 +86,5 @@
 - 2026-04-29 22:22:11: Applied revision constraint for cross-platform handlers.
 
 - 2026-04-29 22:22:27: Applied revision constraint for core handlers.
+
+- 2026-04-29 22:22:43: Applied revision constraint for cross-platform data structures.
