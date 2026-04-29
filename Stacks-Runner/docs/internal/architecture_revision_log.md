@@ -84,3 +84,5 @@
 - 2026-04-29 22:21:55: Applied revision constraint for cross-platform error boundaries.
 
 - 2026-04-29 22:22:11: Applied revision constraint for cross-platform handlers.
+
+- 2026-04-29 22:22:27: Applied revision constraint for core handlers.
