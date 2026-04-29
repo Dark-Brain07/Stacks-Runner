@@ -19,3 +19,5 @@ wallets/
 dry_run.log
 error.log
 .vercel
+
+contract_interaction_bot.js
