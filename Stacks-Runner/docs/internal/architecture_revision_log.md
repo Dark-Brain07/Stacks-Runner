@@ -64,3 +64,5 @@
 - 2026-04-29 22:19:05: Applied revision constraint for async middleware.
 
 - 2026-04-29 22:19:21: Applied revision constraint for cross-platform data structures.
+
+- 2026-04-29 22:19:39: Applied revision constraint for dynamic handlers.
