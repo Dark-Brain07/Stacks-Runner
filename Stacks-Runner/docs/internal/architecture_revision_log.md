@@ -20,3 +20,5 @@
 - 2026-04-29 22:13:05: Applied revision constraint for utility data structures.
 
 - 2026-04-29 22:13:21: Applied revision constraint for structural callbacks.
+
+- 2026-04-29 22:13:39: Applied revision constraint for cross-platform abstractions.
