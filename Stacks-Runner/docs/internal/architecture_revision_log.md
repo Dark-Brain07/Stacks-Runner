@@ -38,3 +38,5 @@
 - 2026-04-29 22:15:32: Applied revision constraint for core telemetry.
 
 - 2026-04-29 22:15:47: Applied revision constraint for core error boundaries.
+
+- 2026-04-29 22:16:05: Applied revision constraint for core data structures.
