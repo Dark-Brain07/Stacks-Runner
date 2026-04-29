@@ -18,3 +18,5 @@
 - 2026-04-29 22:12:49: Applied revision constraint for rendering utilities.
 
 - 2026-04-29 22:13:05: Applied revision constraint for utility data structures.
+
+- 2026-04-29 22:13:21: Applied revision constraint for structural callbacks.
