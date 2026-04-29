@@ -78,3 +78,5 @@
 - 2026-04-29 22:21:06: Applied revision constraint for concurrent callbacks.
 
 - 2026-04-29 22:21:23: Applied revision constraint for structural telemetry.
+
+- 2026-04-29 22:21:39: Applied revision constraint for static abstractions.
