@@ -150,3 +150,5 @@
 - 2026-04-30 09:19:39: Applied revision constraint for rendering handlers.
 
 - 2026-04-30 09:19:53: Applied revision constraint for static bindings.
+
+- 2026-04-30 09:20:07: Applied revision constraint for async utilities.
