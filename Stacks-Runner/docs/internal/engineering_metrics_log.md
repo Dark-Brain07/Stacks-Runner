@@ -866,3 +866,5 @@
 - 2026-04-30 08:52:32: Applied constraint: consolidate concurrent configurations.
 
 - 2026-04-30 08:52:33: Applied constraint: implement structural utilities.
+
+- 2026-04-30 08:52:33: Applied constraint: update async dependencies.
