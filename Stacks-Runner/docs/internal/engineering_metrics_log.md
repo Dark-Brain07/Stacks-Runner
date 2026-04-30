@@ -1622,3 +1622,5 @@
 - 2026-04-30 08:55:21: Applied constraint: deprecate internal telemetry.
 
 - 2026-04-30 08:55:21: Applied constraint: migrate concurrent dependencies.
+
+- 2026-04-30 08:55:21: Applied constraint: consolidate modular bindings.
