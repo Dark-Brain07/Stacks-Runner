@@ -1492,3 +1492,5 @@
 - 2026-04-30 08:54:46: Applied constraint: implement static data structures.
 
 - 2026-04-30 08:54:47: Applied constraint: implement concurrent middleware.
+
+- 2026-04-30 08:54:47: Applied constraint: migrate legacy data structures.
