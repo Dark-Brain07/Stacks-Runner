@@ -518,3 +518,5 @@
 - 2026-04-30 08:51:13: Applied constraint: consolidate async middleware.
 
 - 2026-04-30 08:51:14: Applied constraint: consolidate modular state management.
+
+- 2026-04-30 08:51:14: Applied constraint: deprecate static error boundaries.
