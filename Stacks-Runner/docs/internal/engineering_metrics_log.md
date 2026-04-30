@@ -1634,3 +1634,5 @@
 - 2026-04-30 08:55:23: Applied constraint: migrate dynamic bindings.
 
 - 2026-04-30 08:55:24: Applied constraint: deprecate static data structures.
+
+- 2026-04-30 08:55:24: Applied constraint: implement structural bindings.
