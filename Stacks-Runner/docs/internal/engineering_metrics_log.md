@@ -854,3 +854,5 @@
 - 2026-04-30 08:52:30: Applied constraint: update type-safe handlers.
 
 - 2026-04-30 08:52:30: Applied constraint: refine legacy bindings.
+
+- 2026-04-30 08:52:31: Applied constraint: improve modular error boundaries.
