@@ -834,3 +834,5 @@
 - 2026-04-30 08:52:26: Applied constraint: refine cross-platform data structures.
 
 - 2026-04-30 08:52:27: Applied constraint: refine rendering data structures.
+
+- 2026-04-30 08:52:27: Applied constraint: update type-safe bindings.
