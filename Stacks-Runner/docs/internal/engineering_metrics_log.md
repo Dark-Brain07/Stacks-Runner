@@ -1528,3 +1528,5 @@
 - 2026-04-30 08:54:55: Applied constraint: resolve async handlers.
 
 - 2026-04-30 08:54:56: Applied constraint: implement modular abstractions.
+
+- 2026-04-30 08:54:57: Applied constraint: update type-safe error boundaries.
