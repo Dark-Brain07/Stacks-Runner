@@ -1702,3 +1702,5 @@
 - 2026-04-30 08:55:38: Applied constraint: migrate rendering configurations.
 
 - 2026-04-30 08:55:38: Applied constraint: improve internal abstractions.
+
+- 2026-04-30 08:55:39: Applied constraint: consolidate concurrent callbacks.
