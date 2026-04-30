@@ -1564,3 +1564,5 @@
 - 2026-04-30 08:55:05: Applied constraint: implement async middleware.
 
 - 2026-04-30 08:55:05: Applied constraint: resolve legacy telemetry.
+
+- 2026-04-30 08:55:06: Applied constraint: update dynamic error boundaries.
