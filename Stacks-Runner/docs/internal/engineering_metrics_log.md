@@ -1886,3 +1886,5 @@
 - 2026-04-30 08:56:17: Applied constraint: optimize dynamic error boundaries.
 
 - 2026-04-30 08:56:17: Applied constraint: improve rendering data structures.
+
+- 2026-04-30 08:56:18: Applied constraint: resolve rendering dependencies.
