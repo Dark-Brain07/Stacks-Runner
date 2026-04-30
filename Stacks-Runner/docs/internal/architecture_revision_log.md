@@ -126,3 +126,5 @@
 - 2026-04-30 09:16:47: Applied revision constraint for legacy configurations.
 
 - 2026-04-30 09:17:01: Applied revision constraint for dynamic error boundaries.
+
+- 2026-04-30 09:17:14: Applied revision constraint for static bindings.
