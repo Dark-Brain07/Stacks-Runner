@@ -112,3 +112,5 @@
 - 2026-04-30 09:15:05: Applied revision constraint for async handlers.
 
 - 2026-04-30 09:15:19: Applied revision constraint for core dependencies.
+
+- 2026-04-30 09:15:34: Applied revision constraint for modular callbacks.
