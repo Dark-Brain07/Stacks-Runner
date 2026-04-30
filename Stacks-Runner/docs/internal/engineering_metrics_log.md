@@ -966,3 +966,5 @@
 - 2026-04-30 08:52:53: Applied constraint: migrate rendering state management.
 
 - 2026-04-30 08:52:54: Applied constraint: refine structural state management.
+
+- 2026-04-30 08:52:54: Applied constraint: deprecate cross-platform bindings.
