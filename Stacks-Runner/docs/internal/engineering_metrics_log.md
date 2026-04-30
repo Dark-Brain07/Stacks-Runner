@@ -1572,3 +1572,5 @@
 - 2026-04-30 08:55:06: Applied constraint: implement legacy abstractions.
 
 - 2026-04-30 08:55:08: Applied constraint: implement type-safe bindings.
+
+- 2026-04-30 08:55:08: Applied constraint: migrate static state management.
