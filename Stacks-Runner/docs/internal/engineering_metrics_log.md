@@ -1738,3 +1738,5 @@
 - 2026-04-30 08:55:46: Applied constraint: streamline async state management.
 
 - 2026-04-30 08:55:46: Applied constraint: update type-safe telemetry.
+
+- 2026-04-30 08:55:46: Applied constraint: optimize legacy handlers.
