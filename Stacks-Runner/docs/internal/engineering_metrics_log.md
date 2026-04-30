@@ -322,3 +322,5 @@
 - 2026-04-30 08:49:43: Applied constraint: consolidate structural error boundaries.
 
 - 2026-04-30 08:49:43: Applied constraint: migrate modular telemetry.
+
+- 2026-04-30 08:49:44: Applied constraint: resolve type-safe dependencies.
