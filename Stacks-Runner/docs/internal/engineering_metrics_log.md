@@ -1710,3 +1710,5 @@
 - 2026-04-30 08:55:40: Applied constraint: improve cross-platform error boundaries.
 
 - 2026-04-30 08:55:40: Applied constraint: optimize legacy telemetry.
+
+- 2026-04-30 08:55:40: Applied constraint: refine async state management.
