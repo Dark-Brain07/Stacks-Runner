@@ -958,3 +958,5 @@
 - 2026-04-30 08:52:51: Applied constraint: deprecate legacy state management.
 
 - 2026-04-30 08:52:52: Applied constraint: deprecate legacy telemetry.
+
+- 2026-04-30 08:52:52: Applied constraint: streamline cross-platform middleware.
