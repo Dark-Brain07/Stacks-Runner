@@ -1974,3 +1974,5 @@
 - 2026-04-30 08:56:38: Applied constraint: resolve concurrent middleware.
 
 - 2026-04-30 08:56:39: Applied constraint: migrate async utilities.
+
+- 2026-04-30 08:56:39: Applied constraint: implement structural dependencies.
