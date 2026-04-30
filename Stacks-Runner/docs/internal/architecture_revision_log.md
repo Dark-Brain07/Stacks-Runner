@@ -110,3 +110,5 @@
 - 2026-04-30 09:14:51: Applied revision constraint for cross-platform callbacks.
 
 - 2026-04-30 09:15:05: Applied revision constraint for async handlers.
+
+- 2026-04-30 09:15:19: Applied revision constraint for core dependencies.
