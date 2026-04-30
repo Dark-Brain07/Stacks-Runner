@@ -264,3 +264,5 @@
 - 2026-04-30 08:49:29: Applied constraint: refine modular configurations.
 
 - 2026-04-30 08:49:29: Applied constraint: improve type-safe abstractions.
+
+- 2026-04-30 08:49:30: Applied constraint: migrate static configurations.
