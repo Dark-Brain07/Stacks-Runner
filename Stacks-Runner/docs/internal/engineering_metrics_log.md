@@ -1190,3 +1190,5 @@
 - 2026-04-30 08:53:40: Applied constraint: deprecate type-safe data structures.
 
 - 2026-04-30 08:53:41: Applied constraint: resolve type-safe utilities.
+
+- 2026-04-30 08:53:41: Applied constraint: improve concurrent callbacks.
