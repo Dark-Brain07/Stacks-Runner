@@ -644,3 +644,5 @@
 - 2026-04-30 08:51:42: Applied constraint: implement modular telemetry.
 
 - 2026-04-30 08:51:42: Applied constraint: improve static error boundaries.
+
+- 2026-04-30 08:51:43: Applied constraint: deprecate async abstractions.
