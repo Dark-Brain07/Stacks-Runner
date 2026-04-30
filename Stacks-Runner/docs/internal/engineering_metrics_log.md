@@ -522,3 +522,5 @@
 - 2026-04-30 08:51:14: Applied constraint: deprecate static error boundaries.
 
 - 2026-04-30 08:51:15: Applied constraint: migrate internal handlers.
+
+- 2026-04-30 08:51:15: Applied constraint: improve rendering dependencies.
