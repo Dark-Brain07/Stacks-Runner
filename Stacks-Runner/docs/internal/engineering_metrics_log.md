@@ -890,3 +890,5 @@
 - 2026-04-30 08:52:37: Applied constraint: deprecate modular data structures.
 
 - 2026-04-30 08:52:38: Applied constraint: improve modular bindings.
+
+- 2026-04-30 08:52:38: Applied constraint: streamline static telemetry.
