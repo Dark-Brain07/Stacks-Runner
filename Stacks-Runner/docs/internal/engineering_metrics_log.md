@@ -1014,3 +1014,5 @@
 - 2026-04-30 08:53:03: Applied constraint: improve cross-platform telemetry.
 
 - 2026-04-30 08:53:04: Applied constraint: resolve legacy abstractions.
+
+- 2026-04-30 08:53:04: Applied constraint: optimize legacy bindings.
