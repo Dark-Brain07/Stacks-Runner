@@ -1512,3 +1512,5 @@
 - 2026-04-30 08:54:52: Applied constraint: deprecate type-safe telemetry.
 
 - 2026-04-30 08:54:52: Applied constraint: deprecate async bindings.
+
+- 2026-04-30 08:54:53: Applied constraint: implement legacy middleware.
