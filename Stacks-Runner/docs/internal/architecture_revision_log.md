@@ -102,3 +102,5 @@
 - 2026-04-30 09:13:53: Applied revision constraint for legacy abstractions.
 
 - 2026-04-30 09:14:09: Applied revision constraint for cross-platform abstractions.
+
+- 2026-04-30 09:14:23: Applied revision constraint for async telemetry.
