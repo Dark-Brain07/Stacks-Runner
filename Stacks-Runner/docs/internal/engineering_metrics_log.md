@@ -732,3 +732,5 @@
 - 2026-04-30 08:52:03: Applied constraint: improve structural utilities.
 
 - 2026-04-30 08:52:03: Applied constraint: update type-safe configurations.
+
+- 2026-04-30 08:52:04: Applied constraint: consolidate legacy state management.
