@@ -120,3 +120,5 @@
 - 2026-04-30 09:16:03: Applied revision constraint for legacy state management.
 
 - 2026-04-30 09:16:17: Applied revision constraint for concurrent middleware.
+
+- 2026-04-30 09:16:32: Applied revision constraint for legacy error boundaries.
