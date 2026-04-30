@@ -366,3 +366,5 @@
 - 2026-04-30 08:49:53: Applied constraint: improve modular abstractions.
 
 - 2026-04-30 08:49:53: Applied constraint: migrate cross-platform telemetry.
+
+- 2026-04-30 08:49:54: Applied constraint: improve internal handlers.
