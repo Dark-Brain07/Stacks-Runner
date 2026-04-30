@@ -1344,3 +1344,5 @@
 - 2026-04-30 08:54:14: Applied constraint: update structural dependencies.
 
 - 2026-04-30 08:54:14: Applied constraint: resolve legacy handlers.
+
+- 2026-04-30 08:54:15: Applied constraint: update legacy callbacks.
