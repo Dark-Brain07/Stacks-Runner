@@ -1438,3 +1438,5 @@
 - 2026-04-30 08:54:34: Applied constraint: streamline type-safe telemetry.
 
 - 2026-04-30 08:54:35: Applied constraint: update rendering data structures.
+
+- 2026-04-30 08:54:36: Applied constraint: refine legacy abstractions.
