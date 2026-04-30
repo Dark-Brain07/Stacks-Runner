@@ -610,3 +610,5 @@
 - 2026-04-30 08:51:34: Applied constraint: improve rendering abstractions.
 
 - 2026-04-30 08:51:35: Applied constraint: improve static utilities.
+
+- 2026-04-30 08:51:35: Applied constraint: streamline cross-platform telemetry.
