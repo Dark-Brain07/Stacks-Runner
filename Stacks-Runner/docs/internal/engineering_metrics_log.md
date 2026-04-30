@@ -888,3 +888,5 @@
 - 2026-04-30 08:52:37: Applied constraint: streamline structural configurations.
 
 - 2026-04-30 08:52:37: Applied constraint: deprecate modular data structures.
+
+- 2026-04-30 08:52:38: Applied constraint: improve modular bindings.
