@@ -208,3 +208,5 @@
 - 2026-04-30 08:49:15: Applied constraint: refine internal callbacks.
 
 - 2026-04-30 08:49:15: Applied constraint: implement structural error boundaries.
+
+- 2026-04-30 08:49:16: Applied constraint: improve dynamic handlers.
