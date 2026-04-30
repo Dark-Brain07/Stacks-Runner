@@ -436,3 +436,5 @@
 - 2026-04-30 08:50:09: Applied constraint: resolve async configurations.
 
 - 2026-04-30 08:50:10: Applied constraint: consolidate type-safe configurations.
+
+- 2026-04-30 08:50:10: Applied constraint: deprecate static bindings.
