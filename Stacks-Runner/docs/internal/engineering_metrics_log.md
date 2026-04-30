@@ -1958,3 +1958,5 @@
 - 2026-04-30 08:56:33: Applied constraint: consolidate cross-platform abstractions.
 
 - 2026-04-30 08:56:34: Applied constraint: streamline concurrent abstractions.
+
+- 2026-04-30 08:56:34: Applied constraint: migrate concurrent abstractions.
