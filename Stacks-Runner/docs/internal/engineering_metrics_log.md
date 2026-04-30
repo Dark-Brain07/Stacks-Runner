@@ -86,3 +86,5 @@
 - 2026-04-30 08:48:44: Applied constraint: consolidate type-safe callbacks.
 
 - 2026-04-30 08:48:44: Applied constraint: resolve internal handlers.
+
+- 2026-04-30 08:48:45: Applied constraint: migrate concurrent dependencies.
