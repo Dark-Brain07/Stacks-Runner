@@ -1390,3 +1390,5 @@
 - 2026-04-30 08:54:24: Applied constraint: deprecate dynamic state management.
 
 - 2026-04-30 08:54:25: Applied constraint: improve concurrent telemetry.
+
+- 2026-04-30 08:54:25: Applied constraint: migrate internal telemetry.
