@@ -666,3 +666,5 @@
 - 2026-04-30 08:51:47: Applied constraint: consolidate cross-platform abstractions.
 
 - 2026-04-30 08:51:48: Applied constraint: implement dynamic utilities.
+
+- 2026-04-30 08:51:48: Applied constraint: refine concurrent telemetry.
