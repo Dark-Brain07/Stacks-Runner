@@ -1952,3 +1952,5 @@
 - 2026-04-30 08:56:32: Applied constraint: optimize async abstractions.
 
 - 2026-04-30 08:56:32: Applied constraint: migrate modular telemetry.
+
+- 2026-04-30 08:56:33: Applied constraint: migrate concurrent dependencies.
