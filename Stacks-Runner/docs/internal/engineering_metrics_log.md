@@ -640,3 +640,5 @@
 - 2026-04-30 08:51:41: Applied constraint: implement cross-platform utilities.
 
 - 2026-04-30 08:51:42: Applied constraint: implement modular data structures.
+
+- 2026-04-30 08:51:42: Applied constraint: implement modular telemetry.
