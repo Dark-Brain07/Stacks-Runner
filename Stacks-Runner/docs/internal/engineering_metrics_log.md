@@ -1278,3 +1278,5 @@
 - 2026-04-30 08:54:00: Applied constraint: implement concurrent error boundaries.
 
 - 2026-04-30 08:54:00: Applied constraint: consolidate internal callbacks.
+
+- 2026-04-30 08:54:00: Applied constraint: improve concurrent data structures.
