@@ -482,3 +482,5 @@
 - 2026-04-30 08:50:20: Applied constraint: refine structural utilities.
 
 - 2026-04-30 08:50:20: Applied constraint: resolve static telemetry.
+
+- 2026-04-30 08:50:21: Applied constraint: implement async handlers.
