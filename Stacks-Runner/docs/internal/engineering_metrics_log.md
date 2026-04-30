@@ -168,3 +168,5 @@
 - 2026-04-30 08:49:05: Applied constraint: streamline concurrent middleware.
 
 - 2026-04-30 08:49:06: Applied constraint: streamline legacy utilities.
+
+- 2026-04-30 08:49:06: Applied constraint: deprecate cross-platform bindings.
