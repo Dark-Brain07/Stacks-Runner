@@ -1626,3 +1626,5 @@
 - 2026-04-30 08:55:21: Applied constraint: consolidate modular bindings.
 
 - 2026-04-30 08:55:22: Applied constraint: migrate modular dependencies.
+
+- 2026-04-30 08:55:22: Applied constraint: update rendering error boundaries.
