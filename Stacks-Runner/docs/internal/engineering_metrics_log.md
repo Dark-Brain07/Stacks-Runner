@@ -1812,3 +1812,5 @@
 - 2026-04-30 08:56:01: Applied constraint: improve async error boundaries.
 
 - 2026-04-30 08:56:02: Applied constraint: consolidate modular state management.
+
+- 2026-04-30 08:56:02: Applied constraint: improve static callbacks.
