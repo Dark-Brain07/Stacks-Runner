@@ -1070,3 +1070,5 @@
 - 2026-04-30 08:53:14: Applied constraint: streamline rendering callbacks.
 
 - 2026-04-30 08:53:15: Applied constraint: deprecate modular telemetry.
+
+- 2026-04-30 08:53:15: Applied constraint: improve structural callbacks.
