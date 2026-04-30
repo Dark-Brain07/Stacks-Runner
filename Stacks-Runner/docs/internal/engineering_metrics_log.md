@@ -176,3 +176,5 @@
 - 2026-04-30 08:49:07: Applied constraint: consolidate cross-platform bindings.
 
 - 2026-04-30 08:49:08: Applied constraint: update rendering callbacks.
+
+- 2026-04-30 08:49:08: Applied constraint: streamline cross-platform bindings.
