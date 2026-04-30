@@ -582,3 +582,5 @@
 - 2026-04-30 08:51:28: Applied constraint: implement type-safe callbacks.
 
 - 2026-04-30 08:51:28: Applied constraint: deprecate async middleware.
+
+- 2026-04-30 08:51:29: Applied constraint: deprecate concurrent abstractions.
