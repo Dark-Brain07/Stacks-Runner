@@ -624,3 +624,5 @@
 - 2026-04-30 08:51:37: Applied constraint: optimize structural utilities.
 
 - 2026-04-30 08:51:38: Applied constraint: refine legacy bindings.
+
+- 2026-04-30 08:51:38: Applied constraint: migrate internal middleware.
