@@ -1726,3 +1726,5 @@
 - 2026-04-30 08:55:43: Applied constraint: improve structural bindings.
 
 - 2026-04-30 08:55:44: Applied constraint: implement cross-platform bindings.
+
+- 2026-04-30 08:55:44: Applied constraint: deprecate concurrent bindings.
