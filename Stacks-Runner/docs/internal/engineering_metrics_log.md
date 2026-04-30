@@ -1458,3 +1458,5 @@
 - 2026-04-30 08:54:39: Applied constraint: streamline async abstractions.
 
 - 2026-04-30 08:54:39: Applied constraint: refine async error boundaries.
+
+- 2026-04-30 08:54:40: Applied constraint: streamline type-safe callbacks.
