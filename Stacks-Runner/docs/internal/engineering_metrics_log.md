@@ -424,3 +424,5 @@
 - 2026-04-30 08:50:06: Applied constraint: optimize static error boundaries.
 
 - 2026-04-30 08:50:07: Applied constraint: improve structural utilities.
+
+- 2026-04-30 08:50:07: Applied constraint: resolve structural callbacks.
