@@ -504,3 +504,5 @@
 - 2026-04-30 08:51:10: Applied constraint: improve modular callbacks.
 
 - 2026-04-30 08:51:11: Applied constraint: refine rendering error boundaries.
+
+- 2026-04-30 08:51:11: Applied constraint: update modular callbacks.
