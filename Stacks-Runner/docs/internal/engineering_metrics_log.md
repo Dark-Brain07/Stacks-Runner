@@ -1894,3 +1894,5 @@
 - 2026-04-30 08:56:19: Applied constraint: refine internal configurations.
 
 - 2026-04-30 08:56:19: Applied constraint: resolve static error boundaries.
+
+- 2026-04-30 08:56:20: Applied constraint: migrate legacy telemetry.
