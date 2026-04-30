@@ -572,3 +572,5 @@
 - 2026-04-30 08:51:25: Applied constraint: deprecate static telemetry.
 
 - 2026-04-30 08:51:26: Applied constraint: implement legacy bindings.
+
+- 2026-04-30 08:51:26: Applied constraint: update internal bindings.
