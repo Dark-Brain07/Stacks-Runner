@@ -470,3 +470,5 @@
 - 2026-04-30 08:50:17: Applied constraint: update rendering configurations.
 
 - 2026-04-30 08:50:18: Applied constraint: improve cross-platform configurations.
+
+- 2026-04-30 08:50:18: Applied constraint: update type-safe telemetry.
