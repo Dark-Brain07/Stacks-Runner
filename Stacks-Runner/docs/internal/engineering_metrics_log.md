@@ -876,3 +876,5 @@
 - 2026-04-30 08:52:34: Applied constraint: migrate internal configurations.
 
 - 2026-04-30 08:52:35: Applied constraint: consolidate rendering dependencies.
+
+- 2026-04-30 08:52:35: Applied constraint: refine async utilities.
