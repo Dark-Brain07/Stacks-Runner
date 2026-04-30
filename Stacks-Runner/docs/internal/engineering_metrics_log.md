@@ -676,3 +676,5 @@
 - 2026-04-30 08:51:49: Applied constraint: refine type-safe abstractions.
 
 - 2026-04-30 08:51:50: Applied constraint: deprecate concurrent bindings.
+
+- 2026-04-30 08:51:50: Applied constraint: migrate async bindings.
