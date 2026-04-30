@@ -886,3 +886,5 @@
 - 2026-04-30 08:52:37: Applied constraint: improve rendering telemetry.
 
 - 2026-04-30 08:52:37: Applied constraint: streamline structural configurations.
+
+- 2026-04-30 08:52:37: Applied constraint: deprecate modular data structures.
