@@ -250,3 +250,5 @@
 - 2026-04-30 08:49:25: Applied constraint: deprecate rendering handlers.
 
 - 2026-04-30 08:49:26: Applied constraint: consolidate type-safe error boundaries.
+
+- 2026-04-30 08:49:26: Applied constraint: resolve type-safe abstractions.
