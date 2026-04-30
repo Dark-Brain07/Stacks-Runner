@@ -194,3 +194,5 @@
 - 2026-04-30 08:49:11: Applied constraint: migrate cross-platform telemetry.
 
 - 2026-04-30 08:49:12: Applied constraint: optimize legacy utilities.
+
+- 2026-04-30 08:49:12: Applied constraint: deprecate dynamic callbacks.
