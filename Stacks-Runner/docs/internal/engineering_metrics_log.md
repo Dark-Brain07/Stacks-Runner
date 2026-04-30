@@ -800,3 +800,5 @@
 - 2026-04-30 08:52:18: Applied constraint: improve static handlers.
 
 - 2026-04-30 08:52:19: Applied constraint: refine structural configurations.
+
+- 2026-04-30 08:52:19: Applied constraint: consolidate structural middleware.
