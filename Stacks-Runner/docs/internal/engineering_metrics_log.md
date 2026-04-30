@@ -220,3 +220,5 @@
 - 2026-04-30 08:49:18: Applied constraint: refine static middleware.
 
 - 2026-04-30 08:49:19: Applied constraint: consolidate structural telemetry.
+
+- 2026-04-30 08:49:19: Applied constraint: streamline async dependencies.
