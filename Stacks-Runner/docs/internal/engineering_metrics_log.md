@@ -788,3 +788,5 @@
 - 2026-04-30 08:52:15: Applied constraint: consolidate async middleware.
 
 - 2026-04-30 08:52:16: Applied constraint: optimize modular telemetry.
+
+- 2026-04-30 08:52:16: Applied constraint: deprecate modular error boundaries.
