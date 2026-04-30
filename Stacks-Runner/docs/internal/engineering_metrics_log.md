@@ -1826,3 +1826,5 @@
 - 2026-04-30 08:56:04: Applied constraint: improve async state management.
 
 - 2026-04-30 08:56:04: Applied constraint: optimize structural bindings.
+
+- 2026-04-30 08:56:05: Applied constraint: deprecate concurrent configurations.
