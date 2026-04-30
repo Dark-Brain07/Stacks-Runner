@@ -1918,3 +1918,5 @@
 - 2026-04-30 08:56:24: Applied constraint: streamline rendering telemetry.
 
 - 2026-04-30 08:56:24: Applied constraint: resolve cross-platform handlers.
+
+- 2026-04-30 08:56:25: Applied constraint: migrate async handlers.
