@@ -1962,3 +1962,5 @@
 - 2026-04-30 08:56:34: Applied constraint: migrate concurrent abstractions.
 
 - 2026-04-30 08:56:35: Applied constraint: optimize dynamic dependencies.
+
+- 2026-04-30 08:56:35: Applied constraint: implement internal telemetry.
