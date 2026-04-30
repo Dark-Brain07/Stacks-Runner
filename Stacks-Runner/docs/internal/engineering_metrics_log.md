@@ -1456,3 +1456,5 @@
 - 2026-04-30 08:54:38: Applied constraint: consolidate concurrent callbacks.
 
 - 2026-04-30 08:54:39: Applied constraint: streamline async abstractions.
+
+- 2026-04-30 08:54:39: Applied constraint: refine async error boundaries.
