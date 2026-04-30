@@ -288,3 +288,5 @@
 - 2026-04-30 08:49:35: Applied constraint: deprecate modular configurations.
 
 - 2026-04-30 08:49:35: Applied constraint: update legacy bindings.
+
+- 2026-04-30 08:49:36: Applied constraint: implement dynamic callbacks.
