@@ -714,3 +714,5 @@
 - 2026-04-30 08:51:58: Applied constraint: deprecate type-safe error boundaries.
 
 - 2026-04-30 08:51:59: Applied constraint: update type-safe utilities.
+
+- 2026-04-30 08:51:59: Applied constraint: implement type-safe telemetry.
