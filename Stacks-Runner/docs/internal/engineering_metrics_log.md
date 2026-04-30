@@ -1210,3 +1210,5 @@
 - 2026-04-30 08:53:46: Applied constraint: optimize async abstractions.
 
 - 2026-04-30 08:53:46: Applied constraint: refine async telemetry.
+
+- 2026-04-30 08:53:47: Applied constraint: migrate concurrent handlers.
