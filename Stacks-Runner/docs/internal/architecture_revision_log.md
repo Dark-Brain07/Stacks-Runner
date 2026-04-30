@@ -116,3 +116,5 @@
 - 2026-04-30 09:15:34: Applied revision constraint for modular callbacks.
 
 - 2026-04-30 09:15:49: Applied revision constraint for utility configurations.
+
+- 2026-04-30 09:16:03: Applied revision constraint for legacy state management.
