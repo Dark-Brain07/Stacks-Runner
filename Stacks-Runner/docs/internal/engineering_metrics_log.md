@@ -84,3 +84,5 @@
 - 2026-04-30 08:48:44: Applied constraint: refine structural state management.
 
 - 2026-04-30 08:48:44: Applied constraint: consolidate type-safe callbacks.
+
+- 2026-04-30 08:48:44: Applied constraint: resolve internal handlers.
