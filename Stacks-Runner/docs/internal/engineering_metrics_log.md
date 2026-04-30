@@ -1300,3 +1300,5 @@
 - 2026-04-30 08:54:04: Applied constraint: refine rendering data structures.
 
 - 2026-04-30 08:54:05: Applied constraint: deprecate internal data structures.
+
+- 2026-04-30 08:54:05: Applied constraint: resolve legacy handlers.
