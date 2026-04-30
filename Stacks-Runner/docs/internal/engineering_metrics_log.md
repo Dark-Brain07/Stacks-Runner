@@ -720,3 +720,5 @@
 - 2026-04-30 08:52:00: Applied constraint: streamline type-safe handlers.
 
 - 2026-04-30 08:52:00: Applied constraint: migrate rendering handlers.
+
+- 2026-04-30 08:52:01: Applied constraint: deprecate internal bindings.
