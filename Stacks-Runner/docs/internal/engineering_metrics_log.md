@@ -1134,3 +1134,5 @@
 - 2026-04-30 08:53:27: Applied constraint: update cross-platform handlers.
 
 - 2026-04-30 08:53:27: Applied constraint: implement static abstractions.
+
+- 2026-04-30 08:53:28: Applied constraint: migrate rendering error boundaries.
