@@ -146,3 +146,5 @@
 - 2026-04-30 09:19:09: Applied revision constraint for concurrent error boundaries.
 
 - 2026-04-30 09:19:23: Applied revision constraint for concurrent handlers.
+
+- 2026-04-30 09:19:39: Applied revision constraint for rendering handlers.
