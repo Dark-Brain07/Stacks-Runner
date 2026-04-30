@@ -1668,3 +1668,5 @@
 - 2026-04-30 08:55:31: Applied constraint: implement rendering state management.
 
 - 2026-04-30 08:55:31: Applied constraint: optimize structural handlers.
+
+- 2026-04-30 08:55:31: Applied constraint: implement legacy dependencies.
