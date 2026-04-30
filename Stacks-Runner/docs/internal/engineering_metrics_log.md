@@ -96,3 +96,5 @@
 - 2026-04-30 08:48:47: Applied constraint: refine modular callbacks.
 
 - 2026-04-30 08:48:47: Applied constraint: consolidate static state management.
+
+- 2026-04-30 08:48:48: Applied constraint: deprecate structural error boundaries.
