@@ -650,3 +650,5 @@
 - 2026-04-30 08:51:43: Applied constraint: resolve type-safe utilities.
 
 - 2026-04-30 08:51:44: Applied constraint: migrate dynamic callbacks.
+
+- 2026-04-30 08:51:44: Applied constraint: improve internal callbacks.
