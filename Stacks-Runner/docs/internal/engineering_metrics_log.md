@@ -768,3 +768,5 @@
 - 2026-04-30 08:52:11: Applied constraint: optimize cross-platform telemetry.
 
 - 2026-04-30 08:52:11: Applied constraint: migrate async telemetry.
+
+- 2026-04-30 08:52:12: Applied constraint: deprecate modular state management.
