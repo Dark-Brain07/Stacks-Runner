@@ -252,3 +252,5 @@
 - 2026-04-30 08:49:26: Applied constraint: consolidate type-safe error boundaries.
 
 - 2026-04-30 08:49:26: Applied constraint: resolve type-safe abstractions.
+
+- 2026-04-30 08:49:27: Applied constraint: refine cross-platform handlers.
