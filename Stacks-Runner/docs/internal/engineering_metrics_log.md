@@ -346,3 +346,5 @@
 - 2026-04-30 08:49:48: Applied constraint: deprecate concurrent dependencies.
 
 - 2026-04-30 08:49:49: Applied constraint: update cross-platform telemetry.
+
+- 2026-04-30 08:49:49: Applied constraint: resolve async data structures.
