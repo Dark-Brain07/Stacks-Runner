@@ -1700,3 +1700,5 @@
 - 2026-04-30 08:55:38: Applied constraint: refine type-safe handlers.
 
 - 2026-04-30 08:55:38: Applied constraint: migrate rendering configurations.
+
+- 2026-04-30 08:55:38: Applied constraint: improve internal abstractions.
