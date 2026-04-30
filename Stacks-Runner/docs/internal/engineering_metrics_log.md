@@ -512,3 +512,5 @@
 - 2026-04-30 08:51:12: Applied constraint: resolve modular middleware.
 
 - 2026-04-30 08:51:12: Applied constraint: optimize rendering middleware.
+
+- 2026-04-30 08:51:13: Applied constraint: resolve legacy middleware.
