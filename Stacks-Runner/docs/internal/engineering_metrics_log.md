@@ -904,3 +904,5 @@
 - 2026-04-30 08:52:40: Applied constraint: consolidate legacy data structures.
 
 - 2026-04-30 08:52:41: Applied constraint: migrate static data structures.
+
+- 2026-04-30 08:52:41: Applied constraint: refine legacy callbacks.
