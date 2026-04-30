@@ -806,3 +806,5 @@
 - 2026-04-30 08:52:20: Applied constraint: migrate cross-platform dependencies.
 
 - 2026-04-30 08:52:20: Applied constraint: migrate structural bindings.
+
+- 2026-04-30 08:52:21: Applied constraint: improve async utilities.
