@@ -440,3 +440,5 @@
 - 2026-04-30 08:50:10: Applied constraint: deprecate static bindings.
 
 - 2026-04-30 08:50:11: Applied constraint: refine async callbacks.
+
+- 2026-04-30 08:50:11: Applied constraint: improve type-safe middleware.
