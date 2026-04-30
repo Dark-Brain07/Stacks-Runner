@@ -846,3 +846,5 @@
 - 2026-04-30 08:52:29: Applied constraint: consolidate structural utilities.
 
 - 2026-04-30 08:52:29: Applied constraint: resolve static callbacks.
+
+- 2026-04-30 08:52:29: Applied constraint: improve internal state management.
