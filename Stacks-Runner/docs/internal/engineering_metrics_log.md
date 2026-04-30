@@ -1286,3 +1286,5 @@
 - 2026-04-30 08:54:01: Applied constraint: resolve async dependencies.
 
 - 2026-04-30 08:54:02: Applied constraint: consolidate cross-platform data structures.
+
+- 2026-04-30 08:54:02: Applied constraint: consolidate dynamic callbacks.
