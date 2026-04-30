@@ -1568,3 +1568,5 @@
 - 2026-04-30 08:55:06: Applied constraint: update dynamic error boundaries.
 
 - 2026-04-30 08:55:06: Applied constraint: streamline modular abstractions.
+
+- 2026-04-30 08:55:06: Applied constraint: implement legacy abstractions.
