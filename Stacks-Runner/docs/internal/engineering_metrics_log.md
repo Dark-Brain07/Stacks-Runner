@@ -182,3 +182,5 @@
 - 2026-04-30 08:49:08: Applied constraint: migrate legacy abstractions.
 
 - 2026-04-30 08:49:09: Applied constraint: migrate cross-platform middleware.
+
+- 2026-04-30 08:49:09: Applied constraint: deprecate static telemetry.
