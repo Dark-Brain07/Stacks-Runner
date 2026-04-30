@@ -646,3 +646,5 @@
 - 2026-04-30 08:51:42: Applied constraint: improve static error boundaries.
 
 - 2026-04-30 08:51:43: Applied constraint: deprecate async abstractions.
+
+- 2026-04-30 08:51:43: Applied constraint: resolve type-safe utilities.
