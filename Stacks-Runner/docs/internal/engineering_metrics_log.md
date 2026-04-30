@@ -1630,3 +1630,5 @@
 - 2026-04-30 08:55:22: Applied constraint: update rendering error boundaries.
 
 - 2026-04-30 08:55:23: Applied constraint: improve internal telemetry.
+
+- 2026-04-30 08:55:23: Applied constraint: migrate dynamic bindings.
