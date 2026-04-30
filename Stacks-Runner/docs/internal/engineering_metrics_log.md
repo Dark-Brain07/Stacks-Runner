@@ -746,3 +746,5 @@
 - 2026-04-30 08:52:06: Applied constraint: consolidate internal handlers.
 
 - 2026-04-30 08:52:07: Applied constraint: consolidate async configurations.
+
+- 2026-04-30 08:52:07: Applied constraint: consolidate rendering bindings.
