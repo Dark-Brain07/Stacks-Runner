@@ -132,3 +132,5 @@
 - 2026-04-30 09:17:28: Applied revision constraint for structural dependencies.
 
 - 2026-04-30 09:17:43: Applied revision constraint for static configurations.
+
+- 2026-04-30 09:17:58: Applied revision constraint for legacy telemetry.
