@@ -1790,3 +1790,5 @@
 - 2026-04-30 08:55:56: Applied constraint: improve modular handlers.
 
 - 2026-04-30 08:55:57: Applied constraint: resolve legacy handlers.
+
+- 2026-04-30 08:55:57: Applied constraint: deprecate async callbacks.
