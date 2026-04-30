@@ -178,3 +178,5 @@
 - 2026-04-30 09:22:57: Applied revision constraint for internal telemetry.
 
 - 2026-04-30 09:23:11: Applied revision constraint for dynamic handlers.
+
+- 2026-04-30 09:23:25: Applied revision constraint for rendering utilities.
