@@ -1904,3 +1904,5 @@
 - 2026-04-30 08:56:21: Applied constraint: refine modular state management.
 
 - 2026-04-30 08:56:22: Applied constraint: resolve cross-platform error boundaries.
+
+- 2026-04-30 08:56:22: Applied constraint: streamline legacy dependencies.
