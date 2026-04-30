@@ -1870,3 +1870,5 @@
 - 2026-04-30 08:56:14: Applied constraint: implement dynamic telemetry.
 
 - 2026-04-30 08:56:14: Applied constraint: resolve internal telemetry.
+
+- 2026-04-30 08:56:14: Applied constraint: migrate concurrent telemetry.
