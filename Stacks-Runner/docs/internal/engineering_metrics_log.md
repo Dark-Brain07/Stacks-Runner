@@ -364,3 +364,5 @@
 - 2026-04-30 08:49:52: Applied constraint: consolidate type-safe state management.
 
 - 2026-04-30 08:49:53: Applied constraint: improve modular abstractions.
+
+- 2026-04-30 08:49:53: Applied constraint: migrate cross-platform telemetry.
