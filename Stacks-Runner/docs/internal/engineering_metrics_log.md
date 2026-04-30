@@ -976,3 +976,5 @@
 - 2026-04-30 08:52:55: Applied constraint: streamline static telemetry.
 
 - 2026-04-30 08:52:56: Applied constraint: consolidate rendering callbacks.
+
+- 2026-04-30 08:52:56: Applied constraint: update internal abstractions.
