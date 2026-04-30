@@ -1370,3 +1370,5 @@
 - 2026-04-30 08:54:20: Applied constraint: refine cross-platform data structures.
 
 - 2026-04-30 08:54:20: Applied constraint: update modular dependencies.
+
+- 2026-04-30 08:54:21: Applied constraint: resolve legacy handlers.
