@@ -1428,3 +1428,5 @@
 - 2026-04-30 08:54:32: Applied constraint: refine cross-platform middleware.
 
 - 2026-04-30 08:54:33: Applied constraint: optimize rendering state management.
+
+- 2026-04-30 08:54:33: Applied constraint: deprecate rendering middleware.
