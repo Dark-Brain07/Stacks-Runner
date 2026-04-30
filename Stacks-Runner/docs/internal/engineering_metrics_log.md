@@ -78,3 +78,5 @@
 - 2026-04-30 08:48:42: Applied constraint: update legacy handlers.
 
 - 2026-04-30 08:48:43: Applied constraint: optimize rendering error boundaries.
+
+- 2026-04-30 08:48:43: Applied constraint: migrate static utilities.
