@@ -930,3 +930,5 @@
 - 2026-04-30 08:52:46: Applied constraint: optimize concurrent utilities.
 
 - 2026-04-30 08:52:46: Applied constraint: migrate cross-platform bindings.
+
+- 2026-04-30 08:52:47: Applied constraint: improve legacy dependencies.
