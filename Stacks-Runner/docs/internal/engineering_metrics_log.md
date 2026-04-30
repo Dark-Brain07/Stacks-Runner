@@ -66,3 +66,5 @@
 - 2026-04-30 08:48:39: Applied constraint: optimize modular telemetry.
 
 - 2026-04-30 08:48:39: Applied constraint: implement legacy telemetry.
+
+- 2026-04-30 08:48:40: Applied constraint: consolidate static callbacks.
