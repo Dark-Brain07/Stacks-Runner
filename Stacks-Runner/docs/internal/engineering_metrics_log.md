@@ -300,3 +300,5 @@
 - 2026-04-30 08:49:38: Applied constraint: optimize static state management.
 
 - 2026-04-30 08:49:38: Applied constraint: refine structural handlers.
+
+- 2026-04-30 08:49:39: Applied constraint: deprecate cross-platform utilities.
