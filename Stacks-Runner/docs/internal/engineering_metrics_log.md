@@ -972,3 +972,5 @@
 - 2026-04-30 08:52:54: Applied constraint: consolidate cross-platform handlers.
 
 - 2026-04-30 08:52:55: Applied constraint: migrate dynamic telemetry.
+
+- 2026-04-30 08:52:55: Applied constraint: streamline static telemetry.
