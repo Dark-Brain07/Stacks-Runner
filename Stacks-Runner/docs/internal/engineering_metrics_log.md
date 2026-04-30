@@ -1464,3 +1464,5 @@
 - 2026-04-30 08:54:40: Applied constraint: resolve legacy dependencies.
 
 - 2026-04-30 08:54:41: Applied constraint: consolidate rendering dependencies.
+
+- 2026-04-30 08:54:41: Applied constraint: migrate internal telemetry.
