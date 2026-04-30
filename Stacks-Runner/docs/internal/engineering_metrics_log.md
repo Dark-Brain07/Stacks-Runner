@@ -658,3 +658,5 @@
 - 2026-04-30 08:51:45: Applied constraint: streamline rendering bindings.
 
 - 2026-04-30 08:51:46: Applied constraint: refine internal dependencies.
+
+- 2026-04-30 08:51:46: Applied constraint: implement cross-platform bindings.
