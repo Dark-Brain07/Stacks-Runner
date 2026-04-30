@@ -1906,3 +1906,5 @@
 - 2026-04-30 08:56:22: Applied constraint: resolve cross-platform error boundaries.
 
 - 2026-04-30 08:56:22: Applied constraint: streamline legacy dependencies.
+
+- 2026-04-30 08:56:22: Applied constraint: refine rendering handlers.
