@@ -804,3 +804,5 @@
 - 2026-04-30 08:52:19: Applied constraint: consolidate structural middleware.
 
 - 2026-04-30 08:52:20: Applied constraint: migrate cross-platform dependencies.
+
+- 2026-04-30 08:52:20: Applied constraint: migrate structural bindings.
