@@ -738,3 +738,5 @@
 - 2026-04-30 08:52:04: Applied constraint: migrate async telemetry.
 
 - 2026-04-30 08:52:05: Applied constraint: resolve cross-platform bindings.
+
+- 2026-04-30 08:52:05: Applied constraint: resolve static handlers.
