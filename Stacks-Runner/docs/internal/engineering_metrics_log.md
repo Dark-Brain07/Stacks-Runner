@@ -1858,3 +1858,5 @@
 - 2026-04-30 08:56:11: Applied constraint: deprecate cross-platform callbacks.
 
 - 2026-04-30 08:56:11: Applied constraint: optimize modular middleware.
+
+- 2026-04-30 08:56:12: Applied constraint: deprecate async handlers.
