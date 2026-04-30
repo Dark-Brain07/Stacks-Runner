@@ -98,3 +98,5 @@
 - 2026-04-29 22:23:47: Applied revision constraint for internal utilities.
 
 - 2026-04-29 22:24:02: Applied revision constraint for core configurations.
+
+- 2026-04-30 09:13:53: Applied revision constraint for legacy abstractions.
