@@ -180,3 +180,5 @@
 - 2026-04-30 09:23:11: Applied revision constraint for dynamic handlers.
 
 - 2026-04-30 09:23:25: Applied revision constraint for rendering utilities.
+
+- 2026-04-30 09:23:39: Applied revision constraint for async telemetry.
