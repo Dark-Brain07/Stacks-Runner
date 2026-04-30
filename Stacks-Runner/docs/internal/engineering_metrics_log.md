@@ -1540,3 +1540,5 @@
 - 2026-04-30 08:54:58: Applied constraint: deprecate dynamic error boundaries.
 
 - 2026-04-30 08:54:59: Applied constraint: migrate async state management.
+
+- 2026-04-30 08:54:59: Applied constraint: optimize legacy data structures.
