@@ -1516,3 +1516,5 @@
 - 2026-04-30 08:54:53: Applied constraint: implement legacy middleware.
 
 - 2026-04-30 08:54:53: Applied constraint: improve modular handlers.
+
+- 2026-04-30 08:54:54: Applied constraint: improve structural bindings.
