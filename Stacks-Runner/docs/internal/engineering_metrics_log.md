@@ -1446,3 +1446,5 @@
 - 2026-04-30 08:54:36: Applied constraint: resolve structural data structures.
 
 - 2026-04-30 08:54:37: Applied constraint: optimize modular bindings.
+
+- 2026-04-30 08:54:37: Applied constraint: migrate dynamic handlers.
