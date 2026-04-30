@@ -1754,3 +1754,5 @@
 - 2026-04-30 08:55:49: Applied constraint: consolidate rendering callbacks.
 
 - 2026-04-30 08:55:49: Applied constraint: migrate structural error boundaries.
+
+- 2026-04-30 08:55:50: Applied constraint: improve legacy abstractions.
