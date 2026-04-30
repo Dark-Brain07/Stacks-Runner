@@ -848,3 +848,5 @@
 - 2026-04-30 08:52:29: Applied constraint: resolve static callbacks.
 
 - 2026-04-30 08:52:29: Applied constraint: improve internal state management.
+
+- 2026-04-30 08:52:30: Applied constraint: streamline type-safe bindings.
