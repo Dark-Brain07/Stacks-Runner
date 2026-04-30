@@ -1158,3 +1158,5 @@
 - 2026-04-30 08:53:33: Applied constraint: consolidate dynamic dependencies.
 
 - 2026-04-30 08:53:33: Applied constraint: migrate rendering abstractions.
+
+- 2026-04-30 08:53:33: Applied constraint: deprecate modular telemetry.
