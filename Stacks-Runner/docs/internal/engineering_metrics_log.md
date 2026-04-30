@@ -1450,3 +1450,5 @@
 - 2026-04-30 08:54:37: Applied constraint: migrate dynamic handlers.
 
 - 2026-04-30 08:54:38: Applied constraint: consolidate static error boundaries.
+
+- 2026-04-30 08:54:38: Applied constraint: consolidate type-safe handlers.
