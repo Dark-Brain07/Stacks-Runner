@@ -1898,3 +1898,5 @@
 - 2026-04-30 08:56:20: Applied constraint: migrate legacy telemetry.
 
 - 2026-04-30 08:56:20: Applied constraint: deprecate internal dependencies.
+
+- 2026-04-30 08:56:21: Applied constraint: deprecate concurrent configurations.
