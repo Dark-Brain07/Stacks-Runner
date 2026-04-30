@@ -1238,3 +1238,5 @@
 - 2026-04-30 08:53:51: Applied constraint: migrate legacy telemetry.
 
 - 2026-04-30 08:53:52: Applied constraint: deprecate modular handlers.
+
+- 2026-04-30 08:53:52: Applied constraint: deprecate dynamic state management.
