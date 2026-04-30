@@ -390,3 +390,5 @@
 - 2026-04-30 08:49:59: Applied constraint: improve dynamic telemetry.
 
 - 2026-04-30 08:49:59: Applied constraint: improve static middleware.
+
+- 2026-04-30 08:49:59: Applied constraint: deprecate rendering middleware.
