@@ -1372,3 +1372,5 @@
 - 2026-04-30 08:54:20: Applied constraint: update modular dependencies.
 
 - 2026-04-30 08:54:21: Applied constraint: resolve legacy handlers.
+
+- 2026-04-30 08:54:21: Applied constraint: consolidate static utilities.
