@@ -980,3 +980,5 @@
 - 2026-04-30 08:52:56: Applied constraint: update internal abstractions.
 
 - 2026-04-30 08:52:57: Applied constraint: streamline dynamic utilities.
+
+- 2026-04-30 08:52:57: Applied constraint: update legacy middleware.
