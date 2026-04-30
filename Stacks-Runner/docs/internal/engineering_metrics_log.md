@@ -484,3 +484,5 @@
 - 2026-04-30 08:50:20: Applied constraint: resolve static telemetry.
 
 - 2026-04-30 08:50:21: Applied constraint: implement async handlers.
+
+- 2026-04-30 08:50:22: Applied constraint: streamline cross-platform handlers.
