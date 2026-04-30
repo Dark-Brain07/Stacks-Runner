@@ -500,3 +500,5 @@
 - 2026-04-30 08:51:09: Applied constraint: improve structural utilities.
 
 - 2026-04-30 08:51:10: Applied constraint: implement legacy state management.
+
+- 2026-04-30 08:51:10: Applied constraint: improve modular callbacks.
