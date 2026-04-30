@@ -1474,3 +1474,5 @@
 - 2026-04-30 08:54:42: Applied constraint: streamline cross-platform telemetry.
 
 - 2026-04-30 08:54:43: Applied constraint: consolidate structural handlers.
+
+- 2026-04-30 08:54:43: Applied constraint: update legacy handlers.
