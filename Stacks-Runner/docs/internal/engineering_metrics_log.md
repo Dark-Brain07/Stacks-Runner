@@ -224,3 +224,5 @@
 - 2026-04-30 08:49:19: Applied constraint: streamline async dependencies.
 
 - 2026-04-30 08:49:20: Applied constraint: refine rendering dependencies.
+
+- 2026-04-30 08:49:20: Applied constraint: streamline legacy bindings.
