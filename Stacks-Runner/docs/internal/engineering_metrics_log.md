@@ -906,3 +906,5 @@
 - 2026-04-30 08:52:41: Applied constraint: migrate static data structures.
 
 - 2026-04-30 08:52:41: Applied constraint: refine legacy callbacks.
+
+- 2026-04-30 08:52:42: Applied constraint: deprecate async utilities.
