@@ -1778,3 +1778,5 @@
 - 2026-04-30 08:55:54: Applied constraint: improve modular dependencies.
 
 - 2026-04-30 08:55:54: Applied constraint: implement static bindings.
+
+- 2026-04-30 08:55:55: Applied constraint: optimize static callbacks.
