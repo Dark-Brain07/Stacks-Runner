@@ -328,3 +328,5 @@
 - 2026-04-30 08:49:44: Applied constraint: migrate static utilities.
 
 - 2026-04-30 08:49:45: Applied constraint: refine structural abstractions.
+
+- 2026-04-30 08:49:45: Applied constraint: refine cross-platform dependencies.
