@@ -1532,3 +1532,5 @@
 - 2026-04-30 08:54:57: Applied constraint: update type-safe error boundaries.
 
 - 2026-04-30 08:54:57: Applied constraint: implement internal bindings.
+
+- 2026-04-30 08:54:58: Applied constraint: migrate cross-platform abstractions.
