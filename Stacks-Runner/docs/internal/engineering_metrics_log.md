@@ -1040,3 +1040,5 @@
 - 2026-04-30 08:53:09: Applied constraint: improve internal handlers.
 
 - 2026-04-30 08:53:09: Applied constraint: refine async middleware.
+
+- 2026-04-30 08:53:09: Applied constraint: resolve structural middleware.
