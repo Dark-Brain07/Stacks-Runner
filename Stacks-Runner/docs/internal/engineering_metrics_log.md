@@ -398,3 +398,5 @@
 - 2026-04-30 08:50:00: Applied constraint: deprecate dynamic telemetry.
 
 - 2026-04-30 08:50:01: Applied constraint: improve dynamic telemetry.
+
+- 2026-04-30 08:50:01: Applied constraint: resolve dynamic abstractions.
