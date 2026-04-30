@@ -1508,3 +1508,5 @@
 - 2026-04-30 08:54:50: Applied constraint: refine internal utilities.
 
 - 2026-04-30 08:54:51: Applied constraint: consolidate async data structures.
+
+- 2026-04-30 08:54:52: Applied constraint: deprecate type-safe telemetry.
