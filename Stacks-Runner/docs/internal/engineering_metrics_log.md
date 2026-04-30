@@ -844,3 +844,5 @@
 - 2026-04-30 08:52:28: Applied constraint: optimize structural handlers.
 
 - 2026-04-30 08:52:29: Applied constraint: consolidate structural utilities.
+
+- 2026-04-30 08:52:29: Applied constraint: resolve static callbacks.
