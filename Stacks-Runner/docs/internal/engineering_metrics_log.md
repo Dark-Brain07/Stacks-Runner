@@ -1270,3 +1270,5 @@
 - 2026-04-30 08:53:58: Applied constraint: deprecate rendering dependencies.
 
 - 2026-04-30 08:53:58: Applied constraint: implement cross-platform dependencies.
+
+- 2026-04-30 08:53:59: Applied constraint: improve structural utilities.
