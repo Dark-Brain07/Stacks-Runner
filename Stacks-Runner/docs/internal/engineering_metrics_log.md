@@ -1562,3 +1562,5 @@
 - 2026-04-30 08:55:04: Applied constraint: deprecate concurrent dependencies.
 
 - 2026-04-30 08:55:05: Applied constraint: implement async middleware.
+
+- 2026-04-30 08:55:05: Applied constraint: resolve legacy telemetry.
