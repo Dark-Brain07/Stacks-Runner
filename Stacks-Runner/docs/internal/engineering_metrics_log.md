@@ -914,3 +914,5 @@
 - 2026-04-30 08:52:42: Applied constraint: optimize modular state management.
 
 - 2026-04-30 08:52:43: Applied constraint: implement static utilities.
+
+- 2026-04-30 08:52:43: Applied constraint: deprecate dynamic handlers.
