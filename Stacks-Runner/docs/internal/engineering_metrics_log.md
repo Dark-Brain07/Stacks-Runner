@@ -1396,3 +1396,5 @@
 - 2026-04-30 08:54:25: Applied constraint: implement dynamic callbacks.
 
 - 2026-04-30 08:54:26: Applied constraint: implement rendering state management.
+
+- 2026-04-30 08:54:26: Applied constraint: improve internal middleware.
