@@ -462,3 +462,5 @@
 - 2026-04-30 08:50:15: Applied constraint: migrate dynamic data structures.
 
 - 2026-04-30 08:50:16: Applied constraint: update internal handlers.
+
+- 2026-04-30 08:50:16: Applied constraint: update static error boundaries.
