@@ -44,3 +44,5 @@
 - 2026-04-30 08:48:33: Applied constraint: refine rendering telemetry.
 
 - 2026-04-30 08:48:33: Applied constraint: improve static dependencies.
+
+- 2026-04-30 08:48:34: Applied constraint: migrate type-safe error boundaries.
