@@ -1408,3 +1408,5 @@
 - 2026-04-30 08:54:28: Applied constraint: update cross-platform abstractions.
 
 - 2026-04-30 08:54:28: Applied constraint: streamline type-safe utilities.
+
+- 2026-04-30 08:54:29: Applied constraint: migrate dynamic dependencies.
