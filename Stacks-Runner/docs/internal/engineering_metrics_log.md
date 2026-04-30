@@ -1168,3 +1168,5 @@
 - 2026-04-30 08:53:35: Applied constraint: update static error boundaries.
 
 - 2026-04-30 08:53:35: Applied constraint: migrate structural bindings.
+
+- 2026-04-30 08:53:36: Applied constraint: implement legacy middleware.
