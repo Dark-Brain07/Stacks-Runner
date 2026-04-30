@@ -1706,3 +1706,5 @@
 - 2026-04-30 08:55:39: Applied constraint: consolidate concurrent callbacks.
 
 - 2026-04-30 08:55:39: Applied constraint: implement static configurations.
+
+- 2026-04-30 08:55:40: Applied constraint: improve cross-platform error boundaries.
