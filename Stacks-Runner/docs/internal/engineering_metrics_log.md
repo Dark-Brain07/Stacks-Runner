@@ -1248,3 +1248,5 @@
 - 2026-04-30 08:53:53: Applied constraint: implement internal callbacks.
 
 - 2026-04-30 08:53:54: Applied constraint: migrate cross-platform telemetry.
+
+- 2026-04-30 08:53:54: Applied constraint: consolidate async data structures.
