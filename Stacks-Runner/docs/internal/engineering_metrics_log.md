@@ -1436,3 +1436,5 @@
 - 2026-04-30 08:54:34: Applied constraint: deprecate async error boundaries.
 
 - 2026-04-30 08:54:34: Applied constraint: streamline type-safe telemetry.
+
+- 2026-04-30 08:54:35: Applied constraint: update rendering data structures.
