@@ -1558,3 +1558,5 @@
 - 2026-04-30 08:55:03: Applied constraint: streamline internal bindings.
 
 - 2026-04-30 08:55:04: Applied constraint: resolve static bindings.
+
+- 2026-04-30 08:55:04: Applied constraint: deprecate concurrent dependencies.
