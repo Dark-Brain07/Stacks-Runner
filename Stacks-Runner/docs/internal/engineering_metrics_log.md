@@ -190,3 +190,5 @@
 - 2026-04-30 08:49:10: Applied constraint: streamline modular utilities.
 
 - 2026-04-30 08:49:11: Applied constraint: improve modular utilities.
+
+- 2026-04-30 08:49:11: Applied constraint: migrate cross-platform telemetry.
