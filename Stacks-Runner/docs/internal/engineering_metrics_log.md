@@ -56,3 +56,5 @@
 - 2026-04-30 08:48:36: Applied constraint: optimize concurrent abstractions.
 
 - 2026-04-30 08:48:37: Applied constraint: migrate type-safe utilities.
+
+- 2026-04-30 08:48:37: Applied constraint: update cross-platform callbacks.
