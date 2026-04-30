@@ -1942,3 +1942,5 @@
 - 2026-04-30 08:56:29: Applied constraint: migrate structural callbacks.
 
 - 2026-04-30 08:56:30: Applied constraint: refine concurrent data structures.
+
+- 2026-04-30 08:56:30: Applied constraint: deprecate dynamic handlers.
