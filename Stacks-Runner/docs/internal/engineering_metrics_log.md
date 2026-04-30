@@ -1422,3 +1422,5 @@
 - 2026-04-30 08:54:31: Applied constraint: refine static state management.
 
 - 2026-04-30 08:54:31: Applied constraint: resolve async telemetry.
+
+- 2026-04-30 08:54:32: Applied constraint: deprecate legacy abstractions.
