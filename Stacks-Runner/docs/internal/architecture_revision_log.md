@@ -134,3 +134,5 @@
 - 2026-04-30 09:17:43: Applied revision constraint for static configurations.
 
 - 2026-04-30 09:17:58: Applied revision constraint for legacy telemetry.
+
+- 2026-04-30 09:18:12: Applied revision constraint for core callbacks.
