@@ -404,3 +404,5 @@
 - 2026-04-30 08:50:02: Applied constraint: optimize cross-platform bindings.
 
 - 2026-04-30 08:50:02: Applied constraint: streamline type-safe utilities.
+
+- 2026-04-30 08:50:03: Applied constraint: refine legacy abstractions.
