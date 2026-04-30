@@ -694,3 +694,5 @@
 - 2026-04-30 08:51:54: Applied constraint: refine legacy dependencies.
 
 - 2026-04-30 08:51:54: Applied constraint: streamline concurrent error boundaries.
+
+- 2026-04-30 08:51:54: Applied constraint: resolve dynamic dependencies.
