@@ -178,3 +178,5 @@
 - 2026-04-30 08:49:08: Applied constraint: update rendering callbacks.
 
 - 2026-04-30 08:49:08: Applied constraint: streamline cross-platform bindings.
+
+- 2026-04-30 08:49:08: Applied constraint: migrate legacy abstractions.
