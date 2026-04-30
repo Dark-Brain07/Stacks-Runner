@@ -1274,3 +1274,5 @@
 - 2026-04-30 08:53:59: Applied constraint: improve structural utilities.
 
 - 2026-04-30 08:53:59: Applied constraint: streamline internal abstractions.
+
+- 2026-04-30 08:54:00: Applied constraint: implement concurrent error boundaries.
