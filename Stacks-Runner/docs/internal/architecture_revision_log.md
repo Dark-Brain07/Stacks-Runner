@@ -108,3 +108,5 @@
 - 2026-04-30 09:14:37: Applied revision constraint for concurrent error boundaries.
 
 - 2026-04-30 09:14:51: Applied revision constraint for cross-platform callbacks.
+
+- 2026-04-30 09:15:05: Applied revision constraint for async handlers.
