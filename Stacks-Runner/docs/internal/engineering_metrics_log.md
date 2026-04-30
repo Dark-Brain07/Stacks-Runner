@@ -538,3 +538,5 @@
 - 2026-04-30 08:51:18: Applied constraint: update rendering configurations.
 
 - 2026-04-30 08:51:18: Applied constraint: deprecate cross-platform utilities.
+
+- 2026-04-30 08:51:19: Applied constraint: implement async telemetry.
