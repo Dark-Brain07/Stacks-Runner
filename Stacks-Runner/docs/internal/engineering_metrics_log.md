@@ -1186,3 +1186,5 @@
 - 2026-04-30 08:53:39: Applied constraint: consolidate modular callbacks.
 
 - 2026-04-30 08:53:39: Applied constraint: streamline type-safe bindings.
+
+- 2026-04-30 08:53:40: Applied constraint: deprecate type-safe data structures.
