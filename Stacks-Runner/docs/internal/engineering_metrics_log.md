@@ -410,3 +410,5 @@
 - 2026-04-30 08:50:03: Applied constraint: deprecate static utilities.
 
 - 2026-04-30 08:50:04: Applied constraint: consolidate internal state management.
+
+- 2026-04-30 08:50:04: Applied constraint: update concurrent abstractions.
