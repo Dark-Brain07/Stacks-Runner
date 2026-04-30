@@ -1658,3 +1658,5 @@
 - 2026-04-30 08:55:29: Applied constraint: migrate async utilities.
 
 - 2026-04-30 08:55:29: Applied constraint: optimize rendering middleware.
+
+- 2026-04-30 08:55:29: Applied constraint: resolve legacy data structures.
