@@ -1682,3 +1682,5 @@
 - 2026-04-30 08:55:33: Applied constraint: consolidate cross-platform error boundaries.
 
 - 2026-04-30 08:55:34: Applied constraint: streamline modular middleware.
+
+- 2026-04-30 08:55:34: Applied constraint: streamline async dependencies.
