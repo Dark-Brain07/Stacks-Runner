@@ -1312,3 +1312,5 @@
 - 2026-04-30 08:54:07: Applied constraint: optimize cross-platform error boundaries.
 
 - 2026-04-30 08:54:07: Applied constraint: implement rendering utilities.
+
+- 2026-04-30 08:54:08: Applied constraint: resolve legacy middleware.
