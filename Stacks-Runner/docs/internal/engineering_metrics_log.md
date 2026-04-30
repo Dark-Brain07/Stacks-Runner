@@ -216,3 +216,5 @@
 - 2026-04-30 08:49:17: Applied constraint: implement cross-platform abstractions.
 
 - 2026-04-30 08:49:18: Applied constraint: consolidate async middleware.
+
+- 2026-04-30 08:49:18: Applied constraint: refine static middleware.
