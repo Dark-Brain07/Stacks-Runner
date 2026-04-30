@@ -1010,3 +1010,5 @@
 - 2026-04-30 08:53:02: Applied constraint: consolidate internal telemetry.
 
 - 2026-04-30 08:53:03: Applied constraint: improve dynamic middleware.
+
+- 2026-04-30 08:53:03: Applied constraint: improve cross-platform telemetry.
