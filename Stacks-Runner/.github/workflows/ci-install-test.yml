@@ -1,6 +1,9 @@
 name: CI Installation Validation
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # Runs automatically every 30 minutes
     - cron: '*/30 * * * *'
