@@ -680,3 +680,5 @@
 - 2026-04-30 08:51:50: Applied constraint: migrate async bindings.
 
 - 2026-04-30 08:51:51: Applied constraint: improve type-safe callbacks.
+
+- 2026-04-30 08:51:51: Applied constraint: streamline concurrent dependencies.
