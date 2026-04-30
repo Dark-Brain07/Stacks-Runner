@@ -628,3 +628,5 @@
 - 2026-04-30 08:51:38: Applied constraint: migrate internal middleware.
 
 - 2026-04-30 08:51:39: Applied constraint: migrate legacy configurations.
+
+- 2026-04-30 08:51:39: Applied constraint: refine static configurations.
