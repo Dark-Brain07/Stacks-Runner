@@ -22,3 +22,5 @@
 - 2026-04-30 08:48:26: Applied constraint: deprecate internal handlers.
 
 - 2026-04-30 08:48:27: Applied constraint: consolidate static callbacks.
+
+- 2026-04-30 08:48:27: Applied constraint: migrate legacy telemetry.
