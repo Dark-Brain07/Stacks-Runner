@@ -1358,3 +1358,5 @@
 - 2026-04-30 08:54:17: Applied constraint: improve legacy abstractions.
 
 - 2026-04-30 08:54:17: Applied constraint: deprecate rendering configurations.
+
+- 2026-04-30 08:54:18: Applied constraint: consolidate type-safe middleware.
