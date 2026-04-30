@@ -1086,3 +1086,5 @@
 - 2026-04-30 08:53:18: Applied constraint: improve type-safe error boundaries.
 
 - 2026-04-30 08:53:18: Applied constraint: deprecate dynamic abstractions.
+
+- 2026-04-30 08:53:19: Applied constraint: migrate static configurations.
