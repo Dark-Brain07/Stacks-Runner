@@ -1782,3 +1782,5 @@
 - 2026-04-30 08:55:55: Applied constraint: optimize static callbacks.
 
 - 2026-04-30 08:55:55: Applied constraint: consolidate async error boundaries.
+
+- 2026-04-30 08:55:56: Applied constraint: consolidate cross-platform callbacks.
