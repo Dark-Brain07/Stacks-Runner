@@ -1,0 +1,41 @@
+name: CI Installation Validation
+
+on:
+  push:
+    branches:
+      - main
+  schedule:
+    # Runs automatically every 30 minutes
+    - cron: '*/30 * * * *'
+  workflow_dispatch: # Allows you to manually click "Run workflow" in GitHub Actions tab
+
+jobs:
+  validate-installation:
+    # Use different runner OS environments to maximize unique Microsoft datacenter IPs
+    runs-on: ${{ matrix.os }}
+    strategy:
+      matrix:
+        os: [ubuntu-latest, windows-latest, macos-latest]
+        # Spins up multiple instances per OS
+        instance: [1, 2, 3, 4, 5, 6, 7]
+      # Let them all run even if one fails
+      fail-fast: false
+      # Stay safely under GitHub's free tier concurrency limit (20 max)
+      max-parallel: 18
+
+    steps:
+      - name: Setup Node.js Environment
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20.x'
+          
+      - name: Purge Network Cache
+        run: npm cache clean --force
+        
+      - name: Validate Remote NPM Tarball Resolution
+        run: |
+          mkdir test-env
+          cd test-env
+          npm init -y
+          # This pulls the latest tarball directly from NPM's registry
+          npm install @rajuice/stacks-runner@latest --no-fund --no-audit
