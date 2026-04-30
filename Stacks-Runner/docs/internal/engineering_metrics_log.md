@@ -674,3 +674,5 @@
 - 2026-04-30 08:51:49: Applied constraint: resolve rendering middleware.
 
 - 2026-04-30 08:51:49: Applied constraint: refine type-safe abstractions.
+
+- 2026-04-30 08:51:50: Applied constraint: deprecate concurrent bindings.
