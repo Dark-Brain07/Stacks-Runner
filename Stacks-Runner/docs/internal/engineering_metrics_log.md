@@ -1290,3 +1290,5 @@
 - 2026-04-30 08:54:02: Applied constraint: consolidate dynamic callbacks.
 
 - 2026-04-30 08:54:02: Applied constraint: refine async dependencies.
+
+- 2026-04-30 08:54:03: Applied constraint: refine static callbacks.
