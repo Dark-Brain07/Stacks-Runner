@@ -1604,3 +1604,5 @@
 - 2026-04-30 08:55:17: Applied constraint: optimize modular utilities.
 
 - 2026-04-30 08:55:17: Applied constraint: improve modular bindings.
+
+- 2026-04-30 08:55:18: Applied constraint: improve legacy abstractions.
