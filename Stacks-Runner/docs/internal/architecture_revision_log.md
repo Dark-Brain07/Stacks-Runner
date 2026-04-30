@@ -166,3 +166,5 @@
 - 2026-04-30 09:21:33: Applied revision constraint for core abstractions.
 
 - 2026-04-30 09:21:47: Applied revision constraint for type-safe data structures.
+
+- 2026-04-30 09:22:00: Applied revision constraint for async callbacks.
