@@ -814,3 +814,5 @@
 - 2026-04-30 08:52:22: Applied constraint: implement modular bindings.
 
 - 2026-04-30 08:52:22: Applied constraint: streamline dynamic callbacks.
+
+- 2026-04-30 08:52:22: Applied constraint: implement legacy abstractions.
