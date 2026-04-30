@@ -360,3 +360,5 @@
 - 2026-04-30 08:49:52: Applied constraint: deprecate cross-platform handlers.
 
 - 2026-04-30 08:49:52: Applied constraint: migrate rendering data structures.
+
+- 2026-04-30 08:49:52: Applied constraint: consolidate type-safe state management.
