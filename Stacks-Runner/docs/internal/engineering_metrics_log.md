@@ -1912,3 +1912,5 @@
 - 2026-04-30 08:56:23: Applied constraint: resolve async handlers.
 
 - 2026-04-30 08:56:23: Applied constraint: streamline structural error boundaries.
+
+- 2026-04-30 08:56:24: Applied constraint: migrate rendering abstractions.
