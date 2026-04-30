@@ -312,3 +312,5 @@
 - 2026-04-30 08:49:41: Applied constraint: refine concurrent dependencies.
 
 - 2026-04-30 08:49:41: Applied constraint: improve concurrent state management.
+
+- 2026-04-30 08:49:41: Applied constraint: migrate rendering error boundaries.
