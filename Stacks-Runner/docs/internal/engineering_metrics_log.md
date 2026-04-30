@@ -476,3 +476,5 @@
 - 2026-04-30 08:50:19: Applied constraint: update async bindings.
 
 - 2026-04-30 08:50:19: Applied constraint: consolidate rendering error boundaries.
+
+- 2026-04-30 08:50:20: Applied constraint: deprecate legacy middleware.
