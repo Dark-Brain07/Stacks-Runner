@@ -1266,3 +1266,5 @@
 - 2026-04-30 08:53:57: Applied constraint: implement structural dependencies.
 
 - 2026-04-30 08:53:57: Applied constraint: streamline rendering handlers.
+
+- 2026-04-30 08:53:58: Applied constraint: deprecate rendering dependencies.
