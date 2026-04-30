@@ -1160,3 +1160,5 @@
 - 2026-04-30 08:53:33: Applied constraint: migrate rendering abstractions.
 
 - 2026-04-30 08:53:33: Applied constraint: deprecate modular telemetry.
+
+- 2026-04-30 08:53:34: Applied constraint: migrate structural middleware.
