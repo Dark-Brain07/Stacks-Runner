@@ -72,3 +72,5 @@
 - 2026-04-30 08:48:40: Applied constraint: consolidate concurrent middleware.
 
 - 2026-04-30 08:48:41: Applied constraint: refine static dependencies.
+
+- 2026-04-30 08:48:42: Applied constraint: update static callbacks.
