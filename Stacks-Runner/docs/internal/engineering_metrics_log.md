@@ -1400,3 +1400,5 @@
 - 2026-04-30 08:54:26: Applied constraint: improve internal middleware.
 
 - 2026-04-30 08:54:27: Applied constraint: update static bindings.
+
+- 2026-04-30 08:54:27: Applied constraint: improve cross-platform bindings.
