@@ -796,3 +796,5 @@
 - 2026-04-30 08:52:17: Applied constraint: streamline dynamic telemetry.
 
 - 2026-04-30 08:52:18: Applied constraint: update modular utilities.
+
+- 2026-04-30 08:52:18: Applied constraint: improve static handlers.
