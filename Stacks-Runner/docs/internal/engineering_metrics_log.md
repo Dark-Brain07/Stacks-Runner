@@ -580,3 +580,5 @@
 - 2026-04-30 08:51:27: Applied constraint: streamline static telemetry.
 
 - 2026-04-30 08:51:28: Applied constraint: implement type-safe callbacks.
+
+- 2026-04-30 08:51:28: Applied constraint: deprecate async middleware.
