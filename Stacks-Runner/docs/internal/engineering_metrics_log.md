@@ -1690,3 +1690,5 @@
 - 2026-04-30 08:55:35: Applied constraint: migrate modular state management.
 
 - 2026-04-30 08:55:36: Applied constraint: consolidate legacy callbacks.
+
+- 2026-04-30 08:55:36: Applied constraint: refine static middleware.
