@@ -188,3 +188,5 @@
 - 2026-04-30 09:24:08: Applied revision constraint for async configurations.
 
 - 2026-04-30 09:24:21: Applied revision constraint for type-safe telemetry.
+
+- 2026-04-30 09:24:36: Applied revision constraint for async handlers.
