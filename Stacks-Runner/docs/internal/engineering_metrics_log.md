@@ -318,3 +318,5 @@
 - 2026-04-30 08:49:42: Applied constraint: consolidate internal middleware.
 
 - 2026-04-30 08:49:42: Applied constraint: deprecate async telemetry.
+
+- 2026-04-30 08:49:43: Applied constraint: consolidate structural error boundaries.
