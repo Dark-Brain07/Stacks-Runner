@@ -284,3 +284,5 @@
 - 2026-04-30 08:49:34: Applied constraint: optimize static callbacks.
 
 - 2026-04-30 08:49:34: Applied constraint: implement cross-platform middleware.
+
+- 2026-04-30 08:49:35: Applied constraint: deprecate modular configurations.
