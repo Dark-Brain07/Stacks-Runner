@@ -1176,3 +1176,5 @@
 - 2026-04-30 08:53:37: Applied constraint: streamline concurrent utilities.
 
 - 2026-04-30 08:53:37: Applied constraint: consolidate async abstractions.
+
+- 2026-04-30 08:53:38: Applied constraint: resolve static utilities.
