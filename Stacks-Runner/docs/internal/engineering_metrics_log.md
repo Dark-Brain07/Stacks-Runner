@@ -124,3 +124,5 @@
 - 2026-04-30 08:48:54: Applied constraint: streamline internal handlers.
 
 - 2026-04-30 08:48:54: Applied constraint: deprecate rendering telemetry.
+
+- 2026-04-30 08:48:55: Applied constraint: migrate structural dependencies.
