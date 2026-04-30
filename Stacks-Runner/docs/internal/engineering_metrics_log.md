@@ -934,3 +934,5 @@
 - 2026-04-30 08:52:47: Applied constraint: improve legacy dependencies.
 
 - 2026-04-30 08:52:47: Applied constraint: update internal state management.
+
+- 2026-04-30 08:52:47: Applied constraint: consolidate static telemetry.
