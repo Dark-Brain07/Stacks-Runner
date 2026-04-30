@@ -1106,3 +1106,5 @@
 - 2026-04-30 08:53:22: Applied constraint: optimize structural dependencies.
 
 - 2026-04-30 08:53:22: Applied constraint: update legacy utilities.
+
+- 2026-04-30 08:53:22: Applied constraint: migrate cross-platform error boundaries.
