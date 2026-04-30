@@ -100,3 +100,5 @@
 - 2026-04-30 08:48:48: Applied constraint: deprecate structural error boundaries.
 
 - 2026-04-30 08:48:48: Applied constraint: implement dynamic abstractions.
+
+- 2026-04-30 08:48:48: Applied constraint: streamline static middleware.
