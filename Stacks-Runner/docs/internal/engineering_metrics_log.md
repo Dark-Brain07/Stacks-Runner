@@ -1124,3 +1124,5 @@
 - 2026-04-30 08:53:25: Applied constraint: migrate legacy configurations.
 
 - 2026-04-30 08:53:25: Applied constraint: consolidate rendering handlers.
+
+- 2026-04-30 08:53:26: Applied constraint: migrate modular middleware.
