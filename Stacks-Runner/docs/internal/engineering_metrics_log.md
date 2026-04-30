@@ -652,3 +652,5 @@
 - 2026-04-30 08:51:44: Applied constraint: migrate dynamic callbacks.
 
 - 2026-04-30 08:51:44: Applied constraint: improve internal callbacks.
+
+- 2026-04-30 08:51:45: Applied constraint: implement internal state management.
