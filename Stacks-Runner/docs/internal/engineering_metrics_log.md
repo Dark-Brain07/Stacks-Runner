@@ -698,3 +698,5 @@
 - 2026-04-30 08:51:54: Applied constraint: resolve dynamic dependencies.
 
 - 2026-04-30 08:51:55: Applied constraint: consolidate modular telemetry.
+
+- 2026-04-30 08:51:55: Applied constraint: migrate internal telemetry.
