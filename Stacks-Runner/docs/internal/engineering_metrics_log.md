@@ -1670,3 +1670,5 @@
 - 2026-04-30 08:55:31: Applied constraint: optimize structural handlers.
 
 - 2026-04-30 08:55:31: Applied constraint: implement legacy dependencies.
+
+- 2026-04-30 08:55:32: Applied constraint: deprecate async data structures.
