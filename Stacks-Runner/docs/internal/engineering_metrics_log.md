@@ -592,3 +592,5 @@
 - 2026-04-30 08:51:30: Applied constraint: improve dynamic callbacks.
 
 - 2026-04-30 08:51:30: Applied constraint: resolve async handlers.
+
+- 2026-04-30 08:51:31: Applied constraint: deprecate structural telemetry.
