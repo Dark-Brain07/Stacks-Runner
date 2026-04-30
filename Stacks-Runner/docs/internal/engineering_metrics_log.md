@@ -868,3 +868,5 @@
 - 2026-04-30 08:52:33: Applied constraint: implement structural utilities.
 
 - 2026-04-30 08:52:33: Applied constraint: update async dependencies.
+
+- 2026-04-30 08:52:34: Applied constraint: refine legacy state management.
