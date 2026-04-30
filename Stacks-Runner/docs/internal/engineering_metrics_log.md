@@ -316,3 +316,5 @@
 - 2026-04-30 08:49:41: Applied constraint: migrate rendering error boundaries.
 
 - 2026-04-30 08:49:42: Applied constraint: consolidate internal middleware.
+
+- 2026-04-30 08:49:42: Applied constraint: deprecate async telemetry.
