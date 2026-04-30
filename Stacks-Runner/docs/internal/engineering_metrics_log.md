@@ -1430,3 +1430,5 @@
 - 2026-04-30 08:54:33: Applied constraint: optimize rendering state management.
 
 - 2026-04-30 08:54:33: Applied constraint: deprecate rendering middleware.
+
+- 2026-04-30 08:54:33: Applied constraint: migrate internal abstractions.
