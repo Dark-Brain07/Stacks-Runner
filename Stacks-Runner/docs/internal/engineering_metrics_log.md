@@ -1094,3 +1094,5 @@
 - 2026-04-30 08:53:19: Applied constraint: refine rendering telemetry.
 
 - 2026-04-30 08:53:20: Applied constraint: optimize static configurations.
+
+- 2026-04-30 08:53:20: Applied constraint: update legacy abstractions.
