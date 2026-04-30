@@ -198,3 +198,5 @@
 - 2026-04-30 08:49:12: Applied constraint: deprecate dynamic callbacks.
 
 - 2026-04-30 08:49:13: Applied constraint: update rendering middleware.
+
+- 2026-04-30 08:49:13: Applied constraint: refine dynamic error boundaries.
