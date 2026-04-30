@@ -536,3 +536,5 @@
 - 2026-04-30 08:51:18: Applied constraint: update concurrent bindings.
 
 - 2026-04-30 08:51:18: Applied constraint: update rendering configurations.
+
+- 2026-04-30 08:51:18: Applied constraint: deprecate cross-platform utilities.
