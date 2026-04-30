@@ -874,3 +874,5 @@
 - 2026-04-30 08:52:34: Applied constraint: resolve type-safe abstractions.
 
 - 2026-04-30 08:52:34: Applied constraint: migrate internal configurations.
+
+- 2026-04-30 08:52:35: Applied constraint: consolidate rendering dependencies.
