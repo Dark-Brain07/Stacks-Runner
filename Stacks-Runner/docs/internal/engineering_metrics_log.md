@@ -1674,3 +1674,5 @@
 - 2026-04-30 08:55:32: Applied constraint: deprecate async data structures.
 
 - 2026-04-30 08:55:32: Applied constraint: implement cross-platform error boundaries.
+
+- 2026-04-30 08:55:33: Applied constraint: streamline internal bindings.
