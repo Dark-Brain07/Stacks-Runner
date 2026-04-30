@@ -186,3 +186,5 @@
 - 2026-04-30 08:49:09: Applied constraint: deprecate static telemetry.
 
 - 2026-04-30 08:49:10: Applied constraint: implement structural error boundaries.
+
+- 2026-04-30 08:49:10: Applied constraint: streamline modular utilities.
