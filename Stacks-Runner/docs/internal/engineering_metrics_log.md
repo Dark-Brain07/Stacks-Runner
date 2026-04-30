@@ -1256,3 +1256,5 @@
 - 2026-04-30 08:53:55: Applied constraint: implement legacy bindings.
 
 - 2026-04-30 08:53:55: Applied constraint: refine concurrent telemetry.
+
+- 2026-04-30 08:53:56: Applied constraint: implement rendering callbacks.
