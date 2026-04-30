@@ -1654,3 +1654,5 @@
 - 2026-04-30 08:55:28: Applied constraint: improve structural data structures.
 
 - 2026-04-30 08:55:28: Applied constraint: update structural dependencies.
+
+- 2026-04-30 08:55:29: Applied constraint: migrate async utilities.
