@@ -186,3 +186,5 @@
 - 2026-04-30 09:23:53: Applied revision constraint for legacy callbacks.
 
 - 2026-04-30 09:24:08: Applied revision constraint for async configurations.
+
+- 2026-04-30 09:24:21: Applied revision constraint for type-safe telemetry.
