@@ -1640,3 +1640,5 @@
 - 2026-04-30 08:55:24: Applied constraint: deprecate async handlers.
 
 - 2026-04-30 08:55:25: Applied constraint: migrate type-safe utilities.
+
+- 2026-04-30 08:55:25: Applied constraint: resolve internal abstractions.
