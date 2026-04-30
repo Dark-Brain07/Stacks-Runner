@@ -1480,3 +1480,5 @@
 - 2026-04-30 08:54:44: Applied constraint: improve rendering data structures.
 
 - 2026-04-30 08:54:44: Applied constraint: migrate dynamic bindings.
+
+- 2026-04-30 08:54:44: Applied constraint: resolve type-safe dependencies.
