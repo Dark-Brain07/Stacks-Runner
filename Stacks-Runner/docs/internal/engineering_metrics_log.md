@@ -1382,3 +1382,5 @@
 - 2026-04-30 08:54:22: Applied constraint: consolidate concurrent abstractions.
 
 - 2026-04-30 08:54:23: Applied constraint: improve internal bindings.
+
+- 2026-04-30 08:54:24: Applied constraint: update internal callbacks.
