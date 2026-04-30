@@ -336,3 +336,5 @@
 - 2026-04-30 08:49:46: Applied constraint: migrate structural bindings.
 
 - 2026-04-30 08:49:46: Applied constraint: resolve async data structures.
+
+- 2026-04-30 08:49:47: Applied constraint: migrate modular error boundaries.
