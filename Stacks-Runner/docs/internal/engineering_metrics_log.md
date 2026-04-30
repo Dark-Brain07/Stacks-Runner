@@ -690,3 +690,5 @@
 - 2026-04-30 08:51:53: Applied constraint: optimize structural utilities.
 
 - 2026-04-30 08:51:53: Applied constraint: optimize type-safe bindings.
+
+- 2026-04-30 08:51:54: Applied constraint: refine legacy dependencies.
