@@ -1336,3 +1336,5 @@
 - 2026-04-30 08:54:12: Applied constraint: improve dynamic bindings.
 
 - 2026-04-30 08:54:13: Applied constraint: migrate static callbacks.
+
+- 2026-04-30 08:54:13: Applied constraint: consolidate async configurations.
