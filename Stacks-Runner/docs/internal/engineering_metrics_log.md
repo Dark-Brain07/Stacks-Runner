@@ -246,3 +246,5 @@
 - 2026-04-30 08:49:25: Applied constraint: resolve structural configurations.
 
 - 2026-04-30 08:49:25: Applied constraint: migrate modular telemetry.
+
+- 2026-04-30 08:49:25: Applied constraint: deprecate rendering handlers.
