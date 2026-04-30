@@ -826,3 +826,5 @@
 - 2026-04-30 08:52:24: Applied constraint: resolve rendering state management.
 
 - 2026-04-30 08:52:25: Applied constraint: update cross-platform abstractions.
+
+- 2026-04-30 08:52:25: Applied constraint: optimize rendering callbacks.
