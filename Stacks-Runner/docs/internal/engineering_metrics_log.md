@@ -992,3 +992,5 @@
 - 2026-04-30 08:52:59: Applied constraint: streamline structural abstractions.
 
 - 2026-04-30 08:52:59: Applied constraint: update concurrent utilities.
+
+- 2026-04-30 08:52:59: Applied constraint: deprecate modular utilities.
