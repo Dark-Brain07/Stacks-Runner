@@ -1166,3 +1166,5 @@
 - 2026-04-30 08:53:34: Applied constraint: refine dynamic dependencies.
 
 - 2026-04-30 08:53:35: Applied constraint: update static error boundaries.
+
+- 2026-04-30 08:53:35: Applied constraint: migrate structural bindings.
