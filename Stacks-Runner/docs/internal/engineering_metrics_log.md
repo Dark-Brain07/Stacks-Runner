@@ -1316,3 +1316,5 @@
 - 2026-04-30 08:54:08: Applied constraint: resolve legacy middleware.
 
 - 2026-04-30 08:54:08: Applied constraint: implement internal middleware.
+
+- 2026-04-30 08:54:08: Applied constraint: streamline internal bindings.
