@@ -1852,3 +1852,5 @@
 - 2026-04-30 08:56:10: Applied constraint: consolidate static callbacks.
 
 - 2026-04-30 08:56:10: Applied constraint: migrate dynamic bindings.
+
+- 2026-04-30 08:56:10: Applied constraint: consolidate rendering bindings.
