@@ -1246,3 +1246,5 @@
 - 2026-04-30 08:53:53: Applied constraint: streamline type-safe configurations.
 
 - 2026-04-30 08:53:53: Applied constraint: implement internal callbacks.
+
+- 2026-04-30 08:53:54: Applied constraint: migrate cross-platform telemetry.
