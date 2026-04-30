@@ -740,3 +740,5 @@
 - 2026-04-30 08:52:05: Applied constraint: resolve cross-platform bindings.
 
 - 2026-04-30 08:52:05: Applied constraint: resolve static handlers.
+
+- 2026-04-30 08:52:06: Applied constraint: migrate type-safe utilities.
