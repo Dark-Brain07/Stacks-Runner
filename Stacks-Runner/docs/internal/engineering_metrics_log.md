@@ -850,3 +850,5 @@
 - 2026-04-30 08:52:29: Applied constraint: improve internal state management.
 
 - 2026-04-30 08:52:30: Applied constraint: streamline type-safe bindings.
+
+- 2026-04-30 08:52:30: Applied constraint: update type-safe handlers.
