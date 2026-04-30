@@ -1294,3 +1294,5 @@
 - 2026-04-30 08:54:03: Applied constraint: refine static callbacks.
 
 - 2026-04-30 08:54:03: Applied constraint: streamline cross-platform callbacks.
+
+- 2026-04-30 08:54:04: Applied constraint: resolve internal bindings.
