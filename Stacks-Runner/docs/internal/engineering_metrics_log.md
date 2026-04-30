@@ -1816,3 +1816,5 @@
 - 2026-04-30 08:56:02: Applied constraint: improve static callbacks.
 
 - 2026-04-30 08:56:02: Applied constraint: update async abstractions.
+
+- 2026-04-30 08:56:03: Applied constraint: deprecate cross-platform bindings.
