@@ -1648,3 +1648,5 @@
 - 2026-04-30 08:55:26: Applied constraint: implement cross-platform bindings.
 
 - 2026-04-30 08:55:27: Applied constraint: improve async configurations.
+
+- 2026-04-30 08:55:27: Applied constraint: migrate async callbacks.
