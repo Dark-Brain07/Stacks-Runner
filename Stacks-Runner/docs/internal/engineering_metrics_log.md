@@ -1376,3 +1376,5 @@
 - 2026-04-30 08:54:21: Applied constraint: consolidate static utilities.
 
 - 2026-04-30 08:54:22: Applied constraint: deprecate rendering utilities.
+
+- 2026-04-30 08:54:22: Applied constraint: consolidate legacy dependencies.
