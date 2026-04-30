@@ -1510,3 +1510,5 @@
 - 2026-04-30 08:54:51: Applied constraint: consolidate async data structures.
 
 - 2026-04-30 08:54:52: Applied constraint: deprecate type-safe telemetry.
+
+- 2026-04-30 08:54:52: Applied constraint: deprecate async bindings.
