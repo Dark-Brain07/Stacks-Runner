@@ -6,3 +6,5 @@
 - 2026-04-30 08:48:21: Applied constraint: migrate async bindings.
 
 - 2026-04-30 08:48:22: Applied constraint: refine structural utilities.
+
+- 2026-04-30 08:48:23: Applied constraint: improve type-safe bindings.
