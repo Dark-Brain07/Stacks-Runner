@@ -378,3 +378,5 @@
 - 2026-04-30 08:49:56: Applied constraint: refine static error boundaries.
 
 - 2026-04-30 08:49:56: Applied constraint: consolidate legacy callbacks.
+
+- 2026-04-30 08:49:57: Applied constraint: deprecate modular dependencies.
