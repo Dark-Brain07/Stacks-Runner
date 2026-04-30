@@ -880,3 +880,5 @@
 - 2026-04-30 08:52:35: Applied constraint: refine async utilities.
 
 - 2026-04-30 08:52:36: Applied constraint: update dynamic error boundaries.
+
+- 2026-04-30 08:52:36: Applied constraint: consolidate type-safe bindings.
