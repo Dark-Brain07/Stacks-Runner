@@ -898,3 +898,5 @@
 - 2026-04-30 08:52:39: Applied constraint: refine modular utilities.
 
 - 2026-04-30 08:52:40: Applied constraint: update dynamic dependencies.
+
+- 2026-04-30 08:52:40: Applied constraint: consolidate static handlers.
