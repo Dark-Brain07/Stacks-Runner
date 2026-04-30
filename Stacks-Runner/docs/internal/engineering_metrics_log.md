@@ -1346,3 +1346,5 @@
 - 2026-04-30 08:54:14: Applied constraint: resolve legacy handlers.
 
 - 2026-04-30 08:54:15: Applied constraint: update legacy callbacks.
+
+- 2026-04-30 08:54:15: Applied constraint: migrate rendering abstractions.
