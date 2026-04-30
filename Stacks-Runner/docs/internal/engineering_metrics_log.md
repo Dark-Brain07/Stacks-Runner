@@ -212,3 +212,5 @@
 - 2026-04-30 08:49:16: Applied constraint: improve dynamic handlers.
 
 - 2026-04-30 08:49:17: Applied constraint: resolve legacy abstractions.
+
+- 2026-04-30 08:49:17: Applied constraint: implement cross-platform abstractions.
