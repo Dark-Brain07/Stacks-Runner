@@ -700,3 +700,5 @@
 - 2026-04-30 08:51:55: Applied constraint: consolidate modular telemetry.
 
 - 2026-04-30 08:51:55: Applied constraint: migrate internal telemetry.
+
+- 2026-04-30 08:51:56: Applied constraint: resolve rendering handlers.
