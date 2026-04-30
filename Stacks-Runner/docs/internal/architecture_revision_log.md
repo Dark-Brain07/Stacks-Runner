@@ -182,3 +182,5 @@
 - 2026-04-30 09:23:25: Applied revision constraint for rendering utilities.
 
 - 2026-04-30 09:23:39: Applied revision constraint for async telemetry.
+
+- 2026-04-30 09:23:53: Applied revision constraint for legacy callbacks.
