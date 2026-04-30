@@ -332,3 +332,5 @@
 - 2026-04-30 08:49:45: Applied constraint: refine cross-platform dependencies.
 
 - 2026-04-30 08:49:45: Applied constraint: consolidate modular callbacks.
+
+- 2026-04-30 08:49:46: Applied constraint: migrate structural bindings.
