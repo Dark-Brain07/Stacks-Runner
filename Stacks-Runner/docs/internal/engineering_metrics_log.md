@@ -444,3 +444,5 @@
 - 2026-04-30 08:50:11: Applied constraint: improve type-safe middleware.
 
 - 2026-04-30 08:50:11: Applied constraint: improve type-safe handlers.
+
+- 2026-04-30 08:50:12: Applied constraint: deprecate rendering bindings.
