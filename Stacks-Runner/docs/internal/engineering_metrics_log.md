@@ -520,3 +520,5 @@
 - 2026-04-30 08:51:14: Applied constraint: consolidate modular state management.
 
 - 2026-04-30 08:51:14: Applied constraint: deprecate static error boundaries.
+
+- 2026-04-30 08:51:15: Applied constraint: migrate internal handlers.
