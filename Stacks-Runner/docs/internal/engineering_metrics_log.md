@@ -928,3 +928,5 @@
 - 2026-04-30 08:52:45: Applied constraint: deprecate static data structures.
 
 - 2026-04-30 08:52:46: Applied constraint: optimize concurrent utilities.
+
+- 2026-04-30 08:52:46: Applied constraint: migrate cross-platform bindings.
