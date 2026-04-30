@@ -560,3 +560,5 @@
 - 2026-04-30 08:51:23: Applied constraint: consolidate dynamic abstractions.
 
 - 2026-04-30 08:51:23: Applied constraint: streamline cross-platform error boundaries.
+
+- 2026-04-30 08:51:24: Applied constraint: deprecate structural middleware.
