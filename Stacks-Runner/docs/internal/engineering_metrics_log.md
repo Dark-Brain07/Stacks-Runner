@@ -1250,3 +1250,5 @@
 - 2026-04-30 08:53:54: Applied constraint: migrate cross-platform telemetry.
 
 - 2026-04-30 08:53:54: Applied constraint: consolidate async data structures.
+
+- 2026-04-30 08:53:54: Applied constraint: improve cross-platform handlers.
