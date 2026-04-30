@@ -1466,3 +1466,5 @@
 - 2026-04-30 08:54:41: Applied constraint: consolidate rendering dependencies.
 
 - 2026-04-30 08:54:41: Applied constraint: migrate internal telemetry.
+
+- 2026-04-30 08:54:42: Applied constraint: consolidate modular middleware.
