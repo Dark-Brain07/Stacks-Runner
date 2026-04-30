@@ -114,3 +114,5 @@
 - 2026-04-30 09:15:19: Applied revision constraint for core dependencies.
 
 - 2026-04-30 09:15:34: Applied revision constraint for modular callbacks.
+
+- 2026-04-30 09:15:49: Applied revision constraint for utility configurations.
