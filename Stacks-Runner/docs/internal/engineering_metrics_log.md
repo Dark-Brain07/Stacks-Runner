@@ -1196,3 +1196,5 @@
 - 2026-04-30 08:53:41: Applied constraint: update cross-platform telemetry.
 
 - 2026-04-30 08:53:42: Applied constraint: migrate structural abstractions.
+
+- 2026-04-30 08:53:42: Applied constraint: consolidate async handlers.
