@@ -1766,3 +1766,5 @@
 - 2026-04-30 08:55:52: Applied constraint: deprecate cross-platform data structures.
 
 - 2026-04-30 08:55:52: Applied constraint: streamline rendering state management.
+
+- 2026-04-30 08:55:52: Applied constraint: streamline async callbacks.
