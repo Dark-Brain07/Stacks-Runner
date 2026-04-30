@@ -354,3 +354,5 @@
 - 2026-04-30 08:49:50: Applied constraint: streamline cross-platform telemetry.
 
 - 2026-04-30 08:49:51: Applied constraint: deprecate static data structures.
+
+- 2026-04-30 08:49:51: Applied constraint: streamline modular bindings.
