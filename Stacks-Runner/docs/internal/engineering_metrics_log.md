@@ -1678,3 +1678,5 @@
 - 2026-04-30 08:55:33: Applied constraint: streamline internal bindings.
 
 - 2026-04-30 08:55:33: Applied constraint: improve internal telemetry.
+
+- 2026-04-30 08:55:33: Applied constraint: consolidate cross-platform error boundaries.
