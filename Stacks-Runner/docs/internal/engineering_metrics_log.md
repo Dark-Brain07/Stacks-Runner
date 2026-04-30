@@ -1730,3 +1730,5 @@
 - 2026-04-30 08:55:44: Applied constraint: deprecate concurrent bindings.
 
 - 2026-04-30 08:55:44: Applied constraint: update internal bindings.
+
+- 2026-04-30 08:55:45: Applied constraint: consolidate static telemetry.
