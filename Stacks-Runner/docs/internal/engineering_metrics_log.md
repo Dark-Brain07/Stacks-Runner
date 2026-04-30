@@ -1252,3 +1252,5 @@
 - 2026-04-30 08:53:54: Applied constraint: consolidate async data structures.
 
 - 2026-04-30 08:53:54: Applied constraint: improve cross-platform handlers.
+
+- 2026-04-30 08:53:55: Applied constraint: implement legacy bindings.
