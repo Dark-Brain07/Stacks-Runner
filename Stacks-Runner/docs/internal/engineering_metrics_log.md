@@ -350,3 +350,5 @@
 - 2026-04-30 08:49:49: Applied constraint: resolve async data structures.
 
 - 2026-04-30 08:49:50: Applied constraint: improve async bindings.
+
+- 2026-04-30 08:49:50: Applied constraint: streamline cross-platform telemetry.
