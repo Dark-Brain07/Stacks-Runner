@@ -1926,3 +1926,5 @@
 - 2026-04-30 08:56:26: Applied constraint: update internal utilities.
 
 - 2026-04-30 08:56:26: Applied constraint: optimize internal bindings.
+
+- 2026-04-30 08:56:27: Applied constraint: improve internal error boundaries.
