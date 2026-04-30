@@ -1478,3 +1478,5 @@
 - 2026-04-30 08:54:43: Applied constraint: update legacy handlers.
 
 - 2026-04-30 08:54:44: Applied constraint: improve rendering data structures.
+
+- 2026-04-30 08:54:44: Applied constraint: migrate dynamic bindings.
