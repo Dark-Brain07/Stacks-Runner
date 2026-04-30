@@ -1100,3 +1100,5 @@
 - 2026-04-30 08:53:21: Applied constraint: optimize modular handlers.
 
 - 2026-04-30 08:53:21: Applied constraint: improve legacy abstractions.
+
+- 2026-04-30 08:53:21: Applied constraint: update legacy state management.
