@@ -358,3 +358,5 @@
 - 2026-04-30 08:49:51: Applied constraint: streamline modular bindings.
 
 - 2026-04-30 08:49:52: Applied constraint: deprecate cross-platform handlers.
+
+- 2026-04-30 08:49:52: Applied constraint: migrate rendering data structures.
