@@ -394,3 +394,5 @@
 - 2026-04-30 08:49:59: Applied constraint: deprecate rendering middleware.
 
 - 2026-04-30 08:50:00: Applied constraint: migrate structural callbacks.
+
+- 2026-04-30 08:50:00: Applied constraint: deprecate dynamic telemetry.
