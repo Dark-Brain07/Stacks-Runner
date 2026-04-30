@@ -1192,3 +1192,5 @@
 - 2026-04-30 08:53:41: Applied constraint: resolve type-safe utilities.
 
 - 2026-04-30 08:53:41: Applied constraint: improve concurrent callbacks.
+
+- 2026-04-30 08:53:41: Applied constraint: update cross-platform telemetry.
