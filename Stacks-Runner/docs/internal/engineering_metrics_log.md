@@ -1888,3 +1888,5 @@
 - 2026-04-30 08:56:17: Applied constraint: improve rendering data structures.
 
 - 2026-04-30 08:56:18: Applied constraint: resolve rendering dependencies.
+
+- 2026-04-30 08:56:18: Applied constraint: consolidate structural handlers.
