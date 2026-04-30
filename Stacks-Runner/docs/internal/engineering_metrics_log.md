@@ -820,3 +820,5 @@
 - 2026-04-30 08:52:23: Applied constraint: optimize modular telemetry.
 
 - 2026-04-30 08:52:23: Applied constraint: resolve modular middleware.
+
+- 2026-04-30 08:52:24: Applied constraint: migrate cross-platform utilities.
