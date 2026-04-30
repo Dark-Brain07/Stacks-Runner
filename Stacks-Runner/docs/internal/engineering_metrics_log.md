@@ -1990,3 +1990,5 @@
 - 2026-04-30 08:56:42: Applied constraint: migrate modular bindings.
 
 - 2026-04-30 08:56:43: Applied constraint: migrate concurrent dependencies.
+
+- 2026-04-30 08:56:43: Applied constraint: update legacy utilities.
