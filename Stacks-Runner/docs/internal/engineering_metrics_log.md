@@ -1794,3 +1794,5 @@
 - 2026-04-30 08:55:57: Applied constraint: deprecate async callbacks.
 
 - 2026-04-30 08:55:58: Applied constraint: update concurrent handlers.
+
+- 2026-04-30 08:55:58: Applied constraint: migrate rendering error boundaries.
