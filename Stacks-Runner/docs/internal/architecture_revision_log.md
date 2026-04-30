@@ -174,3 +174,5 @@
 - 2026-04-30 09:22:30: Applied revision constraint for dynamic abstractions.
 
 - 2026-04-30 09:22:43: Applied revision constraint for structural telemetry.
+
+- 2026-04-30 09:22:57: Applied revision constraint for internal telemetry.
