@@ -1854,3 +1854,5 @@
 - 2026-04-30 08:56:10: Applied constraint: migrate dynamic bindings.
 
 - 2026-04-30 08:56:10: Applied constraint: consolidate rendering bindings.
+
+- 2026-04-30 08:56:11: Applied constraint: deprecate cross-platform callbacks.
