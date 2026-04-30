@@ -1594,3 +1594,5 @@
 - 2026-04-30 08:55:14: Applied constraint: improve concurrent dependencies.
 
 - 2026-04-30 08:55:15: Applied constraint: resolve concurrent middleware.
+
+- 2026-04-30 08:55:15: Applied constraint: consolidate async bindings.
