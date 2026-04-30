@@ -42,3 +42,5 @@
 - 2026-04-30 08:48:32: Applied constraint: consolidate internal error boundaries.
 
 - 2026-04-30 08:48:33: Applied constraint: refine rendering telemetry.
+
+- 2026-04-30 08:48:33: Applied constraint: improve static dependencies.
