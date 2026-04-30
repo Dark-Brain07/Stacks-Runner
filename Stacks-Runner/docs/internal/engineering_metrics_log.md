@@ -1184,3 +1184,5 @@
 - 2026-04-30 08:53:39: Applied constraint: deprecate async handlers.
 
 - 2026-04-30 08:53:39: Applied constraint: consolidate modular callbacks.
+
+- 2026-04-30 08:53:39: Applied constraint: streamline type-safe bindings.
