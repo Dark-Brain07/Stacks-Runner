@@ -24,3 +24,5 @@
 - 2026-04-30 08:48:27: Applied constraint: consolidate static callbacks.
 
 - 2026-04-30 08:48:27: Applied constraint: migrate legacy telemetry.
+
+- 2026-04-30 08:48:28: Applied constraint: implement legacy handlers.
