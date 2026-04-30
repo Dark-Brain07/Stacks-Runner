@@ -1380,3 +1380,5 @@
 - 2026-04-30 08:54:22: Applied constraint: consolidate legacy dependencies.
 
 - 2026-04-30 08:54:22: Applied constraint: consolidate concurrent abstractions.
+
+- 2026-04-30 08:54:23: Applied constraint: improve internal bindings.
