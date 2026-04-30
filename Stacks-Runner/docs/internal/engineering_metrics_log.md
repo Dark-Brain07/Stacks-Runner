@@ -1720,3 +1720,5 @@
 - 2026-04-30 08:55:42: Applied constraint: improve dynamic state management.
 
 - 2026-04-30 08:55:42: Applied constraint: consolidate legacy abstractions.
+
+- 2026-04-30 08:55:43: Applied constraint: migrate static dependencies.
