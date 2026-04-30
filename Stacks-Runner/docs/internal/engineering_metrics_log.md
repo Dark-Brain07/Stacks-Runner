@@ -616,3 +616,5 @@
 - 2026-04-30 08:51:36: Applied constraint: streamline legacy abstractions.
 
 - 2026-04-30 08:51:36: Applied constraint: improve type-safe telemetry.
+
+- 2026-04-30 08:51:36: Applied constraint: migrate structural configurations.
