@@ -374,3 +374,5 @@
 - 2026-04-30 08:49:55: Applied constraint: resolve type-safe bindings.
 
 - 2026-04-30 08:49:55: Applied constraint: resolve dynamic callbacks.
+
+- 2026-04-30 08:49:56: Applied constraint: refine static error boundaries.
