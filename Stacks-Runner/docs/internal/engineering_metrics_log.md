@@ -1930,3 +1930,5 @@
 - 2026-04-30 08:56:27: Applied constraint: improve internal error boundaries.
 
 - 2026-04-30 08:56:27: Applied constraint: resolve cross-platform utilities.
+
+- 2026-04-30 08:56:27: Applied constraint: migrate type-safe state management.
