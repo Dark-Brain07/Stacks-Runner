@@ -116,3 +116,5 @@
 - 2026-04-30 08:48:52: Applied constraint: update structural error boundaries.
 
 - 2026-04-30 08:48:52: Applied constraint: migrate rendering middleware.
+
+- 2026-04-30 08:48:53: Applied constraint: implement rendering bindings.
