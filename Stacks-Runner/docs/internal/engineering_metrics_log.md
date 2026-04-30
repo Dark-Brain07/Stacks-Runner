@@ -1110,3 +1110,5 @@
 - 2026-04-30 08:53:22: Applied constraint: migrate cross-platform error boundaries.
 
 - 2026-04-30 08:53:23: Applied constraint: streamline internal configurations.
+
+- 2026-04-30 08:53:23: Applied constraint: deprecate rendering state management.
