@@ -852,3 +852,5 @@
 - 2026-04-30 08:52:30: Applied constraint: streamline type-safe bindings.
 
 - 2026-04-30 08:52:30: Applied constraint: update type-safe handlers.
+
+- 2026-04-30 08:52:30: Applied constraint: refine legacy bindings.
