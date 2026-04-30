@@ -872,3 +872,5 @@
 - 2026-04-30 08:52:34: Applied constraint: refine legacy state management.
 
 - 2026-04-30 08:52:34: Applied constraint: resolve type-safe abstractions.
+
+- 2026-04-30 08:52:34: Applied constraint: migrate internal configurations.
