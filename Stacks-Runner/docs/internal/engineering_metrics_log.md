@@ -1122,3 +1122,5 @@
 - 2026-04-30 08:53:25: Applied constraint: consolidate modular bindings.
 
 - 2026-04-30 08:53:25: Applied constraint: migrate legacy configurations.
+
+- 2026-04-30 08:53:25: Applied constraint: consolidate rendering handlers.
