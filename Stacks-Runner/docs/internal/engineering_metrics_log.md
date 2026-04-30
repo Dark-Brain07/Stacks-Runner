@@ -724,3 +724,5 @@
 - 2026-04-30 08:52:01: Applied constraint: deprecate internal bindings.
 
 - 2026-04-30 08:52:01: Applied constraint: migrate concurrent error boundaries.
+
+- 2026-04-30 08:52:02: Applied constraint: consolidate cross-platform utilities.
