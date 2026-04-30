@@ -780,3 +780,5 @@
 - 2026-04-30 08:52:14: Applied constraint: refine cross-platform bindings.
 
 - 2026-04-30 08:52:14: Applied constraint: resolve type-safe callbacks.
+
+- 2026-04-30 08:52:15: Applied constraint: migrate structural abstractions.
